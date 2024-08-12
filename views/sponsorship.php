@@ -69,7 +69,7 @@
                                                 <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
                                                 <li>Used of Shared Sponsor Meeting Rooms during event</li>
                                                 <li>Priority booking of Press Conference Room during event</li>
-                                                <li>1 exclusive interview with local media during MAHA 2024</li>
+                                                <li>1 exclusive interview with local media during MATEC 2024</li>
                                                 <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
                                             </ul>
                                         </div>
@@ -119,7 +119,7 @@
                                                 <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
                                                 <li>Used of Shared Sponsor Meeting Rooms during event</li>
                                                 <li>Priority booking of Press Conference Room during event</li>
-                                                <li>1 exclusive interview with local media during MAHA 2018</li>
+                                                <li>1 exclusive interview with local media during MATEC 2018</li>
                                                 <li>Usage of Grand & Main stage for promotional activities (shared basis)</li>
                                                 <li>10 lot reserved parking</li>
                                                 <li>Will carry logo/branding in MATEC 2024 Logo</li>
@@ -302,7 +302,7 @@
                             <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
                             <li>Used of Shared Sponsor Meeting Rooms during event</li>
                             <li>Priority booking of Press Conference Room during event</li>
-                            <li>1 exclusive interview with local media during MAHA 2024</li>
+                            <li>1 exclusive interview with local media during MATEC 2024</li>
                             <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
                         </ul>
                     </div>
@@ -350,7 +350,7 @@
                             <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
                             <li>Used of Shared Sponsor Meeting Rooms during event</li>
                             <li>Priority booking of Press Conference Room during event</li>
-                            <li>1 exclusive interview with local media during MAHA 2024</li>
+                            <li>1 exclusive interview with local media during MATEC 2024</li>
                             <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
                         </ul>
                     </div>
