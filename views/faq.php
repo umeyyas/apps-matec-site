@@ -55,7 +55,7 @@
 
                 <div id="collapseExhibitorOne" class="collapse show" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        Well over 350 exhibitor with the various of spaces.
+                        Over 150 exhibitors with the various of spaces.
                     </div>
                 </div>
             </div>

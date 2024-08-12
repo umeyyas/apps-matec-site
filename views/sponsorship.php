@@ -6,7 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="<?= asset('images/favicon_io/favicon.ico') ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= asset('images/favicon_io/android-chrome-192x192.png') ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= asset('images/favicon_io/favicon-32x32.png') ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= asset('images/favicon_io/favicon-16x16.png') ?>">
+    <link rel="manifest" href="<?= asset('images/favicon_io/site.webmanifest') ?>">
 
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -44,12 +48,12 @@
                             <div class="card">
                                 <div class="card-body p-4">
                                     <div class="row align-items-center">
-                                        <div class="col-md-12 col-5">
+                                        <div class="col-md-12 col-8">
                                             <img src="<?= asset('images/matec-images/matec-37.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-38.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-39.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                                         </div>
-                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
+                                        <div class="col-md-12 col-4 pl-sm-2 pl-0">
                                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#titlesponsorpackages" aria-expanded="false" aria-controls="titlesponsorpackages">View More</button>
                                         </div>
                                     </div>
@@ -94,12 +98,12 @@
                             <div class="card">
                                 <div class="card-body p-4">
                                     <div class="row align-items-center">
-                                        <div class="col-md-12 col-5">
+                                        <div class="col-md-12 col-8">
                                             <img src="<?= asset('images/matec-images/matec-40.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-41.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-42.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                                         </div>
-                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
+                                        <div class="col-md-12 col-4 pl-sm-2 pl-0">
                                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#premierpartnerpackages" aria-expanded="false" aria-controls="premierpartnerpackages">View More</button>
                                         </div>
                                     </div>
@@ -146,12 +150,12 @@
                             <div class="card rounded">
                                 <div class="card-body p-4">
                                     <div class="row align-items-center">
-                                        <div class="col-md-12 col-5">
+                                        <div class="col-md-12 col-8">
                                             <img src="<?= asset('images/matec-images/matec-43.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-44.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-39.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                                         </div>
-                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
+                                        <div class="col-md-12 col-4 pl-sm-2 pl-0">
                                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#matecexpertpackages" aria-expanded="false" aria-controls="matecexpertpackages">View More</button>
                                         </div>
                                     </div>
@@ -191,12 +195,12 @@
                             <div class="card">
                                 <div class="card-body p-4">
                                     <div class="row align-items-center">
-                                        <div class="col-md-12 col-5">
+                                        <div class="col-md-12 col-8">
                                             <img src="<?= asset('images/matec-images/matec-45.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-46.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-39.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                                         </div>
-                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
+                                        <div class="col-md-12 col-4 pl-sm-2 pl-0">
                                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mateceadvancepackages" aria-expanded="false" aria-controls="mateceadvancepackages">View More</button>
                                         </div>
                                     </div>
@@ -232,12 +236,12 @@
                             <div class="card">
                                 <div class="card-body p-4">
                                     <div class="row align-items-center">
-                                        <div class="col-md-12 col-5">
+                                        <div class="col-md-12 col-8">
                                             <img src="<?= asset('images/matec-images/matec-47.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-48.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                                             <img src="<?= asset('images/matec-images/matec-39.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                                         </div>
-                                        <div class="col-md-12 col-7 pl-sm-2 pl-0">
+                                        <div class="col-md-12 col-4 pl-sm-2 pl-0">
                                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#matecproficientpackages" aria-expanded="false" aria-controls="matecproficientpackages">View More</button>
                                         </div>
                                     </div>

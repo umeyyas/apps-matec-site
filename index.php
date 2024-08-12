@@ -54,7 +54,7 @@ $router->add('faq', function() {
     require 'views/faq.php';
 });
 
-$router->add('contact', function() {
+$router->add('call-us', function() {
     require 'views/contact.php';
 });
 
