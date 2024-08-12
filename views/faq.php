@@ -83,7 +83,7 @@
                 </div>
                 <div id="collapseExhibitorThree" class="collapse" aria-labelledby="headingExhibitorThree" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        Please refer our Exhibitor Sales Kit for more information.
+                        For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 16 and 17 ).
                     </div>
                 </div>
             </div>
@@ -179,7 +179,7 @@
                 </div>
                 <div id="collapseVisitorTwo" class="collapse" aria-labelledby="headingVisitorTwo" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        The admission are RM20.00 for 2 days for adults & RM5.00 per day for kids. Free admission for kids below 6 years old, OKU & senior citizens. All visitors who are pay are entitled to get lucky draw number.
+                        The admission is free for all ages.
                     </div>
                 </div>
             </div>

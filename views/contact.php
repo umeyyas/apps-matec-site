@@ -103,7 +103,7 @@
                             </div>
                             <div class="block-address-item">
                                 <h5 class="block-address-title">Phone</h5>
-                                <p class="block-address-text"><span>En Razi:</span> <a href="tel:#">+6011 - 6648387</a><br><span>En Fizzi:</span> <a href="tel:#">+6010 - 5631270</a>
+                                <p class="block-address-text"><span>En Razi:</span> <a href="tel:#">+6011 - 56648387</a><br><span>En Fizzi:</span> <a href="tel:#">+6010 - 5631270</a>
                                 </p>
                             </div>
                             <div class="block-address-item">

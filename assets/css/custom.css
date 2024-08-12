@@ -273,10 +273,9 @@ body {
 
 .btn-primary, .btn-primary:active, .btn-primary:focus {
     color: #ffffff;
-    background: #c70000;
-    border-color: #c70000;
+    background: rgba(199, 0, 0, 1);
+    border-color: rgba(199, 0, 0, 1);
 }
- 
 
 
 @media only screen and (max-width : 991px) {
@@ -330,6 +329,7 @@ body {
     .section-lg {
         padding: 80px 0;
     }
+   
     
     
     

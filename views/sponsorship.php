@@ -17,30 +17,30 @@
 </head>
 <body>
 
-    <?php require 'layouts/loader.php' ?>
+<?php require 'layouts/loader.php' ?>
 
 <div class="page">
 
-        <?php include "layouts/navbar.php"; ?>
+    <?php include "layouts/navbar.php"; ?>
 
-        <!-- Breadcrumbs-->
-        <section class="section" style="background-image: url(<?= asset('images/bckhome.png') ?>); background-size: cover; background-position: center;">
-            <div class="parallax-content section-lg context-dark text-center section-background">
-                <ul class="breadcrumbs-custom-path">
-                    <li><a href="/">Home</a></li>
-                    <li class="active">Partnerships</li>
-                </ul>
-                <h3 class="breadcrumbs-custom-title">Partnerships</h3>
-            </div>
-        </section>
+    <!-- Breadcrumbs-->
+    <section class="section" style="background-image: url(<?= asset('images/bckhome.png') ?>); background-size: cover; background-position: center;">
+        <div class="parallax-content section-lg context-dark text-center section-background">
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="/">Home</a></li>
+                <li class="active">Partnerships</li>
+            </ul>
+            <h3 class="breadcrumbs-custom-title">Partnerships</h3>
+        </div>
+    </section>
 
-    
-<div class="d-sm-none d-block">
-    <section class="section section-swiper-absoulte context-dark text-center wow fadeIn">   
-        <div class="section-swiper-content d-sm-flex d-block align-items-center">
-            <div class="container">
-                <div class="row row-30 justify-content-lg-center">
-                    <div class="col-md-3">
+
+    <div class="d-sm-none d-block" style="background-image: url(<?= asset('images/matec-slide.png') ?>)">
+        <section class="section section-swiper-absoulte context-dark text-center wow fadeIn">
+            <div class="section-swiper-content d-sm-flex d-block align-items-center">
+                <div class="container">
+                    <div class="row row-30 justify-content-lg-center">
+                        <div class="col-md-3">
                             <div class="card">
                                 <div class="card-body p-4">
                                     <div class="row align-items-center">
@@ -57,33 +57,33 @@
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Corporate pavilion or branding space in Main Zone (8.0m x 6.0m)</li>
-                                            <li>Hanging banners and 30 stepping stickers</li>
-                                            <li>Partner logo at the Main Entrance</li>
-                                            <li>1 Branding Giant Balloon</li>
-                                            <li>Networking opportunities</li>
-                                            <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
-                                            <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                                            <li>Priority booking of Press Conference Room during event</li>
-                                            <li>1 exclusive interview with local media during MAHA 2024</li>
-                                            <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
+                                                <li>Corporate pavilion or branding space in Main Zone (8.0m x 6.0m)</li>
+                                                <li>Hanging banners and 30 stepping stickers</li>
+                                                <li>Partner logo at the Main Entrance</li>
+                                                <li>1 Branding Giant Balloon</li>
+                                                <li>Networking opportunities</li>
+                                                <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
+                                                <li>Used of Shared Sponsor Meeting Rooms during event</li>
+                                                <li>Priority booking of Press Conference Room during event</li>
+                                                <li>1 exclusive interview with local media during MAHA 2024</li>
+                                                <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Participate in Road to MATEC 2024</li>
-                                            <li>1 exclusive interview</li>
-                                            <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
+                                                <li>Participate in Road to MATEC 2024</li>
+                                                <li>1 exclusive interview</li>
+                                                <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-51.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Priority interviews with selected media agencies</li>
-                                            <li>2 pages advertisement in the MATEC 2024 Official Program Book</li>
-                                            <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
-                                            <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
+                                                <li>Priority interviews with selected media agencies</li>
+                                                <li>2 pages advertisement in the MATEC 2024 Official Program Book</li>
+                                                <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
+                                                <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -107,35 +107,35 @@
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Corporate pavilion or branding space in Main Zone (12.0m x 6.5m)</li>
-                                            <li>Hanging banners and 50 stepping stickers</li>
-                                            <li>Partner logo at the Main Entrance</li>
-                                            <li>1 Branding Giant Balloon</li>
-                                            <li>Networking opportunities</li>
-                                            <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
-                                            <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                                            <li>Priority booking of Press Conference Room during event</li>
-                                            <li>1 exclusive interview with local media during MAHA 2018</li>
-                                            <li>Usage of Grand & Main stage for promotional activities (shared basis)</li>
-                                            <li>10 lot reserved parking</li>
-                                            <li>Will carry logo/branding in MATEC 2024 Logo</li>
+                                                <li>Corporate pavilion or branding space in Main Zone (12.0m x 6.5m)</li>
+                                                <li>Hanging banners and 50 stepping stickers</li>
+                                                <li>Partner logo at the Main Entrance</li>
+                                                <li>1 Branding Giant Balloon</li>
+                                                <li>Networking opportunities</li>
+                                                <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
+                                                <li>Used of Shared Sponsor Meeting Rooms during event</li>
+                                                <li>Priority booking of Press Conference Room during event</li>
+                                                <li>1 exclusive interview with local media during MAHA 2018</li>
+                                                <li>Usage of Grand & Main stage for promotional activities (shared basis)</li>
+                                                <li>10 lot reserved parking</li>
+                                                <li>Will carry logo/branding in MATEC 2024 Logo</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Participate in Road to MATEC 2024</li>
-                                            <li>1 exclusive interview</li>
-                                            <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
+                                                <li>Participate in Road to MATEC 2024</li>
+                                                <li>1 exclusive interview</li>
+                                                <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-51.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Priority interviews with selected media agencies</li>
-                                            <li>2 pages advertisement in the MATEC 2024 Official Program Book</li>
-                                            <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
-                                            <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
+                                                <li>Priority interviews with selected media agencies</li>
+                                                <li>2 pages advertisement in the MATEC 2024 Official Program Book</li>
+                                                <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
+                                                <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -159,28 +159,28 @@
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Corporate branding space in specific zone</li>
-                                            <li>1 Branding Giant Balloon</li>
-                                            <li>Networking opportunities</li>
-                                            <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
-                                            <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                                            <li>Booking of Press Conference Room during MATEC 2024</li>
-                                            <li>1 exclusive interview with local media during MATEC 2024</li>
+                                                <li>Corporate branding space in specific zone</li>
+                                                <li>1 Branding Giant Balloon</li>
+                                                <li>Networking opportunities</li>
+                                                <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
+                                                <li>Used of Shared Sponsor Meeting Rooms during event</li>
+                                                <li>Booking of Press Conference Room during MATEC 2024</li>
+                                                <li>1 exclusive interview with local media during MATEC 2024</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Participate in Road to MATEC 2024</li>
-                                            <li>Sponsor logo palcement on the press release prior to MATEC 2024</li>
+                                                <li>Participate in Road to MATEC 2024</li>
+                                                <li>Sponsor logo palcement on the press release prior to MATEC 2024</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-51.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>1 page advertisement in the MATEC 2024 Official Program Book</li>
-                                            <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
-                                            <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
+                                                <li>1 page advertisement in the MATEC 2024 Official Program Book</li>
+                                                <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
+                                                <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -204,24 +204,24 @@
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Coporate branding space (equivalent 2 booths)</li>
-                                            <li>Complimentary branding space</li>
-                                            <li>Networking opportunities</li>
-                                            <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
+                                                <li>Coporate branding space (equivalent 2 booths)</li>
+                                                <li>Complimentary branding space</li>
+                                                <li>Networking opportunities</li>
+                                                <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
+                                                <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-51.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>1 page advertisement in the MATEC 2024 Official Program Book</li>
-                                            <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
-                                            <li>Recognition in selected MATEC 2024 publications, websites and social media platforms</li>
+                                                <li>1 page advertisement in the MATEC 2024 Official Program Book</li>
+                                                <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
+                                                <li>Recognition in selected MATEC 2024 publications, websites and social media platforms</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -245,37 +245,37 @@
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Corporate branding space (equivalent 4 booths)</li>
-                                            <li>Complimentary branding space</li>
-                                            <li>Networking opportunities</li>
-                                            <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
+                                                <li>Corporate branding space (equivalent 4 booths)</li>
+                                                <li>Complimentary branding space</li>
+                                                <li>Networking opportunities</li>
+                                                <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>Sponsor logo placement on the press release proor to MATEC 2024</li>
+                                                <li>Sponsor logo placement on the press release proor to MATEC 2024</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-51.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                            <li>1 page advertisement in the MATEC 2024 Official Program Book</li>
-                                            <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
-                                            <li>Recognition in selected MATEC 2024 publications, websites and social media platforms</li>
+                                                <li>1 page advertisement in the MATEC 2024 Official Program Book</li>
+                                                <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
+                                                <li>Recognition in selected MATEC 2024 publications, websites and social media platforms</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>     
-</div>
-               
-        
+        </section>
+    </div>
+
+
     <div class="d-sm-block d-none">
         <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section" style="">
             <div class="container">
@@ -290,33 +290,33 @@
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked" style="color:black;">
-                        <li>Corporate pavilion or branding space in Main Zone (8.0m x 6.0m)</li>
-                        <li>Hanging banners and 30 stepping stickers</li>
-                        <li>Partner logo at the Main Entrance</li>
-                        <li>1 Branding Giant Balloon</li>
-                        <li>Networking opportunities</li>
-                        <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
-                        <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                        <li>Priority booking of Press Conference Room during event</li>
-                        <li>1 exclusive interview with local media during MAHA 2024</li>
-                        <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
+                            <li>Corporate pavilion or branding space in Main Zone (8.0m x 6.0m)</li>
+                            <li>Hanging banners and 30 stepping stickers</li>
+                            <li>Partner logo at the Main Entrance</li>
+                            <li>1 Branding Giant Balloon</li>
+                            <li>Networking opportunities</li>
+                            <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
+                            <li>Used of Shared Sponsor Meeting Rooms during event</li>
+                            <li>Priority booking of Press Conference Room during event</li>
+                            <li>1 exclusive interview with local media during MAHA 2024</li>
+                            <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked" style="color:black;">
-                        <li>Participate in Road to MATEC 2024</li>
-                        <li>1 exclusive interview</li>
-                        <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
+                            <li>Participate in Road to MATEC 2024</li>
+                            <li>1 exclusive interview</li>
+                            <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-51.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked" style="color:black;">
-                        <li>Priority interviews with selected media agencies</li>
-                        <li>2 pages advertisement in the MATEC 2024 Official Program Book</li>
-                        <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
-                        <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
+                            <li>Priority interviews with selected media agencies</li>
+                            <li>2 pages advertisement in the MATEC 2024 Official Program Book</li>
+                            <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
+                            <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
                         </ul>
                     </div>
                 </div>
@@ -338,33 +338,33 @@
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked" style="color:black;">
-                        <li>Corporate pavilion or branding space in Main Zone (8.0m x 6.0m)</li>
-                        <li>Hanging banners and 30 stepping stickers</li>
-                        <li>Partner logo at the Main Entrance</li>
-                        <li>1 Branding Giant Balloon</li>
-                        <li>Networking opportunities</li>
-                        <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
-                        <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                        <li>Priority booking of Press Conference Room during event</li>
-                        <li>1 exclusive interview with local media during MAHA 2024</li>
-                        <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
+                            <li>Corporate pavilion or branding space in Main Zone (8.0m x 6.0m)</li>
+                            <li>Hanging banners and 30 stepping stickers</li>
+                            <li>Partner logo at the Main Entrance</li>
+                            <li>1 Branding Giant Balloon</li>
+                            <li>Networking opportunities</li>
+                            <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
+                            <li>Used of Shared Sponsor Meeting Rooms during event</li>
+                            <li>Priority booking of Press Conference Room during event</li>
+                            <li>1 exclusive interview with local media during MAHA 2024</li>
+                            <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked" style="color:black;">
-                        <li>Participate in Road to MATEC 2024</li>
-                        <li>1 exclusive interview</li>
-                        <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
+                            <li>Participate in Road to MATEC 2024</li>
+                            <li>1 exclusive interview</li>
+                            <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-51.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked" style="color:black;">
-                        <li>Priority interviews with selected media agencies</li>
-                        <li>2 pages advertisement in the MATEC 2024 Official Program Book</li>
-                        <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
-                        <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
+                            <li>Priority interviews with selected media agencies</li>
+                            <li>2 pages advertisement in the MATEC 2024 Official Program Book</li>
+                            <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
+                            <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
                         </ul>
                     </div>
                 </div>
@@ -386,13 +386,13 @@
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked" style="color:black;">
-                        <li>Corporate branding space in specific zone</li>
-                        <li>1 Branding Giant Balloon</li>
-                        <li>Networking opportunities</li>
-                        <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
-                        <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                        <li>Booking of Press Conference Room during MATEC 2024</li>
-                        <li>1 exclusive interview with local media during MATEC 2024</li>
+                            <li>Corporate branding space in specific zone</li>
+                            <li>1 Branding Giant Balloon</li>
+                            <li>Networking opportunities</li>
+                            <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
+                            <li>Used of Shared Sponsor Meeting Rooms during event</li>
+                            <li>Booking of Press Conference Room during MATEC 2024</li>
+                            <li>1 exclusive interview with local media during MATEC 2024</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
@@ -405,9 +405,9 @@
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-51.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked" style="color:black;">
-                        <li>1 page advertisement in the MATEC 2024 Official Program Book</li>
-                        <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
-                        <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
+                            <li>1 page advertisement in the MATEC 2024 Official Program Book</li>
+                            <li>Recognitions in MATEC 2024 collaterals (venue backdrops, marketing & advertising, billboards)</li>
+                            <li>Recognitions in MATEC 2024 publications, websites and social media platforms</li>
                         </ul>
                     </div>
                 </div>
@@ -491,54 +491,54 @@
                 </div>
             </div>
         </section>
-    </div>    
+    </div>
 
-        <?php include "layouts/footer.php"; ?>
-    
+    <?php include "layouts/footer.php"; ?>
+
 
 </div>
 
-    <?php require "layouts/__js.php" ?>
+<?php require "layouts/__js.php" ?>
 
-    <script>
-        function setupCollapsibleSections() {
-            const sections = document.querySelectorAll('.section-collapse-body');
-            sections.forEach(section => {
-                section.style.maxHeight = '0';
-            });
-
-            document.querySelectorAll('.section-title').forEach((title, index) => {
-                title.addEventListener('click', () => {
-                    const body = document.querySelectorAll('.section-collapse-body')[index];
-                    const isExpanded = body.style.maxHeight && body.style.maxHeight !== '0px';
-
-                    if (isExpanded) {
-                        body.style.maxHeight = '0';
-                    } else {
-                        body.style.maxHeight = body.scrollHeight + 'px';
-                    }
-                });
-            });
-        }
-
-        // Check screen width and apply collapsible behavior if below 766px
-        if (window.innerWidth < 766) {
-            setupCollapsibleSections();
-        }
-
-        // Re-check on window resize
-        window.addEventListener('resize', () => {
-            if (window.innerWidth < 766) {
-                setupCollapsibleSections();
-            } else {
-                // Reset styles if above 766px
-                document.querySelectorAll('.section-collapse-body').forEach(body => {
-                    body.style.maxHeight = 'none';
-                });
-            }
+<script>
+    function setupCollapsibleSections() {
+        const sections = document.querySelectorAll('.section-collapse-body');
+        sections.forEach(section => {
+            section.style.maxHeight = '0';
         });
 
-    </script>
+        document.querySelectorAll('.section-title').forEach((title, index) => {
+            title.addEventListener('click', () => {
+                const body = document.querySelectorAll('.section-collapse-body')[index];
+                const isExpanded = body.style.maxHeight && body.style.maxHeight !== '0px';
+
+                if (isExpanded) {
+                    body.style.maxHeight = '0';
+                } else {
+                    body.style.maxHeight = body.scrollHeight + 'px';
+                }
+            });
+        });
+    }
+
+    // Check screen width and apply collapsible behavior if below 766px
+    if (window.innerWidth < 766) {
+        setupCollapsibleSections();
+    }
+
+    // Re-check on window resize
+    window.addEventListener('resize', () => {
+        if (window.innerWidth < 766) {
+            setupCollapsibleSections();
+        } else {
+            // Reset styles if above 766px
+            document.querySelectorAll('.section-collapse-body').forEach(body => {
+                body.style.maxHeight = 'none';
+            });
+        }
+    });
+
+</script>
 
 </body>
 </html>

@@ -43,7 +43,7 @@
             <div class="container">
                 <div class="row row-30 justify-content-center">
                     <div class="col-md-12 col-lg-12">
-                        <img src="<?= asset('images/matec-images/matec-20.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
+                        <img src="<?= asset('images/matec-images/matec-20.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px">
                     </div>
                     <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-image-container">
                         <div class="row">
@@ -91,8 +91,8 @@
             <div class="container">
                 <div class="row row-30 justify-content-center">
                     <div class="col-md-12 col-lg-12">
-                        <img src="<?= asset('images/matec-images/matec-21.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
-                        <img src="<?= asset('images/matec-images/matec-22.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
+                        <img src="<?= asset('images/matec-images/matec-21.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
+                        <img src="<?= asset('images/matec-images/matec-22.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
                     </div>
                     <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
                         <div class="row row-15 justify-content-center mb-sm-0 mb-1 ">
@@ -165,7 +165,7 @@
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card">
                                     <div class="card-body p-0">
-                                        <img src="<?= asset('images/matec-2/matec-30.png') ?>" alt="" class="image img-fluid">
+                                        <img src="<?= asset('images/matec-2/matec-30.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
