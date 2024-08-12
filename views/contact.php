@@ -7,12 +7,16 @@
 <!DOCTYPE html>
 <html class="wide" lang="en">
 <head>
-    <title>Welcome to MATEC 2024 :: Contact Us</title>
+    <title>Welcome to MATEC 2024 :: Call Us</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="<?= asset('images/favicon_io/favicon.ico') ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= asset('images/favicon_io/android-chrome-192x192.png') ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= asset('images/favicon_io/favicon-32x32.png') ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= asset('images/favicon_io/favicon-16x16.png') ?>">
+    <link rel="manifest" href="<?= asset('images/favicon_io/site.webmanifest') ?>">
 
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -34,9 +38,9 @@
             <div class="parallax-content section-lg context-dark text-center section-background">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="/">Home</a></li>
-                    <li class="active">Contact</li>
+                    <li class="active">Call Us</li>
                 </ul>
-                <h3 class="breadcrumbs-custom-title">Contact</h3>
+                <h3 class="breadcrumbs-custom-title">Call Us</h3>
             </div>
         </section>
 

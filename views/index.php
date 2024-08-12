@@ -53,7 +53,7 @@
                                     <div class="unit unit-spacing-xs align-items-center">
                                         <div class="unit-left line-height-reset">
                                             <svg class="svg-icon-sm svg-icon-primary" role="img">
-                                                <use xlink:href="<?= asset('images/svg/sprite.svg#earth-globe') ?>"></use>
+                                                <use xlink:href="<?= asset('images/svg/sprite.svg#earth-globe') ?>" style="fill:#c70000"></use>
                                             </svg>
                                         </div>
                                         <div class="unit-body">
@@ -65,7 +65,7 @@
                                     <div class="unit unit-spacing-xs align-items-center">
                                         <div class="unit-left line-height-reset">
                                             <svg class="svg-icon-sm svg-icon-primary" role="img">
-                                                <use xlink:href="<?= asset('images/svg/sprite.svg#small-calendar') ?>"></use>
+                                                <use xlink:href="<?= asset('images/svg/sprite.svg#small-calendar') ?>" style="fill:#c70000"></use>
                                             </svg>
                                         </div>
                                         <div class="unit-body">
@@ -266,7 +266,7 @@
                             </div-->
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-12 col-xl-12  ">
+                    <div class="col-md-12 col-lg-12 col-xl-12 text-center ">
                         <div class="box-location flex">
                             <p><b>National Stadium is the central and most prominent sports center and building at the National Sports Complex in Bukit Jalil. The elliptical outdoor stadium has a total area of 76,000 square meters and its classical bowl shape is enhanced by the dramatic overlapping of three spectator tiers.</p>
                             <p>Our outdoor car park spaces are a perfect canvas for your open-air events. You have a choice of 5 varied sizes in a gated venue, with a combined capacity of 160,000 pax standing. With access to both power and water supply, a 3 minute walk to the Bukit Jalil LRT station and a 20 minute drive from the city centre, we are also flexible to be part of your customised event.</b></p>

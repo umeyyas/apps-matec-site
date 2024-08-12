@@ -6,7 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="<?= asset('images/favicon_io/favicon.ico') ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= asset('images/favicon_io/android-chrome-192x192.png') ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= asset('images/favicon_io/favicon-32x32.png') ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= asset('images/favicon_io/favicon-16x16.png') ?>">
+    <link rel="manifest" href="<?= asset('images/favicon_io/site.webmanifest') ?>">
 
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -51,7 +55,7 @@
 
                 <div id="collapseExhibitorOne" class="collapse show" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        Well over 350 exhibitor with the space to expand if we need to as on 2019, we are moving to bigger hall @ 10,000m2.
+                        Well over 350 exhibitor with the various of spaces.
                     </div>
                 </div>
             </div>
@@ -65,7 +69,7 @@
                 </div>
                 <div id="collapseExhibitorTwo" class="collapse" aria-labelledby="headingExhibitorTwo" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        We have a variety of different exhibition spaces available. Our smallest space starts at 2m x 2m all the way up to your request. We can also accommodate larger sizes on request. If you want more info on the spaces available, please request a copy of our exhibitor information pack and refer to the attached floor plan.
+                        We have a variety of different exhibition spaces available.There are two types of spaces, which are indoor and outdoor. For indoor we have Shell Scheme Booth (3mx3m) and (6mx3m) and Bare Space (11mx10m). For outdoor, we have Arabian Canopy (food & beverages: 6mx3m) and (Automotive related: 6mx6m) and a Food Truck (food truck spaces).
                     </div>
                 </div>
             </div>
@@ -93,7 +97,7 @@
                 </div>
                 <div id="collapseExhibitorFour" class="collapse" aria-labelledby="headingExhibitorFour" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        Yes. Some of our smaller spaces (from 3m x 3m) can be purchased as 'booth package' including shell scheme and carpet.
+                        Yes, we have two sizes for shell scheme booth which are (3mx3m) and (6mx3m).
                     </div>
                 </div>
             </div>
@@ -107,7 +111,7 @@
                 </div>
                 <div id="collapseExhibitorFive" class="collapse" aria-labelledby="headingExhibitorFive" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        Yes we do and we are seeking for a various type of sponsorship. Please contact us to know more about sponsorship matter.
+                        Yes we do and we are seeking for a various type of sponsorship. Please refer to Partnership page. Please contact us if you have any inquiries.
                     </div>
                 </div>
             </div>
@@ -121,7 +125,7 @@
                 </div>
                 <div id="collapseExhibitorSix" class="collapse" aria-labelledby="headingExhibitorSix" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        Yes. We are aware that under certain circumstances it's not always ideal for you to exhibit but may well like to advertise your presence at the event. We have several advertising opportunities available please get in touch for more information.
+                        Yes. We are aware that under certain circumstances it's not always ideal for you to exhibit but may well like to advertise your presence at the event.
                     </div>
                 </div>
             </div>
@@ -135,7 +139,7 @@
                 </div>
                 <div id="collapseExhibitorSeven" class="collapse" aria-labelledby="headingExhibitorSeven" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        There are a few hotels on site with many a short car ride away.
+                        There are Bukit Jalil LRT Station near by and a few hotels on site with many a short car ride away.
                     </div>
                 </div>
             </div>
@@ -161,7 +165,7 @@
 
                 <div id="collapseVisitorOne" class="collapse show" aria-labelledby="headingVisitorOne" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        The MATEC2024 started on Saturday and Sunday (30th Nov. to 1st Dec. 2024) from 10.00am - 10.00pm.
+                        The MATEC2024 started on Friday to Sunday (20th Sept. to 22nd Sept. 2024) from 10 am to 10 pm.
                     </div>
                 </div>
             </div>
@@ -180,20 +184,6 @@
                 </div>
             </div>
             <div class="card">
-                <div class="card-header" id="headingVisitorThree">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVisitorThree" aria-expanded="false" aria-controls="collapseVisitorThree">
-                            What companies are exhibiting?
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseVisitorThree" class="collapse" aria-labelledby="headingVisitorThree" data-parent="#accordionVisitor">
-                    <div class="card-body">
-                        Please take a look at our exhibitor list by following a link in the header above. The exhibitor list is updated on a regular basis so please keep checking back for new additions.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
                 <div class="card-header" id="headingVisitorFour">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVisitorFour" aria-expanded="false" aria-controls="collapseVisitorFour">
@@ -203,7 +193,7 @@
                 </div>
                 <div id="collapseVisitorFour" class="collapse" aria-labelledby="headingVisitorFour" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        Venue have more than 4,500 parking bays at outside area. Parking fees is RM5.00 per entry.
+                        Parking fees is RM5.00 per entry.
                     </div>
                 </div>
             </div>
@@ -217,7 +207,7 @@
                 </div>
                 <div id="collapseVisitorFive" class="collapse" aria-labelledby="headingVisitorFive" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        We can never guarantee what our exhibitors will choose to give away or when but it is likely that you will receive a lot of free samples and merchandise.
+                        We can never guarantee what our exhibitors will choose to give away.
                     </div>
                 </div>
             </div>
@@ -231,7 +221,7 @@
                 </div>
                 <div id="collapseVisitorSix" class="collapse" aria-labelledby="headingVisitorSix" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        Yes, of course! You can bring anyone especially you, your kids and family. Some zone are not for kids under 12 years old and school students.
+                        Yes, of course! You can bring anyone especially you, your kids and family.
                     </div>
                 </div>
             </div>
@@ -245,7 +235,7 @@
                 </div>
                 <div id="collapseVisitorSeven" class="collapse" aria-labelledby="headingVisitorSeven" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        Yes, the venue site is accessible for the disabled by using elevator.
+                        Yes, the venue site is disabled access friendly.
                     </div>
                 </div>
             </div>

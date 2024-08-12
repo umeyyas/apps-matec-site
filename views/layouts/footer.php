@@ -31,7 +31,7 @@
                         </p>
                         <p class="event-detail-address big text-white" data-splitting>Parking B, National Stadium Bukit Jalil, Bukit Jalil, Kuala Lumpur</p>
 
-                        <a class="event-detail-link" href="">View map location</a>
+                        <a class="event-detail-link" href="https://maps.app.goo.gl/JBPdiGxFCmvFPvAt9" target="_blank">View map location</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-lg-4">
@@ -60,9 +60,9 @@
     <footer class="section footer-classic context-dark">
         <div class="container">
             <p class="rights">
-                <span>&copy; Copyright of MARA AUTOMOTIVE ECO SYSTEM</span>
+                <span>&copy; Copyright of MARA AUTOMOTIVE ECOSYSTEM</span>
                 <span class="copyright-year"></span> <br>
-                <span>Powered and designed by </span> <a href="https://www.ardianexus.com/">Ardia Nexus Sdn. Bhd.</a>
+                <span>Developed and designed by </span> <a href="https://www.ardianexus.com/">Ardia Nexus Sdn. Bhd.</a>
             </p>
         </div>
     </footer>
