@@ -53,7 +53,7 @@
                                     <div class="unit unit-spacing-xs align-items-center">
                                         <div class="unit-left line-height-reset">
                                             <svg class="svg-icon-sm svg-icon-primary" role="img">
-                                                <use xlink:href="<?= asset('images/svg/sprite.svg#earth-globe') ?>" style="fill:#c70000"></use>
+                                                <use xlink:href="<?= asset('images/svg/sprite.svg#earth-globe') ?>" style="fill:#c700000"></use>
                                             </svg>
                                         </div>
                                         <div class="unit-body">
@@ -65,7 +65,7 @@
                                     <div class="unit unit-spacing-xs align-items-center">
                                         <div class="unit-left line-height-reset">
                                             <svg class="svg-icon-sm svg-icon-primary" role="img">
-                                                <use xlink:href="<?= asset('images/svg/sprite.svg#small-calendar') ?>"></use>
+                                                <use xlink:href="<?= asset('images/svg/sprite.svg#small-calendar') ?>" style="fill:#c700000" ></use>
                                             </svg>
                                         </div>
                                         <div class="unit-body">
