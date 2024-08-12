@@ -38,7 +38,7 @@
                                         <a class="rd-nav-link" href="faq">F.A.Q</a>
                                     </li>
                                     <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="contact">Call Us</a>
+                                        <a class="rd-nav-link" href="call-us">Call Us</a>
                                     </li>
                                 </ul>
                             </div>
