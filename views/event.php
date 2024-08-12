@@ -43,7 +43,13 @@
             <div class="container">
                 <div class="row row-30 justify-content-center">
                     <div class="col-md-12 col-lg-12">
-                        <img src="<?= asset('images/matec-images/matec-20.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px">
+                        <div class="d-sm-block d-none">
+                            <img src="<?= asset('images/matec-images/matec-20.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px">
+                        </div>
+                        <div class="d-sm-none d-block">
+                            <img src="<?= asset('images/matec-2/matec-62.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
+                            <img src="<?= asset('images/matec-2/matec-63.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
+                        </div>
                     </div>
                     <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-image-container">
                         <div class="row">
