@@ -195,7 +195,7 @@
 
                         <div id="collapseExhibitorOne" class="collapse show" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Well over 350 exhibitor with the space to expand if we need to as on 2019, we are moving to bigger hall @ 10,000m2.
+                                Over 150 exhibitors with the various of spaces.
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@
                         </div>
                         <div id="collapseExhibitorTwo" class="collapse" aria-labelledby="headingExhibitorTwo" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                We have a variety of different exhibition spaces available. Our smallest space starts at 2m x 2m all the way up to your request. We can also accommodate larger sizes on request. If you want more info on the spaces available, please request a copy of our exhibitor information pack and refer to the attached floor plan.
+                                We have a variety of different exhibition spaces available.There are two types of spaces, which are indoor and outdoor. For indoor we have Shell Scheme Booth (3mx3m) and (6mx3m) and Bare Space (11mx10m). For outdoor, we have Arabian Canopy (food & beverages: 6mx3m) and (Automotive related: 6mx6m) and a Food Truck (food truck spaces).
                             </div>
                         </div>
                     </div>
@@ -223,7 +223,7 @@
                         </div>
                         <div id="collapseExhibitorThree" class="collapse" aria-labelledby="headingExhibitorThree" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Please refer our Exhibitor Sales Kit for more information.
+                                For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 16 and 17 ).
                             </div>
                         </div>
                     </div>
@@ -237,7 +237,7 @@
                         </div>
                         <div id="collapseExhibitorFour" class="collapse" aria-labelledby="headingExhibitorFour" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Yes. Some of our smaller spaces (from 3m x 3m) can be purchased as 'booth package' including shell scheme and carpet.
+                                Yes, we have two sizes for shell scheme booth which are (3mx3m) and (6mx3m).
                             </div>
                         </div>
                     </div>
@@ -251,7 +251,7 @@
                         </div>
                         <div id="collapseExhibitorFive" class="collapse" aria-labelledby="headingExhibitorFive" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Yes we do and we are seeking for a various type of sponsorship. Please contact us to know more about sponsorship matter.
+                                Yes we do and we are seeking for a various type of sponsorship. Please refer to Partnership page. Please contact us if you have any inquiries.
                             </div>
                         </div>
                     </div>
@@ -265,7 +265,7 @@
                         </div>
                         <div id="collapseExhibitorSix" class="collapse" aria-labelledby="headingExhibitorSix" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Yes. We are aware that under certain circumstances it's not always ideal for you to exhibit but may well like to advertise your presence at the event. We have several advertising opportunities available please get in touch for more information.
+                                Yes. We are aware that under certain circumstances it's not always ideal for you to exhibit but may well like to advertise your presence at the event.
                             </div>
                         </div>
                     </div>
@@ -279,7 +279,7 @@
                         </div>
                         <div id="collapseExhibitorSeven" class="collapse" aria-labelledby="headingExhibitorSeven" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                There are a few hotels on site with many a short car ride away.
+                                There are Bukit Jalil LRT Station near by and a few hotels on site with many a short car ride away.
                             </div>
                         </div>
                     </div>
@@ -291,6 +291,10 @@
     <?php require "layouts/__js.php" ?>
 
     <script>
+        Fancybox.bind('[data-fancybox]', {
+            // Custom options for all galleries
+        });
+
         $(document).ready(function() {
             $('.newtab').on('click', function(event) {
                 event.preventDefault();
