@@ -69,7 +69,7 @@
                                                 <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
                                                 <li>Used of Shared Sponsor Meeting Rooms during event</li>
                                                 <li>Priority booking of Press Conference Room during event</li>
-                                                <li>1 exclusive interview with local media during MATEC 2018</li>
+                                                <li>1 exclusive interview with local media during MATEC 2024</li>
                                                 <li>Usage of Grand & Main stage for promotional activities (shared basis)</li>
                                                 <li>10 lot reserved parking</li>
                                                 <li>Will carry logo/branding in MATEC 2024 Logo</li>
@@ -258,7 +258,7 @@
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                                <li>Sponsor logo placement on the press release proor to MATEC 2024</li>
+                                                <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
@@ -302,7 +302,7 @@
                             <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
                             <li>Used of Shared Sponsor Meeting Rooms during event</li>
                             <li>Priority booking of Press Conference Room during event</li>
-                            <li>1 exclusive interview with local media during MATEC 2018</li>
+                            <li>1 exclusive interview with local media during MATEC 2024</li>
                             <li>Usage of Grand & Main stage for promotional activities (shared basis)</li>
                             <li>10 lot reserved parking</li>
                             <li>Will carry logo/branding in MATEC 2024 Logo</li>
@@ -483,7 +483,7 @@
                     <div class="col-md-4">
                         <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                         <ul class="list list-marked">
-                            <li>Sponsor logo placement on the press release proor to MATEC 2024</li>
+                            <li>Sponsor logo placement on the press release prior to MATEC 2024</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
