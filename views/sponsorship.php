@@ -111,18 +111,16 @@
                                         <div class="col-md-4">
                                             <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                             <ul class="list list-marked" style="color:black;">
-                                                <li>Corporate pavilion or branding space in Main Zone (12.0m x 6.5m)</li>
-                                                <li>Hanging banners and 50 stepping stickers</li>
+                                                <li>Corporate pavilion or branding space in Main Zone (8.0m x 6.0m)</li>
+                                                <li>Hanging banners and 30 stepping stickers</li>
                                                 <li>Partner logo at the Main Entrance</li>
                                                 <li>1 Branding Giant Balloon</li>
                                                 <li>Networking opportunities</li>
                                                 <li>Priority seating at the Opening Ceremony of MATEC 2024</li>
                                                 <li>Used of Shared Sponsor Meeting Rooms during event</li>
                                                 <li>Priority booking of Press Conference Room during event</li>
-                                                <li>1 exclusive interview with local media during MATEC 2018</li>
-                                                <li>Usage of Grand & Main stage for promotional activities (shared basis)</li>
-                                                <li>10 lot reserved parking</li>
-                                                <li>Will carry logo/branding in MATEC 2024 Logo</li>
+                                                <li>1 exclusive interview with local media during MATEC 2024</li>
+                                                <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
                                             </ul>
                                         </div>
                                         <div class="col-md-4">
@@ -381,8 +379,8 @@
             <div class="container">
                 <div class="row section-title">
                     <div class="col-md-12 col-lg-12">
-                        <img src="<?= asset('images/matec-images/matec-47.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
-                        <img src="<?= asset('images/matec-images/matec-48.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
+                        <img src="<?= asset('images/matec-images/matec-43.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
+                        <img src="<?= asset('images/matec-images/matec-44.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px mb-2">
                         <img src="<?= asset('images/matec-images/matec-39.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-20px">
                     </div>
                 </div>
