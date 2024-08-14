@@ -93,12 +93,12 @@
                     </h4>
                     <div class="row row-30 justify-content-lg-center">
                         <div class="col-md-3">
-                            <!--a href="<?= asset('pdf/MATEC2024_Event_Brief_v6_05082024.pdf') ?>" type="application/pdf" target="_blank"-->
+                            <!--a href="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" type="application/pdf" target="_blank"-->
                                 <div class="card">
                                     <div class="card-body p-1">
                                         <div class="row align-items-center">
                                             <div class="col-md-12 col-5">
-                                                <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event_Brief_v6_05082024.pdf') ?>" >
+                                                <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
                                             </div>
                                             <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                                 <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Event Brief</h5>
@@ -109,12 +109,12 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <!--a href="<?= asset('pdf/MATEC2024_Partnership_Deck_v1_05082024.pdf') ?>" type="application/pdf" target="_blank"-->
+                            <!--a href="<?= asset('pdf/MATEC2024_Partnership Deck_v2 14082024.pdf') ?>" type="application/pdf" target="_blank"-->
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row align-items-center">
                                         <div class="col-md-12 col-5">
-                                            <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Partnership_Deck_v1_05082024.pdf') ?>" >
+                                            <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Partnership Deck_v2 14082024.pdf') ?>" >
                                         </div>
                                         <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Partnership Packages</h5>
@@ -209,7 +209,7 @@
                         </div>
                         <div id="collapseExhibitorTwo" class="collapse" aria-labelledby="headingExhibitorTwo" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                We have a variety of different exhibition spaces available.There are two types of spaces, which are indoor and outdoor. For indoor we have Shell Scheme Booth (3mx3m) and (6mx3m) and Bare Space (11mx10m). For outdoor, we have Arabian Canopy (food & beverages: 6mx3m) and (Automotive related: 6mx6m) and a Food Truck (food truck spaces).
+                                For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 15 and 16).
                             </div>
                         </div>
                     </div>
@@ -273,7 +273,7 @@
                         <div class="card-header" id="headingExhibitorSeven">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorSeven" aria-expanded="false" aria-controls="collapseExhibitorSeven">
-                                    Is there accommodation near by?
+                                    Is there accommodation or public transport near by?
                                 </button>
                             </h5>
                         </div>

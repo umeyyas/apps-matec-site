@@ -69,7 +69,7 @@
                 </div>
                 <div id="collapseExhibitorTwo" class="collapse" aria-labelledby="headingExhibitorTwo" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        We have a variety of different exhibition spaces available.There are two types of spaces, which are indoor and outdoor. For indoor we have Shell Scheme Booth (3mx3m) and (6mx3m) and Bare Space (11mx10m). For outdoor, we have Arabian Canopy (food & beverages: 6mx3m) and (Automotive related: 6mx6m) and a Food Truck (food truck spaces).
+                        For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 15 and 16 ).
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                 </div>
                 <div id="collapseExhibitorThree" class="collapse" aria-labelledby="headingExhibitorThree" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 16 and 17 ).
+                        For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 15 and 16 ).
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@
                 <div class="card-header" id="headingExhibitorSeven">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorSeven" aria-expanded="false" aria-controls="collapseExhibitorSeven">
-                            Is there accommodation near by?
+                            Is there accommodation or public transport near by?
                         </button>
                     </h5>
                 </div>
@@ -221,7 +221,7 @@
                 </div>
                 <div id="collapseVisitorSix" class="collapse" aria-labelledby="headingVisitorSix" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        Yes, of course! You can bring anyone especially you, your kids and family.
+                        Yes, of course! There are no age limits.
                     </div>
                 </div>
             </div>

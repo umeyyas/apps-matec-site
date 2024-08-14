@@ -277,6 +277,17 @@ body {
     border-color: rgba(199, 0, 0, 1);
 }
 
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0.25rem;
+}
 
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {

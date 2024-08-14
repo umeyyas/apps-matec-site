@@ -104,7 +104,7 @@
                         <div class="row row-15 justify-content-center mb-sm-0 mb-1 ">
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-23.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -113,7 +113,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-24.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -122,7 +122,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-25.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -131,7 +131,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-26.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -140,7 +140,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-27.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -149,7 +149,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-28.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -160,7 +160,7 @@
                         <div class="row row-15 justify-content-center mb-sm-0 mb-2 mt-sm-0 mt-0">
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-29.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -169,7 +169,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-30.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -178,7 +178,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-31.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -187,7 +187,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-32.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -196,7 +196,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-33.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -205,7 +205,7 @@
                             </div>
                             <div class="col-md-2 col-6 px-2">
                                 <a href="" data-fancybox data-src="#comingsoon">
-                                <div class="card">
+                                <div class="card border-0">
                                     <div class="card-body p-0">
                                         <img src="<?= asset('images/matec-2/matec-34.png') ?>" alt="" class="img-fluid">
                                     </div>
@@ -943,6 +943,7 @@
     <div id="comingsoon" class="p-0 mt-xs-0 mt-5 popup-width" style="display: none; max-width:500px;">
         <div class="card">
             <div class="card-body text-center">
+                <h4>Coming Soon</h4>
             </div>
         </div>
     </div>
