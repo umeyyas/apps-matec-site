@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="<?= asset('images/logo.png') ?>" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="<?= asset('images/favicon_io/favicon.ico') ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= asset('images/favicon_io/android-chrome-192x192.png') ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= asset('images/favicon_io/favicon-32x32.png') ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= asset('images/favicon_io/favicon-16x16.png') ?>">
+    <link rel="manifest" href="<?= asset('images/favicon_io/site.webmanifest') ?>">
 
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -93,12 +97,12 @@
                     </h4>
                     <div class="row row-30 justify-content-lg-center">
                         <div class="col-md-3">
-                            <a href="<?= asset('pdf/MATEC2024_Event_Brief_v6_05082024.pdf') ?>" type="application/pdf" target="_blank">
+                            <!--a href="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" type="application/pdf" target="_blank"-->
                                 <div class="card">
                                     <div class="card-body p-1">
                                         <div class="row align-items-center">
                                             <div class="col-md-12 col-5">
-                                                <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid"" >
+                                                <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
                                             </div>
                                             <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                                 <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Event Brief</h5>
@@ -109,12 +113,12 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="<?= asset('pdf/MATEC2024_Partnership_Deck_v1_05082024.pdf') ?>" type="application/pdf" target="_blank">
+                            <!--a href="<?= asset('pdf/MATEC2024_Partnership Deck_v2 14082024.pdf') ?>" type="application/pdf" target="_blank"-->
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row align-items-center">
                                         <div class="col-md-12 col-5">
-                                            <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Partnership_Deck_v1_05082024.pdf') ?>" >
+                                            <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Partnership Deck_v2 14082024.pdf') ?>" >
                                         </div>
                                         <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                             <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Partnership Packages</h5>
@@ -125,7 +129,7 @@
                            </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="<?= asset('pdf/MATEC2024_Final_Layout_29072024.pdf') ?>" type="application/pdf" target="_blank">
+                            <!--a href="<?= asset('pdf/MATEC2024_Final_Layout_29072024.pdf') ?>" type="application/pdf" target="_blank"-->
                             <div class="card">
                                 <div class="card-body p-1">
                                     <div class="row align-items-center">
@@ -195,7 +199,7 @@
 
                         <div id="collapseExhibitorOne" class="collapse show" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Well over 350 exhibitor with the space to expand if we need to as on 2019, we are moving to bigger hall @ 10,000m2.
+                                Over 150 exhibitors with the various of spaces.
                             </div>
                         </div>
                     </div>
@@ -209,7 +213,7 @@
                         </div>
                         <div id="collapseExhibitorTwo" class="collapse" aria-labelledby="headingExhibitorTwo" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                We have a variety of different exhibition spaces available. Our smallest space starts at 2m x 2m all the way up to your request. We can also accommodate larger sizes on request. If you want more info on the spaces available, please request a copy of our exhibitor information pack and refer to the attached floor plan.
+                                For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 15 and 16).
                             </div>
                         </div>
                     </div>
@@ -223,7 +227,7 @@
                         </div>
                         <div id="collapseExhibitorThree" class="collapse" aria-labelledby="headingExhibitorThree" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Please refer our Exhibitor Sales Kit for more information.
+                                For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 16 and 17 ).
                             </div>
                         </div>
                     </div>
@@ -237,7 +241,7 @@
                         </div>
                         <div id="collapseExhibitorFour" class="collapse" aria-labelledby="headingExhibitorFour" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Yes. Some of our smaller spaces (from 3m x 3m) can be purchased as 'booth package' including shell scheme and carpet.
+                                Yes, we have two sizes for shell scheme booth which are (3mx3m) and (6mx3m).
                             </div>
                         </div>
                     </div>
@@ -251,7 +255,7 @@
                         </div>
                         <div id="collapseExhibitorFive" class="collapse" aria-labelledby="headingExhibitorFive" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Yes we do and we are seeking for a various type of sponsorship. Please contact us to know more about sponsorship matter.
+                                Yes we do and we are seeking for a various type of sponsorship. Please refer to Partnership page. Please contact us if you have any inquiries.
                             </div>
                         </div>
                     </div>
@@ -265,7 +269,7 @@
                         </div>
                         <div id="collapseExhibitorSix" class="collapse" aria-labelledby="headingExhibitorSix" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                Yes. We are aware that under certain circumstances it's not always ideal for you to exhibit but may well like to advertise your presence at the event. We have several advertising opportunities available please get in touch for more information.
+                                Yes. We are aware that under certain circumstances it's not always ideal for you to exhibit but may well like to advertise your presence at the event.
                             </div>
                         </div>
                     </div>
@@ -273,13 +277,13 @@
                         <div class="card-header" id="headingExhibitorSeven">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorSeven" aria-expanded="false" aria-controls="collapseExhibitorSeven">
-                                    Is there accommodation near by?
+                                    Is there accommodation or public transport near by?
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseExhibitorSeven" class="collapse" aria-labelledby="headingExhibitorSeven" data-parent="#accordionExhibitor">
                             <div class="card-body">
-                                There are a few hotels on site with many a short car ride away.
+                                There are Bukit Jalil LRT Station near by and a few hotels on site with many a short car ride away.
                             </div>
                         </div>
                     </div>
@@ -291,7 +295,17 @@
     <?php require "layouts/__js.php" ?>
 
     <script>
+        Fancybox.bind('[data-fancybox]', {
+            // Custom options for all galleries
+        });
 
+        $(document).ready(function() {
+            $('.newtab').on('click', function(event) {
+                event.preventDefault();
+                var pdfUrl = $(this).data('pdf-url');
+                window.open(pdfUrl, '_blank');
+            });
+        });
     </script>
 
 

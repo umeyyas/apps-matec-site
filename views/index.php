@@ -53,7 +53,7 @@
                                     <div class="unit unit-spacing-xs align-items-center">
                                         <div class="unit-left line-height-reset">
                                             <svg class="svg-icon-sm svg-icon-primary" role="img">
-                                                <use xlink:href="<?= asset('images/svg/sprite.svg#earth-globe') ?>" style="fill:#c70000"></use>
+                                                <use xlink:href="<?= asset('images/svg/sprite.svg#earth-globe') ?>" style="fill:#c70000;"></use>
                                             </svg>
                                         </div>
                                         <div class="unit-body">
@@ -65,7 +65,7 @@
                                     <div class="unit unit-spacing-xs align-items-center">
                                         <div class="unit-left line-height-reset">
                                             <svg class="svg-icon-sm svg-icon-primary" role="img">
-                                                <use xlink:href="<?= asset('images/svg/sprite.svg#small-calendar') ?>"></use>
+                                                <use xlink:href="<?= asset('images/svg/sprite.svg#small-calendar') ?>" style="fill:#c70000;" ></use>
                                             </svg>
                                         </div>
                                         <div class="unit-body">
@@ -83,7 +83,7 @@
                 <div class="video-link-wrapper">
                     <div class="unit align-items-center">
                         <div class="unit-body text-right">
-                            <h5><span class="big">Watch Event<br> Video</span></h5>
+                            <h5><span class="big">Watch Video</span></h5>
                         </div>
                         <div class="unit-right">
                             <a class="video-link" href="https://youtu.be/-uEke_WTxwo?si=UEGS7W6lmooMY9vw" data-lightgallery="item">
