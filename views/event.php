@@ -133,7 +133,7 @@
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card border-0">
                                     <div class="card-body p-0">
-                                        <img src="<?= asset('images/matec-2/matec-26.png') ?>" alt="" class="img-fluid">
+                                        <img src="<?= asset('images\matec-3\matec-26.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -142,7 +142,7 @@
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card border-0">
                                     <div class="card-body p-0">
-                                        <img src="<?= asset('images/matec-2/matec-27.png') ?>" alt="" class="img-fluid">
+                                        <img src="<?= asset('images\matec-3\matec-27.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
@@ -151,7 +151,7 @@
                                 <a href="" data-fancybox data-src="#comingsoon">
                                 <div class="card border-0">
                                     <div class="card-body p-0">
-                                        <img src="<?= asset('images/matec-2/matec-28.png') ?>" alt="" class="img-fluid">
+                                        <img src="<?= asset('images\matec-3\matec-28.png') ?>" alt="" class="img-fluid">
                                     </div>
                                 </div>
                                 </a>
