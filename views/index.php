@@ -80,7 +80,7 @@
                 </div>
 
                 <!-- Thumbnail Video Link-->
-                <div class="video-link-wrapper">
+                <!--<div class="video-link-wrapper">
                     <div class="unit align-items-center">
                         <div class="unit-body text-right">
                             <h5><span class="big">Watch Video</span></h5>
@@ -91,7 +91,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
             <!-- Swiper Slider Absolute-->
             <div class="swiper-container swiper-slider swiper-slider-1" data-loop="true" data-simulate-touch="false" data-autoplay="8500" data-direction="horizontal" data-effect="fade">
