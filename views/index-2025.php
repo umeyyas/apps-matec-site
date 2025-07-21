@@ -18,12 +18,76 @@
 
     <?php require 'layouts/__css.php' ?>
 
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        #video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        #video-container video,
+        #video-container iframe {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            color: #fff;
+            text-align: center;
+            padding-top: 20vh;
+        }
+    </style>
+
 </head>
 <body>
+    <div id="video-container" data-src="<?= asset('video/background.mp4') ?>"></div>
 
+    <div class="content">
+        <h1>MATEC 2025</h1>
+        <p>Welcome to MATEC 2025 event</p>
+    </div>
 
+    <script>
+        $(function () {
+            var container = $('#video-container');
+            var src = container.data('src');
+            if (!src) return;
 
-<?php require "layouts/__js.php" ?>
+            if (src.indexOf('youtube.com') !== -1 || src.indexOf('youtu.be') !== -1) {
+                var idMatch = src.match(/(?:youtube\.com.*[?&]v=|youtu\.be\/)([^?&]+)/);
+                var vid = idMatch ? idMatch[1] : '';
+                var iframe = $('<iframe>', {
+                    src: 'https://www.youtube.com/embed/' + vid + '?autoplay=1&mute=1&loop=1&playlist=' + vid + '&controls=0&showinfo=0&modestbranding=1&rel=0',
+                    frameborder: 0,
+                    allow: 'autoplay; fullscreen'
+                });
+                container.append(iframe);
+            } else {
+                var video = $('<video>', {
+                    autoplay: true,
+                    muted: true,
+                    loop: true,
+                    playsinline: true
+                });
+                video.append($('<source>', { src: src, type: 'video/mp4' }));
+                container.append(video);
+            }
+        });
+    </script>
+
+    <?php require "layouts/__js.php" ?>
 
 </body>
 </html>
