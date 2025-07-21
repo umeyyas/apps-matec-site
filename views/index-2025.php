@@ -164,7 +164,7 @@
                         <h2>COMING SOON</h2>
                     </div>
                     <div class="countdown text-center mb-1">
-                        <div class="row g-1">
+                        <div class="row w-100 g-1">
                             <div class="col-3 text-center">
                                 <h2>39</h2>
                                 <h4 class="mb-0">DAYS</h4>
