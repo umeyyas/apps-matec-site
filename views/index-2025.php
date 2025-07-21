@@ -44,8 +44,6 @@
         .content {
             position: relative;
             z-index: 1;
-            height: 100vh;
-            width: 100vw;
         }
     </style>
 
@@ -53,10 +51,10 @@
 <body>
     <div id="video-container" data-src="<?= asset('video/background.mp4') ?>"></div>
 
-    <div class="content">
-        <div class=""></div>
-        <div class=""></div>
-        <div class=""></div>
+    <div class="content d-flex flex-column w-100 min-vh-100">
+        <div></div>
+        <div class="my-auto"></div>
+        <div class="mt-auto"></div>
     </div>
 
     <?php require "layouts/__js.php" ?>
