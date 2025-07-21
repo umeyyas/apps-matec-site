@@ -29,7 +29,9 @@ var matec = {
     },
 
     fancyApps: function () {
-
+        if (typeof Fancybox !== 'undefined') {
+            Fancybox.bind('[data-fancybox]', {});
+        }
     }
     ,
     startCountdown: function (target) {

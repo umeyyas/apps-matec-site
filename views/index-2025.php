@@ -120,6 +120,12 @@
                 box-shadow: 0 0 15px 5px #fff;
             }
         }
+
+        .icon.icon-rect {
+            width: 62px;
+            height: 62px;
+            line-height: 60px;
+        }
     </style>
 
 </head>
@@ -190,7 +196,7 @@
                             <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL PARKING A & B</span>
                         </h4>
                         <div class="text-center mt-5">
-                            <a href="" class="btn-custom">Enquiry</a>
+                            <a href="" class="btn-custom" data-fancybox data-src="#enquiry-popup">Enquiry</a>
                             <a href="<?= asset('pdf/matec2025_deck_event.pdf') ?>" class="btn-custom" target="_blank">About MATEC</a>
                         </div>
                     </div>
@@ -200,6 +206,36 @@
         <!--<div class="mt-auto">
             <div class="container"></div>
         </div>-->
+    </div>
+
+    <div id="enquiry-popup" class="p-0 mt-xs-0 mt-5 popup-width" style="display: none; max-width:500px;">
+        <form class="" data-form-output="form-output-global" data-form-type="contact" method="post" id="contact-form" action="/send-message">
+            <div class="row row-10 row-narrow-xs">
+                <div class="col-lg-6">
+                    <div class="form-wrap">
+                        <label class="form-label" for="contact-name">Your Name</label>
+                        <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-wrap">
+                        <label class="form-label" for="contact-email">Email Address</label>
+                        <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Required @Email">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-wrap">
+                        <label class="form-label" for="contact-message">Write Message</label>
+                        <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="form-button">
+                        <button class="button button-lg button-primary" type="submit" data-triangle=".button-overlay"><span class="button-overlay"></span><span>Send Message</span></button>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 
     <?php require "layouts/__js.php" ?>
