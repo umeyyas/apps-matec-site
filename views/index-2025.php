@@ -44,9 +44,8 @@
         .content {
             position: relative;
             z-index: 1;
-            color: #fff;
-            text-align: center;
-            padding-top: 20vh;
+            height: 100vh;
+            width: 100vw;
         }
     </style>
 
@@ -55,8 +54,9 @@
     <div id="video-container" data-src="<?= asset('video/background.mp4') ?>"></div>
 
     <div class="content">
-        <h1>MATEC 2025</h1>
-        <p>Welcome to MATEC 2025 event</p>
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
     </div>
 
     <?php require "layouts/__js.php" ?>
