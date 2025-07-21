@@ -111,8 +111,9 @@ body {
     margin: 20px 0 20px 40px;
 }
 
-.icon-rect.icon-white {
-	color: #15162b;
+.content .icon-rect.icon-white {
+        color: #ffffff;
+        background-color: transparent;
 }
 
 .block-address .icon-rect.icon-white[class*='facebook'],
@@ -132,21 +133,24 @@ body {
 }
 
 .block-address .icon-rect.icon-white:after {
-	background-image: -webkit-linear-gradient(left, #1c1973 0%, #1c1973 100%);
-	background-image: linear-gradient(to right, #1c1973 0%, #1c1973 100%);
-	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEF7630', endColorstr='#FFF09922', GradientType=1);
+        background-image: none;
 }
 
 .block-address .icon-rect.icon-white,
 .block-address .icon-rect.icon-white:focus,
 .block-address .icon-rect.icon-white:active {
-	color: #ffffff;
-	background-color: #15162b;
+        color: #ffffff;
+        background-color: transparent;
 }
 
 .block-address .icon-rect.icon-white:hover {
-	color: #ffffff;
+        color: #ffffff;
+}
+
+/* Remove background gradient from white icon buttons */
+.icon-rect.icon-white:after,
+.icon-rect.icon-white:hover:after {
+        background-image: none;
 }
 
 .parallax-overlay-gradient-primary:before, .parallax-overlay-gradient-primary-1:before {

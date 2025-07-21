@@ -5,6 +5,8 @@ var matec = {
         matec.setEqualHeight($(".justify-content-center .box-location"));
         matec.setEqualHeight($(".excitement-image-container .box-img"));
 
+        matec.startCountdown('October 31, 2025 00:00:00');
+
         $(window).resize(function() {
             /*matec.setEqualHeight($(".justify-content-center .box-location"));*/
             matec.setEqualHeight($(".justify-content-center .box-img"));
@@ -28,6 +30,42 @@ var matec = {
 
     fancyApps: function () {
 
+    }
+    ,
+    startCountdown: function (target) {
+        var $container = $('.countdown');
+        if (!$container.length) {
+            return;
+        }
+
+        var end = new Date(target).getTime();
+        function pad(num) {
+            return num.toString().padStart(2, '0');
+        }
+
+        function update() {
+            var now = new Date().getTime();
+            var diff = end - now;
+
+            if (diff <= 0) {
+                clearInterval(timer);
+                diff = 0;
+            }
+
+            var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            var $cols = $container.find('.col-3');
+            $cols.eq(0).find('h2').text(pad(days));
+            $cols.eq(1).find('h2').text(pad(hours));
+            $cols.eq(2).find('h2').text(pad(minutes));
+            $cols.eq(3).find('h2').text(pad(seconds));
+        }
+
+        update();
+        var timer = setInterval(update, 1000);
     }
 }
 

@@ -39,7 +39,7 @@ $router = new Router();
 
 // Define routes
 $router->add('', function() {
-    require 'views/index.php';
+    require 'views/index-2025.php';
 });
 
 $router->add('the-ideas', function() {
