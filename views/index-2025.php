@@ -59,7 +59,7 @@
         <p>Welcome to MATEC 2025 event</p>
     </div>
 
-<?php require "layouts/__js.php" ?>
+    <?php require "layouts/__js.php" ?>
 
     <script>
         $(function () {
