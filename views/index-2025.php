@@ -44,6 +44,34 @@
         .content {
             position: relative;
             z-index: 1;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .contain-details .title h2 {
+            font-weight: 500;
+        }
+
+        .contain-details .countdown h2 {
+            font-family: "Bitcount Prop Single", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            font-variation-settings:
+                    "slnt" 0,
+                    "CRSV" 0.5,
+                    "ELSH" 0,
+                    "ELXP" 0;
+        }
+
+        .contain-details .countdown h4 {
+            font-weight: 500;
+        }
+
+        .contain-details .title h2,
+        .contain-details .countdown h2,
+        .contain-details .countdown h4 {
+            color: #ffffff;
         }
     </style>
 
@@ -51,10 +79,43 @@
 <body>
     <div id="video-container" data-src="<?= asset('video/background.mp4') ?>"></div>
 
-    <div class="content d-flex flex-column w-100 min-vh-100">
-        <div></div>
-        <div class="my-auto"></div>
-        <div class="mt-auto"></div>
+    <div class="content d-flex flex-column">
+        <div>
+            <div class="container"></div>
+        </div>
+        <div class="my-auto">
+            <div class="container text-white">
+                <div class="logo-matec"></div>
+                <div class="contain-details">
+                    <div class="title text-center">
+                        <h2>COMING SOON</h2>
+                    </div>
+                    <div class="countdown text-center">
+                        <div class="row g-3">
+                            <div class="col-3">
+                                <h2>39</h2>
+                                <h4 class="mb-0">DAYS</h4>
+                            </div>
+                            <div class="col-3">
+                                <h2>39</h2>
+                                <h4 class="mb-0">HOURS</h4>
+                            </div>
+                            <div class="col-3">
+                                <h2>39</h2>
+                                <h4 class="mb-0">MINUTES</h4>
+                            </div>
+                            <div class="col-3">
+                                <h2>39</h2>
+                                <h4 class="mb-0">SECONDS</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-auto">
+            <div class="container"></div>
+        </div>
     </div>
 
     <?php require "layouts/__js.php" ?>
