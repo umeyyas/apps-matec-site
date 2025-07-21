@@ -78,13 +78,23 @@
             } else {
                 var videoEl = $('<video>', {
                     src: src,
-                    autoplay: true,
                     muted: true,
                     loop: true,
                     playsinline: true,
                     preload: 'auto'
-                }).appendTo(container).get(0);
-                if (videoEl) videoEl.play();
+                }).appendTo(container)[0];
+
+                if (videoEl) {
+                    videoEl.muted = true;
+                    videoEl.autoplay = true;
+                    var playPromise = videoEl.play();
+                    if (playPromise !== undefined) {
+                        playPromise.catch(function () {
+                            // Autoplay might be blocked; ensure attribute exists
+                            videoEl.setAttribute('autoplay', 'autoplay');
+                        });
+                    }
+                }
             }
         });
     </script>
