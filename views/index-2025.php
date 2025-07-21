@@ -34,6 +34,17 @@
             z-index: -1;
         }
 
+        #video-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.75);
+            pointer-events: none;
+        }
+
         #video-container video,
         #video-container iframe {
             width: 100%;
@@ -78,6 +89,37 @@
         .event-details h4 {
             font-weight: 300;
         }
+
+        /* Inline styles for the enquiry and about buttons */
+        .event-details .btn-custom {
+            background-color: red;
+            border: none;
+            color: #fff;
+            padding: 8px 20px;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 120%;
+            width: 160px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .event-details .btn-custom + .btn-custom {
+            margin-left: 1.2rem;
+        }
+
+        .event-details .btn-custom:hover {
+            animation: lightning 0.6s linear infinite;
+        }
+
+        @keyframes lightning {
+            0%, 100% {
+                box-shadow: 0 0 5px 2px #fff;
+            }
+            50% {
+                box-shadow: 0 0 15px 5px #fff;
+            }
+        }
     </style>
 
 </head>
@@ -86,13 +128,33 @@
 
     <div class="content d-flex flex-column">
         <div>
-            <div class="container"></div>
+            <div class="container-fluid">
+                <div class="d-flex justify-content-start">
+                    <ul class="list-inline list-inline-xs mb-0">
+                        <li>
+                            <a class="icon icon-rect icon-white fa-facebook" href="https://www.facebook.com/mymatecofficial" target="_blank">
+                                <div class="icon-rect-overlay"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon icon-rect icon-white fa-instagram" href="https://www.instagram.com/mymatecofficial" target="_blank">
+                                <div class="icon-rect-overlay"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon icon-rect icon-white fa-tiktok" href="https://www.tiktok.com/@mymatecofficial" target="_blank">
+                                <div class="icon-rect-overlay"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="my-auto">
             <div class="container text-white">
                 <div class="logo-matec mx-auto">
                     <div class="row">
-                        <div class="col-lg-8 col-sm-10 col-12 mx-auto">
+                        <div class="col-lg-8 col-sm-10 col-11 mx-auto">
                             <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
                         </div>
                     </div>
@@ -125,8 +187,12 @@
                         <h4 class="text-white text-center">
                             <span class="d-block d-md-inline">31 OCTOBER - 2 NOVEMBER 2025</span>
                             <span class="d-none d-md-inline"> | </span>
-                            <span class="d-block d-md-inline">STADIUM BUKIT JALIL PARKING A & B</span>
+                            <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL PARKING A & B</span>
                         </h4>
+                        <div class="text-center mt-5">
+                            <a href="" class="btn-custom">Enquiry</a>
+                            <a href="<?= asset('pdf/matec2025_deck_event.pdf') ?>" class="btn-custom" target="_blank">About MATEC</a>
+                        </div>
                     </div>
                 </div>
             </div>
