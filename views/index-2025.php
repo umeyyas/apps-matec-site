@@ -59,7 +59,7 @@
         <p>Welcome to MATEC 2025 event</p>
     </div>
 
-    <?php require "layouts/__js.php" ?>
+<?php require "layouts/__js.php" ?>
 
     <script>
         $(function () {
@@ -67,24 +67,24 @@
             var src = container.data('src');
             if (!src) return;
 
-            if (src.indexOf('youtube.com') !== -1 || src.indexOf('youtu.be') !== -1) {
+            if (/youtube\.com|youtu\.be/.test(src)) {
                 var idMatch = src.match(/(?:youtube\.com.*[?&]v=|youtu\.be\/)([^?&]+)/);
                 var vid = idMatch ? idMatch[1] : '';
-                var iframe = $('<iframe>', {
+                $('<iframe>', {
                     src: 'https://www.youtube.com/embed/' + vid + '?autoplay=1&mute=1&loop=1&playlist=' + vid + '&controls=0&showinfo=0&modestbranding=1&rel=0',
                     frameborder: 0,
                     allow: 'autoplay; fullscreen'
-                });
-                container.append(iframe);
+                }).appendTo(container);
             } else {
-                var video = $('<video>', {
+                var videoEl = $('<video>', {
+                    src: src,
                     autoplay: true,
                     muted: true,
                     loop: true,
-                    playsinline: true
-                });
-                video.append($('<source>', { src: src, type: 'video/mp4' }));
-                container.append(video);
+                    playsinline: true,
+                    preload: 'auto'
+                }).appendTo(container).get(0);
+                if (videoEl) videoEl.play();
             }
         });
     </script>
