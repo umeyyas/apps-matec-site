@@ -122,8 +122,11 @@
                         </div>
                     </div>
                     <div class="event-details">
-                        <h4 class="text-white text-center">31 OCTOBER - 2 NOVEMBER 2025 | STADIUM BUKIT JALIL PARKING A & B</h4>
-                        
+                        <h4 class="text-white text-center">
+                            <span class="d-block d-md-inline">31 OCTOBER - 2 NOVEMBER 2025</span>
+                            <span class="d-none d-md-inline"> | </span>
+                            <span class="d-block d-md-inline">STADIUM BUKIT JALIL PARKING A & B</span>
+                        </h4>
                     </div>
                 </div>
             </div>
