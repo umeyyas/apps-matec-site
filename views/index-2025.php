@@ -59,6 +59,8 @@
         <p>Welcome to MATEC 2025 event</p>
     </div>
 
+    <?php require "layouts/__js.php" ?>
+
     <script>
         $(function () {
             var container = $('#video-container');
@@ -86,8 +88,6 @@
             }
         });
     </script>
-
-    <?php require "layouts/__js.php" ?>
 
 </body>
 </html>
