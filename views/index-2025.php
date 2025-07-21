@@ -65,13 +65,18 @@
         }
 
         .contain-details .countdown h4 {
-            font-weight: 500;
+            font-weight: 300;
         }
 
         .contain-details .title h2,
         .contain-details .countdown h2,
         .contain-details .countdown h4 {
+            display: block;
             color: #ffffff;
+            text-align: center;
+        }
+        .event-details h4 {
+            font-weight: 300;
         }
     </style>
 
@@ -85,37 +90,47 @@
         </div>
         <div class="my-auto">
             <div class="container text-white">
-                <div class="logo-matec"></div>
+                <div class="logo-matec mx-auto">
+                    <div class="row">
+                        <div class="col-lg-8 col-sm-10 col-12 mx-auto">
+                            <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
+                        </div>
+                    </div>
+                </div>
                 <div class="contain-details">
                     <div class="title text-center">
                         <h2>COMING SOON</h2>
                     </div>
-                    <div class="countdown text-center">
-                        <div class="row g-3">
-                            <div class="col-3">
+                    <div class="countdown text-center mb-1">
+                        <div class="row g-1">
+                            <div class="col-3 text-center">
                                 <h2>39</h2>
                                 <h4 class="mb-0">DAYS</h4>
                             </div>
-                            <div class="col-3">
+                            <div class="col-3 text-center">
                                 <h2>39</h2>
                                 <h4 class="mb-0">HOURS</h4>
                             </div>
-                            <div class="col-3">
+                            <div class="col-3 text-center">
                                 <h2>39</h2>
                                 <h4 class="mb-0">MINUTES</h4>
                             </div>
-                            <div class="col-3">
+                            <div class="col-3 text-center">
                                 <h2>39</h2>
                                 <h4 class="mb-0">SECONDS</h4>
                             </div>
                         </div>
                     </div>
+                    <div class="event-details">
+                        <h4 class="text-white text-center">31 OCTOBER - 2 NOVEMBER 2025 | STADIUM BUKIT JALIL PARKING A & B</h4>
+                        
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="mt-auto">
+        <!--<div class="mt-auto">
             <div class="container"></div>
-        </div>
+        </div>-->
     </div>
 
     <?php require "layouts/__js.php" ?>
