@@ -226,7 +226,7 @@
     <div id="enquiry-popup" class="mt-xs-0 mt-5 popup-width" style="display: none; width:100%; max-width:500px;">
         <div class="row">
             <div class="col-lg-10 col-sm-10 col-11 mx-auto">
-                <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
+                <img src="<?= asset('images/asset-matec2025-black.png') ?>" alt="" class="img-fluid mb-5">
             </div>
         </div>
         <form id="contact-form" action="/send-message" method="post">
@@ -253,6 +253,10 @@
             <div class="form-group">
                 <label for="contact-email">Email</label>
                 <input type="email" class="form-control" id="contact-email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="enquiry" for="contact-email">Enquiry</label>
+                <textarea name="enquiry" id="enquiry" class="form-control"></textarea>
             </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-primary">Send Message</button>
