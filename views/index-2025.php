@@ -209,31 +209,33 @@
     </div>
 
     <div id="enquiry-popup" class="p-0 mt-xs-0 mt-5 popup-width" style="display: none; max-width:500px;">
-        <form class="" data-form-output="form-output-global" data-form-type="contact" method="post" id="contact-form" action="/send-message">
-            <div class="row row-10 row-narrow-xs">
-                <div class="col-lg-6">
-                    <div class="form-wrap">
-                        <label class="form-label" for="contact-name">Your Name</label>
-                        <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="form-wrap">
-                        <label class="form-label" for="contact-email">Email Address</label>
-                        <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Required @Email">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="form-wrap">
-                        <label class="form-label" for="contact-message">Write Message</label>
-                        <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="form-button">
-                        <button class="button button-lg button-primary" type="submit" data-triangle=".button-overlay"><span class="button-overlay"></span><span>Send Message</span></button>
-                    </div>
-                </div>
+        <form id="contact-form" action="/send-message" method="post">
+            <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input type="text" class="form-control" id="contact-name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="contact-company">Company Name</label>
+                <input type="text" class="form-control" id="contact-company" name="company">
+            </div>
+            <div class="form-group">
+                <label for="contact-nature">Nature of Business</label>
+                <input type="text" class="form-control" id="contact-nature" name="business_nature">
+            </div>
+            <div class="form-group">
+                <label for="contact-location">Company Location</label>
+                <input type="text" class="form-control" id="contact-location" name="location">
+            </div>
+            <div class="form-group">
+                <label for="contact-mobile">Mobile No.</label>
+                <input type="text" class="form-control" id="contact-mobile" name="mobile">
+            </div>
+            <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input type="text" class="form-control" id="contact-email" name="email">
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Send Message</button>
             </div>
         </form>
     </div>
@@ -276,6 +278,14 @@
                 }
             }
         });
+    </script>
+
+    <script>
+      $(function () {
+        $('#contact-mobile').on('input', function () {
+          this.value = this.value.replace(/[^0-9+()\\-\\s]/g, '');
+        });
+      });
     </script>
 
 </body>
