@@ -86,6 +86,20 @@
             color: #ffffff;
             text-align: center;
         }
+
+        .contain-details .countdown h4 {
+            font-size:25px;
+        }
+
+        .contain-details .countdown .w-100 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contain-details .countdown .w-100 > div {
+            width: 25%;
+            text-align: center;
+        }
         .event-details h4 {
             font-weight: 300;
         }
@@ -102,6 +116,7 @@
             width: 160px;
             text-align: center;
             box-sizing: border-box;
+            font-weight: 900;
         }
 
         .event-details .btn-custom + .btn-custom {
@@ -120,6 +135,12 @@
                 box-shadow: 0 0 15px 5px #fff;
             }
         }
+
+        .icon.icon-rect {
+            width: 62px;
+            height: 62px;
+            line-height: 60px;
+        }
     </style>
 
 </head>
@@ -129,7 +150,7 @@
     <div class="content d-flex flex-column">
         <div>
             <div class="container-fluid">
-                <div class="d-flex justify-content-start">
+                <div class="d-flex justify-content-md-start justify-content-center">
                     <ul class="list-inline list-inline-xs mb-0">
                         <li>
                             <a class="icon icon-rect icon-white fa-facebook" href="https://www.facebook.com/mymatecofficial" target="_blank">
@@ -154,6 +175,11 @@
             <div class="container text-white">
                 <div class="logo-matec mx-auto">
                     <div class="row">
+                        <div class="col-lg-4 col-sm-5 col-7 mx-auto">
+                            <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-4">
+                        </div>
+                    </div>
+                    <div class="row mt-0">
                         <div class="col-lg-8 col-sm-10 col-11 mx-auto">
                             <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
                         </div>
@@ -164,21 +190,21 @@
                         <h2>COMING SOON</h2>
                     </div>
                     <div class="countdown text-center mb-1">
-                        <div class="row w-100 g-1">
-                            <div class="col-3 text-center">
-                                <h2>39</h2>
+                        <div class="w-100 g-1">
+                            <div class="text-center">
+                                <h2 class="pl-sm-3 pl-2">39</h2>
                                 <h4 class="mb-0">DAYS</h4>
                             </div>
-                            <div class="col-3 text-center">
-                                <h2>39</h2>
+                            <div class="text-center">
+                                <h2 class="pl-sm-3 pl-2">39</h2>
                                 <h4 class="mb-0">HOURS</h4>
                             </div>
-                            <div class="col-3 text-center">
-                                <h2>39</h2>
+                            <div class="text-center">
+                                <h2 class="pl-sm-3 pl-2">39</h2>
                                 <h4 class="mb-0">MINUTES</h4>
                             </div>
-                            <div class="col-3 text-center">
-                                <h2>39</h2>
+                            <div class="text-center">
+                                <h2 class="pl-sm-3 pl-2">39</h2>
                                 <h4 class="mb-0">SECONDS</h4>
                             </div>
                         </div>
@@ -190,8 +216,8 @@
                             <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL PARKING A & B</span>
                         </h4>
                         <div class="text-center mt-5">
-                            <a href="" class="btn-custom">Enquiry</a>
-                            <a href="<?= asset('pdf/matec2025_deck_event.pdf') ?>" class="btn-custom" target="_blank">About MATEC</a>
+                            <a href="" class="btn-custom" data-fancybox data-src="#enquiry-popup">Enquiry</a>
+                            <a href="<?= asset('pdf/matec2025_event_deck_v1.1.pdf') ?>" class="btn-custom" target="_blank">About MATEC</a>
                         </div>
                     </div>
                 </div>
@@ -200,6 +226,48 @@
         <!--<div class="mt-auto">
             <div class="container"></div>
         </div>-->
+    </div>
+
+    <div id="enquiry-popup" class="mt-xs-0 mt-5 popup-width" style="display: none; width:100%; max-width:500px;">
+        <div class="row">
+            <div class="col-lg-10 col-sm-10 col-11 mx-auto">
+                <img src="<?= asset('images/asset-matec2025-black.png') ?>" alt="" class="img-fluid mb-2">
+                <p class="text-center mb-2">Got your engines running with questions? <br> Fill out the form and let’s chat!</p>
+            </div>
+        </div>
+        <form id="contact-form" action="/send-message" method="post">
+            <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input type="text" class="form-control" id="contact-name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="contact-company">Company Name</label>
+                <input type="text" class="form-control" id="contact-company" name="company">
+            </div>
+            <div class="form-group">
+                <label for="contact-nature">Nature of Business</label>
+                <input type="text" class="form-control" id="contact-nature" name="business_nature">
+            </div>
+            <div class="form-group">
+                <label for="contact-location">Company Location</label>
+                <input type="text" class="form-control" id="contact-location" name="location">
+            </div>
+            <div class="form-group">
+                <label for="contact-mobile">Mobile No.</label>
+                <input type="text" class="form-control" id="contact-mobile" name="mobile">
+            </div>
+            <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input type="email" class="form-control" id="contact-email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="enquiry" for="contact-email">Enquiry</label>
+                <textarea name="enquiry" id="enquiry" class="form-control"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Send Your Enquiry</button>
+            </div>
+        </form>
     </div>
 
     <?php require "layouts/__js.php" ?>
@@ -239,6 +307,53 @@
                     }
                 }
             }
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $('#contact-mobile').on('input', function () {
+                this.value = this.value.replace(/[^0-9+()\\-\\s]/g, '');
+            });
+        });
+    </script>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            var form = e.target;
+            var formData = new FormData(form);
+
+            fetch(form.action, {
+                method: form.method,
+                body: formData
+            }).then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        Swal.fire({
+                            title: 'Success!',
+                            text: data.message,
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        });
+                        Fancybox.close()
+                    } else {
+                        Swal.fire({
+                            title: 'Error!',
+                            text: data.message,
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                }).catch(error => {
+                Swal.fire({
+                    title: 'Error!',
+                    text: 'An error occurred while sending the message.',
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                });
+            });
         });
     </script>
 
