@@ -148,7 +148,7 @@
     <div id="video-container" data-src="<?= asset('video/background.mp4') ?>"></div>
 
     <div class="content d-flex flex-column">
-        <div>
+        <div class="header-div">
             <div class="container-fluid">
                 <div class="d-flex justify-content-md-start justify-content-center">
                     <ul class="list-inline list-inline-xs mb-0">
@@ -180,7 +180,7 @@
                         </div>
                     </div>
                     <div class="row mt-0">
-                        <div class="col-lg-7 col-sm-9 col-11 mx-auto px-0">
+                        <div class="col-lg-6 col-sm-9 col-11 mx-auto px-0">
                             <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
                         </div>
                     </div>
@@ -337,7 +337,7 @@
                 var $content = $('.content');
                 if (!$content.length) return;
 
-                var topHeight = $content.children('div:first').outerHeight(true);
+                var topHeight = $content.children('div.header-div').outerHeight(true);
                 $content.find('> .main-body-container').height($(window).height() - topHeight);
             }
 
