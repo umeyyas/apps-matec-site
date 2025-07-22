@@ -87,6 +87,10 @@
             text-align: center;
         }
 
+        .contain-details .countdown h4 {
+            font-size:25px;
+        }
+
         .contain-details .countdown .w-100 {
             display: flex;
             justify-content: center;
@@ -112,6 +116,7 @@
             width: 160px;
             text-align: center;
             box-sizing: border-box;
+            font-weight: 900;
         }
 
         .event-details .btn-custom + .btn-custom {
