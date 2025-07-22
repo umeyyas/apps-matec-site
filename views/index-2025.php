@@ -352,6 +352,34 @@
     </script>
 
     <script>
+        $(function () {
+            function centerInnerBody() {
+                var $inner = $('.inner-body-container');
+                var $main = $('.main-body-container');
+                var $header = $('.header-div');
+
+                if (!$inner.length || !$main.length) return;
+
+                var mainHeight = $main.height();
+                var innerHeight = $inner.outerHeight(true);
+                var margin = Math.max((mainHeight - innerHeight) / 2, 0);
+                var headerHeight = $header.outerHeight(true) || 0;
+                var marginTop = margin - headerHeight;
+
+                if (marginTop < 0) marginTop = 0;
+
+                $inner.css({
+                    'margin-top': marginTop,
+                    'margin-bottom': margin
+                });
+            }
+
+            centerInnerBody();
+            $(window).on('resize', centerInnerBody);
+        });
+    </script>
+
+    <script>
         document.getElementById('contact-form').addEventListener('submit', function(e) {
             e.preventDefault();
 
