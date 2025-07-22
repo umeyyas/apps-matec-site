@@ -259,7 +259,7 @@
                 <textarea name="enquiry" id="enquiry" class="form-control"></textarea>
             </div>
             <div class="text-center">
-                <button type="submit" class="btn btn-primary">Send Message</button>
+                <button type="submit" class="btn btn-primary">Send Your Enquiry</button>
             </div>
         </form>
     </div>
