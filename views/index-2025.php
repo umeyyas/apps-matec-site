@@ -97,7 +97,7 @@
         }
 
         .contain-details .countdown .w-100 > div {
-            width: 25%;
+            width: 15%;
             text-align: center;
         }
         .event-details h4 {
