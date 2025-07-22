@@ -319,6 +319,39 @@
     </script>
 
     <script>
+        $(function () {
+            function adjustCountdownWidth() {
+                var $cols = $('.contain-details .countdown .w-100 > div');
+                if (!$cols.length) return;
+
+                $cols.css('width', '');
+                var maxWidth = 0;
+                $cols.each(function () {
+                    var w = $(this).outerWidth();
+                    if (w > maxWidth) maxWidth = w;
+                });
+                $cols.width(maxWidth);
+            }
+
+            function adjustMyAutoHeight() {
+                var $content = $('.content');
+                if (!$content.length) return;
+
+                var topHeight = $content.children('div:first').outerHeight(true);
+                $content.find('> .my-auto').height($(window).height() - topHeight);
+            }
+
+            adjustCountdownWidth();
+            adjustMyAutoHeight();
+
+            $(window).on('resize', function () {
+                adjustCountdownWidth();
+                adjustMyAutoHeight();
+            });
+        });
+    </script>
+
+    <script>
         document.getElementById('contact-form').addEventListener('submit', function(e) {
             e.preventDefault();
 
