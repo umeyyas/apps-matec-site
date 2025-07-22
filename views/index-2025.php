@@ -176,7 +176,7 @@
                 <div class="logo-matec mx-auto">
                     <div class="row">
                         <div class="col-lg-4 col-sm-5 col-7 mx-auto">
-                            <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-4">
+                            <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-md-5 mb-4">
                         </div>
                     </div>
                     <div class="row mt-0">
