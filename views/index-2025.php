@@ -88,7 +88,7 @@
         }
 
         .contain-details .countdown h4 {
-            font-size:25px;
+            font-size:22px;
         }
 
         .contain-details .countdown .w-100 {
