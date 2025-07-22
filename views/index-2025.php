@@ -86,6 +86,16 @@
             color: #ffffff;
             text-align: center;
         }
+
+        .contain-details .countdown .w-100 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contain-details .countdown .w-100 > div {
+            width: 25%;
+            text-align: center;
+        }
         .event-details h4 {
             font-weight: 300;
         }
