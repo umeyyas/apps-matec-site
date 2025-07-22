@@ -91,6 +91,12 @@
             font-size:22px;
         }
 
+        @media (min-width: 1200px) {
+            .contain-details .countdown h4 {
+                font-size:30px;
+            }
+        }
+
         .contain-details .countdown .w-100 {
             display: flex;
             justify-content: center;
