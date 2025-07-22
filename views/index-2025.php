@@ -182,19 +182,19 @@
                     <div class="countdown text-center mb-1">
                         <div class="w-100 g-1">
                             <div class="text-center">
-                                <h2>39</h2>
+                                <h2 class="pl-3">39</h2>
                                 <h4 class="mb-0">DAYS</h4>
                             </div>
                             <div class="text-center">
-                                <h2>39</h2>
+                                <h2 class="pl-3">39</h2>
                                 <h4 class="mb-0">HOURS</h4>
                             </div>
                             <div class="text-center">
-                                <h2>39</h2>
+                                <h2 class="pl-3">39</h2>
                                 <h4 class="mb-0">MINUTES</h4>
                             </div>
                             <div class="text-center">
-                                <h2>39</h2>
+                                <h2 class="pl-3">39</h2>
                                 <h4 class="mb-0">SECONDS</h4>
                             </div>
                         </div>
