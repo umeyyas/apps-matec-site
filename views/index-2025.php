@@ -316,40 +316,34 @@
             });
         });
 
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
+        $(function () {
+            function adjustCountdownWidth() {
+                var $cols = $('.contain-details .countdown .w-100 > div');
+                if (!$cols.length) return;
 
-            var form = e.target;
-            var formData = new FormData(form);
-
-            fetch(form.action, {
-                method: form.method,
-                body: formData
-            }).then(response => response.json())
-                .then(data => {
-                    if (data.status === 'success') {
-                        Swal.fire({
-                            title: 'Success!',
-                            text: data.message,
-                            icon: 'success',
-                            confirmButtonText: 'OK'
-                        });
-                        Fancybox.close()
-                    } else {
-                        Swal.fire({
-                            title: 'Error!',
-                            text: data.message,
-                            icon: 'error',
-                            confirmButtonText: 'OK'
-                        });
-                    }
-                }).catch(error => {
-                Swal.fire({
-                    title: 'Error!',
-                    text: 'An error occurred while sending the message.',
-                    icon: 'error',
-                    confirmButtonText: 'OK'
+                $cols.css('width', '');
+                var maxWidth = 0;
+                $cols.each(function () {
+                    var w = $(this).outerWidth();
+                    if (w > maxWidth) maxWidth = w;
                 });
+                $cols.width(maxWidth);
+            }
+
+            function adjustMyAutoHeight() {
+                var $content = $('.content');
+                if (!$content.length) return;
+
+                var topHeight = $content.children('div:first').outerHeight(true);
+                $content.find('> .my-auto').height($(window).height() - topHeight);
+            }
+
+            adjustCountdownWidth();
+            adjustMyAutoHeight();
+
+            $(window).on('resize', function () {
+                adjustCountdownWidth();
+                adjustMyAutoHeight();
             });
         });
     </script>
