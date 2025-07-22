@@ -237,7 +237,7 @@
             </div>
             <div class="form-group">
                 <label for="contact-email">Email</label>
-                <input type="text" class="form-control" id="contact-email" name="email">
+                <input type="email" class="form-control" id="contact-email" name="email">
             </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-primary">Send Message</button>
