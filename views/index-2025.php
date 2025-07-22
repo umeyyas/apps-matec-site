@@ -226,7 +226,8 @@
     <div id="enquiry-popup" class="mt-xs-0 mt-5 popup-width" style="display: none; width:100%; max-width:500px;">
         <div class="row">
             <div class="col-lg-10 col-sm-10 col-11 mx-auto">
-                <img src="<?= asset('images/asset-matec2025-black.png') ?>" alt="" class="img-fluid mb-5">
+                <img src="<?= asset('images/asset-matec2025-black.png') ?>" alt="" class="img-fluid mb-2">
+                <p class="text-center mb-2">Got your engines running with questions? <br> Fill out the form and let’s chat!</p>
             </div>
         </div>
         <form id="contact-form" action="/send-message" method="post">
