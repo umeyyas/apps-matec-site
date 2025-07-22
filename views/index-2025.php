@@ -332,6 +332,7 @@
                             icon: 'success',
                             confirmButtonText: 'OK'
                         });
+                        Fancybox.close()
                     } else {
                         Swal.fire({
                             title: 'Error!',
