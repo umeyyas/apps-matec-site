@@ -41,7 +41,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.75);
+            background-color: rgba(0, 0, 0, 0.85);
             pointer-events: none;
         }
 
@@ -88,7 +88,7 @@
         }
 
         .contain-details .countdown h4 {
-            font-size:25px;
+            font-size:22px;
         }
 
         .contain-details .countdown .w-100 {
@@ -97,9 +97,16 @@
         }
 
         .contain-details .countdown .w-100 > div {
-            width: 25%;
             text-align: center;
         }
+
+        @media only screen and (max-width : 991px) {
+            .contain-details .countdown .w-100 > div {
+                min-width: 20%;
+                text-align: center;
+            }
+        }
+
         .event-details h4 {
             font-weight: 300;
         }
@@ -148,7 +155,7 @@
     <div id="video-container" data-src="<?= asset('video/background.mp4') ?>"></div>
 
     <div class="content d-flex flex-column">
-        <div>
+        <div class="header-div">
             <div class="container-fluid">
                 <div class="d-flex justify-content-md-start justify-content-center">
                     <ul class="list-inline list-inline-xs mb-0">
@@ -171,16 +178,16 @@
                 </div>
             </div>
         </div>
-        <div class="my-auto">
-            <div class="container text-white">
+        <div class="main-body-container">
+            <div class="container text-white inner-body-container">
                 <div class="logo-matec mx-auto">
                     <div class="row">
-                        <div class="col-lg-4 col-sm-5 col-7 mx-auto">
-                            <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-4">
+                        <div class="col-lg-3 col-sm-4 col-7 mx-auto px-0">
+                            <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-md-5 mb-4">
                         </div>
                     </div>
                     <div class="row mt-0">
-                        <div class="col-lg-8 col-sm-10 col-11 mx-auto">
+                        <div class="col-lg-6 col-sm-9 col-11 mx-auto px-0">
                             <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
                         </div>
                     </div>
@@ -315,6 +322,67 @@
             $('#contact-mobile').on('input', function () {
                 this.value = this.value.replace(/[^0-9+()\\-\\s]/g, '');
             });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            function adjustCountdownWidth() {
+                var $cols = $('.contain-details .countdown .w-100 > div');
+                if (!$cols.length) return;
+
+                $cols.css('width', '');
+                var maxWidth = 0;
+                $cols.each(function () {
+                    var w = $(this).outerWidth();
+                    if (w > maxWidth) maxWidth = w;
+                });
+                $cols.width(maxWidth);
+            }
+
+            function adjustMyAutoHeight() {
+                var $content = $('.content');
+                if (!$content.length) return;
+
+                var topHeight = $content.children('div.header-div').outerHeight(true);
+                $content.find('> .main-body-container').height($(window).height() - topHeight);
+            }
+
+            adjustCountdownWidth();
+            adjustMyAutoHeight();
+
+            $(window).on('resize', function () {
+                adjustCountdownWidth();
+                adjustMyAutoHeight();
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            function centerInnerBody() {
+                var $inner = $('.inner-body-container');
+                var $main = $('.main-body-container');
+                var $header = $('.header-div');
+
+                if (!$inner.length || !$main.length) return;
+
+                var mainHeight = $main.height();
+                var innerHeight = $inner.outerHeight(true);
+                var margin = Math.max((mainHeight - innerHeight) / 2, 0);
+                var headerHeight = $header.outerHeight(true) || 0;
+                var marginTop = margin - headerHeight;
+
+                if (marginTop < 0) marginTop = 0;
+
+                $inner.css({
+                    'margin-top': marginTop,
+                    'margin-bottom': margin
+                });
+            }
+
+            centerInnerBody();
+            $(window).on('resize', centerInnerBody);
         });
     </script>
 
