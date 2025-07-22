@@ -65,9 +65,13 @@ $router->add('exhibitor', function () {
 // Add POST route for form submission
 $router->addPost('send-message', function() {
     // Handle form submission and send email
-    $name = $_POST['name'] ?? '';
-    $email = $_POST['email'] ?? '';
-    $message = $_POST['message'] ?? '';
+    $name = trim($_POST['name'] ?? '');
+    $company = trim($_POST['company'] ?? '');
+    $businessNature = trim($_POST['business_nature'] ?? '');
+    $location = trim($_POST['location'] ?? '');
+    $mobile = trim($_POST['mobile'] ?? '');
+    $email = trim($_POST['email'] ?? '');
+    $enquiry = trim($_POST['enquiry'] ?? ($_POST['message'] ?? ''));
 
     // Validate input
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -81,11 +85,27 @@ $router->addPost('send-message', function() {
     $postmarkSender = getenv('POSTMARK_SENDER');
     $postmarkRecipient = getenv('POSTMARK_RECIPIENT');
 
+    if (!$postmarkApiKey || !$postmarkUrl || !$postmarkSender || !$postmarkRecipient) {
+        echo json_encode(['status' => 'error', 'message' => 'Email service not configured.']);
+        return;
+    }
+
+    $details = [
+        "Name: $name",
+        "Email: $email",
+        "Company: $company",
+        "Nature of Business: $businessNature",
+        "Location: $location",
+        "Mobile: $mobile",
+        "Enquiry: $enquiry"
+    ];
+
     $data = [
         'From' => $postmarkSender,
         'To' => $postmarkRecipient,
         'Subject' => 'New Contact Form Submission',
-        'TextBody' => "Name: $name\nEmail: $email\nMessage: $message"
+        'TextBody' => implode("\n", array_filter($details)),
+        'ReplyTo' => $email
     ];
 
     $ch = curl_init();
