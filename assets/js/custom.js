@@ -29,7 +29,9 @@ var matec = {
     },
 
     fancyApps: function () {
-
+        if (typeof Fancybox !== 'undefined') {
+            Fancybox.bind('[data-fancybox]', {});
+        }
     }
     ,
     startCountdown: function (target) {
@@ -57,7 +59,7 @@ var matec = {
             var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-            var $cols = $container.find('.col-3');
+            var $cols = $container.find('.w-100 > div');
             $cols.eq(0).find('h2').text(pad(days));
             $cols.eq(1).find('h2').text(pad(hours));
             $cols.eq(2).find('h2').text(pad(minutes));
