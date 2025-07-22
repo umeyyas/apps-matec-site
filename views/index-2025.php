@@ -41,7 +41,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.80);
+            background-color: rgba(0, 0, 0, 0.85);
             pointer-events: none;
         }
 
@@ -175,12 +175,12 @@
             <div class="container text-white">
                 <div class="logo-matec mx-auto">
                     <div class="row">
-                        <div class="col-lg-4 col-sm-5 col-7 mx-auto">
+                        <div class="col-lg-3 col-sm-4 col-7 mx-auto px-0">
                             <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-md-5 mb-4">
                         </div>
                     </div>
                     <div class="row mt-0">
-                        <div class="col-lg-8 col-sm-10 col-11 mx-auto">
+                        <div class="col-lg-7 col-sm-9 col-11 mx-auto px-0">
                             <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
                         </div>
                     </div>
