@@ -97,9 +97,16 @@
         }
 
         .contain-details .countdown .w-100 > div {
-            width: 15%;
             text-align: center;
         }
+
+        @media only screen and (max-width : 991px) {
+            .contain-details .countdown .w-100 > div {
+                min-width: 20%;
+                text-align: center;
+            }
+        }
+
         .event-details h4 {
             font-weight: 300;
         }
