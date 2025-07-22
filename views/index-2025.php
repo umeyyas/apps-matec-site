@@ -172,7 +172,7 @@
             </div>
         </div>
         <div class="my-auto">
-            <div class="container text-white">
+            <div class="container text-white main-body-container">
                 <div class="logo-matec mx-auto">
                     <div class="row">
                         <div class="col-lg-3 col-sm-4 col-7 mx-auto px-0">
@@ -308,14 +308,17 @@
                 }
             }
         });
-        }
+    </script>
 
+    <script>
         $(function () {
             $('#contact-mobile').on('input', function () {
                 this.value = this.value.replace(/[^0-9+()\\-\\s]/g, '');
             });
         });
+    </script>
 
+    <script>
         $(function () {
             function adjustCountdownWidth() {
                 var $cols = $('.contain-details .countdown .w-100 > div');
@@ -335,7 +338,7 @@
                 if (!$content.length) return;
 
                 var topHeight = $content.children('div:first').outerHeight(true);
-                $content.find('> .my-auto').height($(window).height() - topHeight);
+                $content.find('> .main-body-container').height($(window).height() - topHeight);
             }
 
             adjustCountdownWidth();
@@ -344,6 +347,45 @@
             $(window).on('resize', function () {
                 adjustCountdownWidth();
                 adjustMyAutoHeight();
+            });
+        });
+    </script>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            var form = e.target;
+            var formData = new FormData(form);
+
+            fetch(form.action, {
+                method: form.method,
+                body: formData
+            }).then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        Swal.fire({
+                            title: 'Success!',
+                            text: data.message,
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        });
+                        Fancybox.close()
+                    } else {
+                        Swal.fire({
+                            title: 'Error!',
+                            text: data.message,
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                }).catch(error => {
+                Swal.fire({
+                    title: 'Error!',
+                    text: 'An error occurred while sending the message.',
+                    icon: 'error',
+                    confirmButtonText: 'OK'
+                });
             });
         });
     </script>
