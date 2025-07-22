@@ -171,8 +171,8 @@
                 </div>
             </div>
         </div>
-        <div class="my-auto">
-            <div class="container text-white main-body-container">
+        <div class="main-body-container">
+            <div class="container text-white inner-body-container">
                 <div class="logo-matec mx-auto">
                     <div class="row">
                         <div class="col-lg-3 col-sm-4 col-7 mx-auto px-0">
