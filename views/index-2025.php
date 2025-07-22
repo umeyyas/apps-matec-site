@@ -308,17 +308,14 @@
                 }
             }
         });
-    </script>
+        }
 
-    <script>
         $(function () {
             $('#contact-mobile').on('input', function () {
                 this.value = this.value.replace(/[^0-9+()\\-\\s]/g, '');
             });
         });
-    </script>
 
-    <script>
         document.getElementById('contact-form').addEventListener('submit', function(e) {
             e.preventDefault();
 
