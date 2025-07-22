@@ -208,7 +208,12 @@
         </div>-->
     </div>
 
-    <div id="enquiry-popup" class="p-0 mt-xs-0 mt-5 popup-width" style="display: none; max-width:500px;">
+    <div id="enquiry-popup" class="mt-xs-0 mt-5 popup-width" style="display: none; width:100%; max-width:500px;">
+        <div class="row">
+            <div class="col-lg-10 col-sm-10 col-11 mx-auto">
+                <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
+            </div>
+        </div>
         <form id="contact-form" action="/send-message" method="post">
             <div class="form-group">
                 <label for="contact-name">Name</label>
@@ -281,11 +286,11 @@
     </script>
 
     <script>
-      $(function () {
-        $('#contact-mobile').on('input', function () {
-          this.value = this.value.replace(/[^0-9+()\\-\\s]/g, '');
+        $(function () {
+            $('#contact-mobile').on('input', function () {
+                this.value = this.value.replace(/[^0-9+()\\-\\s]/g, '');
+            });
         });
-      });
     </script>
 
 </body>
