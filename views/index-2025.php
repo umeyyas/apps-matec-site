@@ -150,7 +150,7 @@
     <div class="content d-flex flex-column">
         <div>
             <div class="container-fluid">
-                <div class="d-flex justify-content-start">
+                <div class="d-flex justify-content-md-start justify-content-center">
                     <ul class="list-inline list-inline-xs mb-0">
                         <li>
                             <a class="icon icon-rect icon-white fa-facebook" href="https://www.facebook.com/mymatecofficial" target="_blank">
@@ -175,6 +175,11 @@
             <div class="container text-white">
                 <div class="logo-matec mx-auto">
                     <div class="row">
+                        <div class="col-lg-4 col-sm-5 col-7 mx-auto">
+                            <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-4">
+                        </div>
+                    </div>
+                    <div class="row mt-0">
                         <div class="col-lg-8 col-sm-10 col-11 mx-auto">
                             <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
                         </div>
