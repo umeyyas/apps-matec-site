@@ -91,6 +91,12 @@
             font-size:22px;
         }
 
+        @media (min-width: 1200px) {
+            .contain-details .countdown h4 {
+                font-size:30px;
+            }
+        }
+
         .contain-details .countdown .w-100 {
             display: flex;
             justify-content: center;
@@ -182,7 +188,7 @@
             <div class="container text-white inner-body-container">
                 <div class="logo-matec mx-auto">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-4 col-7 mx-auto px-0">
+                        <div class="col-lg-3 col-sm-4 col-6 mx-auto px-0">
                             <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-md-5 mb-4">
                         </div>
                     </div>
@@ -376,7 +382,7 @@
                 if (marginTop < 0) marginTop = 0;
 
                 $inner.css({
-                    'margin-top': marginTop,
+                    'margin-top': margin,
                     'margin-bottom': margin
                 });
             }
