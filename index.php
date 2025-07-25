@@ -42,6 +42,10 @@ $router->add('', function() {
     require 'views/index-2025.php';
 });
 
+$router->add('old', function() {
+    require 'views/index.php';
+});
+
 $router->add('the-ideas', function() {
     require 'views/event.php';
 });
