@@ -16,12 +16,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <?php require 'layouts/__css.php' ?>
+    <?php require 'layouts/__css.php'; ?>
 
     <style>
         html, body {
             height: 100%;
-            margin: 0;
+            margin: 10px 0;
+            scroll-behavior: smooth;
         }
 
         #video-container {
@@ -34,7 +35,7 @@
             z-index: -1;
         }
 
-        #video-container::after {
+         #video-container::after {
             content: '';
             position: absolute;
             top: 0;
@@ -59,65 +60,10 @@
             width: 100vw;
         }
 
-        .contain-details .title h2 {
-            font-weight: 500;
-        }
-
-        .contain-details .countdown h2 {
-            font-family: "Bitcount Prop Single", system-ui;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-            font-variation-settings:
-                    "slnt" 0,
-                    "CRSV" 0.5,
-                    "ELSH" 0,
-                    "ELXP" 0;
-        }
-
-        .contain-details .countdown h4 {
+       .event-details h4 {
             font-weight: 300;
         }
 
-        .contain-details .title h2,
-        .contain-details .countdown h2,
-        .contain-details .countdown h4 {
-            display: block;
-            color: #ffffff;
-            text-align: center;
-        }
-
-        .contain-details .countdown h4 {
-            font-size:22px;
-        }
-
-        @media (min-width: 1200px) {
-            .contain-details .countdown h4 {
-                font-size:30px;
-            }
-        }
-
-        .contain-details .countdown .w-100 {
-            display: flex;
-            justify-content: center;
-        }
-
-        .contain-details .countdown .w-100 > div {
-            text-align: center;
-        }
-
-        @media only screen and (max-width : 991px) {
-            .contain-details .countdown .w-100 > div {
-                min-width: 20%;
-                text-align: center;
-            }
-        }
-
-        .event-details h4 {
-            font-weight: 300;
-        }
-
-        /* Inline styles for the enquiry and about buttons */
         .event-details .btn-custom {
             background-color: red;
             border: none;
@@ -154,11 +100,117 @@
             height: 62px;
             line-height: 60px;
         }
+
+        @media (max-width: 767.98px) {
+            .main-body-container {
+            padding-top: 1.5rem; /* Reduce top space */
+            }
+
+            .logo-matec img {
+                margin-bottom: 1rem !important; /* Reduce bottom margin below logos */
+            }
+
+            .event-details h4 {
+                margin-top: 0.5rem;
+                font-size: 1rem;
+            }
+
+            .event-details .btn-custom {
+                margin-top: 0.75rem;
+                font-size: 1rem;
+                padding: 6px 16px;
+            }
+
+            .inner-body-container {
+                margin-top: 0 !important;
+            }
+        } 
+
+        @media (max-width: 767.98px) {
+            .transparent-navbar {
+                position: static !important;   /* Move it into normal flow */
+                background-color: transparent !important;  /* Fully transparent */
+                box-shadow: none !important;
+            }
+
+            .navbar-collapse {
+                background-color: rgba(0, 0, 0, 0.6); /* Optional: make dropdown menu dark and readable */
+            }
+
+            .navbar-nav .nav-link {
+                color: #fff;
+                padding: 0.75rem 1rem;
+                text-align: center;
+            }
+
+            .navbar-toggler {
+                border: none;
+            }
+        }
+
+            #discover-more .card-title,
+            #discover-more .card-text,
+            #discover-more p,
+            #discover-more h4,
+            #discover-more h5,
+            #discover-more a {
+            color: #000 !important;
+            }
+
+            @media (max-width: 767.98px) {
+                .content {
+                    width: 100%;
+                    height: 65vh;
+                    min-height: 55vh;
+                    padding: 1rem 0; /* Optional: add spacing */
+                }
+            }
+
+            .transparent-navbar.scrolled {
+                background-color: rgba(0, 0, 0, 0.85) !important;
+                transition: background-color 0.3s ease-in-out;
+            }
+
     </style>
 
 </head>
 <body>
-    <div id="video-container" data-src="<?= asset('video/background.mp4') ?>"></div>
+    <div id="video-container" data-src="<?= asset('') ?>"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top transparent-navbar">
+ <div class="container-fluid px-4">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#photo-gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#latest-info">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#visitor-stats">Stats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#discover-more">Discover</a>
+        </li>
+        <!-- New Enquiry nav link triggers modal -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquiry</a>
+                    </li>
+                    <!-- New About MATEC nav link to PDF -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="<?= asset('docs/about-matec.pdf') ?>" target="_blank">About MATEC</a>
+                    </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <div class="content d-flex flex-column">
         <div class="header-div">
@@ -188,7 +240,7 @@
             <div class="container text-white inner-body-container">
                 <div class="logo-matec mx-auto">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-4 col-6 mx-auto px-0">
+                        <div class="col-lg-3 col-sm-4 col-7 mx-auto px-0">
                             <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-md-5 mb-4">
                         </div>
                     </div>
@@ -198,90 +250,324 @@
                         </div>
                     </div>
                 </div>
-                <div class="contain-details">
-                    <div class="title text-center">
-                        <h2>COMING SOON</h2>
-                    </div>
-                    <div class="countdown text-center mb-1">
-                        <div class="w-100 g-1">
-                            <div class="text-center">
-                                <h2 class="pl-sm-3 pl-2">39</h2>
-                                <h4 class="mb-0">DAYS</h4>
-                            </div>
-                            <div class="text-center">
-                                <h2 class="pl-sm-3 pl-2">39</h2>
-                                <h4 class="mb-0">HOURS</h4>
-                            </div>
-                            <div class="text-center">
-                                <h2 class="pl-sm-3 pl-2">39</h2>
-                                <h4 class="mb-0">MINUTES</h4>
-                            </div>
-                            <div class="text-center">
-                                <h2 class="pl-sm-3 pl-2">39</h2>
-                                <h4 class="mb-0">SECONDS</h4>
-                            </div>
-                        </div>
-                    </div>
+                
                     <div class="event-details">
                         <h4 class="text-white text-center">
                             <span class="d-block d-md-inline">31 OCTOBER - 2 NOVEMBER 2025</span>
                             <span class="d-none d-md-inline"> | </span>
                             <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL PARKING A & B</span>
                         </h4>
-                        <div class="text-center mt-5">
-                            <a href="" class="btn-custom" data-fancybox data-src="#enquiry-popup">Enquiry</a>
-                            <a href="<?= asset('pdf/matec2025_event_deck_v1.1.pdf') ?>" class="btn-custom" target="_blank">About MATEC</a>
+
+                        <div class="text-center mt-4">
+                            <a href="#visitor-info" class="btn-custom">Visitor</a>
+                            <a href="#exhibitor-info" class="btn-custom">Exhibitor</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-dark text-white py-5" id="photo-gallery">
+    <div class="container">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div id="matecCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="<?= asset('images/images2.jpg') ?>" class="d-block w-100" alt="MATEC Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="<?= asset('images/images3.jpg') ?>" class="d-block w-100" alt="MATEC Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="<?= asset('images/images4.jpg') ?>" class="d-block w-100" alt="MATEC Image 3">
+                </div>
+                <!-- Add more images as needed -->
+            </div>
+           <!-- Minimalist Carousel Controls -->
+                <button class="carousel-control-prev minimalist" type="button" data-bs-target="#matecCarousel" data-bs-slide="prev">
+                    <span class="carousel-icon" aria-hidden="true">&#10094;</span>
+                </button>
+                <button class="carousel-control-next minimalist" type="button" data-bs-target="#matecCarousel" data-bs-slide="next">
+                    <span class="carousel-icon" aria-hidden="true">&#10095;</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+            <!-- Latest Info Section with Images -->
+<section class="bg-light text-dark py-5" id="latest-info">
+    <div class="container">
+                    <h2 class="text-center mb-4">Latest Info</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="<?= asset('images/images5.jpg') ?>" class="card-img-top" alt="Early Bird Registration">
+                    <div class="card-body">
+                        <h5 class="card-title">Early Bird Registration Opens!</h5>
+                        <p class="card-text">Secure your booth or tickets early and enjoy exclusive benefits.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="<?= asset('images/images6.jpg') ?>" class="card-img-top" alt="Exhibitor List">
+                    <div class="card-body">
+                        <h5 class="card-title">Exhibitor List Announced</h5>
+                        <p class="card-text">Check out the confirmed brands and companies participating this year.</p>
+                        <a href="#" class="btn btn-primary btn-sm">View List</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="<?= asset('images/images7.jpg') ?>" class="card-img-top" alt="Tech Talk">
+                    <div class="card-body">
+                        <h5 class="card-title">Tech Talk Highlights</h5>
+                        <p class="card-text">Get a sneak peek at the thought leaders joining our speaker panels.</p>
+                        <a href="#" class="btn btn-primary btn-sm">Explore Topics</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Visitor Statistics + Location (Responsive Side-by-Side on Desktop, Stacked on Mobile) -->
+<section id="visitor-stats" class="visitor-stats-section py-5" style="background: url('<?= asset("images/images0.jpg") ?>') no-repeat center center / cover;">
+    <div class="container">
+        <h2 class="text-center mb-5 text-white">MATEC 2024 Visitor Statistics</h2>
+        <div class="row gx-4 gy-4 justify-content-center align-items-stretch">
+    <!-- Stats Card -->
+    <div class="col-12 col-lg-6 d-flex justify-content-center">
+                <div class="card stat-card text-white w-100 shadow-lg" style="background-color: #000;">
+                    <div class="card-body px-4 py-5">
+                        <div class="row text-center">
+                            <div class="col-6 mb-4">
+                                <div class="stat-box">
+                                    <div class="stat-icon">👥</div>
+                                    <h3 class="stat-number">45,000+</h3>
+                                    <p class="stat-label">Total Visitors</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <div class="stat-box">
+                                    <div class="stat-icon">🏭</div>
+                                    <h3 class="stat-number">120+</h3>
+                                    <p class="stat-label">Exhibitors</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-box">
+                                    <div class="stat-icon">🌍</div>
+                                    <h3 class="stat-number">15</h3>
+                                    <p class="stat-label">Countries</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-box">
+                                    <div class="stat-icon">🎤</div>
+                                    <h3 class="stat-number">30+</h3>
+                                    <p class="stat-label">Talk Sessions</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--<div class="mt-auto">
-            <div class="container"></div>
-        </div>-->
     </div>
+</section>
 
-    <div id="enquiry-popup" class="mt-xs-0 mt-5 popup-width" style="display: none; width:100%; max-width:500px;">
+<!-- Discover More Section -->
+<section id="discover-more" class="py-5 bg-white text-dark">
+    <div class="container">
+        <h2 class="text-center mb-5">Discover More</h2>
         <div class="row">
-            <div class="col-lg-10 col-sm-10 col-11 mx-auto">
-                <img src="<?= asset('images/asset-matec2025-black.png') ?>" alt="" class="img-fluid mb-2">
-                <p class="text-center mb-2">Got your engines running with questions? <br> Fill out the form and let’s chat!</p>
+            <!-- Discover Card 1 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="<?= asset('images/discover1.jpg') ?>" class="card-img-top" alt="Workshops">
+                    <div class="card-body">
+                        <h5 class="card-title">Workshops & Demos</h5>
+                        <p class="card-text">Participate in hands-on experiences and live demonstrations from top automotive innovators.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Discover Card 2 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="<?= asset('images/discover2.jpg') ?>" class="card-img-top" alt="Networking">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Networking</h5>
+                        <p class="card-text">Connect with potential clients, collaborators, and industry leaders across multiple sectors.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Explore Opportunities</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Discover Card 3 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="<?= asset('images/discover3.jpg') ?>" class="card-img-top" alt="Future Tech">
+                    <div class="card-body">
+                        <h5 class="card-title">Future Tech Insights</h5>
+                        <p class="card-text">Explore the trends shaping the automotive ecosystem—EVs, AI, automation and more.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Read Insights</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Discover Card 4 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="<?= asset('images/discover4.jpg') ?>" class="card-img-top" alt="Startups">
+                    <div class="card-body">
+                        <h5 class="card-title">Startup Showcase</h5>
+                        <p class="card-text">See emerging startups pitch their ideas and innovations shaping the automotive future.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm">Meet the Startups</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <form id="contact-form" action="/send-message" method="post">
-            <div class="form-group">
-                <label for="contact-name">Name</label>
-                <input type="text" class="form-control" id="contact-name" name="name">
-            </div>
-            <div class="form-group">
-                <label for="contact-company">Company Name</label>
-                <input type="text" class="form-control" id="contact-company" name="company">
-            </div>
-            <div class="form-group">
-                <label for="contact-nature">Nature of Business</label>
-                <input type="text" class="form-control" id="contact-nature" name="business_nature">
-            </div>
-            <div class="form-group">
-                <label for="contact-location">Company Location</label>
-                <input type="text" class="form-control" id="contact-location" name="location">
-            </div>
-            <div class="form-group">
-                <label for="contact-mobile">Mobile No.</label>
-                <input type="text" class="form-control" id="contact-mobile" name="mobile">
-            </div>
-            <div class="form-group">
-                <label for="contact-email">Email</label>
-                <input type="email" class="form-control" id="contact-email" name="email">
-            </div>
-            <div class="form-group">
-                <label for="enquiry" for="contact-email">Enquiry</label>
-                <textarea name="enquiry" id="enquiry" class="form-control"></textarea>
-            </div>
-            <div class="text-center">
-                <button type="submit" class="btn btn-primary">Send Your Enquiry</button>
-            </div>
-        </form>
     </div>
+</section>
+
+<!-- Newsletter Signup Section -->
+<section class="newsletter-section py-7" id="newsletter" style="background-color: #191919;">
+    <div class="container">
+        <h2 class="text-center mb-4 text-white">Stay Updated</h2>
+        <p class="text-center mb-4 text-white">Subscribe to our newsletter and be the first to get the latest updates from MATEC</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form id="newsletter-form" action="/subscribe-newsletter" method="post">
+                    <div class="input-group">
+                        <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Existing content sections ... -->
+
+    <!-- Enquiry Modal -->
+<div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="enquiryModalLabel">Enquiry Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="enquiry-form" action="/submit-enquiry" method="post">
+          <div class="mb-3">
+            <label for="enquiry-name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="enquiry-name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="enquiry-email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="enquiry-email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="enquiry-message" class="form-label">Message</label>
+            <textarea class="form-control" id="enquiry-message" name="message" rows="3" required></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" form="enquiry-form" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section Pre Footer-->
+    <section class="section section-lg" style="background-color: #191919;">
+
+
+        <div class="container">
+            <div class="row row-30">
+                <div class="col-xs-10 col-lg-4">
+                    <a class="brand" href="/">
+                        <img src="assets/images/asset-matec2025.png" alt="Matec 2024" class="w-75 mb-4 d-block mx-sm-0 mx-auto">   
+                    </a>
+                    <div class="row mt-0 d-flex align-items-center flex-column">
+                        <div class="col-md-12 col-lg-8 mb-4 pr-lg-5 mr-lg-auto ml-lg-4 text-center ">
+                            <h5><span class="big font-weight-bold">Know More About</span></h5>
+                        </div>
+                        <div class="col-md-6 col-lg-8 pr-lg-5 mr-lg-auto ml-lg-4 text-center">
+                            <a class="brand" href="https://www.mara.gov.my/en/index/" target="_blank">
+                                <img class="w-145px h-150px img-fluid" src="<?= asset('images/matec-images/mara.png') ?>" srcset="<?= asset('images/matec-images/mara-logo@2x.png 2x') ?>" alt="Matec 2024">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-4">
+                    <h5><span class="big font-weight-bold">Event detail</span></h5>
+                    <div class="event-detail">
+                        <p class="event-detail-time big text-white">
+                            <time data-splitting datetime="2019-01-05">31 October - 2 November</time>
+                        </p>
+                        <p class="event-detail-address big text-white" data-splitting>Parking B, National Stadium Bukit Jalil, Bukit Jalil, Kuala Lumpur</p>
+
+                        <a class="event-detail-link" href="https://maps.app.goo.gl/JBPdiGxFCmvFPvAt9" target="_blank">View map location</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-4">
+                    <h5><span class="big font-weight-bold">Social Updates</span></h5>
+                    <div class="event-detail">
+                        <p class="big text-white">You may wonder why this event is so popular? If you do, find more info about it here.
+                        </p>
+                        <ul class="list-inline list-inline-xs">
+                           <?php if (!empty($socialLinks) && is_array($socialLinks)): ?>
+    <?php foreach ($socialLinks as $social): ?>
+        <li data-wow-delay="<?= $social['wow-delay']; ?>">
+            <a class="icon icon-rect icon-xs icon-white <?= $social['icon']; ?>" href="<?= $social['url']; ?>" data-triangle=".icon-rect-overlay" target="<?= $social['target']; ?>">
+                <div class="icon-rect-overlay"></div>
+            </a>
+        </li>
+    <?php endforeach; ?>
+<?php endif; ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Divider-->
+    <div class="divider divider-gray-900 text-center"></div>
+
+    <!-- Footer Classic-->
+    <footer class="section footer-classic context-dark">
+        <div class="container">
+            <p class="rights">
+                <span>&copy; Copyright of MARA AUTOMOTIVE ECOSYSTEM</span>
+                <span class="copyright-year"></span> <br>
+                <span>Developed and designed by </span> <a href="https://www.ardianexus.com/">Ardia Nexus Sdn. Bhd.</a>
+            </p>
+        </div>
+    </footer>
+    <div class="snackbars" id="form-output-global"></div>
+    <div class="block-with-svg-gradients">
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="svg-gradient-primary" x1="0%" y1="100%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:rgb(130,46,168);stop-opacity:1"></stop>
+                    <stop offset="100%" style="stop-color:rgb(217,14,144);stop-opacity:1"></stop>
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+
+
+
 
     <?php require "layouts/__js.php" ?>
 
@@ -382,7 +668,7 @@
                 if (marginTop < 0) marginTop = 0;
 
                 $inner.css({
-                    'margin-top': margin,
+                    'margin-top': marginTop,
                     'margin-bottom': margin
                 });
             }
@@ -430,6 +716,65 @@
             });
         });
     </script>
+
+    <script async src="//www.instagram.com/embed.js"></script>
+
+    <script>window.addEventListener('scroll', function () {
+  const nav = document.querySelector('.transparent-navbar');
+  if (window.scrollY > 100) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+  });
+    </script>
+
+    
+<script>
+  // Optional: sanitize inputs (e.g. strip unwanted chars)
+  $('#enquiry-name, #enquiry-email, #enquiry-message').on('input', function () {
+    // adjust regex as needed per field
+    this.value = this.value.replace(/[^0-9+()\\-\\s]/g, '');
+  });
+
+  // AJAX submit handler
+  document.getElementById('enquiry-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var form = e.target;
+    var formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData
+    }).then(response => response.json())
+      .then(data => {
+        if (data.status === 'success') {
+          Swal.fire({
+            title: 'Success!',
+            text: data.message,
+            icon: 'success',
+            confirmButtonText: 'OK'
+          });
+          $('#enquiryModal').modal('hide');
+        } else {
+          Swal.fire({
+            title: 'Error!',
+            text: data.message,
+            icon: 'error',
+            confirmButtonText: 'OK'
+          });
+        }
+      }).catch(error => {
+        Swal.fire({
+          title: 'Error!',
+          text: 'An error occurred while sending the message.',
+          icon: 'error',
+          confirmButtonText: 'OK'
+        });
+      });
+  });
+</script>
+
 
 </body>
 </html>
