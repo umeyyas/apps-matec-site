@@ -87,8 +87,9 @@
             left: 0;
             right: 0;
             transform: translateY(-50%);
-            text-align: center;
+            text-align: left;
             z-index: 2;
+            padding: 30px;
         }
 
         /* Ensure columns act as positioning context */
