@@ -47,6 +47,19 @@
             align-items: center;
         }
 
+        #intro-hero header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 2;
+        }
+
+        #intro-hero .inner-body-container {
+            position: relative;
+            z-index: 3;
+        }
+
         #intro-hero .video-overlay {
             position: absolute;
             top: 0;
@@ -54,7 +67,7 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.85);
-            z-index: 0;
+            z-index: 1;
         }
 
         #intro-hero video {
@@ -93,28 +106,52 @@
             <div class="container">Counter</div>
         </div>
 
-        <div id="navbar-sect" class="container-fluid">
-            <!-- Left screen -->
-            <ul class="list-inline list-inline-xs mb-0">
-                <li>
+        <nav id="navbar-sect" class="navbar navbar-expand-lg container-fluid navbar-dark">
+            <ul class="navbar-nav d-none d-lg-flex">
+                <li class="nav-item">
                     <a class="icon icon-rect icon-white fa-facebook" href="https://www.facebook.com/mymatecofficial" target="_blank">
                         <div class="icon-rect-overlay"></div>
                     </a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a class="icon icon-rect icon-white fa-instagram" href="https://www.instagram.com/mymatecofficial" target="_blank">
                         <div class="icon-rect-overlay"></div>
                     </a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a class="icon icon-rect icon-white fa-tiktok" href="https://www.tiktok.com/@mymatecofficial" target="_blank">
                         <div class="icon-rect-overlay"></div>
                     </a>
                 </li>
             </ul>
-            <!-- Right screen -->
 
-        </div>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#matecNav" aria-controls="matecNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="matecNav">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item d-lg-none mb-2">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a class="icon icon-rect icon-white fa-facebook" href="https://www.facebook.com/mymatecofficial" target="_blank"><div class="icon-rect-overlay"></div></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="icon icon-rect icon-white fa-instagram" href="https://www.instagram.com/mymatecofficial" target="_blank"><div class="icon-rect-overlay"></div></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="icon icon-rect icon-white fa-tiktok" href="https://www.tiktok.com/@mymatecofficial" target="_blank"><div class="icon-rect-overlay"></div></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="the-ideas">The Ideas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="partnership">Partnership</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq">F.A.Q</a></li>
+                    <li class="nav-item"><a class="nav-link" href="call-us">Call Us</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <div class="container text-white inner-body-container">
