@@ -39,7 +39,7 @@ $router = new Router();
 
 // Define routes
 $router->add('', function() {
-    require 'views/index-2025.php';
+    require 'views/index-25.php';
 });
 
 $router->add('old', function() {
