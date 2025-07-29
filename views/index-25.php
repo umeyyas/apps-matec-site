@@ -80,6 +80,22 @@
             z-index: -1;
         }
 
+        /* Overlay detail-activities text on top of activity images */
+        .detail-activities {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            text-align: center;
+            z-index: 2;
+        }
+
+        /* Ensure columns act as positioning context */
+        .activities-wrapper > [class^="col-"] {
+            position: relative;
+        }
+
         @media (max-width: 767px) {
             body.matec-2025 h1 {
                 font-size: 2rem;
@@ -271,7 +287,7 @@
     </div>
 
     <div class="container-fluid w-max-1500 pt-50">
-        <div class="row">
+        <div class="row activities-wrapper">
             <div class="col-md-12">
                 <h5 class="text-white mb-10">Activities</h5>
             </div>
