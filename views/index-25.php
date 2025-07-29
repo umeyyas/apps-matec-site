@@ -119,7 +119,7 @@
     <div class="video-overlay"></div>
 
     <header>
-        <div id="count-down-sect" class="container-fluid" style="background-color:#000000;">
+        <!--<div id="count-down-sect" class="container-fluid" style="background-color:#000000;">
             <div class="container">
                 <div class="countdown text-center mb-1">
                     <div class="w-100 g-1">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <nav id="navbar-sect" class="navbar navbar-expand-lg container-fluid navbar-dark">
             <ul class="navbar-nav d-none d-lg-flex">
