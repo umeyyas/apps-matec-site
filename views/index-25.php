@@ -58,7 +58,7 @@
         </div>
     </section>
 
-    <section class="pt-600 pb-100" style="background:black;">
+    <section class="pt-600 pb-100" style="background: black url('<?= asset('images/2025/bg-hero.png') ?>') no-repeat top center;">
         <div class="container-fluid w-max-1500 pb-100">
             <h1 class="text-center text-white">World's Tastiest <br> Flavours</h1>
             <div class="row">
