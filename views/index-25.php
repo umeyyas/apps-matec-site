@@ -138,11 +138,13 @@
 
     <script>
         new Carousel(document.getElementById("matecGallery"), {
+            // Display four images side by side on larger screens
             slidesPerPage: 4,
             Autoplay: {
                 timeout: 5000,
                 pauseOnHover: true,
             },
+            // On small devices only one image should be visible
             breakpoints: {
                 "(max-width: 767px)": {
                     slidesPerPage: 1
