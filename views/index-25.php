@@ -54,7 +54,32 @@
 
     <section id="matec-carousel-gallery" class="py-100">
         <div class="container-fluid w-max-1500">
-            
+            <div id="matecGallery" class="f-carousel">
+                <div class="f-carousel__viewport">
+                    <div class="f-carousel__track">
+                        <div class="f-carousel__slide">
+                            <a href="<?= asset('images/1.jpg') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/1.jpg') ?>" class="img-fluid" alt="Gallery Image 1">
+                            </a>
+                        </div>
+                        <div class="f-carousel__slide">
+                            <a href="<?= asset('images/2.jpg') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/2.jpg') ?>" class="img-fluid" alt="Gallery Image 2">
+                            </a>
+                        </div>
+                        <div class="f-carousel__slide">
+                            <a href="<?= asset('images/3.jpg') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/3.jpg') ?>" class="img-fluid" alt="Gallery Image 3">
+                            </a>
+                        </div>
+                        <div class="f-carousel__slide">
+                            <a href="<?= asset('images/4.jpg') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/4.jpg') ?>" class="img-fluid" alt="Gallery Image 4">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -85,7 +110,7 @@
             </div>
         </div>
 
-        <div class="container-fluid w-max-1500 pt-50">
+        <div class="container-fluid w-max-1500 pt-100">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="text-white mb-10">Browse by Category</h5>
@@ -112,7 +137,20 @@
     <?php require "layouts/__js.php" ?>
 
     <script>
-
+        new Carousel(document.getElementById("matecGallery"), {
+            slidesPerPage: 4,
+            Autoplay: {
+                timeout: 5000,
+                pauseOnHover: true,
+            },
+            breakpoints: {
+                "(max-width: 767px)": {
+                    slidesPerPage: 1
+                }
+            }
+        }, {
+            Autoplay
+        });
     </script>
 
 </body>
