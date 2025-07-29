@@ -149,7 +149,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <ul class="navbar-nav flex-row align-items-center">
+            <ul class="navbar-nav flex-row align-items-center mx-md-0 mx-auto pr-md-0 pr-5">
                 <li class="nav-item">
                     <a class="icon icon-rect icon-white fa-facebook" href="https://www.facebook.com/mymatecofficial" target="_blank">
                         <div class="icon-rect-overlay"></div>
@@ -197,7 +197,7 @@
                 <h4 class="text-white text-center">
                     <span class="d-block d-md-inline">31 OCTOBER - 2 NOVEMBER 2025</span>
                     <span class="d-none d-md-inline"> | </span>
-                    <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL PARKING A & B</span>
+                    <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL KUALA LUMPUR</span>
                 </h4>
                 <div class="text-center mt-5">
                     <a href="" class="btn-custom" data-fancybox data-src="#enquiry-popup">Enquiry</a>
@@ -266,7 +266,7 @@
 
 <section class="pt-600 pb-100" style="background: #000000 url('<?= asset('images/2025/bg-hero.png') ?>') no-repeat top center;">
     <div class="container-fluid w-max-1500 pb-50">
-        <h1 class="text-center text-white">World's Tastiest <br> Flavours</h1>
+        <h1 class="text-center text-white">MATEC INSIGHTS <br> YOU CAN’T MISS</h1>
         <div class="row">
             <div class="col-md-11 col-12 mx-auto">
                 <div class="card">
@@ -302,8 +302,8 @@
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white">
-                    <h4 class="text-white">Disposable Vape</h4>
-                    <p>Ultimate convenience and long-lasting performance</p>
+                    <h4 class="text-white">AUTOSHOW HIGHLIGHT</h4>
+                    <p>Seamless design meets long-lasting power</p>
                 </div>
                 <img src="<?= asset('images/2025/carshow.png') ?>" alt="" class="img-fluid">
             </div>

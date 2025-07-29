@@ -46,10 +46,6 @@ $router->add('old', function() {
     require 'views/index.php';
 });
 
-$router->add('2025', function() {
-    require 'views/index-25.php';
-});
-
 $router->add('the-ideas', function() {
     require 'views/event.php';
 });
@@ -68,6 +64,14 @@ $router->add('call-us', function() {
 
 $router->add('exhibitor', function () {
     require 'views/exhibitor.php';
+});
+
+$router->add('2025', function() {
+    require 'views/index-25.php';
+});
+
+$router->add('2025/exhibitor', function() {
+    require 'views/exhibitor-25.php';
 });
 
 // Add POST route for form submission

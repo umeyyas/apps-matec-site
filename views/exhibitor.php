@@ -1,6 +1,6 @@
 <html class="wide" lang="en">
 <head>
-    <title>Welcome to MATEC 2024 :: About MATEC</title>
+    <title>Welcome to MATEC 2025 :: About MATEC</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -39,8 +39,8 @@
                                 <div class="rd-navbar-brand">
                                     <!--Brand-->
                                     <a class="brand" href="/">
-                                        <img class="brand-logo-dark" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2024"/>
-                                        <img class="brand-logo-light" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2024"/>
+                                        <img class="brand-logo-dark" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2025"/>
+                                        <img class="brand-logo-light" src="<?= asset('images/matec-logo.png') ?>" srcset="<?= asset('images/matec-logo@2x.png 2x') ?>" alt="MATEC 2025"/>
                                     </a>
                                 </div>
 
@@ -93,7 +93,7 @@
             <div class="section-swiper-content d-sm-flex d-block align-items-center">
                 <div class="container">
                     <h4 class="wow fadeScale" data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">
-                        Become part of Malaysia’a largest automotive ecosystem fair and enjoy all benefits and programs to help you grow your business. Let’s join and be apart of MATEC2024.
+                        Become part of Malaysia’a largest automotive ecosystem fair and enjoy all benefits and programs to help you grow your business. Let’s join and be apart of MATEC2025.
                     </h4>
                     <div class="row row-30 justify-content-lg-center">
                         <div class="col-md-3">
@@ -137,7 +137,7 @@
                                             <img src="<?= asset('images/matec-images/ex_003.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Final_Layout_29072024.pdf') ?>">
                                         </div>
                                         <div class="col-md-12 col-7 pl-sm-2 pl-0">
-                                            <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Full Layout</h5>
+                                            <h5 class="mt-3 mb-3" style="color:#000;">MATEC2025 Full Layout</h5>
                                         </div>
                                     </div>
                                 </div>
