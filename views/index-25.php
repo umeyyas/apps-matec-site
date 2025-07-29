@@ -21,10 +21,17 @@
     <style>
         body.matec-2025 h1 {
             font-size: 6rem;
-            line-height: 0.8em;
         }
         body.matec-2025 .w-max-1500 {
             max-width: 1500px;
+        }
+        @media (max-width: 767px) {
+            body.matec-2025 h1 {
+                font-size: 2rem;
+            }
+            body.matec-2025 .counter-statistic h5 {
+                font-size: 0.9rem;
+            }
         }
     </style>
 
@@ -45,29 +52,29 @@
 
     </section>
 
-    <section>
+    <section class="py-100">
         <div class="container-fluid w-max-1500">
-                Gallery
+            
         </div>
     </section>
 
     <section class="pt-100 pb-100" style="background:black;">
-        <div class="container-fluid w-max-1500">
-            <h1 class="text-center text-white">World's Tastiest Flavours</h1>
+        <div class="container-fluid w-max-1500 pb-100">
+            <h1 class="text-center text-white">World's Tastiest <br> Flavours</h1>
             <div class="row">
                 <div class="col-md-9 mx-auto">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body counter-statistic">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-4">
                                     <h1 class="text-center">4.2M</h1>
                                     <h5 class="text-center">Active Consumers</h5>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-4">
                                     <h1 class="text-center">4.2M</h1>
                                     <h5 class="text-center">Active Consumers</h5>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-4">
                                     <h1 class="text-center">4.2M</h1>
                                     <h5 class="text-center">Active Consumers</h5>
                                 </div>
@@ -78,10 +85,10 @@
             </div>
         </div>
 
-        <div class="container-fluid w-max-1500">
+        <div class="container-fluid w-max-1500 pt-100">
             <div class="row">
                 <div class="col-md-12">
-                    Browse by Category
+                    <h5 class="text-white mb-10">Browse by Category</h5>
                 </div>
                 <div class="col-md-4">
                     <img src="<?= asset('images/2025/carshow.png') ?>" alt="" class="img-fluid">
