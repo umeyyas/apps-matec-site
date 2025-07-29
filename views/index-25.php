@@ -20,7 +20,7 @@
 
     <style>
         body.matec-2025 h1 {
-            font-size: 6rem;
+            font-size: 4rem;
         }
 
         body.matec-2025 .w-max-1500 {
