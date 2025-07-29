@@ -145,7 +145,11 @@
         </div>-->
 
         <nav id="navbar-sect" class="navbar navbar-expand-lg container-fluid navbar-dark">
-            <ul class="navbar-nav d-none d-lg-flex">
+            <button class="navbar-toggler me-2" type="button" data-toggle="collapse" data-target="#matecNav" aria-controls="matecNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <ul class="navbar-nav flex-row align-items-center">
                 <li class="nav-item">
                     <a class="icon icon-rect icon-white fa-facebook" href="https://www.facebook.com/mymatecofficial" target="_blank">
                         <div class="icon-rect-overlay"></div>
@@ -163,25 +167,8 @@
                 </li>
             </ul>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#matecNav" aria-controls="matecNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
             <div class="collapse navbar-collapse" id="matecNav">
                 <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item d-lg-none mb-2">
-                        <ul class="list-inline mb-0">
-                            <li class="list-inline-item">
-                                <a class="icon icon-rect icon-white fa-facebook" href="https://www.facebook.com/mymatecofficial" target="_blank"><div class="icon-rect-overlay"></div></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="icon icon-rect icon-white fa-instagram" href="https://www.instagram.com/mymatecofficial" target="_blank"><div class="icon-rect-overlay"></div></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="icon icon-rect icon-white fa-tiktok" href="https://www.tiktok.com/@mymatecofficial" target="_blank"><div class="icon-rect-overlay"></div></a>
-                            </li>
-                        </ul>
-                    </li>
                     <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="the-ideas">The Ideas</a></li>
                     <li class="nav-item"><a class="nav-link" href="partnership">Partnership</a></li>
