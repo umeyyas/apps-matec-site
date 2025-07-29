@@ -40,6 +40,8 @@
             width: 100%;
             height: 100vh;
             overflow: hidden;
+            display: flex;
+            align-items: center;
         }
 
         #intro-hero .video-overlay {
