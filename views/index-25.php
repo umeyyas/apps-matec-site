@@ -102,8 +102,29 @@
     <div class="video-overlay"></div>
 
     <header>
-        <div id="count-down-sect" class="container-fluid bg-dark">
-            <div class="container">Counter</div>
+        <div id="count-down-sect" class="container-fluid" style="background-color:#000000;">
+            <div class="container">
+                <div class="countdown text-center mb-1">
+                    <div class="w-100 g-1">
+                        <div class="text-center">
+                            <h2 class="pl-sm-3 pl-2">39</h2>
+                            <h4 class="mb-0">DAYS</h4>
+                        </div>
+                        <div class="text-center">
+                            <h2 class="pl-sm-3 pl-2">39</h2>
+                            <h4 class="mb-0">HOURS</h4>
+                        </div>
+                        <div class="text-center">
+                            <h2 class="pl-sm-3 pl-2">39</h2>
+                            <h4 class="mb-0">MINUTES</h4>
+                        </div>
+                        <div class="text-center">
+                            <h2 class="pl-sm-3 pl-2">39</h2>
+                            <h4 class="mb-0">SECONDS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <nav id="navbar-sect" class="navbar navbar-expand-lg container-fluid navbar-dark">
@@ -183,7 +204,7 @@
     </div>
 </section>
 
-<section id="matec-carousel-gallery" class="py-150">
+<section id="matec-carousel-gallery" class="py-100">
     <div class="container-fluid w-max-1500">
         <div class="row">
             <div class="col-md-12">
@@ -239,7 +260,7 @@
     </div>
 </section>
 
-<section class="pt-600 pb-100" style="background: black url('<?= asset('images/2025/bg-hero.png') ?>') no-repeat top center;">
+<section class="pt-600 pb-100" style="background: #000000 url('<?= asset('images/2025/bg-hero.png') ?>') no-repeat top center;">
     <div class="container-fluid w-max-1500 pb-50">
         <h1 class="text-center text-white">World's Tastiest <br> Flavours</h1>
         <div class="row">
