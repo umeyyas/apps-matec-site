@@ -302,22 +302,22 @@
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white">
-                    <h4 class="text-white">AUTOSHOW HIGHLIGHT</h4>
-                    <p>Seamless design meets long-lasting power</p>
+                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
+                    <p>Seamless design meets <br> long-lasting power</p>
                 </div>
                 <img src="<?= asset('images/2025/carshow.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white">
-                    <h4 class="text-white">TWO-WHEEL THRILLS</h4>
-                    <p>Built for convenience, made to endure</p>
+                    <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
+                    <p>Built for convenience, <br> made to endure</p>
                 </div>
                 <img src="<?= asset('images/2025/motoshow.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white">
                     <h4 class="text-white">PUSH BIKE</h4>
-                    <p>Where passion meets pedal power all day long</p>
+                    <p>Where passion <br> meets pedal power <br> all day long</p>
                 </div>
                 <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
             </div>
