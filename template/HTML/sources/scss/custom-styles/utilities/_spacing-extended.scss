@@ -1,0 +1,32 @@
+// Auto-generated spacing utilities for 105px to 600px at 5px increments
+@for $i from 105 through 600 {
+  @if ($i % 5 == 0) {
+    $value: ($i / 16) * 1rem;
+    .p-#{$i} { padding: $value !important; }
+    .pt-#{$i} { padding-top: $value !important; }
+    .pr-#{$i} { padding-right: $value !important; }
+    .pb-#{$i} { padding-bottom: $value !important; }
+    .pl-#{$i} { padding-left: $value !important; }
+    .px-#{$i} {
+      padding-left: $value !important;
+      padding-right: $value !important;
+    }
+    .py-#{$i} {
+      padding-top: $value !important;
+      padding-bottom: $value !important;
+    }
+    .m-#{$i} { margin: $value !important; }
+    .mt-#{$i} { margin-top: $value !important; }
+    .mr-#{$i} { margin-right: $value !important; }
+    .mb-#{$i} { margin-bottom: $value !important; }
+    .ml-#{$i} { margin-left: $value !important; }
+    .mx-#{$i} {
+      margin-left: $value !important;
+      margin-right: $value !important;
+    }
+    .my-#{$i} {
+      margin-top: $value !important;
+      margin-bottom: $value !important;
+    }
+  }
+}
