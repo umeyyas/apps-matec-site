@@ -87,7 +87,7 @@
                     <div class="card">
                         <div class="card-body counter-statistic">
                             <div class="row">
-                                <div class="col-md-3 col-6 py-20">
+                                <div class="col-md-3 col-6 pt-20 pb-25">
                                     <h1 class="text-center">45,000+</h1>
                                     <h5 class="text-center">Total Visitors</h5>
                                 </div>
