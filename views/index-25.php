@@ -309,32 +309,32 @@
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white">
-                    <h4 class="text-white">Disposable Vape</h4>
-                    <p>Ultimate convenience and long-lasting performance</p>
+                    <h4 class="text-white">TWO-WHEEL THRILLS</h4>
+                    <p>Built for convenience, made to endure</p>
                 </div>
                 <img src="<?= asset('images/2025/motoshow.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white">
+                    <h4 class="text-white">PUSH BIKE</h4>
+                    <p>Where passion meets pedal power all day long</p>
+                </div>
+                <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
+            </div>
+            <!--<div class="col-md-6 mb-35">
+                <div class="detail-activities text-white">
                     <h4 class="text-white">Disposable Vape</h4>
                     <p>Ultimate convenience and long-lasting performance</p>
                 </div>
-                <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
+                <img src="<?php /*= asset('images/2025/pushbike.png') */?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 mb-35">
                 <div class="detail-activities text-white">
                     <h4 class="text-white">Disposable Vape</h4>
                     <p>Ultimate convenience and long-lasting performance</p>
                 </div>
-                <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-6 mb-35">
-                <div class="detail-activities text-white">
-                    <h4 class="text-white">Disposable Vape</h4>
-                    <p>Ultimate convenience and long-lasting performance</p>
-                </div>
-                <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
-            </div>
+                <img src="<?php /*= asset('images/2025/pushbike.png') */?>" alt="" class="img-fluid">
+            </div>-->
         </div>
     </div>
 </section>
