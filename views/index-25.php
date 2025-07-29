@@ -52,7 +52,7 @@
 
     </section>
 
-    <section class="py-100">
+    <section id="matec-carousel-gallery" class="py-100">
         <div class="container-fluid w-max-1500">
 
         </div>
