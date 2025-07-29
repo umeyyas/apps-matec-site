@@ -19,14 +19,20 @@
     <?php require 'layouts/__css.php'; ?>
 
     <style>
-
+        body.matec-2025 h1 {
+            font-size: 6rem;
+            line-height: 0.8em;
+        }
+        body.matec-2025 .w-max-1500 {
+            max-width: 1500px;
+        }
     </style>
 
 </head>
-<body>
+<body class="matec-2025">
 
     <section>
-        <div class="container">
+        <div class="container-fluid w-max-1500">
             Counter
         </div>
 
@@ -40,16 +46,16 @@
     </section>
 
     <section>
-        <div class="container">
-            Gallery
+        <div class="container-fluid w-max-1500">
+                Gallery
         </div>
     </section>
 
-    <section class="" style="background:black;">
-        <div class="container">
+    <section class="pt-100 pb-100" style="background:black;">
+        <div class="container-fluid w-max-1500">
             <h1 class="text-center text-white">World's Tastiest Flavours</h1>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-9 mx-auto">
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
@@ -72,14 +78,20 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container-fluid w-max-1500">
             <div class="row">
                 <div class="col-md-12">
                     Browse by Category
                 </div>
-                <div class="col-md-4">Test</div>
-                <div class="col-md-4">Test</div>
-                <div class="col-md-4">Test</div>
+                <div class="col-md-4">
+                    <img src="<?= asset('images/2025/carshow.png') ?>" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="<?= asset('images/2025/motoshow.png') ?>" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
+                </div>
                 <div class="col-md-6">F.A.Q</div>
                 <div class="col-md-6">Visit MARA</div>
             </div>
