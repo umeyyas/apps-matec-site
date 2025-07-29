@@ -109,6 +109,11 @@
 
     <section id="matec-carousel-gallery" class="py-150">
         <div class="container-fluid w-max-1500">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="mb-10">MATEC Gallery</h5>
+                </div>
+            </div>
             <div id="matecGallery" class="f-carousel">
                 <div class="f-carousel__viewport">
                     <div class="f-carousel__track">
