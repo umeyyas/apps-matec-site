@@ -32,6 +32,23 @@
             /*--f-carousel-slide-bg: #eee;*/
         }
 
+        #intro-hero {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #intro-hero video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
         @media (max-width: 767px) {
             body.matec-2025 h1 {
                 font-size: 2rem;
@@ -60,6 +77,7 @@
     </header>
 
     <section id="intro-hero">
+        <video src="<?= asset('video/background.mp4') ?>" autoplay muted loop playsinline></video>
         <div class="container text-white inner-body-container">
             <div class="logo-matec mx-auto">
                 <div class="row">
@@ -196,6 +214,19 @@
     </footer>
 
     <?php require "layouts/__js.php" ?>
+
+    <script>
+        $(function () {
+            var $hero = $('#intro-hero');
+
+            function resizeHero() {
+                $hero.height($(window).height());
+            }
+
+            resizeHero();
+            $(window).on('resize', resizeHero);
+        });
+    </script>
 
     <script>
         new Carousel(document.getElementById("matecGallery"), {
