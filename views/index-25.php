@@ -25,12 +25,23 @@
         body.matec-2025 .w-max-1500 {
             max-width: 1500px;
         }
+        #matecGallery {
+            --f-carousel-gap: 5px;
+            --f-carousel-slide-width: calc(100%/3);
+            --f-carousel-slide-padding: 0px 10px;
+            /*--f-carousel-slide-bg: #eee;*/
+        }
+
         @media (max-width: 767px) {
             body.matec-2025 h1 {
                 font-size: 2rem;
             }
             body.matec-2025 .counter-statistic h5 {
                 font-size: 0.9rem;
+            }
+            #matecGallery {
+                --f-carousel-slide-width: 100%;
+                --f-carousel-slide-padding: 0;
             }
         }
     </style>
@@ -54,23 +65,43 @@
                 <div class="f-carousel__viewport">
                     <div class="f-carousel__track">
                         <div class="f-carousel__slide">
-                            <a href="<?= asset('images/1.jpg') ?>" data-fancybox="gallery">
-                                <img src="<?= asset('images/1.jpg') ?>" class="img-fluid" alt="Gallery Image 1">
+                            <a href="<?= asset('images/2025-gallery/gallery-442x525px-01.webp') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/2025-gallery/gallery-442x525px-01.webp') ?>" class="img-fluid" alt="Gallery Image 1">
                             </a>
                         </div>
                         <div class="f-carousel__slide">
-                            <a href="<?= asset('images/2.jpg') ?>" data-fancybox="gallery">
-                                <img src="<?= asset('images/2.jpg') ?>" class="img-fluid" alt="Gallery Image 2">
+                            <a href="<?= asset('images/2025-gallery/gallery-442x525px-02.webp') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/2025-gallery/gallery-442x525px-02.webp') ?>" class="img-fluid" alt="Gallery Image 2">
                             </a>
                         </div>
                         <div class="f-carousel__slide">
-                            <a href="<?= asset('images/3.jpg') ?>" data-fancybox="gallery">
-                                <img src="<?= asset('images/3.jpg') ?>" class="img-fluid" alt="Gallery Image 3">
+                            <a href="<?= asset('images/2025-gallery/gallery-442x525px-03.webp') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/2025-gallery/gallery-442x525px-03.webp') ?>" class="img-fluid" alt="Gallery Image 3">
                             </a>
                         </div>
                         <div class="f-carousel__slide">
-                            <a href="<?= asset('images/4.jpg') ?>" data-fancybox="gallery">
-                                <img src="<?= asset('images/4.jpg') ?>" class="img-fluid" alt="Gallery Image 4">
+                            <a href="<?= asset('images/2025-gallery/gallery-442x525px-04.webp') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/2025-gallery/gallery-442x525px-04.webp') ?>" class="img-fluid" alt="Gallery Image 4">
+                            </a>
+                        </div>
+                        <div class="f-carousel__slide">
+                            <a href="<?= asset('images/2025-gallery/gallery-442x525px-05.webp') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/2025-gallery/gallery-442x525px-05.webp') ?>" class="img-fluid" alt="Gallery Image 1">
+                            </a>
+                        </div>
+                        <div class="f-carousel__slide">
+                            <a href="<?= asset('images/2025-gallery/gallery-442x525px-06.webp') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/2025-gallery/gallery-442x525px-06.webp') ?>" class="img-fluid" alt="Gallery Image 2">
+                            </a>
+                        </div>
+                        <div class="f-carousel__slide">
+                            <a href="<?= asset('images/2025-gallery/gallery-442x525px-07.webp') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/2025-gallery/gallery-442x525px-07.webp') ?>" class="img-fluid" alt="Gallery Image 3">
+                            </a>
+                        </div>
+                        <div class="f-carousel__slide">
+                            <a href="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" data-fancybox="gallery">
+                                <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
                             </a>
                         </div>
                     </div>
@@ -141,7 +172,7 @@
             // Display four images side by side on larger screens
             slidesPerPage: 4,
             Autoplay: {
-                timeout: 5000,
+                timeout: 8000,
                 pauseOnHover: true,
             },
             // On small devices only one image should be visible
