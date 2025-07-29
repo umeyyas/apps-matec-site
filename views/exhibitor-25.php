@@ -18,19 +18,6 @@
 
     <?php require 'layouts/__css.php'; ?>
 
-    <style>
-        body.matec-2025 h1 {
-            font-size: 4rem;
-        }
-
-        body.matec-2025 .w-max-1500 {
-            max-width: 1500px;
-        }
-
-        body.matec-2025 .event-details h4 {
-            font-weight: 300;
-        }
-    </style>
 </head>
 <body class="matec-2025">
 
