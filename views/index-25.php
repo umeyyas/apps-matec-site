@@ -23,6 +23,39 @@
 </head>
 <body>
 
+    <section>
+        Counter
+    </section>
+
+    <header>
+        Header
+    </header>
+
+    <section>
+        video intro
+    </section>
+
+    <section>
+        Gallery
+    </section>
+
+    <section>
+        <div class="">
+            Statistics
+        </div>
+
+        <div class="">
+            Activities
+        </div>
+
+        <div class="">
+            Faq | Visit Mara
+        </div>
+    </section>
+
+    <footer>
+        
+    </footer>
 
     <?php require "layouts/__js.php" ?>
 
