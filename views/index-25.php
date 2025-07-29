@@ -59,6 +59,36 @@
         </div>
     </header>
 
+    <section id="intro-hero">
+        <div class="container text-white inner-body-container">
+            <div class="logo-matec mx-auto">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-4 col-6 mx-auto px-0">
+                        <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-md-5 mb-4">
+                    </div>
+                </div>
+                <div class="row mt-0">
+                    <div class="col-lg-6 col-sm-9 col-11 mx-auto px-0">
+                        <img src="<?= asset('images/asset-matec2025.png') ?>" alt="" class="img-fluid mb-5">
+                    </div>
+                </div>
+            </div>
+            <div class="contain-details">
+                <div class="event-details">
+                    <h4 class="text-white text-center">
+                        <span class="d-block d-md-inline">31 OCTOBER - 2 NOVEMBER 2025</span>
+                        <span class="d-none d-md-inline"> | </span>
+                        <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL PARKING A & B</span>
+                    </h4>
+                    <div class="text-center mt-5">
+                        <a href="" class="btn-custom" data-fancybox data-src="#enquiry-popup">Enquiry</a>
+                        <a href="<?= asset('pdf/matec2025_event_deck_v1.1.pdf') ?>" class="btn-custom" target="_blank">About MATEC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="matec-carousel-gallery" class="py-150">
         <div class="container-fluid w-max-1500">
             <div id="matecGallery" class="f-carousel">
