@@ -54,7 +54,7 @@
 
     <section id="matec-carousel-gallery" class="py-100">
         <div class="container-fluid w-max-1500">
-
+            
         </div>
     </section>
 
@@ -85,7 +85,7 @@
             </div>
         </div>
 
-        <div class="container-fluid w-max-1500 pt-100">
+        <div class="container-fluid w-max-1500 pt-50">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="text-white mb-10">Browse by Category</h5>
