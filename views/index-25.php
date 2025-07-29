@@ -38,21 +38,17 @@
 </head>
 <body class="matec-2025">
 
-    <section>
+    <header>
         <div class="container-fluid w-max-1500">
             Counter
         </div>
 
-        <header>
-            <div class="container-fluid">
-                Manu
-            </div>
-        </header>
+        <div class="container-fluid">
+            Manu
+        </div>
+    </header>
 
-
-    </section>
-
-    <section id="matec-carousel-gallery" class="py-100">
+    <section id="matec-carousel-gallery" class="py-150">
         <div class="container-fluid w-max-1500">
             <div id="matecGallery" class="f-carousel">
                 <div class="f-carousel__viewport">
@@ -87,21 +83,25 @@
         <div class="container-fluid w-max-1500 pb-100">
             <h1 class="text-center text-white">World's Tastiest <br> Flavours</h1>
             <div class="row">
-                <div class="col-md-9 mx-auto">
+                <div class="col-md-11 col-12 mx-auto">
                     <div class="card">
                         <div class="card-body counter-statistic">
                             <div class="row">
-                                <div class="col-md-4 col-4">
-                                    <h1 class="text-center">4.2M</h1>
-                                    <h5 class="text-center">Active Consumers</h5>
+                                <div class="col-md-3 col-6">
+                                    <h1 class="text-center">45,000+</h1>
+                                    <h5 class="text-center">Total Visitors</h5>
                                 </div>
-                                <div class="col-md-4 col-4">
-                                    <h1 class="text-center">4.2M</h1>
-                                    <h5 class="text-center">Active Consumers</h5>
+                                <div class="col-md-3 col-6">
+                                    <h1 class="text-center">120+</h1>
+                                    <h5 class="text-center">Exhibitor</h5>
                                 </div>
-                                <div class="col-md-4 col-4">
-                                    <h1 class="text-center">4.2M</h1>
-                                    <h5 class="text-center">Active Consumers</h5>
+                                <div class="col-md-3 col-6">
+                                    <h1 class="text-center">15</h1>
+                                    <h5 class="text-center">Countries</h5>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <h1 class="text-center">30+</h1>
+                                    <h5 class="text-center">Talk Sessions</h5>
                                 </div>
                             </div>
                         </div>
