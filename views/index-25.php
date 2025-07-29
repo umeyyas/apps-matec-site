@@ -34,9 +34,19 @@
 
         #intro-hero {
             position: relative;
-            width: 100vw;
+            width: 100%;
             height: 100vh;
             overflow: hidden;
+        }
+
+        #intro-hero .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            z-index: 0;
         }
 
         #intro-hero video {
@@ -78,6 +88,7 @@
 
     <section id="intro-hero">
         <video src="<?= asset('video/background.mp4') ?>" autoplay muted loop playsinline></video>
+        <div class="video-overlay"></div>
         <div class="container text-white inner-body-container">
             <div class="logo-matec mx-auto">
                 <div class="row">
