@@ -87,19 +87,19 @@
                     <div class="card">
                         <div class="card-body counter-statistic">
                             <div class="row">
-                                <div class="col-md-3 col-6">
+                                <div class="col-md-3 col-6 py-20">
                                     <h1 class="text-center">45,000+</h1>
                                     <h5 class="text-center">Total Visitors</h5>
                                 </div>
-                                <div class="col-md-3 col-6">
+                                <div class="col-md-3 col-6 py-20">
                                     <h1 class="text-center">120+</h1>
                                     <h5 class="text-center">Exhibitor</h5>
                                 </div>
-                                <div class="col-md-3 col-6">
+                                <div class="col-md-3 col-6 py-20">
                                     <h1 class="text-center">15</h1>
                                     <h5 class="text-center">Countries</h5>
                                 </div>
-                                <div class="col-md-3 col-6">
+                                <div class="col-md-3 col-6 py-20">
                                     <h1 class="text-center">30+</h1>
                                     <h5 class="text-center">Talk Sessions</h5>
                                 </div>
@@ -113,7 +113,7 @@
         <div class="container-fluid w-max-1500 pt-100">
             <div class="row">
                 <div class="col-md-12">
-                    <h5 class="text-white mb-10">Browse by Category</h5>
+                    <h5 class="text-white mb-10">Activities</h5>
                 </div>
                 <div class="col-md-4">
                     <img src="<?= asset('images/2025/carshow.png') ?>" alt="" class="img-fluid">
