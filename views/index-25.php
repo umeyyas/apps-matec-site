@@ -313,35 +313,35 @@
             <div class="col-md-12">
                 <h5 class="text-white mb-10">Activities</h5>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white">
                     <h4 class="text-white">Disposable Vape</h4>
                     <p>Ultimate convenience and long-lasting performance</p>
                 </div>
                 <img src="<?= asset('images/2025/carshow.png') ?>" alt="" class="img-fluid">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white">
                     <h4 class="text-white">Disposable Vape</h4>
                     <p>Ultimate convenience and long-lasting performance</p>
                 </div>
                 <img src="<?= asset('images/2025/motoshow.png') ?>" alt="" class="img-fluid">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white">
                     <h4 class="text-white">Disposable Vape</h4>
                     <p>Ultimate convenience and long-lasting performance</p>
                 </div>
                 <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-35">
                 <div class="detail-activities text-white">
                     <h4 class="text-white">Disposable Vape</h4>
                     <p>Ultimate convenience and long-lasting performance</p>
                 </div>
                 <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-35">
                 <div class="detail-activities text-white">
                     <h4 class="text-white">Disposable Vape</h4>
                     <p>Ultimate convenience and long-lasting performance</p>
