@@ -25,6 +25,9 @@
         body.matec-2025 .w-max-1500 {
             max-width: 1500px;
         }
+        body.matec-2025 .event-details h4 {
+            font-weight: 300;
+        }
         #matecGallery {
             --f-carousel-gap: 5px;
             --f-carousel-slide-width: calc(100%/3);
@@ -175,7 +178,7 @@
     </section>
 
     <section class="pt-600 pb-100" style="background: black url('<?= asset('images/2025/bg-hero.png') ?>') no-repeat top center;">
-        <div class="container-fluid w-max-1500 pb-100">
+        <div class="container-fluid w-max-1500 pb-50">
             <h1 class="text-center text-white">World's Tastiest <br> Flavours</h1>
             <div class="row">
                 <div class="col-md-11 col-12 mx-auto">
@@ -205,7 +208,7 @@
             </div>
         </div>
 
-        <div class="container-fluid w-max-1500 pt-100">
+        <div class="container-fluid w-max-1500 pt-50">
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="text-white mb-10">Activities</h5>
