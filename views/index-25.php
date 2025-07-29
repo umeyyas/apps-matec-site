@@ -18,38 +18,71 @@
 
     <?php require 'layouts/__css.php'; ?>
 
+    <style>
 
+    </style>
 
 </head>
 <body>
 
     <section>
-        Counter
-    </section>
-
-    <header>
-        Header
-    </header>
-
-    <section>
-        video intro
-    </section>
-
-    <section>
-        Gallery
-    </section>
-
-    <section>
-        <div class="">
-            Statistics
+        <div class="container">
+            Counter
         </div>
 
-        <div class="">
-            Activities
+        <header>
+            <div class="container-fluid">
+                Manu
+            </div>
+        </header>
+
+
+    </section>
+
+    <section>
+        <div class="container">
+            Gallery
+        </div>
+    </section>
+
+    <section class="" style="background:black;">
+        <div class="container">
+            <h1 class="text-center text-white">World's Tastiest Flavours</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h1 class="text-center">4.2M</h1>
+                                    <h5 class="text-center">Active Consumers</h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <h1 class="text-center">4.2M</h1>
+                                    <h5 class="text-center">Active Consumers</h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <h1 class="text-center">4.2M</h1>
+                                    <h5 class="text-center">Active Consumers</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="">
-            Faq | Visit Mara
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    Browse by Category
+                </div>
+                <div class="col-md-4">Test</div>
+                <div class="col-md-4">Test</div>
+                <div class="col-md-4">Test</div>
+                <div class="col-md-6">F.A.Q</div>
+                <div class="col-md-6">Visit MARA</div>
+            </div>
         </div>
     </section>
 
@@ -58,6 +91,10 @@
     </footer>
 
     <?php require "layouts/__js.php" ?>
+
+    <script>
+
+    </script>
 
 </body>
 </html>
