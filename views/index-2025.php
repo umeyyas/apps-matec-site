@@ -303,7 +303,7 @@
                 if (marginTop < 0) marginTop = 0;
 
                 $inner.css({
-                    'margin-top': margin,
+                    'margin-top': marginTop,
                     'margin-bottom': margin
                 });
             }
