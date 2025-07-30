@@ -74,6 +74,18 @@ $router->add('2025/exhibitor', function() {
     require 'views/exhibitor-25.php';
 });
 
+$router->add('views/visitor.php', function() {
+    require 'views/visitor.php';
+});
+
+$router->add('views/visitor-register-form.php', function() {
+    require 'views/visitor-register-form.php';
+});
+
+$router->add('views/thankyou.php', function() {
+    require 'views/thankyou.php';
+});
+
 // Add POST route for form submission
 $router->addPost('send-message', function() {
     // Handle form submission and send email
