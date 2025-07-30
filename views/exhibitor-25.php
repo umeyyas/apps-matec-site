@@ -40,7 +40,7 @@
             Become part of Malaysia’a largest automotive ecosystem fair and enjoy all benefits and programs to help you grow your business. Let’s join and be apart of MATEC2025.
         </h4>
         <div class="row">
-            <div class="col-md-3 mb-sm-0 mb-35">
+            <div class="col-md-3 mb-sm-0 mb-50">
                 <div class="card" style="background-image: url(<?= asset('images/2025/bg-exhibitor1820.webp') ?>)">
                     <div class="card-body">
                         <div class="row align-items-center">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-sm-0 mb-35">
+            <div class="col-md-3 mb-sm-0 mb-50">
                 <div class="card" style="background-image: url(<?= asset('images/2025/bg-exhibitor1820.webp') ?>)">
                     <div class="card-body">
                         <div class="row align-items-center">
@@ -68,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-sm-0 mb-35">
+            <div class="col-md-3 mb-sm-0 mb-50">
                 <div class="card" style="background-image: url(<?= asset('images/2025/bg-exhibitor1820.webp') ?>)">
                     <div class="card-body">
                         <div class="row align-items-center">
@@ -82,7 +82,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-sm-0 mb-35">
+            <div class="col-md-3 mb-sm-0 mb-50">
                 <a href="javascript:void(0)" data-fancybox data-src="#exhibitor_faq">
                     <div class="card" style="background-image: url(<?= asset('images/2025/bg-exhibitor1820.webp') ?>)">
                         <div class="card-body">
