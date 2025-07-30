@@ -163,7 +163,7 @@
 
 <section class="pt-600 pb-100" style="background: #000000 url('<?= asset('images/2025/bg-hero.png') ?>') no-repeat top center;">
     <div class="container-fluid w-max-1500 pb-50">
-        <h1 class="text-center text-white">MATEC INSIGHTS <br> YOU CAN’T MISS</h1>
+        <h1 class="text-center text-white">MATEC2024 STATISTIC</h1>
         <div class="row">
             <div class="col-md-11 col-12 mx-auto">
                 <div class="card">
