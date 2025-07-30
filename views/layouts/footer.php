@@ -40,16 +40,16 @@
                         <p class="big text-white">You may wonder why this event is so popular? If you do, find more info about it here.
                         </p>
                         <ul class="list-inline list-inline-xs">
-    <?php foreach ($socialLinks as $social): ?>
-        <li data-wow-delay="<?= $social['wow-delay']; ?>">
-            <a href="<?= $social['url']; ?>" 
-               target="<?= $social['target']; ?>" 
-               class="social-link">
-                <i class="<?= $social['icon']; ?>"></i>
-            </a>
-        </li>
-    <?php endforeach; ?>
-</ul>
+                            <?php foreach ($socialLinks as $social): ?>
+                                <li data-wow-delay="<?= $social['wow-delay']; ?>">
+                                    <a href="<?= $social['url']; ?>"
+                                       target="<?= $social['target']; ?>"
+                                       class="social-link">
+                                        <i class="<?= $social['icon']; ?>"></i>
+                                    </a>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
                     </div>
                 </div>
             </div>
