@@ -222,7 +222,7 @@
                     <div class="detail-activities text-white pl-60">
                         <h1 class="text-white">VISIT <br> MARA</h1>
                     </div>
-                    <img src="<?= asset('images/2025/red_bg1280.png') ?>" alt="" class="img-fluid border-radius-20">
+                    <img src="<?= asset('images/FAQ_MARA-14.png') ?>" alt="" class="img-fluid border-radius-20">
                 </a>
             </div>
             <div class="col-md-6 mb-35">
@@ -230,7 +230,7 @@
                     <div class="detail-activities text-white pl-60">
                         <h1 class="text-white">FREQUENTLY <br> ASKED <br> QUESTIONS</h1>
                     </div>
-                    <img src="<?= asset('images/2025/red_bg1280.png') ?>" alt="" class="img-fluid border-radius-20">
+                    <img src="<?= asset('images/FAQ_MARA-14.png') ?>" alt="" class="img-fluid border-radius-20">
                 </a>
             </div>
         </div>
