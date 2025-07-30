@@ -218,7 +218,7 @@
                 <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 mb-35">
-                <a href="">
+                <a href="https://www.mara.gov.my/en/index/" target="_blank">
                     <div class="detail-activities text-white pl-60">
                         <h1 class="text-white">VISIT <br> MARA</h1>
                     </div>
@@ -226,7 +226,7 @@
                 </a>
             </div>
             <div class="col-md-6 mb-35">
-                <a href="">
+                <a href="/2025/faq">
                     <div class="detail-activities text-white pl-60">
                         <h1 class="text-white">FREQUENTLY <br> ASKED <br> QUESTIONS</h1>
                     </div>

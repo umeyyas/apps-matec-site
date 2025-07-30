@@ -74,7 +74,7 @@
                 </div>
                 <div id="collapseExhibitorTwo" class="collapse" aria-labelledby="headingExhibitorTwo" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        For more info, please click Exhibitor button and refer to MATEC2025 Event Brief (Page 15 and 16 ).
+                        For more info, please click Exhibitor button and refer to MATEC2025 Event Brief<!-- (Page 15 and 16 )-->.
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div id="collapseExhibitorThree" class="collapse" aria-labelledby="headingExhibitorThree" data-parent="#accordionExhibitor">
                     <div class="card-body">
-                        For more info, please click Exhibitor button and refer to MATEC2025 Event Brief (Page 15 and 16 ).
+                        For more info, please click Exhibitor button and refer to MATEC2025 Event Brief<!-- (Page 15 and 16 )-->.
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
 
                 <div id="collapseVisitorOne" class="collapse show" aria-labelledby="headingVisitorOne" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        The MATEC2025 started on Friday to Sunday (20th Sept. to 22nd Sept. 2025) from 10 am to 10 pm.
+                        The MATEC2025 started on Friday to Sunday (31 OCTOBER - 2 NOVEMBER 2025) from 10 am to 10 pm.
                     </div>
                 </div>
             </div>

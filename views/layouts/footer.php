@@ -10,7 +10,7 @@
             <div class="row row-30">
                 <div class="col-xs-10 col-lg-4">
                     <a class="brand" href="/">
-                        <img src="<?= asset('images/asset-matec2025.png') ?>" srcset="<?= asset('images/matec-logo@2x.png') ?> 2x" alt="MATEC2025" class="w-75 mb-4 d-block mr-sm-0 mr-auto">
+                        <img src="<?= asset('images/asset-matec2025.png') ?>" srcset="<?= asset('images/asset-matec2025@2x.png') ?> 2x" alt="MATEC2025" class="w-75 mb-4 d-block mr-sm-0 mr-auto">
                     </a>
                     <!--<div class="row mt-0 d-flex align-items-center flex-column">
                         <div class="col-md-12 col-lg-8 mb-4 pr-lg-5 mr-lg-auto ml-lg-4 text-center ">
