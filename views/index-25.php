@@ -82,7 +82,7 @@
     <div class="container-fluid w-max-1500">
         <h4 style="font-weight:300;" class="text-center text-white mb-40">EVENT DATE</h4>
         <h2 class="text-center text-white">31 OCTOBER - 2 NOVEMBER</h2>
-        <h1 style="font-size:12.5em;" class="text-center text-white">2025</h1>
+        <h1 class="text-center text-white year-display">2025</h1>
     </div>
 </section>
 

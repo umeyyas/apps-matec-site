@@ -8631,3 +8631,24 @@ body.matec-2025 .event-details h4 {
     pointer-events: none;
     z-index: 1;
 }
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .venue-asset::after {
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-position: bottom center;
+        background-size: cover;
+    }
+
+    .year-display {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 768px) {
+    .year-display {
+        font-size: 12.5em;
+    }
+}
