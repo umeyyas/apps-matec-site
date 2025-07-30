@@ -1,4 +1,4 @@
-<header>
+<header class="content">
     <div id="count-down-sect" class="container-fluid" style="background-color:#000000;">
         <div class="container">
             <div class="countdown countdown-25 text-center mb-1 pt-15 pb-1">
