@@ -223,6 +223,45 @@
                 }
             }
         });
+
+        function setEqualHeightExhibitorTitles() {
+            var $titles = $('#intro-hero .col-md-12.col-5.pl-sm-2.pl-0.text-center.order-1.order-sm-2');
+            $titles.css('height', '');
+            if (window.innerWidth < 768) {
+                return;
+            }
+            var maxH = 0;
+            $titles.each(function() {
+                var h = $(this).outerHeight();
+                if (h > maxH) {
+                    maxH = h;
+                }
+            });
+            $titles.height(maxH);
+        }
+
+        function setEqualHeightExhibitorCards() {
+            var $cards = $('#intro-hero .card-body');
+            $cards.css('height', '');
+            if (window.innerWidth < 768) {
+                return;
+            }
+            var maxH = 0;
+            $cards.each(function() {
+                var h = $(this).outerHeight();
+                if (h > maxH) {
+                    maxH = h;
+                }
+            });
+            $cards.height(maxH);
+        }
+
+        setEqualHeightExhibitorTitles();
+        setEqualHeightExhibitorCards();
+        $(window).on('resize', function() {
+            setEqualHeightExhibitorTitles();
+            setEqualHeightExhibitorCards();
+        });
     });
 </script>
 

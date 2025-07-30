@@ -240,8 +240,8 @@
 <section id="matec-more-excitement" class="py-150" style="background: #ffffff;">
     <div class="container-fluid w-max-1500">
         <div class="row">
-            <div class="col-md-4">
-                <div>
+            <div class="col-md-4 position-relative">
+                <div class="detail-activities text-white">
                     <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                     <p>Built for convenience, made to endure</p>
                 </div>
@@ -249,15 +249,15 @@
             </div>
             <div class="col-md-4">
                 <div class="row">
-                    <div class="col-md-12 mb-35">
-                        <div>
+                    <div class="col-md-12 mb-35 position-relative">
+                        <div class="detail-activities text-white">
                             <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                             <p>Built for convenience, made to endure</p>
                         </div>
                         <img src="<?= asset('images/2025/nasty-hq.webp') ?>" alt="" class="img-fluid border-radius-20">
                     </div>
-                    <div class="col-md-12">
-                        <div>
+                    <div class="col-md-12 position-relative">
+                        <div class="detail-activities text-white">
                             <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                             <p>Built for convenience, made to endure</p>
                         </div>
@@ -265,8 +265,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div>
+            <div class="col-md-4 position-relative">
+                <div class="detail-activities text-white">
                     <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                     <p>Built for convenience, made to endure</p>
                 </div>
