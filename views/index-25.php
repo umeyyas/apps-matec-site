@@ -64,14 +64,14 @@
     </div>
 </section>
 
-<section id="matec-venue" class="py-200 bg-image-section bg-image-section-efx-grey bg-cover-section" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
+<section id="matec-venue" class="py-200 bg-image-section bg-image-section-efx-grey bg-cover-section venue-asset" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
     <div class="container-fluid w-max-1500">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-12 col-md-5 order-2 order-md-1">
                 <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" alt="" class="img-fluid">
             </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-5">
+            <div class="col-md-2 d-none d-md-block"></div>
+            <div class="col-12 col-md-5 order-1 order-md-2">
                 <img src="<?= asset('images/2025/title_vanue1280.png') ?>" alt="" class="img-fluid">
             </div>
         </div>
