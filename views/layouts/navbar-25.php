@@ -4,19 +4,19 @@
             <div class="countdown countdown-25 text-center mb-1 pt-15 pb-1">
                 <div class="w-100 g-1">
                     <div class="text-center px-10">
-                        <h2 style="font-size:2.25rem;" class="pl-sm-3 pl-2">00</h2>
+                        <h2 style="font-size:2.25rem;" class="pl-sm-2 pl-2">00</h2>
                         <h4 style="font-size:1.1rem;" class="mb-0">DAYS</h4>
                     </div>
                     <div class="text-center px-10">
-                        <h2 style="font-size:2.25rem;" class="pl-sm-3 pl-2">00</h2>
+                        <h2 style="font-size:2.25rem;" class="pl-sm-2 pl-2">00</h2>
                         <h4 style="font-size:1.1rem;" class="mb-0">HOURS</h4>
                     </div>
                     <div class="text-center px-10">
-                        <h2 style="font-size:2.25rem;" class="pl-sm-3 pl-2">00</h2>
+                        <h2 style="font-size:2.25rem;" class="pl-sm-2 pl-2">00</h2>
                         <h4 style="font-size:1.1rem;" class="mb-0">MINUTES</h4>
                     </div>
                     <div class="text-center px-10">
-                        <h2 style="font-size:2.25rem;" class="pl-sm-3 pl-2">00</h2>
+                        <h2 style="font-size:2.25rem;" class="pl-sm-2 pl-2">00</h2>
                         <h4 style="font-size:1.1rem;" class="mb-0">SECONDS</h4>
                     </div>
                 </div>

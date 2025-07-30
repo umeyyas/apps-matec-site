@@ -155,6 +155,21 @@
                             <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
                         </a>
                     </div>
+                    <div class="f-carousel__slide">
+                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
+                        </a>
+                    </div>
+                    <div class="f-carousel__slide">
+                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -198,21 +213,21 @@
                 <h5 class="text-white mb-10">Activities</h5>
             </div>
             <div class="col-md-4 mb-35">
-                <div class="detail-activities text-white">
+                <div class="detail-activities text-white mt-15">
                     <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
                     <p>Seamless design meets <br> long-lasting power</p>
                 </div>
                 <img src="<?= asset('images/2025/carshow.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-4 mb-35">
-                <div class="detail-activities text-white">
+                <div class="detail-activities text-white mt-15">
                     <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
                     <p>Built for convenience, <br> made to endure</p>
                 </div>
                 <img src="<?= asset('images/2025/motoshow.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-4 mb-35">
-                <div class="detail-activities text-white">
+                <div class="detail-activities text-white mt-15">
                     <h4 class="text-white">PUSH BIKE</h4>
                     <p>Where passion <br> meets pedal power <br> all day long</p>
                 </div>
