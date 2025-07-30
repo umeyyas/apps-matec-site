@@ -18,6 +18,14 @@
 
     <?php require 'layouts/__css.php'; ?>
 
+    <style>
+        @media (max-width: 767.98px) {
+            #intro-hero {
+                min-height: 1500px !important;
+            }
+        }
+    </style>
+
 </head>
 <body class="matec-2025">
 
