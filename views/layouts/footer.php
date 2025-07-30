@@ -27,9 +27,9 @@
                     <h5><span class="big font-weight-bold">Event detail</span></h5>
                     <div class="event-detail">
                         <p class="event-detail-time big text-white">
-                            <time data-splitting datetime="2019-01-05">20 - 22 SEPTEMBER 2024</time>
+                            <time data-splitting datetime="2019-01-05">31 OCTOBER - 2 NOVEMBER 2025</time>
                         </p>
-                        <p class="event-detail-address big text-white" data-splitting>Parking B, National Stadium Bukit Jalil, Bukit Jalil, Kuala Lumpur</p>
+                        <p class="event-detail-address big text-white" data-splitting>Stadium Nasional Bukit Jalil Kuala Lumpur</p>
 
                         <a class="event-detail-link" href="https://maps.app.goo.gl/JBPdiGxFCmvFPvAt9" target="_blank">View map location</a>
                     </div>
