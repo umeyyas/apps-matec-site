@@ -8553,3 +8553,67 @@ body.matec-2025 .event-details h4 {
         --f-carousel-slide-padding: 0;
     }
 }
+
+/* Utility classes for border radius */
+.border-radius-20 {
+    -webkit-border-radius: 1.25rem;
+       -moz-border-radius: 1.25rem;
+         -o-border-radius: 1.25rem;
+            border-radius: 1.25rem;
+}
+.border-radius-30 {
+    -webkit-border-radius: 1.875rem;
+       -moz-border-radius: 1.875rem;
+         -o-border-radius: 1.875rem;
+            border-radius: 1.875rem;
+}
+.border-radius-40 {
+    -webkit-border-radius: 2.5rem;
+       -moz-border-radius: 2.5rem;
+         -o-border-radius: 2.5rem;
+            border-radius: 2.5rem;
+}
+.border-radius-50 {
+    -webkit-border-radius: 3.125rem;
+       -moz-border-radius: 3.125rem;
+         -o-border-radius: 3.125rem;
+            border-radius: 3.125rem;
+}
+.border-radius-60 {
+    -webkit-border-radius: 3.75rem;
+       -moz-border-radius: 3.75rem;
+         -o-border-radius: 3.75rem;
+            border-radius: 3.75rem;
+}
+.border-radius-70 {
+    -webkit-border-radius: 4.375rem;
+       -moz-border-radius: 4.375rem;
+         -o-border-radius: 4.375rem;
+            border-radius: 4.375rem;
+}
+.border-radius-80 {
+    -webkit-border-radius: 5rem;
+       -moz-border-radius: 5rem;
+         -o-border-radius: 5rem;
+            border-radius: 5rem;
+}
+.border-radius-90 {
+    -webkit-border-radius: 5.625rem;
+       -moz-border-radius: 5.625rem;
+         -o-border-radius: 5.625rem;
+            border-radius: 5.625rem;
+}
+.border-radius-100 {
+    -webkit-border-radius: 6.25rem;
+       -moz-border-radius: 6.25rem;
+         -o-border-radius: 6.25rem;
+            border-radius: 6.25rem;
+}
+
+/* Pill-shaped elements */
+.border-pill {
+    -webkit-border-radius: 625rem;
+       -moz-border-radius: 625rem;
+         -o-border-radius: 625rem;
+            border-radius: 625rem;
+}

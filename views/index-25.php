@@ -57,6 +57,35 @@
     </div>
 </section>
 
+<section id="matec-about" class="py-150 bg-image-section bg-image-section-efx-grey bg-cover-section" style="background-image: url(<?= asset('images/2025/bg_vanue1280.png') ?>)">
+    <div class="container-fluid w-max-1500">
+        <h4 class="text-center text-white">MARA AUTOMOTIVE ECOSYSTEM</h4>
+        <p class="text-center text-white">The Entrepreneurial Engine is a concept that focuses on fostering innovation and growth within the automotive industry through  entrepreneurial initiatives. This approach emphasizes the importance of startups, small businesses, and independent innovators in  driving advancements and competitiveness in the sector. By leveraging the agility and creativity of these entities, the automotive industry can accelerate the development of cutting-edge technologies, such as electric vehicles, autonomous driving systems, and advanced manufacturing processes.</p>
+    </div>
+</section>
+
+<section id="matec-venue" class="py-200 bg-image-section bg-image-section-efx-grey bg-cover-section" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
+    <div class="container-fluid w-max-1500">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+                <img src="<?= asset('images/2025/title_vanue1280.png') ?>" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="matec-date" class="py-150 bg-image-section bg-image-section-efx-grey bg-cover-section" style="background-image: url(<?= asset('images/2025/bg_event1280.png') ?>)">
+    <div class="container-fluid w-max-1500">
+        <h4 class="text-center text-white">EVENT DATE</h4>
+        <h2 class="text-center text-white">31 OCTOBER - 2 NOVEMBER</h2>
+        <h1 class="text-center text-white">2025</h1>
+    </div>
+</section>
+
 <section id="matec-carousel-gallery" class="py-100">
     <div class="container-fluid w-max-1500">
         <div class="row">
@@ -143,8 +172,26 @@
             </div>
         </div>
     </div>
+</section>
 
-    <div class="container-fluid w-max-1500 pt-50">
+<section id="matec-about" class="pt-100 pb-50">
+    <div class="container-fluid w-max-1500">
+        <p class="text-center">Presenting the inaugural MARA Automotive Ecosystem exhibition, a groundbreaking event that brings a fresh wave of excitement to Malaysians nationwide. MATEC2025 is more than just a conventional showcase — it's a dynamic platform brimming with opportunities, catering not only to entrepreneurs but also to visitors from all walks of life. Prepare to explore innovative ideas, connect with industry experts, and uncover endless possibilities in this one-of-a-kind experience.</p>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <img src="<?= asset('images/2025/title_expectation1280.png') ?>" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-12 mx-auto">
+                <img src="<?= asset('images/2025/group1280.png') ?>" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="matec-about" class="py-200" style="background: #000000;">
+    <div class="container-fluid w-max-1500">
         <div class="row activities-wrapper">
             <div class="col-md-12">
                 <h5 class="text-white mb-10">Activities</h5>
@@ -154,36 +201,38 @@
                     <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
                     <p>Seamless design meets <br> long-lasting power</p>
                 </div>
-                <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
+                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white mt-15">
                     <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
                     <p>Built for convenience, <br> made to endure</p>
                 </div>
-                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white mt-15">
                     <h4 class="text-white">PUSH BIKE</h4>
                     <p>Where passion <br> meets pedal power <br> all day long</p>
                 </div>
-                <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
-            </div>
-            <!--<div class="col-md-6 mb-35">
-                <div class="detail-activities text-white">
-                    <h4 class="text-white">Disposable Vape</h4>
-                    <p>Ultimate convenience and long-lasting performance</p>
-                </div>
-                <img src="<?php /*= asset('images/2025/pushbike.png') */?>" alt="" class="img-fluid">
+                <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 mb-35">
-                <div class="detail-activities text-white">
-                    <h4 class="text-white">Disposable Vape</h4>
-                    <p>Ultimate convenience and long-lasting performance</p>
-                </div>
-                <img src="<?php /*= asset('images/2025/pushbike.png') */?>" alt="" class="img-fluid">
-            </div>-->
+                <a href="">
+                    <div class="detail-activities text-white pl-60">
+                        <h1 class="text-white">VISIT <br> MARA</h1>
+                    </div>
+                    <img src="<?= asset('images/2025/red_bg1280.png') ?>" alt="" class="img-fluid border-radius-20">
+                </a>
+            </div>
+            <div class="col-md-6 mb-35">
+                <a href="">
+                    <div class="detail-activities text-white pl-60">
+                        <h1 class="text-white">FREQUENTLY <br> ASKED <br> QUESTIONS</h1>
+                    </div>
+                    <img src="<?= asset('images/2025/red_bg1280.png') ?>" alt="" class="img-fluid border-radius-20">
+                </a>
+            </div>
         </div>
     </div>
 </section>
