@@ -18,6 +18,23 @@
 
     <?php require 'layouts/__css.php'; ?>
 
+    <style>
+        .btn-big-red {
+            background-color: red;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-big-red + .btn-big-red {
+            margin-left: 1rem;
+        }
+    </style>
 </head>
 <body class="matec-2025">
 
@@ -48,7 +65,8 @@
                     <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL KUALA LUMPUR</span>
                 </h4>
                 <div class="text-center mt-5">
-                    
+                    <button type="button" class="btn-big-red">Visitor</button>
+                    <button type="button" class="btn-big-red">Exhibitor</button>
                 </div>
             </div>
         </div>
