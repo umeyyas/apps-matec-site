@@ -49,7 +49,7 @@
                     <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL KUALA LUMPUR</span>
                 </h4>
                 <div class="text-center mt-5 button-container">
-                    <a href="#" class="btn-big-blue">Visitor</a>
+                    <a href="#" class="btn-big-red">Visitor</a>
                     <a href="/2025/exhibitor" class="btn-big-red">Exhibitor</a>
                 </div>
             </div>
@@ -80,9 +80,9 @@
 
 <section id="matec-date" class="py-150 bg-image-section bg-image-section-efx-grey bg-cover-section" style="background-image: url(<?= asset('images/2025/bg_event1280.png') ?>)">
     <div class="container-fluid w-max-1500">
-        <h4 class="text-center text-white">EVENT DATE</h4>
+        <h4 style="font-weight:300;" class="text-center text-white mb-40">EVENT DATE</h4>
         <h2 class="text-center text-white">31 OCTOBER - 2 NOVEMBER</h2>
-        <h1 class="text-center text-white">2025</h1>
+        <h1 style="font-size:12.5em;" class="text-center text-white">2025</h1>
     </div>
 </section>
 
@@ -179,7 +179,7 @@
         <p class="text-center">Presenting the inaugural MARA Automotive Ecosystem exhibition, a groundbreaking event that brings a fresh wave of excitement to Malaysians nationwide. MATEC2025 is more than just a conventional showcase — it's a dynamic platform brimming with opportunities, catering not only to entrepreneurs but also to visitors from all walks of life. Prepare to explore innovative ideas, connect with industry experts, and uncover endless possibilities in this one-of-a-kind experience.</p>
         <div class="row">
             <div class="col-md-6 mx-auto">
-                <img src="<?= asset('images/2025/title_expectation1280.png') ?>" alt="" class="img-fluid">
+                <img src="<?= asset('images/2025/title_expectation1280.png') ?>" alt="" class="img-fluid mb-15">
             </div>
         </div>
         <div class="row mt-2">
