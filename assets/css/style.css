@@ -15182,5 +15182,5 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .nav-link {
   font-size: 15px;
   font-weight: bold;
-  color: #ffffff;
+  color: #ffffff !important;
 }
