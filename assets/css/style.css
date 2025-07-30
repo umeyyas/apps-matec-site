@@ -15162,3 +15162,25 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .section-lg p {
   color: #ffffff;
 }
+
+/* Social icon styles */
+.social-link i {
+  font-size: 24px; /* Adjust the size to match the second screenshot */
+  color: white; /* Default color */
+  transition: color 0.3s ease;
+}
+
+.social-link:hover i {
+  color: #1da1f2; /* Example hover color (blue). Change per platform if you want */
+}
+
+.list-inline-xs li {
+  display: inline-block;
+  margin: 0 10px; /* space between icons */
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}

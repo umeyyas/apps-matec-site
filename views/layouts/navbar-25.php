@@ -49,11 +49,11 @@
 
         <div class="collapse navbar-collapse" id="matecNav">
             <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="the-ideas">The Ideas</a></li>
-                <li class="nav-item"><a class="nav-link" href="partnership">Partnership</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="the-ideas">ABOUT US</a></li>
+                <li class="nav-item"><a class="nav-link" href="#matec-carousel-gallery">GALLERY</a></li>
                 <li class="nav-item"><a class="nav-link" href="faq">F.A.Q</a></li>
-                <li class="nav-item"><a class="nav-link" href="call-us">Call Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="call-us">CALL US</a></li>
             </ul>
         </div>
     </nav>
