@@ -98,7 +98,7 @@
                 </h4>
                 <div class="text-center mt-5 button-container">
                     <a href="#" class="btn-big-red">Visitor</a>
-                    <a href="#" class="btn-big-red">Exhibitor</a>
+                    <a href="/2025/exhibitor" class="btn-big-red">Exhibitor</a>
                 </div>
             </div>
         </div>
