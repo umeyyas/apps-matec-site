@@ -21,7 +21,7 @@
     <style>
         @media (max-width: 767.98px) {
             #intro-hero {
-                min-height: 1500px !important;
+                min-height: 1600px !important;
             }
         }
     </style>
