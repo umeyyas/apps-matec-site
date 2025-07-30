@@ -24,11 +24,10 @@
             color: #fff;
             padding: 15px 30px;
             font-size: 1.25rem;
-            font-weight: 700;
             border: none;
-            border-radius: 5px;
             text-decoration: none;
             display: inline-block;
+            font-weight:400;
         }
 
         .btn-big-red + .btn-big-red {
@@ -65,8 +64,8 @@
                     <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL KUALA LUMPUR</span>
                 </h4>
                 <div class="text-center mt-5">
-                    <button type="button" class="btn-big-red">Visitor</button>
-                    <button type="button" class="btn-big-red">Exhibitor</button>
+                    <a href="#" class="btn-big-red">Visitor</a>
+                    <a href="#" class="btn-big-red">Exhibitor</a>
                 </div>
             </div>
         </div>
