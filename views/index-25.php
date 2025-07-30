@@ -170,11 +170,11 @@
                     <div class="card-body counter-statistic">
                         <div class="row">
                             <div class="col-md-3 col-6 pt-20 pb-25">
-                                <h1 class="text-center">45,000+</h1>
+                                <h1 class="text-center">26,550+</h1>
                                 <h5 class="text-center">Total Visitors</h5>
                             </div>
                             <div class="col-md-3 col-6 py-20">
-                                <h1 class="text-center">120+</h1>
+                                <h1 class="text-center">158+</h1>
                                 <h5 class="text-center">Exhibitor</h5>
                             </div>
                             <div class="col-md-3 col-6 py-20">
