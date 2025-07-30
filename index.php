@@ -66,12 +66,30 @@ $router->add('exhibitor', function () {
     require 'views/exhibitor.php';
 });
 
+//====== Routes for 2025 ======//
+
 $router->add('2025', function() {
     require 'views/index-25.php';
 });
 
 $router->add('2025/exhibitor', function() {
     require 'views/exhibitor-25.php';
+});
+
+$router->add('2025/the-ideas', function() {
+    require 'views/ideas-25.php';
+});
+
+$router->add('2025/partnership', function() {
+    require 'views/partnership-25.php';
+});
+
+$router->add('2025/faq', function() {
+    require 'views/faq-25.php';
+});
+
+$router->add('2025/contact-us', function() {
+    require 'views/contact-25.php';
 });
 
 // Add POST route for form submission
