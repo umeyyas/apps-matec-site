@@ -1,7 +1,7 @@
 <header>
     <div id="count-down-sect" class="container-fluid" style="background-color:#000000;">
         <div class="container">
-            <div class="countdown text-center mb-1">
+            <div class="countdown countdown-25 text-center mb-1">
                 <div class="w-100 g-1">
                     <div class="text-center">
                         <h2 class="">39</h2>
