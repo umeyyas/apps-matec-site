@@ -8657,3 +8657,8 @@ body.matec-2025 .event-details h4 {
         font-size: 12.5rem;
     }
 }
+
+body.matec-2025 .section-lg,
+body.matec-2025 .section-lg p {
+    color: #000000;
+}
