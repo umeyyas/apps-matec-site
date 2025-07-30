@@ -53,7 +53,7 @@
                 <li class="nav-item"><a class="nav-link" href="/2025/the-ideas">THE IDEAS</a></li>
                 <li class="nav-item"><a class="nav-link" href="/2025/partnership">PARTNERSHIP</a></li>
                 <li class="nav-item"><a class="nav-link" href="/2025/faq">F.A.Q</a></li>
-                <li class="nav-item"><a class="nav-link" href="/2025/call-us">CONTACT US</a></li>
+                <li class="nav-item"><a class="nav-link" href="/2025/contact-us">CONTACT US</a></li>
             </ul>
         </div>
     </nav>
