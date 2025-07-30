@@ -280,9 +280,9 @@
 
 <?php require "layouts/__js.php" ?>
 
-<script>
-    $(function () {
-        var $hero = $('#intro-hero');
+    <script>
+        $(function () {
+            var $hero = $('#intro-hero');
 
         function resizeHero() {
             $hero.height($(window).height());
@@ -290,11 +290,11 @@
 
         resizeHero();
         $(window).on('resize', resizeHero);
-    });
-</script>
+        });
+    </script>
 
-<script>
-    new Carousel(document.getElementById("matecGallery"), {
+    <script>
+        new Carousel(document.getElementById("matecGallery"), {
         // Display four images side by side on larger screens
         slidesPerPage: 4,
         Autoplay: {
@@ -309,8 +309,39 @@
         }
     }, {
         Autoplay
-    });
-</script>
+        });
+    </script>
+
+    <script>
+        // Equalize height for each column in the "More Excitement" section
+        function setEqualHeightMatecMore() {
+            var $cols = $('#matec-more-excitement .col-md-4');
+
+            // Reset height on small screens
+            if (window.innerWidth < 768) {
+                $cols.css('height', '');
+                return;
+            }
+
+            var mb = parseInt($('.mb-35:first').css('margin-bottom')) || 0;
+            var maxHeight = 0;
+
+            $cols.each(function () {
+                var countMb = $(this).find('.col-md-12.mb-35').length;
+                var currentHeight = $(this).outerHeight() - (mb * countMb);
+                if (currentHeight > maxHeight) {
+                    maxHeight = currentHeight;
+                }
+            });
+
+            $cols.height(maxHeight);
+        }
+
+        $(function () {
+            setEqualHeightMatecMore();
+            $(window).on('resize', setEqualHeightMatecMore);
+        });
+    </script>
 
 </body>
 </html>
