@@ -203,6 +203,8 @@
     </div>
 </div>
 
+<?php include "layouts/footer.php"; ?>
+
 <?php require "layouts/__js.php" ?>
 
 <script>

@@ -203,9 +203,7 @@
     </div>
 </section>
 
-<footer>
-
-</footer>
+<?php include "layouts/footer.php"; ?>
 
 <?php require "layouts/__js.php" ?>
 
