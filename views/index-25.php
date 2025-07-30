@@ -249,7 +249,7 @@
             </div>
             <div class="col-md-4">
                 <div class="row">
-                    <div class="col-md-12 mb-35 position-relative">
+                    <div class="col-md-12 mb-30 position-relative">
                         <div class="detail-activities text-white">
                             <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                             <p>Built for convenience, made to endure</p>
