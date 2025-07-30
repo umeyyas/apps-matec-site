@@ -8639,16 +8639,21 @@ body.matec-2025 .event-details h4 {
         right: 0;
         width: 100%;
         background-position: bottom center;
-        background-size: cover;
+        background-size: 100% auto;
     }
 
     .year-display {
         font-size: 5em;
     }
+
+    body.matec-2025 h1.year-display {
+        font-size: 6rem;
+    }
 }
 
 @media (min-width: 768px) {
+    body.matec-2025 h1.year-display,
     .year-display {
-        font-size: 12.5em;
+        font-size: 12.5rem;
     }
 }
