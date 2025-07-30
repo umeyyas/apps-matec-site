@@ -37,7 +37,7 @@
                     <div class="card-body p-1">
                         <div class="row align-items-center">
                             <div class="col-md-12 col-5">
-                                <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/matec2025_event-deck-v2.pdf') ?>" >
+                                <img src="<?= asset('images/ICON-02.jpg') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/matec2025_event-deck-v2.pdf') ?>" >
                             </div>
                             <div class="col-md-12 col-7 pl-sm-2 pl-0 text-center">
                                 <h5 class="mt-3 mb-3" style="color:#000;">MATEC2025 Event Brief</h5>
@@ -51,7 +51,7 @@
                     <div class="card-body p-1">
                         <div class="row align-items-center">
                             <div class="col-md-12 col-5">
-                                <img src="<?= asset('images/matec-images/ex_002.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
+                                <img src="<?= asset('images/ICON-01.jpg') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
                             </div>
                             <div class="col-md-12 col-7 pl-sm-2 pl-0 text-center">
                                 <h5 class="mt-3 mb-3" style="color:#000;">MATEC2025 Partnership Packages</h5>
@@ -65,7 +65,7 @@
                     <div class="card-body p-1">
                         <div class="row align-items-center">
                             <div class="col-md-12 col-5">
-                                <img src="<?= asset('images/matec-images/ex_003.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
+                                <img src="<?= asset('images/ICON-03.jpg') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
                             </div>
                             <div class="col-md-12 col-7 pl-sm-2 pl-0 text-center">
                                 <h5 class="mt-3 mb-3" style="color:#000;">MATEC2025 Full Layout</h5>
@@ -80,7 +80,7 @@
                         <div class="card-body p-1">
                             <div class="row align-items-center">
                                 <div class="col-md-12 col-5">
-                                    <img src="<?= asset('images/matec-images/ex_004.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
+                                    <img src="<?= asset('images/ICON-04.jpg') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
                                 </div>
                                 <div class="col-md-12 col-7 pl-sm-2 pl-0 text-center">
                                     <h5 class="mt-3 mb-3" style="color:#000;">EXHIBITOR F.A.Q</h5>

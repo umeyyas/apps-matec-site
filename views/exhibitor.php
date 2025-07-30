@@ -102,7 +102,7 @@
                                     <div class="card-body p-1">
                                         <div class="row align-items-center">
                                             <div class="col-md-12 col-5">
-                                                <img src="<?= asset('images/matec-images/ex_001.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
+                                                <img src="<?= asset('images/ex_001.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
                                             </div>
                                             <div class="col-md-12 col-7 pl-sm-2 pl-0">
                                                 <h5 class="mt-3 mb-3" style="color:#000;">MATEC2024 Event Brief</h5>
