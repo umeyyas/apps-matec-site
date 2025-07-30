@@ -201,33 +201,37 @@
                     <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
                     <p>Seamless design meets <br> long-lasting power</p>
                 </div>
-                <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
+                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white mt-15">
                     <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
                     <p>Built for convenience, <br> made to endure</p>
                 </div>
-                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-4 mb-35">
                 <div class="detail-activities text-white mt-15">
                     <h4 class="text-white">PUSH BIKE</h4>
                     <p>Where passion <br> meets pedal power <br> all day long</p>
                 </div>
-                <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
+                <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 mb-35">
-                <div class="detail-activities text-white">
-                    <h1 class="text-white">VISIT <br> MARA</h1>
-                </div>
-                <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
+                <a href="">
+                    <div class="detail-activities text-white pl-60">
+                        <h1 class="text-white">VISIT <br> MARA</h1>
+                    </div>
+                    <img src="<?= asset('images/2025/red_bg1280.png') ?>" alt="" class="img-fluid border-radius-20">
+                </a>
             </div>
             <div class="col-md-6 mb-35">
-                <div class="detail-activities text-white">
-                    <h1 class="text-white">FREQUENTLY <br> ASKED <br> QUESTIONS</h1>
-                </div>
-                <img src="<?= asset('images/2025/pushbike.png') ?>" alt="" class="img-fluid">
+                <a href="">
+                    <div class="detail-activities text-white pl-60">
+                        <h1 class="text-white">FREQUENTLY <br> ASKED <br> QUESTIONS</h1>
+                    </div>
+                    <img src="<?= asset('images/2025/red_bg1280.png') ?>" alt="" class="img-fluid border-radius-20">
+                </a>
             </div>
         </div>
     </div>
