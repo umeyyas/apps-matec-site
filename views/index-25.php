@@ -155,21 +155,6 @@
                             <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
                         </a>
                     </div>
-                    <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
-                        </a>
-                    </div>
-                    <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
-                        </a>
-                    </div>
-                    <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
