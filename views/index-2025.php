@@ -151,7 +151,7 @@
                 </div>
                 <div class="contain-details">
                     <div class="title text-center">
-                        <h2>COMING SOON</h2>
+                        <h2 class="text-white">COMING SOON</h2>
                     </div>
                     <div class="countdown countdown-25 text-center mb-1">
                         <div class="w-100 g-1">
