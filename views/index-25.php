@@ -27,11 +27,44 @@
             border: none;
             text-decoration: none;
             display: inline-block;
-            font-weight:400;
+            font-weight: 400;
+            text-align: center;
+            width: 200px;
+        }
+
+        .btn-big-red:hover,
+        .btn-big-red:focus {
+            background-color: #ff4d4d;
+            color: #fff;
         }
 
         .btn-big-red + .btn-big-red {
             margin-left: 1rem;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        @media (max-width: 767px) {
+            .button-container {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                padding: 1rem 0;
+                background: rgba(0, 0, 0, 0.8);
+                z-index: 1000;
+            }
+
+            .button-container .btn-big-red {
+                width: 45%;
+            }
+
+            .button-container .btn-big-red + .btn-big-red {
+                margin-left: 0;
+            }
         }
     </style>
 </head>
@@ -63,7 +96,7 @@
                     <span class="d-none d-md-inline"> | </span>
                     <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL KUALA LUMPUR</span>
                 </h4>
-                <div class="text-center mt-5">
+                <div class="text-center mt-5 button-container">
                     <a href="#" class="btn-big-red">Visitor</a>
                     <a href="#" class="btn-big-red">Exhibitor</a>
                 </div>
