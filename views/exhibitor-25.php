@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <a href="" data-fancybox data-src="#exhibitor_faq">
+                <a href="javascript:void(0)" data-fancybox data-src="#exhibitor_faq">
                     <div class="card">
                         <div class="card-body p-1">
                             <div class="row align-items-center">
@@ -210,9 +210,14 @@
 
     $(document).ready(function() {
         $('.newtab').on('click', function(event) {
-            event.preventDefault();
-            var pdfUrl = $(this).data('pdf-url');
-            window.open(pdfUrl, '_blank');
+            // Prevent PDF opening when the image is inside a Fancybox trigger
+            if($(this).closest('a[data-fancybox]').length === 0) {
+                event.preventDefault();
+                var pdfUrl = $(this).data('pdf-url');
+                if (pdfUrl) {
+                    window.open(pdfUrl, '_blank');
+                }
+            }
         });
     });
 </script>
