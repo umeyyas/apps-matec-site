@@ -203,6 +203,8 @@
     </div>
 </div>
 
+<?php require "layouts/__js.php" ?>
+
 <script>
     Fancybox.bind('[data-fancybox]', {
         // Custom options for all galleries
