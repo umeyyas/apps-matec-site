@@ -23,6 +23,15 @@
             #intro-hero {
                 min-height: 1600px !important;
             }
+
+            #intro-hero .card-body img {
+                margin-left: -1.25rem;
+                margin-right: -1.25rem;
+            }
+
+            #intro-hero .row > div:first-child .card-body img {
+                margin-top: -20px;
+            }
         }
     </style>
 
