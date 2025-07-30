@@ -63,55 +63,6 @@
             font-weight: 500;
         }
 
-        .contain-details .countdown h2 {
-            font-family: "Bitcount Prop Single", system-ui;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-            font-variation-settings:
-                    "slnt" 0,
-                    "CRSV" 0.5,
-                    "ELSH" 0,
-                    "ELXP" 0;
-        }
-
-        .contain-details .countdown h4 {
-            font-weight: 300;
-        }
-
-        .contain-details .title h2,
-        .contain-details .countdown h2,
-        .contain-details .countdown h4 {
-            display: block;
-            color: #ffffff;
-            text-align: center;
-        }
-
-        .contain-details .countdown h4 {
-            font-size:22px;
-        }
-
-        @media (min-width: 1200px) {
-            .contain-details .countdown h4 {
-                font-size:30px;
-            }
-        }
-
-        .contain-details .countdown .w-100 {
-            display: flex;
-            justify-content: center;
-        }
-
-        .contain-details .countdown .w-100 > div {
-            text-align: center;
-        }
-
-        @media only screen and (max-width : 991px) {
-            .contain-details .countdown .w-100 > div {
-                min-width: 20%;
-                text-align: center;
-            }
-        }
 
         .event-details h4 {
             font-weight: 300;
@@ -202,7 +153,7 @@
                     <div class="title text-center">
                         <h2>COMING SOON</h2>
                     </div>
-                    <div class="countdown text-center mb-1">
+                    <div class="countdown countdown-25 text-center mb-1">
                         <div class="w-100 g-1">
                             <div class="text-center">
                                 <h2 class="pl-sm-3 pl-2">39</h2>

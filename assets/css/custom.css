@@ -4,6 +4,49 @@ body {
     color: #010101 !important;
 }
 
+/* Countdown styles for 2025 pages */
+.countdown-25 h2 {
+    font-family: "Bitcount Prop Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0;
+}
+
+.countdown-25 h4 {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.countdown-25 h2,
+.countdown-25 h4 {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .countdown-25 h4 {
+        font-size: 30px;
+    }
+}
+
+.countdown-25 .w-100 {
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-25 .w-100 > div {
+    text-align: center;
+}
+
+@media only screen and (max-width : 991px) {
+    .countdown-25 .w-100 > div {
+        min-width: 20%;
+        text-align: center;
+    }
+}
+
 .text-third, .context-dark .text-third {
     color: #cf001f;
 }
