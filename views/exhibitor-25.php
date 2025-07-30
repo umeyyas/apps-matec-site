@@ -25,12 +25,12 @@
             }
 
             #intro-hero .card-body img {
-                margin-left: -1.25rem;
-                margin-right: -1.25rem;
+                margin-top: -1.25rem;
+                margin-bottom: -1.25rem;
             }
 
-            #intro-hero .row > div:first-child .card-body img {
-                margin-top: -20px;
+            #intro-hero .card-body div:first-child {
+                margin-top: -.8rem;
             }
         }
     </style>
@@ -45,11 +45,12 @@
     <?php include "layouts/navbar-25.php"; ?>
 
     <div class="container-fluid w-max-1500 text-white inner-body-container">
-        <h4 class="wow fadeScale text-center text-white" data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">
+        <h4 class="wow fadeScale text-center text-white mb-60" data-caption-animate="fadeInUp" data-caption-delay="100" data-caption-duration="900">
             Become part of Malaysia’a largest automotive ecosystem fair and enjoy all benefits and programs to help you grow your business. Let’s join and be apart of MATEC2025.
         </h4>
+
         <div class="row">
-            <div class="col-md-3 mb-sm-0 mb-50">
+            <div class="col-md-3 mb-sm-0 mb-60">
                 <div class="card" style="background-image: url(<?= asset('images/2025/bg-exhibitor1820.webp') ?>)">
                     <div class="card-body">
                         <div class="row align-items-center">
@@ -63,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-sm-0 mb-50">
+            <div class="col-md-3 mb-sm-0 mb-60">
                 <div class="card" style="background-image: url(<?= asset('images/2025/bg-exhibitor1820.webp') ?>)">
                     <div class="card-body">
                         <div class="row align-items-center">
@@ -77,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-sm-0 mb-50">
+            <div class="col-md-3 mb-sm-0 mb-60">
                 <div class="card" style="background-image: url(<?= asset('images/2025/bg-exhibitor1820.webp') ?>)">
                     <div class="card-body">
                         <div class="row align-items-center">
@@ -91,7 +92,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-sm-0 mb-50">
+            <div class="col-md-3 mb-sm-0 mb-60">
                 <a href="javascript:void(0)" data-fancybox data-src="#exhibitor_faq">
                     <div class="card" style="background-image: url(<?= asset('images/2025/bg-exhibitor1820.webp') ?>)">
                         <div class="card-body">
