@@ -124,7 +124,7 @@
                     </div>
                     <div id="collapseExhibitorTwo" class="collapse" aria-labelledby="headingExhibitorTwo" data-parent="#accordionExhibitor">
                         <div class="card-body">
-                            For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 15 and 16).
+                            For more info, please click Exhibitor button and refer to MATEC2025 Event Brief (Page 15 and 16).
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                     </div>
                     <div id="collapseExhibitorThree" class="collapse" aria-labelledby="headingExhibitorThree" data-parent="#accordionExhibitor">
                         <div class="card-body">
-                            For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 16 and 17 ).
+                            For more info, please click Exhibitor button and refer to MATEC2025 Event Brief (Page 16 and 17 ).
                         </div>
                     </div>
                 </div>
