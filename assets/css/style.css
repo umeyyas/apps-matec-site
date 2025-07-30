@@ -15184,3 +15184,20 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   font-weight: bold;
   color: #ffffff !important;
 }
+
+.btn-big-blue {
+  display: inline-block;
+  padding: 15px 73px;
+  font-size: 18px;
+  color: white;
+  background-color: #3751ba; /* Bootstrap Purple */
+  border: none;
+
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-big-blue:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: #fff;
+}
