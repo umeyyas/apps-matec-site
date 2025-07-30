@@ -48,8 +48,7 @@
                     <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL KUALA LUMPUR</span>
                 </h4>
                 <div class="text-center mt-5">
-                    <a href="" class="btn-custom" data-fancybox data-src="#enquiry-popup">Enquiry</a>
-                    <a href="<?= asset('pdf/matec2025_event_deck_v1.1.pdf') ?>" class="btn-custom" target="_blank">About MATEC</a>
+                    
                 </div>
             </div>
         </div>
