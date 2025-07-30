@@ -174,7 +174,7 @@
     </div>
 </section>
 
-<section id="matec-about" class="pt-100 pb-50">
+<section id="matec-about" class="pt-100 pb-50" style="background-color: #e6e6e6;">
     <div class="container-fluid w-max-1500">
         <p class="text-center">Presenting the inaugural MARA Automotive Ecosystem exhibition, a groundbreaking event that brings a fresh wave of excitement to Malaysians nationwide. MATEC2025 is more than just a conventional showcase — it's a dynamic platform brimming with opportunities, catering not only to entrepreneurs but also to visitors from all walks of life. Prepare to explore innovative ideas, connect with industry experts, and uncover endless possibilities in this one-of-a-kind experience.</p>
         <div class="row">
@@ -190,7 +190,7 @@
     </div>
 </section>
 
-<section id="matec-about" class="py-200" style="background: #000000;">
+<section id="matec-activities" class="py-150" style="background: #000000;">
     <div class="container-fluid w-max-1500">
         <div class="row activities-wrapper">
             <div class="col-md-12">
@@ -232,6 +232,45 @@
                     </div>
                     <img src="<?= asset('images/2025/faq_mara_13.webp') ?>" alt="" class="img-fluid border-radius-20">
                 </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="matec-more-excitement" class="py-150" style="background: #ffffff;">
+    <div class="container-fluid w-max-1500">
+        <div class="row">
+            <div class="col-md-4">
+                <div>
+                    <h4 class="text-white">TWO-WHEEL THRILLS</h4>
+                    <p>Built for convenience, made to endure</p>
+                </div>
+                <img src="<?= asset('images/2025/discover01.webp') ?>" alt="" class="img-fluid border-radius-20">
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12 mb-35">
+                        <div>
+                            <h4 class="text-white">TWO-WHEEL THRILLS</h4>
+                            <p>Built for convenience, made to endure</p>
+                        </div>
+                        <img src="<?= asset('images/2025/nasty-hq.webp') ?>" alt="" class="img-fluid border-radius-20">
+                    </div>
+                    <div class="col-md-12">
+                        <div>
+                            <h4 class="text-white">TWO-WHEEL THRILLS</h4>
+                            <p>Built for convenience, made to endure</p>
+                        </div>
+                        <img src="<?= asset('images/2025/nasty-hq.webp') ?>" alt="" class="img-fluid border-radius-20">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <h4 class="text-white">TWO-WHEEL THRILLS</h4>
+                    <p>Built for convenience, made to endure</p>
+                </div>
+                <img src="<?= asset('images/2025/discover01.webp') ?>" alt="" class="img-fluid border-radius-20">
             </div>
         </div>
     </div>
