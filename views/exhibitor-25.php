@@ -75,22 +75,133 @@
                 </div>
             </div>
             <div class="col-md-3">
+                <a href="" data-fancybox data-src="#exhibitor_faq">
+                    <div class="card">
+                        <div class="card-body p-1">
+                            <div class="row align-items-center">
+                                <div class="col-md-12 col-5">
+                                    <img src="<?= asset('images/matec-images/ex_004.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
+                                </div>
+                                <div class="col-md-12 col-7 pl-sm-2 pl-0 text-center">
+                                    <h5 class="mt-3 mb-3" style="color:#000;">EXHIBITOR F.A.Q</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="exhibitor_faq" class="p-0 mt-xs-0 mt-5" style="display: none; max-width:820px;">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="mb-4">EXHIBITOR - FREQUENTLY ASK QUESTION</h3>
+            <div class="accordion" id="accordionExhibitor">
                 <div class="card">
-                    <div class="card-body p-1">
-                        <div class="row align-items-center">
-                            <div class="col-md-12 col-5">
-                                <img src="<?= asset('images/matec-images/ex_004.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
-                            </div>
-                            <div class="col-md-12 col-7 pl-sm-2 pl-0 text-center">
-                                <h5 class="mt-3 mb-3" style="color:#000;">EXHIBITOR F.A.Q</h5>
-                            </div>
+                    <div class="card-header" id="headingExhibitorOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseExhibitorOne" aria-expanded="true" aria-controls="collapseExhibitorOne">
+                                How many exhibitors can you accommodate?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseExhibitorOne" class="collapse show" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
+                        <div class="card-body">
+                            Over 150 exhibitors with the various of spaces.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingExhibitorTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorTwo" aria-expanded="false" aria-controls="collapseExhibitorTwo">
+                                What size spaces do you have available?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseExhibitorTwo" class="collapse" aria-labelledby="headingExhibitorTwo" data-parent="#accordionExhibitor">
+                        <div class="card-body">
+                            For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 15 and 16).
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingExhibitorThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorThree" aria-expanded="false" aria-controls="collapseExhibitorThree">
+                                How much does it cost to exhibit?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseExhibitorThree" class="collapse" aria-labelledby="headingExhibitorThree" data-parent="#accordionExhibitor">
+                        <div class="card-body">
+                            For more info, please click Exhibitor button and refer to MATEC2024 Event Brief (Page 16 and 17 ).
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingExhibitorFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorFour" aria-expanded="false" aria-controls="collapseExhibitorFour">
+                                Do you offer a shell scheme?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseExhibitorFour" class="collapse" aria-labelledby="headingExhibitorFour" data-parent="#accordionExhibitor">
+                        <div class="card-body">
+                            Yes, we have two sizes for shell scheme booth which are (3mx3m) and (6mx3m).
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingExhibitorFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorFive" aria-expanded="false" aria-controls="collapseExhibitorFive">
+                                Do you have sponsorship packages available?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseExhibitorFive" class="collapse" aria-labelledby="headingExhibitorFive" data-parent="#accordionExhibitor">
+                        <div class="card-body">
+                            Yes we do and we are seeking for a various type of sponsorship. Please refer to Partnership page. Please contact us if you have any inquiries.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingExhibitorSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorSix" aria-expanded="false" aria-controls="collapseExhibitorSix">
+                                Can we sponsor the event without exhibiting?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseExhibitorSix" class="collapse" aria-labelledby="headingExhibitorSix" data-parent="#accordionExhibitor">
+                        <div class="card-body">
+                            Yes. We are aware that under certain circumstances it's not always ideal for you to exhibit but may well like to advertise your presence at the event.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingExhibitorSeven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseExhibitorSeven" aria-expanded="false" aria-controls="collapseExhibitorSeven">
+                                Is there accommodation or public transport near by?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseExhibitorSeven" class="collapse" aria-labelledby="headingExhibitorSeven" data-parent="#accordionExhibitor">
+                        <div class="card-body">
+                            There are Bukit Jalil LRT Station near by and a few hotels on site with many a short car ride away.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <script>
     Fancybox.bind('[data-fancybox]', {
