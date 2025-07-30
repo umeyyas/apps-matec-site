@@ -68,11 +68,11 @@
     <div class="container-fluid w-max-1500">
         <div class="row">
             <div class="col-12 col-md-5 order-2 order-md-1">
-                <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" alt="" class="img-fluid">
+                <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" alt="" class="img-fluid mb-sm-0 mb-4">
             </div>
-            <div class="col-md-2 d-none d-md-block"></div>
-            <div class="col-12 col-md-5 order-1 order-md-2">
-                <img src="<?= asset('images/2025/title_vanue1280.png') ?>" alt="" class="img-fluid">
+            <div class="col-md-2 d-none d-md-block order-2 order-md-2"></div>
+            <div class="col-12 col-md-5 order-1 order-md-3">
+                <img src="<?= asset('images/2025/title_vanue1280.png') ?>" alt="" class="img-fluid mb-sm-0 mb-4">
             </div>
         </div>
     </div>
@@ -222,7 +222,7 @@
                     <div class="detail-activities text-white pl-60">
                         <h1 class="text-white">VISIT <br> MARA</h1>
                     </div>
-                    <img src="<?= asset('images/2025/red_bg1280.png') ?>" alt="" class="img-fluid border-radius-20">
+                    <img src="<?= asset('images/2025/faq_mara_14.webp') ?>" alt="" class="img-fluid border-radius-20">
                 </a>
             </div>
             <div class="col-md-6 mb-35">
@@ -230,7 +230,7 @@
                     <div class="detail-activities text-white pl-60">
                         <h1 class="text-white">FREQUENTLY <br> ASKED <br> QUESTIONS</h1>
                     </div>
-                    <img src="<?= asset('images/2025/red_bg1280.png') ?>" alt="" class="img-fluid border-radius-20">
+                    <img src="<?= asset('images/2025/faq_mara_13.webp') ?>" alt="" class="img-fluid border-radius-20">
                 </a>
             </div>
         </div>
