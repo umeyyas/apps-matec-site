@@ -21,7 +21,7 @@
 </head>
 <body class="matec-2025">
 
-<section id="intro-hero">
+<section id="intro-hero" class="py-100">
     <video src="<?= asset('video/background.mp4') ?>" autoplay muted loop playsinline></video>
     <div class="video-overlay"></div>
 
