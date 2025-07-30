@@ -1,5 +1,5 @@
 <header>
-    <!--<div id="count-down-sect" class="container-fluid" style="background-color:#000000;">
+    <div id="count-down-sect" class="container-fluid" style="background-color:#000000;">
         <div class="container">
             <div class="countdown text-center mb-1">
                 <div class="w-100 g-1">
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
     <nav id="navbar-sect" class="navbar navbar-expand-lg container-fluid navbar-dark">
         <button class="navbar-toggler me-2" type="button" data-toggle="collapse" data-target="#matecNav" aria-controls="matecNav" aria-expanded="false" aria-label="Toggle navigation">
