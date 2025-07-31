@@ -599,8 +599,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  justify-content: center; /* centers items horizontally */
+  text-align: center; /* optional: centers text inside columns */
 }
 
 .no-gutters {
