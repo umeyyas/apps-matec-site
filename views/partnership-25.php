@@ -65,18 +65,16 @@
                                     <div class="col-md-4">
                                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                         <ul class="list list-marked" style="color: black;">
-                                            <li>Corporate pavilion or branding space in Main Zone (12.0m x 6.5m)</li>
-                                            <li>Hanging banners and 50 stepping stickers</li>
-                                            <li>Partner logo at the Main Entrance</li>
-                                            <li>1 Branding Giant Balloon</li>
-                                            <li>Networking opportunities</li>
-                                            <li>Priority seating at the Opening Ceremony of MATEC 2025</li>
-                                            <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                                            <li>Priority booking of Press Conference Room during event</li>
-                                            <li>1 exclusive interview with local media during MATEC 2025</li>
-                                            <li>Usage of Grand & Main stage for promotional activities (shared basis)</li>
-                                            <li>10 lot reserved parking</li>
-                                            <li>Will carry logo/branding in MATEC 2025 Logo</li>
+                                            <li>Exclusive Exhibition Bare Space</li>
+                                            <li>Opportunity to host a Product/Brand/Company ceremony</li>
+                                            <li>Organizing an own lucky draw/contest within the event program</li>
+                                            <li>Exclusive stand location at main entrance & hot spot area</li>
+                                            <li>Recognition from the podium at the most well attended session</li>
+                                            <li>Acknowledgement in the opening address</li>
+                                            <li>Prominent logo placement on MATEC2025 Entrance Arch</li>
+                                            <li>Prominent logo placement on MATEC2025 Merchandise</li>
+                                            <li>Prominent logo placement on MATEC2025 Printed Materials</li>
+                                            <li>Prominent logo placement at outdoor Activity Zone</li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
@@ -117,17 +115,15 @@
                                     <div class="col-md-4">
                                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                         <ul class="list list-marked" style="color: black;">
-                                            <li>Corporate pavilion or branding space in Main Zone (6.5m x 6.5m)</li>
-                                            <li>Hanging banners and 30 stepping stickers</li>
-                                            <li>Partner logo at the Main Entrance</li>
-                                            <li>1 Branding Giant Balloon</li>
-                                            <li>Networking opportunities</li>
-                                            <li>Priority seating at the Opening Ceremony of MATEC 2025</li>
-                                            <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                                            <li>Priority booking of Press Conference Room during event</li>
-                                            <li>1 exclusive interview with local media during MATEC 2025</li>
-                                            <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
-                                            <li>5 lot reserved parking</li>
+                                            <li>Exclusive Exhibition Bare Space</li>
+                                            <li>Opportunity to host a Product/Brand/Company ceremony</li>
+                                            <li>Organizing an own lucky draw/contest within the event program</li>
+                                            <li>Exclusive stand location at main entrance & hot spot area</li>
+                                            <li>Recognition from the podium at the most well attended session</li>
+                                            <li>Acknowledgement in the opening address</li>
+                                            <li>Prominent logo placement on MATEC2025 Entrance Arch</li>
+                                            <li>Prominent logo placement on MATEC2025 Merchandise</li>
+                                            <li>Prominent logo placement on MATEC2025 Printed Materials</li>>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
@@ -168,16 +164,11 @@
                                     <div class="col-md-4">
                                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                         <ul class="list list-marked" style="color: black;">
-                                            <li>Corporate branding space in Main Zone (13m x 3.5m)</li>
-                                            <li>Partner logo at the Main Entrance</li>
-                                            <li>1 Branding Giant Ballon</li>
-                                            <li>Networking opportunities</li>
-                                            <li>Priority seating at the Opening Ceremony of MATEC 2025</li>
-                                            <li>Used of Shared Sponsor Business Matching Area during event</li>
-                                            <li>Priority booking of Press Conference Room during event</li>
-                                            <li>Booking of Press Conference Room during MATEC 2025</li>
-                                            <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
-                                            <li>3 lot reserved parking</li>
+                                            <li>Exclusive Exhibition Bare Space</li>
+                                            <li>Exclusive stand location at main entrance & hot spot area</li>
+                                            <li>Recognition from the podium at the most well attended session</li>
+                                            <li>Acknowledgement in the opening address</li>
+                                            <li>Prominent logo placement on MATEC2025 Entrance Arch</li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
@@ -218,12 +209,11 @@
                                     <div class="col-md-4">
                                         <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                                         <ul class="list list-marked" style="color:black;">
-                                            <li>Corporate branding space in Main Zone (6.5m x 5.0m)</li>
-                                            <li>Complimentary branding space</li>
-                                            <li>Networking opportunities</li>
-                                            <li>Priority seating at the Opening Ceremony of MATEC 2025</li>
-                                            <li>1 exclusive interview with local media during MATEC 2025</li>
-                                            <li>2 lot reserved parking</li>
+                                            <li>Exclusive Exhibition Bare Space</li>
+                                            <li>Exclusive stand location at main entrance & hot spot area</li>
+                                            <li>Recognition from the podium at the most well attended session</li>
+                                            <li>Acknowledgement in the opening address</li>
+                                            <li>Prominent logo placement on MATEC2025 Entrance Arch</li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
@@ -307,18 +297,16 @@
                 <div class="col-md-4">
                     <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                     <ul class="list list-marked">
-                        <li>Corporate pavilion or branding space in Main Zone (12.0m x 6.5m)</li>
-                        <li>Hanging banners and 50 stepping stickers</li>
-                        <li>Partner logo at the Main Entrance</li>
-                        <li>1 Branding Giant Balloon</li>
-                        <li>Networking opportunities</li>
-                        <li>Priority seating at the Opening Ceremony of MATEC 2025</li>
-                        <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                        <li>Priority booking of Press Conference Room during event</li>
-                        <li>1 exclusive interview with local media during MATEC 2025</li>
-                        <li>Usage of Grand & Main stage for promotional activities (shared basis)</li>
-                        <li>10 lot reserved parking</li>
-                        <li>Will carry logo/branding in MATEC 2025 Logo</li>
+                        <li>Exclusive Exhibition Bare Space</li>
+                                            <li>Opportunity to host a Product/Brand/Company ceremony</li>
+                                            <li>Organizing an own lucky draw/contest within the event program</li>
+                                            <li>Exclusive stand location at main entrance & hot spot area</li>
+                                            <li>Recognition from the podium at the most well attended session</li>
+                                            <li>Acknowledgement in the opening address</li>
+                                            <li>Prominent logo placement on MATEC2025 Entrance Arch</li>
+                                            <li>Prominent logo placement on MATEC2025 Merchandise</li>
+                                            <li>Prominent logo placement on MATEC2025 Printed Materials</li>
+                                            <li>Prominent logo placement at outdoor Activity Zone</li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -357,17 +345,16 @@
                 <div class="col-md-4">
                     <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                     <ul class="list list-marked">
-                        <li>Corporate pavilion or branding space in Main Zone (6.5m x 6.5m)</li>
-                        <li>Hanging banners and 30 stepping stickers</li>
-                        <li>Partner logo at the Main Entrance</li>
-                        <li>1 Branding Giant Balloon</li>
-                        <li>Networking opportunities</li>
-                        <li>Priority seating at the Opening Ceremony of MATEC 2025</li>
-                        <li>Used of Shared Sponsor Meeting Rooms during event</li>
-                        <li>Priority booking of Press Conference Room during event</li>
-                        <li>1 exclusive interview with local media during MATEC 2025</li>
-                        <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
-                        <li>5 lot reserved parking</li>
+                        <li>Exclusive Exhibition Bare Space</li>
+                                            <li>Opportunity to host a Product/Brand/Company ceremony</li>
+                                            <li>Organizing an own lucky draw/contest within the event program</li>
+                                            <li>Exclusive stand location at main entrance & hot spot area</li>
+                                            <li>Recognition from the podium at the most well attended session</li>
+                                            <li>Acknowledgement in the opening address</li>
+                                            <li>Prominent logo placement on MATEC2025 Entrance Arch</li>
+                                            <li>Prominent logo placement on MATEC2025 Merchandise</li>
+                                            <li>Prominent logo placement on MATEC2025 Printed Materials</li>
+                                            
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -406,17 +393,15 @@
                 <div class="col-md-4">
                     <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                     <ul class="list list-marked">
-                        <li>Corporate branding space in Main Zone (13m x 3.5m)</li>
-                        <li>Partner logo at the Main Entrance</li>
-                        <li>1 Branding Giant Ballon</li>
-                        <li>Networking opportunities</li>
-                        <li>Priority seating at the Opening Ceremony of MATEC 2025</li>
-                        <li>Used of Shared Sponsor Business Matching Area during event</li>
-                        <li>Priority booking of Press Conference Room during event</li>
-                        <li>Booking of Press Conference Room during MATEC 2025</li>
-                        <li>Usage of Hall A main stage for promotional activities (shared basis)</li>
-                        <li>3 lot reserved parking</li>
-                    </ul>
+                        <li>Exclusive Exhibition Bare Space</li>
+                                            <li>Opportunity to host a Product/Brand/Company ceremony</li>
+                                            <li>Organizing an own lucky draw/contest within the event program</li>
+                                            <li>Exclusive stand location at main entrance & hot spot area</li>
+                                            <li>Recognition from the podium at the most well attended session</li>
+                                            <li>Acknowledgement in the opening address</li>
+                                            <li>Prominent logo placement on MATEC2025 Entrance Arch</li>
+                                            <li>Prominent logo placement on MATEC2025 Printed Materials</li>
+                                            
                 </div>
                 <div class="col-md-4">
                     <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
@@ -454,13 +439,12 @@
                 <div class="col-md-4">
                     <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                     <ul class="list list-marked">
-                        <li>Corporate branding space in Main Zone (6.5m x 5.0m)</li>
-                        <li>Complimentary branding space</li>
-                        <li>Networking opportunities</li>
-                        <li>Priority seating at the Opening Ceremony of MATEC 2025</li>
-                        <li>1 exclusive interview with local media during MATEC 2025</li>
-                        <li>2 lot reserved parking</li>
-                    </ul>
+                        <li>Exclusive Exhibition Bare Space</li>
+                                            <li>Exclusive stand location at main entrance & hot spot area</li>
+                                            <li>Recognition from the podium at the most well attended session</li>
+                                            <li>Acknowledgement in the opening address</li>
+                                            <li>Prominent logo placement on MATEC2025 Entrance Arch</li>
+                                            
                 </div>
                 <div class="col-md-4">
                     <img src="<?= asset('images/matec-images/matec-50.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
@@ -495,11 +479,11 @@
                 <div class="col-md-4">
                     <img src="<?= asset('images/matec-images/matec-49.png') ?>" alt="" class="d-flex w-auto h-md-45px h-xs-30px mb-3">
                     <ul class="list list-marked">
-                        <li>Coporate branding space in Main Zone (6.5m x 5.0m)</li>
-                        <li>Complimentary branding space</li>
-                        <li>Networking opportunities</li>
-                        <li>Priority seating at the Opening Ceremony of MATEC 2025</li>
-                        <li>1 lot reserved parking</li>
+                         <li>Exclusive Exhibition Bare Space</li>
+                                            <li>Exclusive stand location at main entrance & hot spot area</li>
+                                            <li>Recognition from the podium at the most well attended session</li>
+                                            <li>Acknowledgement in the opening address</li>
+                                            <li>Prominent logo placement on MATEC2025 Entrance Arch</li>
                     </ul>
                 </div>
                 <div class="col-md-4">
