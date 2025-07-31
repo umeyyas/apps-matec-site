@@ -149,9 +149,9 @@
                             <span class="d-none d-md-inline"> | </span>
                             <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL PARKING A & B</span>
                         </h4>
-                        <div class="text-center mt-5">
-                            <a href="" class="btn-custom btn-big-red" data-fancybox data-src="#enquiry-popup">Enquiry</a>
-                            <a href="<?= asset('pdf/matec2025_event_deck_v1.1.pdf') ?>" class="btn-custom btn-big-red" target="_blank">About MATEC</a>
+                        <div class="text-center mt-5 button-container">
+                            <a href="" class="btn-big-red" data-fancybox data-src="#enquiry-popup">Enquiry</a>
+                            <a href="<?= asset('pdf/matec2025_event_deck_v1.1.pdf') ?>" class="btn-big-red" target="_blank">About MATEC</a>
                         </div>
                     </div>
                 </div>
@@ -303,7 +303,7 @@
                 if (marginTop < 0) marginTop = 0;
 
                 $inner.css({
-                    'margin-top': margin,
+                    'margin-top': marginTop,
                     'margin-bottom': margin
                 });
             }
