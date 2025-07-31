@@ -57,7 +57,7 @@
                             <div class="col-md-12 col-7 order-2 order-sm-1">
                                 <img src="<?= asset('images/2025/event_brief_icon.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/matec2025_event-deck-v2.pdf') ?>" >
                             </div>
-                            <div class="col-md-12 col-5 pl-sm-2 pl-0 text-center order-1 order-sm-2 py-sm-auto d-flex align-items-center justify-content-center">
+                            <div class="col-md-12 col-5 pl-sm-2 pl-0 text-center order-1 order-sm-2 py-sm-auto d-flex align-items-center justify-content-center pt-sm-0 pt-10">
                                 <h5 class="mt-3 mb-3" style="color:#ffffff;">MATEC2025 Event Brief</h5>
                             </div>
                         </div>
@@ -71,7 +71,7 @@
                             <div class="col-md-12 col-7 order-2 order-sm-1">
                                 <img src="<?= asset('images/2025/partnership_icon.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
                             </div>
-                            <div class="col-md-12 col-5 pl-sm-2 pl-0 text-center order-1 order-sm-2 d-flex align-items-center justify-content-center">
+                            <div class="col-md-12 col-5 pl-sm-2 pl-0 text-center order-1 order-sm-2 d-flex align-items-center justify-content-center pt-sm-0 pt-10">
                                 <h5 class="mt-3 mb-3" style="color:#ffffff;">MATEC2025 Partnership Packages</h5>
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                             <div class="col-md-12 col-7 order-2 order-sm-1">
                                 <img src="<?= asset('images/2025/event_layout_icon.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
                             </div>
-                            <div class="col-md-12 col-5 pl-sm-2 pl-0 text-center order-1 order-sm-2 d-flex align-items-center justify-content-center">
+                            <div class="col-md-12 col-5 pl-sm-2 pl-0 text-center order-1 order-sm-2 d-flex align-items-center justify-content-center pt-sm-0 pt-10">
                                 <h5 class="mt-3 mb-3" style="color:#ffffff;">MATEC2025 Full Layout</h5>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                                 <div class="col-md-12 col-7 order-2 order-sm-1">
                                     <img src="<?= asset('images/2025/exhibitor_icon.png') ?>" alt="" class="img-fluid newtab" data-pdf-url="<?= asset('pdf/MATEC2024_Event Brief_v7 14082024.pdf') ?>" >
                                 </div>
-                                <div class="col-md-12 col-5 pl-sm-2 pl-0 text-center order-1 order-sm-2 d-flex align-items-center justify-content-center">
+                                <div class="col-md-12 col-5 pl-sm-2 pl-0 text-center order-1 order-sm-2 d-flex align-items-center justify-content-center pt-sm-0 pt-10">
                                     <h5 class="mt-3 mb-3" style="color:#ffffff;">EXHIBITOR F.A.Q</h5>
                                 </div>
                             </div>
