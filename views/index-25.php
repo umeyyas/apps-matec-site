@@ -97,33 +97,33 @@
             <div class="f-carousel__viewport">
                 <div class="f-carousel__track">
                     <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-01.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-01.webp') ?>" class="img-fluid" alt="Gallery Image 1">
+                        <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188.webp') ?>" class="img-fluid" alt="Gallery Image 1">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-02.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-02.webp') ?>" class="img-fluid" alt="Gallery Image 2">
+                        <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_2.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_2.webp') ?>" class="img-fluid" alt="Gallery Image 2">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-03.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-03.webp') ?>" class="img-fluid" alt="Gallery Image 3">
+                        <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_3.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_3.webp') ?>" class="img-fluid" alt="Gallery Image 3">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-04.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-04.webp') ?>" class="img-fluid" alt="Gallery Image 4">
+                        <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_4.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_4.webp') ?>" class="img-fluid" alt="Gallery Image 4">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-05.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-05.webp') ?>" class="img-fluid" alt="Gallery Image 1">
+                        <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_5.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_5.webp') ?>" class="img-fluid" alt="Gallery Image 1">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-06.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-06.webp') ?>" class="img-fluid" alt="Gallery Image 2">
+                        <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_6.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_6.webp') ?>" class="img-fluid" alt="Gallery Image 2">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
@@ -142,7 +142,7 @@
     </div>
 </section>
 
-<section class="pt-600 pb-100" style="background: #000000 url('<?= asset('images/2025/bg-hero.png') ?>') no-repeat top center;">
+<section class="pt-600 pb-100" style="background: #000000 url('<?= asset('images/2025/stats-1420x1030.webp') ?>') no-repeat top center;">
     <div class="container-fluid w-max-1500 pb-50">
         <h1 class="text-center text-white">MATEC2024 STATISTIC</h1>
         <div class="row">
@@ -218,9 +218,9 @@
                 <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 mb-35">
-                <a href="https://www.mara.gov.my/en/index/" target="_blank">
+                <a href="https://www.mara.gov.my/en/entrepreneurship" target="_blank">
                     <div class="detail-activities text-white pl-60">
-                        <h1 class="text-white">VISIT <br> MARA</h1>
+                        <h1 class="text-white">KEUSAHAWANAN <br> MARA</h1>
                     </div>
                     <img src="<?= asset('images/2025/faq_mara_14.webp') ?>" alt="" class="img-fluid border-radius-20">
                 </a>
