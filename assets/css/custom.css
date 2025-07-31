@@ -8489,6 +8489,7 @@ body.matec-2025 .event-details h4 {
     --f-carousel-gap: 5px;
     --f-carousel-slide-width: calc(100%/3);
     --f-carousel-slide-padding: 0px 10px;
+    --f-carousel-slide-border-radius: 5px;
     /*--f-carousel-slide-bg: #eee;*/
 }
 

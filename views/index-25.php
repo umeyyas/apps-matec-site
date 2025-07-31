@@ -206,7 +206,21 @@
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
-                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
+                                    <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
+                                    <p>Build for convenience <br> made to endure</p>
+                                </div>
+                                <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
+                            </div>
+                            <div class="f-carousel__slide">
+                                <div class="detail-activities text-white mt-15">
+                                    <h4 class="text-white">PUSH BIKE <br> THRILLS</h4>
+                                    <p>Where passion <br> meets pedal power <br> all day long</p>
+                                </div>
+                                <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
+                            </div>
+                            <div class="f-carousel__slide">
+                                <div class="detail-activities text-white mt-15">
+                                    <h4 class="text-white">PUSH BIKE </h4>
                                     <p>Seamless design meets <br> long-lasting power</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
@@ -214,21 +228,7 @@
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
-                                    <p>Seamless design meets <br> long-lasting power</p>
-                                </div>
-                                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
-                            </div>
-                            <div class="f-carousel__slide">
-                                <div class="detail-activities text-white mt-15">
-                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
-                                    <p>Seamless design meets <br> long-lasting power</p>
-                                </div>
-                                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
-                            </div>
-                            <div class="f-carousel__slide">
-                                <div class="detail-activities text-white mt-15">
-                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
-                                    <p>Seamless design meets <br> long-lasting power</p>
+                                    <p>Where passion <br> meets pedal power <br> all day long</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                             </div>
