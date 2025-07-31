@@ -213,29 +213,29 @@
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
-                                    <h4 class="text-white">PUSH BIKE <br> THRILLS</h4>
+                                    <h4 class="text-white">PUSH BIKE</h4>
                                     <p>Where passion <br> meets pedal power <br> all day long</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
-                                    <h4 class="text-white">PUSH BIKE </h4>
-                                    <p>Seamless design meets <br> long-lasting power</p>
+                                    <h4 class="text-white">LIVE <br> BEATS</h4>
+                                    <p>Where music meets magic <br> and memories are made</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
-                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
-                                    <p>Where passion <br> meets pedal power <br> all day long</p>
+                                    <h4 class="text-white">SPIN <br> YOUR <br> FORTUNE</h4>
+                                    <p>Excitement in every chance <br> rewards beyond imagination</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
-                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
-                                    <p>Seamless design meets <br> long-lasting power</p>
+                                    <h4 class="text-white">DRIFTING <br> DOMINANCE</h4>
+                                    <p>Precision, speed, and style <br> —built for the fearless</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                             </div>
