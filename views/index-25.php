@@ -28,7 +28,7 @@
 
     <?php include "layouts/navbar-25.php"; ?>
 
-    <div class="container text-white inner-body-container">
+    <div class="container text-white inner-body-container mt-7">
         <div class="logo-matec mx-auto">
             <div class="row">
                 <div class="col-lg-3 col-sm-4 col-6 mx-auto px-0">
@@ -146,11 +146,11 @@
     <div class="container-fluid w-max-1500 pb-50">
         <h1 class="text-center text-white">MATEC2024 STATISTIC</h1>
         <div class="row">
-            <div class="col-md-11 col-12 mx-auto">
+            <div class="col-md-8 col-12 mx-auto">
                 <div class="card">
                     <div class="card-body counter-statistic">
-                        <div class="row">
-                            <div class="col-md-3 col-6 pt-20 pb-25">
+                        <div class="row gx-0">
+                            <div class="col-md-4 col-7 pt-20 pb-25">
                                 <h1 class="text-center">26,550+</h1>
                                 <h5 class="text-center">Total Visitors</h5>
                             </div>
