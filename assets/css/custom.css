@@ -8489,6 +8489,7 @@ body.matec-2025 .event-details h4 {
     --f-carousel-gap: 5px;
     --f-carousel-slide-width: calc(100%/3);
     --f-carousel-slide-padding: 0px 10px;
+    --f-carousel-slide-border-radius: 5px;
     /*--f-carousel-slide-bg: #eee;*/
 }
 
@@ -8671,4 +8672,19 @@ body.matec-2025 .event-details h4 {
 body.matec-2025 .section-lg,
 body.matec-2025 .section-lg p {
     color: #000000;
+}
+
+/* Activities Gallery */
+#activitiesGallery {
+    --f-carousel-gap: 5px;
+    --f-carousel-slide-width: calc(100%/3);
+    --f-carousel-slide-padding: 0px 10px;
+    /--f-carousel-slide-bg: #eee;/
+}
+
+@media (max-width: 767.98px) {
+    #activitiesGallery {
+        --f-carousel-slide-width: 100%;
+        --f-carousel-slide-padding: 0;
+    }
 }

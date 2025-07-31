@@ -49,7 +49,7 @@
         <div class="row row-30 justify-content-center">
             <div class="col-md-12 col-lg-12">
                 <div class="d-sm-block d-none">
-                    <img src="<?= asset('images/matec-images/matec-20.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px">
+                    <img src="<?= asset('images/matec-images/the-ideas-of-matec-3042x153.webp') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px">
                 </div>
                 <div class="d-sm-none d-block">
                     <img src="<?= asset('images/matec-2/matec-62.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
@@ -102,8 +102,8 @@
     <div class="container">
         <div class="row row-30 justify-content-center">
             <div class="col-md-12 col-lg-12">
-                <img src="<?= asset('images/matec-images/matec-21.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
-                <img src="<?= asset('images/matec-images/matec-22.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
+                <img src="<?= asset('images/matec-images/excitement-1990x160.webp') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
+                <img src="<?= asset('images/matec-images/activities-1748x162.webp') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
             </div>
             <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
                 <div class="row row-15 justify-content-center mb-sm-0 mb-1 ">
@@ -225,7 +225,7 @@
     </div>
 </section>
 
-<!--<section class="section section-lg bg-default wow fadeIn bg-image-section bg-cover-section" style="background-image: url(<?php /*= asset('images/matec-images/matec-bg-images-05.png') */?>); background-position: center left;">
+<section class="section section-lg bg-default wow fadeIn bg-image-section bg-cover-section" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-05.png') ?>); background-position: center left;">
     <div class="container">
         <div class="row">
             <div class="col-md-10">
@@ -334,8 +334,8 @@
                 </div>
             </div>
             <div class="col-md-2 row align-items-end justify-content-end">
-                <img src="<?php /*= asset('images/matec-images/matec-35.png') */?>" alt="" class="w-75px mr-2 d-sm-block d-none">
-                <img src="<?php /*= asset('images/matec-images/matec-36.png') */?>" alt="" class="w-75px d-sm-block d-none">
+                <img src="<?= asset('images/matec-images/matec-35.png') ?>" alt="" class="w-75px mr-2 d-sm-block d-none">
+                <img src="<?= asset('images/matec-images/matec-36.png') ?>" alt="" class="w-75px d-sm-block d-none">
             </div>
         </div>
         <div class="row">
@@ -346,7 +346,7 @@
             </div>
         </div>
     </div>
-</section>-->
+</section>
 
 <!-- Section With Counters-->
 <section class="section" style="background-image: url(<?= asset('images/2025/bg_our_target_16.png') ?>); background-size:cover; background-position: top left;">

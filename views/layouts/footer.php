@@ -12,16 +12,16 @@
                     <a class="brand" href="/">
                         <img src="<?= asset('images/asset-matec2025.png') ?>" srcset="<?= asset('images/asset-matec2025@2x.png') ?> 2x" alt="MATEC2025" class="w-75 mb-4 d-block mr-sm-0 mr-auto">
                     </a>
-                    <!--<div class="row mt-0 d-flex align-items-center flex-column">
+                    <div class="row mt-0 d-flex align-items-center flex-column">
                         <div class="col-md-12 col-lg-8 mb-4 pr-lg-5 mr-lg-auto ml-lg-4 text-center ">
                             <h5><span class="big font-weight-bold">Know More About</span></h5>
                         </div>
                         <div class="col-md-6 col-lg-8 pr-lg-5 mr-lg-auto ml-lg-4 text-center">
                             <a class="brand" href="https://www.mara.gov.my/en/index/" target="_blank">
-                                <img class="w-145px h-150px img-fluid" src="<?php /*= asset('images/matec-images/mara-logo.png') */?>" srcset="<?php /*= asset('images/matec-images/mara-logo@2x.png 2x') */?>" alt="Matec 2024">
+                                <img class="w-145px h-150px img-fluid" src="<?= asset('images/matec-images/mara-logo.png') ?>" srcset="<?=  asset('images/matec-images/mara-logo@2x.png 2x') ?> 2x" alt="Matec 2025">
                             </a>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
                 <div class="col-xs-12 col-lg-4">
                     <h5><span class="big font-weight-bold">Event detail</span></h5>
