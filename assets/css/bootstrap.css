@@ -483,6 +483,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: autoF;
+  border-radius: 20px;
 }
 
 .img-thumbnail {
