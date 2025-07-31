@@ -76,7 +76,6 @@ $router->add('2025/exhibitor', function() {
     require 'views/exhibitor-25.php';
 });
 
-<<<<<<< HEAD
 $router->add('2025/the-ideas', function() {
     require 'views/ideas-25.php';
 });
@@ -93,10 +92,7 @@ $router->add('2025/contact-us', function() {
     require 'views/contact-25.php';
 });
 
-$router->add('views/visitor.php', function() {
-=======
 $router->add('2025/visitor', function() {
->>>>>>> origin/umeyyas
     require 'views/visitor.php';
 });
 
