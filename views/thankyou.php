@@ -106,7 +106,7 @@ footer {
   <div class="container">
     <h2>🎉 Thank You for Registering!</h2>
     <p>We've received your details and look forward to seeing you at MATEC2025.</p>
-      <a href="visitor.php">
+      <a href="visitor">
         <button class="boxed-button" type="button">Go Back</button>
       </a>
   </div>

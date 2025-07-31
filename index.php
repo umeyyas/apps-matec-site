@@ -74,15 +74,15 @@ $router->add('2025/exhibitor', function() {
     require 'views/exhibitor-25.php';
 });
 
-$router->add('views/visitor.php', function() {
+$router->add('2025/visitor', function() {
     require 'views/visitor.php';
 });
 
-$router->add('views/visitor-register-form.php', function() {
+$router->add('2025/visitor-register-form', function() {
     require 'views/visitor-register-form.php';
 });
 
-$router->add('views/thankyou.php', function() {
+$router->add('2025/thankyou', function() {
     require 'views/thankyou.php';
 });
 

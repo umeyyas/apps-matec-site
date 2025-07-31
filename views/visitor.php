@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATEC2024 Welcome</title>
+    <title>MATEC2025</title>
     <style>
         body {
             margin: 0;
@@ -181,7 +181,7 @@
 
     <script>
         function openIndexPage() {
-            window.location.href = 'visitor-register-form.php';
+            window.location.href = 'visitor-register-form';
         }
 
         function closeModal() {
