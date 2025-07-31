@@ -138,7 +138,7 @@
                         <a href="" data-fancybox data-src="#comingsoon">
                             <div class="card border-0">
                                 <div class="card-body p-0">
-                                    <img src="<?= asset('images\matec-3\matec-26.png') ?>" alt="" class="img-fluid">
+                                    <img src="<?= asset('images/matec-3/matec-26.png') ?>" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </a>
@@ -147,7 +147,7 @@
                         <a href="" data-fancybox data-src="#comingsoon">
                             <div class="card border-0">
                                 <div class="card-body p-0">
-                                    <img src="<?= asset('images\matec-3\matec-27.png') ?>" alt="" class="img-fluid">
+                                    <img src="<?= asset('images/matec-3/matec-27.png') ?>" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </a>
@@ -156,7 +156,7 @@
                         <a href="" data-fancybox data-src="#comingsoon">
                             <div class="card border-0">
                                 <div class="card-body p-0">
-                                    <img src="<?= asset('images\matec-3\matec-28.png') ?>" alt="" class="img-fluid">
+                                    <img src="<?= asset('images/matec-3/matec-28.png') ?>" alt="" class="img-fluid">
                                 </div>
                             </div>
                         </a>
@@ -363,13 +363,13 @@
                         </div>
                         <div class="row mt-sm-5 mt-0 justify-content-center">
                             <div class="col-md-4 col-8 mx-sm-0 pb-sm-0 pb-5">
-                                <img src="<?= asset('images/matec-images/matec-56.png') ?>" alt="" class="img-fluid">
+                                <img src="<?= asset('images/2025/data_total_18.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-4 col-8 mx-sm-0 pb-sm-0 pb-5">
-                                <img src="<?= asset('images/matec-images/matec-57.png') ?>" alt="" class="img-fluid">
+                                <img src="<?= asset('images/2025/data_total_19.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-4 col-8 mx-sm-0 pb-sm-0 pb-5">
-                                <img src="<?= asset('images/matec-images/matec-58.png') ?>" alt="" class="img-fluid">
+                                <img src="<?= asset('images/2025/data_total_20.png') ?>" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>

@@ -245,7 +245,7 @@
                     <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                     <p>Built for convenience, made to endure</p>
                 </div>-->
-                <img src="<?= asset('images/2025/asset_31920.webp') ?>" alt="" class="img-fluid border-radius-20">
+                <img src="<?= asset('images/2025/asset_31920.png') ?>" alt="" class="img-fluid border-radius-20">
             </div>
             <div class="col-md-4">
                 <div class="row">
@@ -254,14 +254,14 @@
                             <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                             <p>Built for convenience, made to endure</p>
                         </div>-->
-                        <img src="<?= asset('images/2025/asset_11920.webp') ?>" alt="" class="img-fluid border-radius-20">
+                        <img src="<?= asset('images/2025/asset_11920.png') ?>" alt="" class="img-fluid border-radius-20">
                     </div>
                     <div class="col-md-12 mb-30 position-relative">
                         <!--<div class="detail-activities text-white">
                             <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                             <p>Built for convenience, made to endure</p>
                         </div>-->
-                        <img src="<?= asset('images/2025/asset_21920.webp') ?>" alt="" class="img-fluid border-radius-20">
+                        <img src="<?= asset('images/2025/asset_21920.png') ?>" alt="" class="img-fluid border-radius-20">
                     </div>
                 </div>
             </div>
@@ -270,7 +270,7 @@
                     <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                     <p>Built for convenience, made to endure</p>
                 </div>-->
-                <img src="<?= asset('images/2025/asset_41920.webp') ?>" alt="" class="img-fluid border-radius-20">
+                <img src="<?= asset('images/2025/asset_41920.png') ?>" alt="" class="img-fluid border-radius-20">
             </div>
         </div>
     </div>
