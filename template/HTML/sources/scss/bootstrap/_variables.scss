@@ -140,6 +140,46 @@ $spacers: map-merge(
   $spacers
 );
 
+// Extend spacing scale with additional values up to ~600px
+$spacers: map-merge(
+  (
+    6: ($spacer * 4),    // 4rem
+    7: ($spacer * 5),    // 5rem
+    8: ($spacer * 6),
+    9: ($spacer * 7),
+    10: ($spacer * 8),
+    11: ($spacer * 9),
+    12: ($spacer * 10),
+    13: ($spacer * 11),
+    14: ($spacer * 12),
+    15: ($spacer * 13),
+    16: ($spacer * 14),
+    17: ($spacer * 15),
+    18: ($spacer * 16),
+    19: ($spacer * 17),
+    20: ($spacer * 18),
+    21: ($spacer * 19),
+    22: ($spacer * 20),
+    23: ($spacer * 21),
+    24: ($spacer * 22),
+    25: ($spacer * 23),
+    26: ($spacer * 24),
+    27: ($spacer * 25),
+    28: ($spacer * 26),
+    29: ($spacer * 27),
+    30: ($spacer * 28),
+    31: ($spacer * 29),
+    32: ($spacer * 30),
+    33: ($spacer * 31),
+    34: ($spacer * 32),
+    35: ($spacer * 33),
+    36: ($spacer * 34),
+    37: ($spacer * 35),
+    38: ($spacer * 37.5) // ~600px
+  ),
+  $spacers
+);
+
 // This variable affects the `.h-*` and `.w-*` classes.
 $sizes: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default

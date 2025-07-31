@@ -63,91 +63,12 @@
             font-weight: 500;
         }
 
-        .contain-details .countdown h2 {
-            font-family: "Bitcount Prop Single", system-ui;
-            font-optical-sizing: auto;
-            font-weight: 300;
-            font-style: normal;
-            font-variation-settings:
-                    "slnt" 0,
-                    "CRSV" 0.5,
-                    "ELSH" 0,
-                    "ELXP" 0;
-        }
-
-        .contain-details .countdown h4 {
-            font-weight: 300;
-        }
-
-        .contain-details .title h2,
-        .contain-details .countdown h2,
-        .contain-details .countdown h4 {
-            display: block;
-            color: #ffffff;
-            text-align: center;
-        }
-
-        .contain-details .countdown h4 {
-            font-size:22px;
-        }
-
-        @media (min-width: 1200px) {
-            .contain-details .countdown h4 {
-                font-size:30px;
-            }
-        }
-
-        .contain-details .countdown .w-100 {
-            display: flex;
-            justify-content: center;
-        }
-
-        .contain-details .countdown .w-100 > div {
-            text-align: center;
-        }
-
-        @media only screen and (max-width : 991px) {
-            .contain-details .countdown .w-100 > div {
-                min-width: 20%;
-                text-align: center;
-            }
-        }
 
         .event-details h4 {
             font-weight: 300;
         }
 
-        /* Inline styles for the enquiry and about buttons */
-        .event-details .btn-custom {
-            background-color: red;
-            border: none;
-            color: #fff;
-            padding: 8px 20px;
-            display: inline-block;
-            text-decoration: none;
-            font-size: 120%;
-            width: 160px;
-            text-align: center;
-            box-sizing: border-box;
-            font-weight: 900;
-        }
 
-        .event-details .btn-custom + .btn-custom {
-            margin-left: 1.2rem;
-        }
-
-        .event-details .btn-custom:hover {
-            animation: lightning 0.6s linear infinite;
-        }
-
-        @keyframes lightning {
-            0%, 100% {
-                box-shadow: 0 0 5px 2px #fff;
-            }
-            50% {
-                box-shadow: 0 0 15px 5px #fff;
-            }
-        }
 
         .icon.icon-rect {
             width: 62px;
@@ -200,9 +121,9 @@
                 </div>
                 <div class="contain-details">
                     <div class="title text-center">
-                        <h2>COMING SOON</h2>
+                        <h2 class="text-white">COMING SOON</h2>
                     </div>
-                    <div class="countdown text-center mb-1">
+                    <div class="countdown countdown-25 text-center mb-1">
                         <div class="w-100 g-1">
                             <div class="text-center">
                                 <h2 class="pl-sm-3 pl-2">39</h2>
@@ -228,9 +149,9 @@
                             <span class="d-none d-md-inline"> | </span>
                             <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL PARKING A & B</span>
                         </h4>
-                        <div class="text-center mt-5">
-                            <a href="" class="btn-custom" data-fancybox data-src="#enquiry-popup">Enquiry</a>
-                            <a href="<?= asset('pdf/matec2025_event_deck_v1.1.pdf') ?>" class="btn-custom" target="_blank">About MATEC</a>
+                        <div class="text-center mt-5 button-container">
+                            <a href="" class="btn-big-red" data-fancybox data-src="#enquiry-popup">Enquiry</a>
+                            <a href="<?= asset('pdf/matec2025_event_deck_v1.1.pdf') ?>" class="btn-big-red" target="_blank">About MATEC</a>
                         </div>
                     </div>
                 </div>
@@ -382,7 +303,7 @@
                 if (marginTop < 0) marginTop = 0;
 
                 $inner.css({
-                    'margin-top': margin,
+                    'margin-top': marginTop,
                     'margin-bottom': margin
                 });
             }
