@@ -6,7 +6,7 @@ body {
 
 /* Big red button style */
 .btn-big-red {
-    background-color: red;
+    background-color: #c70000;
     color: #fff;
     padding: 15px 30px;
     font-size: 1.25rem;
@@ -21,6 +21,16 @@ body {
 .btn-big-red:hover,
 .btn-big-red:focus {
     background-color: #ff4d4d;
+    color: #fff;
+}
+
+.btn-big-red.set-to-blue {
+    background-color: #2D5CA8;
+}
+
+.btn-big-red.set-to-blue:hover,
+.btn-big-red.set-to-blue:focus {
+    background-color: #2D5CA8;
     color: #fff;
 }
 

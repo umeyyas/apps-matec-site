@@ -49,7 +49,7 @@
                     <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL KUALA LUMPUR</span>
                 </h4>
                 <div class="text-center mt-5 button-container">
-                    <a href="views/visitor.php" class="btn-big-red">Visitor</a>
+                    <a href="views/visitor.php" class="btn-big-red set-to-blue">Visitor</a>
                     <a href="/2025/exhibitor" class="btn-big-red">Exhibitor</a>
                 </div>
             </div>
