@@ -127,13 +127,13 @@
                         </a>
                     </div>
                     <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-07.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-07.webp') ?>" class="img-fluid" alt="Gallery Image 3">
+                        <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_7.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_7.webp') ?>" class="img-fluid" alt="Gallery Image 3">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
-                        <a href="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/gallery-442x525px-08.webp') ?>" class="img-fluid" alt="Gallery Image 4">
+                        <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_8.webp') ?>" data-fancybox="gallery">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_8.webp') ?>" class="img-fluid" alt="Gallery Image 4">
                         </a>
                     </div>
                 </div>
@@ -157,10 +157,6 @@
                             <div class="col-md-3 col-6 py-20">
                                 <h1 class="text-center">158+</h1>
                                 <h5 class="text-center">Exhibitor</h5>
-                            </div>
-                            <div class="col-md-3 col-6 py-20">
-                                <h1 class="text-center">15</h1>
-                                <h5 class="text-center">Countries</h5>
                             </div>
                             <div class="col-md-3 col-6 py-20">
                                 <h1 class="text-center">30+</h1>
@@ -196,26 +192,57 @@
             <div class="col-md-12">
                 <h5 class="text-white mb-10">Activities</h5>
             </div>
-            <div class="col-md-4 mb-35">
-                <div class="detail-activities text-white mt-15">
-                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
-                    <p>Seamless design meets <br> long-lasting power</p>
+            <div class="col-md-12">
+                <div id="activitiesGallery" class="f-carousel">
+                    <div class="f-carousel__viewport">
+                        <div class="f-carousel__track">
+
+                            <div class="f-carousel__slide">
+                                <div class="detail-activities text-white mt-15">
+                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
+                                    <p>Seamless design meets <br> long-lasting power</p>
+                                </div>
+                                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                            </div>
+                            <div class="f-carousel__slide">
+                                <div class="detail-activities text-white mt-15">
+                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
+                                    <p>Seamless design meets <br> long-lasting power</p>
+                                </div>
+                                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                            </div>
+                            <div class="f-carousel__slide">
+                                <div class="detail-activities text-white mt-15">
+                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
+                                    <p>Seamless design meets <br> long-lasting power</p>
+                                </div>
+                                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                            </div>
+                            <div class="f-carousel__slide">
+                                <div class="detail-activities text-white mt-15">
+                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
+                                    <p>Seamless design meets <br> long-lasting power</p>
+                                </div>
+                                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                            </div>
+                            <div class="f-carousel__slide">
+                                <div class="detail-activities text-white mt-15">
+                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
+                                    <p>Seamless design meets <br> long-lasting power</p>
+                                </div>
+                                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                            </div>
+                            <div class="f-carousel__slide">
+                                <div class="detail-activities text-white mt-15">
+                                    <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
+                                    <p>Seamless design meets <br> long-lasting power</p>
+                                </div>
+                                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-                <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-4 mb-35">
-                <div class="detail-activities text-white mt-15">
-                    <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
-                    <p>Built for convenience, <br> made to endure</p>
-                </div>
-                <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-4 mb-35">
-                <div class="detail-activities text-white mt-15">
-                    <h4 class="text-white">PUSH BIKE</h4>
-                    <p>Where passion <br> meets pedal power <br> all day long</p>
-                </div>
-                <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 mb-35">
                 <a href="https://www.mara.gov.my/en/entrepreneurship" target="_blank">

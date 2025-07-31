@@ -49,7 +49,7 @@
         <div class="row row-30 justify-content-center">
             <div class="col-md-12 col-lg-12">
                 <div class="d-sm-block d-none">
-                    <img src="<?= asset('images/matec-images/matec-20.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px">
+                    <img src="<?= asset('images/matec-images/the-ideas-of-matec-3042x153.webp') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px">
                 </div>
                 <div class="d-sm-none d-block">
                     <img src="<?= asset('images/matec-2/matec-62.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
@@ -102,8 +102,8 @@
     <div class="container">
         <div class="row row-30 justify-content-center">
             <div class="col-md-12 col-lg-12">
-                <img src="<?= asset('images/matec-images/matec-21.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
-                <img src="<?= asset('images/matec-images/matec-22.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
+                <img src="<?= asset('images/matec-images/excitement-1990x160.webp') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
+                <img src="<?= asset('images/matec-images/activities-1748x162.webp') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
             </div>
             <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
                 <div class="row row-15 justify-content-center mb-sm-0 mb-1 ">
