@@ -244,7 +244,7 @@
                 
                 console.log('Registration data:', data);
                 
-                window.location.href = 'thankyou.php';
+                window.location.href = 'thankyou';
             });
         </script>
         
