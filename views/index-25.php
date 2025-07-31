@@ -228,7 +228,7 @@
             <div class="col-md-6 mb-35">
                 <a href="/2025/faq">
                     <div class="detail-activities text-white pl-60">
-                        <h1 class="text-white">FREQUENTLY <br> ASKED <br> QUESTIONS</h1>
+                        <h1 class="text-white">F.A.Q.</h1>
                     </div>
                     <img src="<?= asset('images/2025/faq_mara_13.webp') ?>" alt="" class="img-fluid border-radius-20">
                 </a>
@@ -240,37 +240,37 @@
 <section id="matec-more-excitement" class="py-150" style="background: #ffffff;">
     <div class="container-fluid w-max-1500">
         <div class="row">
-            <div class="col-md-4 position-relative">
-                <div class="detail-activities text-white">
+            <div class="col-md-4 mb-30 position-relative">
+                <!--<div class="detail-activities text-white">
                     <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                     <p>Built for convenience, made to endure</p>
-                </div>
-                <img src="<?= asset('images/2025/discover01.webp') ?>" alt="" class="img-fluid border-radius-20">
+                </div>-->
+                <img src="<?= asset('images/2025/asset_31920.webp') ?>" alt="" class="img-fluid border-radius-20">
             </div>
             <div class="col-md-4">
                 <div class="row">
                     <div class="col-md-12 mb-30 position-relative">
-                        <div class="detail-activities text-white">
+                        <!--<div class="detail-activities text-white">
                             <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                             <p>Built for convenience, made to endure</p>
-                        </div>
-                        <img src="<?= asset('images/2025/nasty-hq.webp') ?>" alt="" class="img-fluid border-radius-20">
+                        </div>-->
+                        <img src="<?= asset('images/2025/asset_11920.webp') ?>" alt="" class="img-fluid border-radius-20">
                     </div>
-                    <div class="col-md-12 position-relative">
-                        <div class="detail-activities text-white">
+                    <div class="col-md-12 mb-30 position-relative">
+                        <!--<div class="detail-activities text-white">
                             <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                             <p>Built for convenience, made to endure</p>
-                        </div>
-                        <img src="<?= asset('images/2025/nasty-hq.webp') ?>" alt="" class="img-fluid border-radius-20">
+                        </div>-->
+                        <img src="<?= asset('images/2025/asset_21920.webp') ?>" alt="" class="img-fluid border-radius-20">
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 position-relative">
-                <div class="detail-activities text-white">
+            <div class="col-md-4 mb-30 position-relative">
+                <!--<div class="detail-activities text-white">
                     <h4 class="text-white">TWO-WHEEL THRILLS</h4>
                     <p>Built for convenience, made to endure</p>
-                </div>
-                <img src="<?= asset('images/2025/discover01.webp') ?>" alt="" class="img-fluid border-radius-20">
+                </div>-->
+                <img src="<?= asset('images/2025/asset_41920.webp') ?>" alt="" class="img-fluid border-radius-20">
             </div>
         </div>
     </div>

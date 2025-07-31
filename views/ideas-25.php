@@ -349,16 +349,16 @@
 </section>-->
 
 <!-- Section With Counters-->
-<section class="section" style="background-image: url(<?= asset('images/matec-images/matec-60.png') ?>); background-size:cover; background-position: top left;">
+<section class="section" style="background-image: url(<?= asset('images/2025/bg_our_target_16.png') ?>); background-size:cover; background-position: top left;">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-md-6 col-12 pl-0">
-                <img src="<?= asset('images/matec-images/matec-59.png') ?>" alt="" class="img-fluid">
+                <img src="<?= asset('images/2025/our_target_15.png') ?>" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 col-12 pl-0">
                 <div class="row">
                     <div class="col-md-11 col-11 mx-sm-0 mx-auto">
-                        <div class="text-sm-left text-center py-sm-0 py-5">
+                        <div class="text-sm-left text-center py-sm-0 py-5 text-white">
                             <p>This is the inaugural MARA Automotive Eco System Exhibition, bringing a wave of excitement to all Malaysians. MATEC2025 offers more than just a traditional showcase; it presents numerous opportunities, not only for entrepreneurs but for all visitors.</P>
                         </div>
                         <div class="row mt-sm-5 mt-0 justify-content-center">
