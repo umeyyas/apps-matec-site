@@ -247,7 +247,7 @@
             <div class="col-md-6 mb-35">
                 <a href="https://www.mara.gov.my/en/entrepreneurship" target="_blank">
                     <div class="detail-activities text-white pl-60">
-                        <h1 class="text-white">KEUSAHAWANAN <br> MARA</h1>
+                        <h1 class="text-white">MARA <br> BIZ</h1>
                     </div>
                     <img src="<?= asset('images/2025/faq_mara_14.webp') ?>" alt="" class="img-fluid border-radius-20">
                 </a>
