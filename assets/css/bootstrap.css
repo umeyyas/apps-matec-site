@@ -483,7 +483,6 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: autoF;
-  border-radius: 20px;
 }
 
 .img-thumbnail {
@@ -599,8 +598,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* centers items horizontally */
-  text-align: center; /* optional: centers text inside columns */
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .no-gutters {
