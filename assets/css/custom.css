@@ -8489,7 +8489,6 @@ body.matec-2025 .event-details h4 {
     --f-carousel-gap: 5px;
     --f-carousel-slide-width: calc(100%/3);
     --f-carousel-slide-padding: 0px 10px;
-    --f-carousel-slide-border-radius: 5px;
     /*--f-carousel-slide-bg: #eee;*/
 }
 
@@ -8696,3 +8695,19 @@ body.matec-2025 .section-lg p {
         margin-right: auto;
     }
 }
+
+img[alt="Gallery Image 1"] {
+    border-radius: 17px;
+}
+
+.w-max-1500 {
+    max-width: 900px;              /* Reduce width (adjust as needed) */
+    margin: 0 auto;                /* Center horizontally */
+}
+
+/* Fix row centering */
+.counter-statistic .row {
+    justify-content: center;       /* Bootstrap flex utility */
+    text-align: center;
+}
+

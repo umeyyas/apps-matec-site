@@ -103,17 +103,17 @@
                     </div>
                     <div class="f-carousel__slide">
                         <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_2.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_2.webp') ?>" class="img-fluid" alt="Gallery Image 2">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_2.webp') ?>" class="img-fluid" alt="Gallery Image 1">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
                         <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_3.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_3.webp') ?>" class="img-fluid" alt="Gallery Image 3">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_3.webp') ?>" class="img-fluid" alt="Gallery Image 1">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
                         <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_4.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_4.webp') ?>" class="img-fluid" alt="Gallery Image 4">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_4.webp') ?>" class="img-fluid" alt="Gallery Image 1">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
@@ -123,17 +123,17 @@
                     </div>
                     <div class="f-carousel__slide">
                         <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_6.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_6.webp') ?>" class="img-fluid" alt="Gallery Image 2">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_6.webp') ?>" class="img-fluid" alt="Gallery Image 1">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
                         <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_7.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_7.webp') ?>" class="img-fluid" alt="Gallery Image 3">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_7.webp') ?>" class="img-fluid" alt="Gallery Image 1">
                         </a>
                     </div>
                     <div class="f-carousel__slide">
                         <a href="<?= asset('images/2025-gallery/matec-gallery-1842x2188_8.webp') ?>" data-fancybox="gallery">
-                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_8.webp') ?>" class="img-fluid" alt="Gallery Image 4">
+                            <img src="<?= asset('images/2025-gallery/matec-gallery-1842x2188_8.webp') ?>" class="img-fluid" alt="Gallery Image 1">
                         </a>
                     </div>
                 </div>
@@ -151,15 +151,15 @@
                     <div class="card-body counter-statistic">
                         <div class="row gx-0">
                             <div class="col-md-4 col-7 pt-20 pb-25">
-                                <h1 class="text-center">26,550+</h1>
+                                <h1 class="text-center">26,550</h1>
                                 <h5 class="text-center">Total Visitors</h5>
                             </div>
                             <div class="col-md-3 col-6 py-20">
-                                <h1 class="text-center">158+</h1>
+                                <h1 class="text-center">158</h1>
                                 <h5 class="text-center">Exhibitor</h5>
                             </div>
                             <div class="col-md-3 col-6 py-20">
-                                <h1 class="text-center">30+</h1>
+                                <h1 class="text-center">30</h1>
                                 <h5 class="text-center">Talk Sessions</h5>
                             </div>
                         </div>
@@ -200,54 +200,54 @@
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
-                                    <p>Seamless design meets <br> long-lasting power</p>
+                                    
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="gallery">
+                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                                 </a>    
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
-                                    <p>Build for convenience <br> made to endure</p>
+                                    
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-12.png') ?>" data-fancybox="gallery">
+                                <a href="<?= asset('images/2025/activities/Activities-12.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
                                 </a>    
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">PUSH BIKE</h4>
-                                    <p>Where passion <br> meets pedal power <br> all day long</p>
+                                    
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="gallery">
+                                <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">LIVE <br> BEATS</h4>
-                                    <p>Where music meets magic <br> and memories are made</p>
+                                    
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="gallery">
+                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">SPIN <br> YOUR <br> FORTUNE</h4>
-                                    <p>Excitement in every chance <br> rewards beyond imagination</p>
+                                    
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="gallery">
+                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">DRIFTING <br> DOMINANCE</h4>
-                                    <p>Precision, speed, and style <br> —built for the fearless</p>
+                                    
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="gallery">
+                                <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
@@ -257,9 +257,9 @@
                 </div>
             </div>
             <div class="col-md-6 mb-35">
-                <a href="https://www.mara.gov.my/en/entrepreneurship" target="_blank">
+                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#industryModal">
                     <div class="detail-activities text-white pl-60">
-                        <h1 class="text-white">MARA <br> BIZ</h1>
+                        <h1 class="text-white">KEUSAHAWANAN <br> MARA</h1>
                     </div>
                     <img src="<?= asset('images/2025/faq_mara_14.webp') ?>" alt="" class="img-fluid border-radius-20">
                 </a>
@@ -273,6 +273,73 @@
                 </a>
             </div>
         </div>
+        <!-- Modal for Keusahawanan MARA -->
+        <!-- Modal -->
+<div class="modal fade" id="industryModal" tabindex="-1" aria-labelledby="industryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content border-radius-20">
+      
+      <!-- Modal Header -->
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title w-100 text-center" id="industryModalLabel">INDUSTRY</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <!-- Modal Body -->
+      <div class="modal-body text-center">
+        <div class="row justify-content-center">
+          
+          <!-- 1 Automotive -->
+          <div class="col-6 col-md-2 mb-4">
+            <div class="circle">
+              <i class="fas fa-car fa-2x mb-2 text-dark"></i>
+              <h6 class="fw-bold">AUTOMOTIVE</h6>
+            </div>
+          </div>
+          
+          <!-- 2 F&B -->
+          <div class="col-6 col-md-2 mb-4">
+            <div class="circle">
+              <i class="fas fa-utensils fa-2x mb-2 text-dark"></i>
+              <h6 class="fw-bold">F&amp;B</h6>
+            </div>
+          </div>
+          
+          <!-- 3 Construction -->
+          <div class="col-6 col-md-2 mb-4">
+            <div class="circle">
+              <i class="fas fa-hard-hat fa-2x mb-2 text-dark"></i>
+              <h6 class="fw-bold">CONSTRUCTION</h6>
+            </div>
+          </div>
+          
+          <!-- 4 Lifestyle -->
+          <div class="col-6 col-md-2 mb-4">
+            <div class="circle">
+              <i class="fas fa-tshirt fa-2x mb-2 text-warning"></i>
+              <h6 class="fw-bold text-warning">LIFESTYLE</h6>
+            </div>
+          </div>
+          
+          <!-- 5 Services -->
+          <div class="col-6 col-md-2 mb-4">
+            <div class="circle">
+              <i class="fas fa-briefcase fa-2x mb-2 text-dark"></i>
+              <h6 class="fw-bold">SERVICES</h6>
+            </div>
+          </div>
+          
+        </div>
+        
+        <!-- See More Button -->
+        <div class="mt-3">
+          <a href="/industry-details" class="btn btn-outline-primary">See More</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
     </div>
 </section>
 
