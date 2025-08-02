@@ -1933,7 +1933,7 @@
         // Display four images side by side on larger screens
         slidesPerPage: 4,
         Autoplay: {
-          timeout: 8000,
+          timeout: 2000,
           pauseOnHover: true,
         },
         // On small devices only one image should be visible

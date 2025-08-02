@@ -146,21 +146,24 @@
     <div class="container-fluid w-max-1500 pb-50">
         <h1 class="text-center text-white">MATEC2024 STATISTIC</h1>
         <div class="row">
-            <div class="col-md-8 col-12 mx-auto">
+            <div class="col-12 mx-auto">
                 <div class="card">
                     <div class="card-body counter-statistic">
-                        <div class="row gx-0">
-                            <div class="col-md-4 col-7 pt-20 pb-25">
-                                <h1 class="text-center">26,550</h1>
-                                <h5 class="text-center">Total Visitors</h5>
+                        <div class="d-flex justify-content-center flex-nowrap text-center w-100">
+                            <!-- Visitors -->
+                            <div class="stat-box flex-fill">
+                                <h1>26,550</h1>
+                                <h5>Total Visitors</h5>
                             </div>
-                            <div class="col-md-3 col-6 py-20">
-                                <h1 class="text-center">158</h1>
-                                <h5 class="text-center">Exhibitor</h5>
+                            <!-- Exhibitor -->
+                            <div class="stat-box flex-fill">
+                                <h1>158</h1>
+                                <h5>Exhibitor</h5>
                             </div>
-                            <div class="col-md-3 col-6 py-20">
-                                <h1 class="text-center">30</h1>
-                                <h5 class="text-center">Talk Sessions</h5>
+                            <!-- Talk Sessions -->
+                            <div class="stat-box flex-fill">
+                                <h1>30</h1>
+                                <h5>Talk Sessions</h5>
                             </div>
                         </div>
                     </div>

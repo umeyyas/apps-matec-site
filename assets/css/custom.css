@@ -8700,14 +8700,6 @@ img[alt="Gallery Image 1"] {
     border-radius: 17px;
 }
 
-.w-max-1500 {
-    max-width: 900px;              /* Reduce width (adjust as needed) */
-    margin: 0 auto;                /* Center horizontally */
+.countdown-countdown-25-text-center-mb-0-pt-3-pb-0 {
+    justify-content: center;
 }
-
-/* Fix row centering */
-.counter-statistic .row {
-    justify-content: center;       /* Bootstrap flex utility */
-    text-align: center;
-}
-
