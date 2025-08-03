@@ -35,7 +35,7 @@
         </div>
         <div class="contain-details">
             <div class="event-details">
-                <h3 class="text-white text-center">
+                <h3 class="text-white text-center" style="font-size: 40px;">
                     <span class="d-block d-md-inline">THE IDEAS</span>
                 </h3>
             </div>
@@ -44,41 +44,61 @@
 </section>
 
 <!-- Section Biggest 2019 Digital Conference-->
+<!-- Section Biggest 2019 Digital Conference-->
 <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
-    <div class="container">
+    <div class="container text-center">
         <div class="row row-30 justify-content-center">
-            <div class="col-md-12 col-lg-12">
+            <div class="col-md-12">
+                <!-- Desktop Image -->
                 <div class="d-sm-block d-none">
-                    <img src="<?= asset('images/matec-images/the-ideas-of-matec-3042x153.webp') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px">
+                    <img src="<?= asset('images/matec-images/the-ideas-of-matec-3042x153.webp') ?>" 
+                         alt="" 
+                         class="d-flex mx-auto w-auto h-md-55px h-xs-30px mb-4">
                 </div>
+                <!-- Mobile Images -->
                 <div class="d-sm-none d-block">
-                    <img src="<?= asset('images/matec-2/matec-62.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
-                    <img src="<?= asset('images/matec-2/matec-63.png') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
+                    <img src="<?= asset('images/matec-2/matec-62.png') ?>" 
+                         alt="" 
+                         class="d-flex mx-auto w-auto h-md-55px h-xs-30px mb-2">
+                    <img src="<?= asset('images/matec-2/matec-63.png') ?>" 
+                         alt="" 
+                         class="d-flex mx-auto w-auto h-md-55px h-xs-30px mb-2">
                 </div>
             </div>
-            <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-image-container">
+
+            <!-- Event Description -->
+            <div class="col-lg-10">
+                <p class="mb-4">
+                    This 3-days event is filled with showcases and activities that will appeal to those involved 
+                    in automotive, business owners and investors as well as the general public, including:
+                </p>
+            </div>
+
+            <!-- Two-Column List (collapses to 1 column on mobile) -->
+            <div class="col-lg-10">
                 <div class="row">
-                    <div class="col-md-6 text-sm-left text-center">
-                        <p>This 3-days event is filled with showcases and activities that will appeal to those involved in automotive, business owners and investors as well as the general public, including:</p>
+                    <div class="col-12 col-md-6 mb-3">
+                        <ul class="listing cog-listing list-unstyled text-start">
+                            <li><h4>MAIN EVENT AREAS</h4></li>
+                            <li><h4>BUSINESS SEMINAR & WORKSHOP</h4></li>
+                            <li><h4>NETWORK OPPORTUNITIES</h4></li>
+                            <li><h4>PRODUCT PRESENTATIONS & LAUNCHES</h4></li>
+                            <li><h4>AUTOMOTIVE TECHNOLOGICAL & INNOVATION</h4></li>
+                        </ul>
                     </div>
-                    <div class="col-md-6">
-                        <ul class="listing cog-listing mt-sm-0 mt-4">
-                            <li><h4>main event areas</h4></li>
-                            <li><h4>business seminar & workshop</h4></li>
-                            <li><h4>network opportunities</h4></li>
-                            <li><h4>product presentations & launches</h4></li>
-                            <li><h4>automotive technological & innovation</h4></li>
-                            <li><h4>demonstrations & competition</h4></li>
-                            <li><h4>auto bazaar</h4></li>
-                            <li><h4>field demonstrations</h4></li>
-                            <li><h4>activities & promotions</h4></li>
+                    <div class="col-12 col-md-6 mb-3">
+                        <ul class="listing cog-listing list-unstyled text-start">
+                            <li><h4>DEMONSTRATIONS & COMPETITION</h4></li>
+                            <li><h4>AUTO BAZAAR</h4></li>
+                            <li><h4>FIELD DEMONSTRATIONS</h4></li>
+                            <li><h4>ACTIVITIES & PROMOTIONS</h4></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section>>
 
 <!-- Section We Have Top Executive And Start Up Here-->
 <section class="parallax-container section" data-parallax-img="<?= asset('images/matec-images/bg_div_001.png') ?>">
@@ -86,11 +106,25 @@
         <div class="container">
             <div class="row row-30 justify-content-center">
                 <div class="col-md-12 col-lg-12">
-                    <h6 class="text-third">COME TOGETHER WITH US AND IMMERSE YOURSELF IN THE MOMENT</h6>
-                    <h2>BE PART OF THE THRILLING JOURNEY ENGAGING EXPERIENCES <br>- BOTH INDOORS AND OUTDOORS</h2>
-                    <!--<a class="button button-primary box-with-triangle-right button-offset-xl" href="#" data-triangle=".button-overlay">
-                        <span>Reserve Youse Seatr</span><span class="button-overlay"></span>
-                    </a>-->
+                    
+                    <!-- Small Subtitle -->
+                    <h6 class="text-white-50 fw-semibold mb-3">
+                        COME TOGETHER WITH US AND IMMERSE YOURSELF IN THE MOMENT
+                    </h6>
+                    
+                    <!-- Big Title broken into three lines -->
+                    <h3 class="main-title">
+                        BE PART OF THE THRILLING JOURNEY <br>
+                        ENGAGING EXPERIENCES <br>
+                        BOTH INDOORS AND OUTDOORS
+                    </h3>
+                    
+                    <!-- Optional Button (currently commented out)
+                    <a class="button button-primary box-with-triangle-right button-offset-xl" href="#" data-triangle=".button-overlay">
+                        <span>Reserve Your Seat</span><span class="button-overlay"></span>
+                    </a>
+                    -->
+                    
                 </div>
             </div>
         </div>
@@ -101,10 +135,12 @@
 <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
     <div class="container">
         <div class="row row-30 justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <img src="<?= asset('images/matec-images/excitement-1990x160.webp') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
-                <img src="<?= asset('images/matec-images/activities-1748x162.webp') ?>" alt="" class="d-flex w-auto h-md-55px h-xs-30px mb-2">
-            </div>
+            <div class="col-md-12 col-lg-12 d-flex justify-content-center flex-column align-items-center">
+    <img src="<?= asset('images/matec-images/excitement-1990x160.webp') ?>" alt="" 
+         class="w-auto h-md-55px h-xs-30px mb-2">
+    <img src="<?= asset('images/matec-images/activities-1748x162.webp') ?>" alt="" 
+         class="w-auto h-md-55px h-xs-30px mb-2">
+</div>
             <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
                 <div class="row row-15 justify-content-center mb-sm-0 mb-1 ">
                     <div class="col-md-2 col-6 px-2">
@@ -219,7 +255,10 @@
                     </div>
                 </div>
 
-                <h4 class="text-center">AND MANY MORE AWAITS YOU!</h4>
+                <h4 class="text-center" style="color: black; text-transform: lowercase !important;">
+                    and many more awaits you!
+                </h4>
+
             </div>
         </div>
     </div>
