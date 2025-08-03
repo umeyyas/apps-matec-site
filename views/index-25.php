@@ -76,21 +76,24 @@
 
 <section id="matec-venue" class="py-200 bg-image-section bg-image-section-efx-grey bg-cover-section venue-asset" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
     <div class="container-fluid w-max-1500">
-        <div class="row align-items-center">
+        <div class="row align-items-start">
             
             <!-- Left side: Stadium Layout Image -->
             <div class="col-12 col-md-5 order-2 order-md-1 text-center text-md-start">
                 <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" alt="Stadium Layout" class="img-fluid mb-3 h-200">
             </div>
-            
+
+            <!-- Spacer for layout alignment -->
+            <div class="col-md-1 d-none d-md-block order-3"></div>
+
             <!-- Right side: Venue Title Image + Location -->
-            <div class="col-12 col-md-7 order-1 order-md-3 text-center text-md-start">
-                <img src="<?= asset('images/2025/title_vanue1280.png') ?>" alt="Venue Title" class="img-fluid mb-3">
+            <div class="col-12 col-md-6 order-1 order-md-3 text-center text-md-start">
+                <img src="<?= asset('images/2025/1x/artboard_3.png') ?>" alt="Venue Title" class="img-fluid mb-3">
 
                 <!-- Location Text -->
-                <p class="fw-bold text-dark m-0 display-5 display-md-4 display-lg-3">
+                <h4 class="fw-bold text-dark m-0 display-5 display-md-4 display-lg-3 text-sm-right text-right">
                     National Stadium Bukit Jalil, Kuala Lumpur
-                </p>
+                </h4>
             </div>
         </div>
     </div>
@@ -168,12 +171,14 @@
 <section class="pt-600 pb-100" 
          style="background:#000000 url('<?= asset('images/2025/stats-1420x1030.webp') ?>') no-repeat top center;">
     <div class="container-fluid w-max-1500 pb-50">
-        <h1 class="text-center text-white">MATEC2024 STATISTIC</h1>
+        <div class="col-12 col-md-4 order-1 order-md-1 mx-auto">
+            <img src="<?= asset('images/2025/1x/artboard_4.png') ?>" alt="Venue Title" class="img-fluid mb-3 mx-auto d-flex">
+        </div>
         <div class="row">
-            <div class="col-12 mx-auto">
+            <div class="col-12 col-sm-7 mx-auto">
                 <div class="card">
                     <div class="card-body p-4 counter-statistic">
-                        <div class="d-flex text-center w-100">
+                        <div class="d-flex text-center row">
                             <div class="col stat-box">
                                 <h1>26,550</h1>
                                 <h5>Total Visitors</h5>
@@ -194,11 +199,11 @@
     </div>
 </section>
 
-<section id="matec-about" class="py-5" style="background-color: #e6e6e6;">
-    <div class="container text-center">
+<section id="matec-potental-visiors" class="pt-115 pb-70" style="background-color: #e6e6e6;">
+    <div class="container-fluid w-max-1500 text-center">
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <p class="fs-5 lh-lg fw-normal text-dark mb-4">
+                <p class="fs-5 lh-lg fw-normal text-dark">
                     Presenting the inaugural MARA Automotive Ecosystem exhibition, a groundbreaking event 
                     that brings a fresh wave of excitement to Malaysians nationwide. MATEC2025 is more 
                     than just a conventional showcase — it's a dynamic platform brimming with opportunities, 
@@ -206,6 +211,10 @@
                     to explore innovative ideas, connect with industry experts, and uncover endless possibilities 
                     in this one-of-a-kind experience.
                 </p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 col-md-7 mx-auto">
                 <img src="<?= asset('images/2025/title_expectation1280.png') ?>" alt="" class="img-fluid mt-3 mb-3">
             </div>
         </div>
@@ -379,28 +388,52 @@
     </div>
 </section>
 
-<section id="matec-more-excitement" class="py-5" style="background: #ffffff;">
+<section id="matec-more-excitement" class="py-80" style="background: #ffffff;">
     <div class="container-fluid w-max-1500">
         <!-- Section Title -->
-        
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <img src="<?= asset('images/2025/1x/artboard_5.png') ?>" alt="" class="img-fluid">
+            </div>
+        </div>
 
         <!-- Images Row -->
         <div class="row">
             <div class="col-md-4 mb-3 position-relative">
-                <img src="<?= asset('images/2025/asset_31920.png') ?>" alt="" class="img-fluid border-radius-20">
+                <div class="detail-activities text-white mt-15 top-0">
+                    <img src="<?= asset('images/2025/1x/artboard_6.png') ?>" alt="" class="img-fluid mb-3">
+                </div>
+                <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
+                    <img src="<?= asset('images/2025/asset_31920.png') ?>" alt="" class="img-fluid border-radius-20">
+                </a>
             </div>
             <div class="col-md-4">
                 <div class="row">
                     <div class="col-md-12 mb-3 position-relative">
-                        <img src="<?= asset('images/2025/asset_11920.png') ?>" alt="" class="img-fluid border-radius-20">
+                        <div class="detail-activities text-white mt-15">
+                            <img src="<?= asset('images/2025/1x/artboard_7.png') ?>" alt="" class="img-fluid mb-3">
+                        </div>
+                        <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
+                            <img src="<?= asset('images/2025/asset_11920.png') ?>" alt="" class="img-fluid border-radius-20">
+                        </a>
                     </div>
                     <div class="col-md-12 mb-3 position-relative">
-                        <img src="<?= asset('images/2025/asset_21920.png') ?>" alt="" class="img-fluid border-radius-20">
+                        <div class="detail-activities text-white mt-15">
+                            <img src="<?= asset('images/2025/1x/artboard_9.png') ?>" alt="" class="img-fluid mb-3">
+                        </div>
+                        <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
+                            <img src="<?= asset('images/2025/asset_21920.png') ?>" alt="" class="img-fluid border-radius-20">
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-3 position-relative">
-                <img src="<?= asset('images/2025/asset_41920.png') ?>" alt="" class="img-fluid border-radius-20">
+                <div class="detail-activities text-white mt-15">
+                    <img src="<?= asset('images/2025/1x/artboard_8.png') ?>" alt="" class="img-fluid mb-3">
+                </div>
+                <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
+                    <img src="<?= asset('images/2025/asset_41920.png') ?>" alt="" class="img-fluid border-radius-20">
+                </a>
             </div>
         </div>
     </div>
