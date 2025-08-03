@@ -8688,18 +8688,19 @@ body.matec-2025 .section-lg p {
     }
 }
 
+/* Default center background */
+.bg-center {
+    background-position: center center !important;
+}
+
+/* Mobile-specific override (xs & sm) */
 @media (max-width: 767.98px) {
-    img[alt="MATEC2025"] {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    .bg-sm-right {
+        background-position: right center !important;
     }
 }
 
-img[alt="Gallery Image 1"] {
-    border-radius: 17px;
-}
 
-.countdown-countdown-25-text-center-mb-0-pt-3-pb-0 {
-    justify-content: center;
-}
+
+
+
