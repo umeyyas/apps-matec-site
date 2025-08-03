@@ -58,7 +58,7 @@
                     </h5>
                 </div>
 
-                <div id="collapseExhibitorOne" class="collapse show" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
+                <div id="collapseExhibitorOne" class="collapse" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
                     <div class="card-body">
                         Over 150 exhibitors with the various of spaces.
                     </div>
@@ -168,9 +168,9 @@
                     </h5>
                 </div>
 
-                <div id="collapseVisitorOne" class="collapse show" aria-labelledby="headingVisitorOne" data-parent="#accordionVisitor">
+                <div id="collapseVisitorOne" class="collapse" aria-labelledby="headingVisitorOne" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        The MATEC2025 started on Friday to Sunday (31 OCTOBER - 2 NOVEMBER 2025) from 10 am to 10 pm.
+                        The MATEC2025 started on Friday to Sunday (31OCTOBER - 2NOVEMBER2025) from 10am to 10pm.
                     </div>
                 </div>
             </div>

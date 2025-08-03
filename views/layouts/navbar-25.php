@@ -1,23 +1,23 @@
 <header class="content">
-    <div id="count-down-sect" class="container-fluid" style="background-color:#000000;">
+    <div id="count-down-sect" class="container-fluid pb-0" style="background-color:#000000;">
         <div class="container">
-            <div class="countdown countdown-25 text-center mb-1 pt-15 pb-1">
-                <div class="w-100 g-1">
+            <div class="countdown countdown-25 text-center mb-0 pt-3 pb-0">
+                <div class="w-100">
                     <div class="text-center px-10">
-                        <h2 style="font-size:2.25rem;" class="pl-sm-2 pl-2">00</h2>
-                        <h4 style="font-size:1.1rem;" class="mb-0">DAYS</h4>
+                        <h2 style="font-size:1.2rem;" class="pl-sm-2 pl-2">00</h2>
+                        <h4 style="font-size:0.7rem;" class="mb-0">DAYS</h4>
                     </div>
                     <div class="text-center px-10">
-                        <h2 style="font-size:2.25rem;" class="pl-sm-2 pl-2">00</h2>
-                        <h4 style="font-size:1.1rem;" class="mb-0">HOURS</h4>
+                        <h2 style="font-size:1.2rem;" class="pl-sm-2 pl-2">00</h2>
+                        <h4 style="font-size:0.7rem;" class="mb-0">HOURS</h4>
                     </div>
                     <div class="text-center px-10">
-                        <h2 style="font-size:2.25rem;" class="pl-sm-2 pl-2">00</h2>
-                        <h4 style="font-size:1.1rem;" class="mb-0">MINUTES</h4>
+                        <h2 style="font-size:1.2rem;" class="pl-sm-2 pl-2">00</h2>
+                        <h4 style="font-size:0.7rem;" class="mb-0">MINUTES</h4>
                     </div>
                     <div class="text-center px-10">
-                        <h2 style="font-size:2.25rem;" class="pl-sm-2 pl-2">00</h2>
-                        <h4 style="font-size:1.1rem;" class="mb-0">SECONDS</h4>
+                        <h2 style="font-size:1.2rem;" class="pl-sm-2 pl-2">00</h2>
+                        <h4 style="font-size:0.7rem;" class="mb-0">SECONDS</h4>
                     </div>
                 </div>
             </div>

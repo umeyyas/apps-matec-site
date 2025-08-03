@@ -8489,7 +8489,6 @@ body.matec-2025 .event-details h4 {
     --f-carousel-gap: 5px;
     --f-carousel-slide-width: calc(100%/3);
     --f-carousel-slide-padding: 0px 10px;
-    --f-carousel-slide-border-radius: 5px;
     /*--f-carousel-slide-bg: #eee;*/
 }
 
@@ -8689,10 +8688,52 @@ body.matec-2025 .section-lg p {
     }
 }
 
+/* Default center background */
+.bg-center {
+    background-position: center center !important;
+}
+
+/* Mobile-specific override (xs & sm) */
 @media (max-width: 767.98px) {
-    img[alt="MATEC2025"] {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    .bg-sm-right {
+        background-position: right center !important;
     }
 }
+
+#matec-date {
+  background-position: center !important; /* Default desktop */
+}
+
+/* Mobile: force background more to the left */
+@media (max-width: 576px) {
+  #matec-date {
+    background-position: left center !important;
+  }
+}
+
+.container-fluid.w-max-1500 {
+    max-width: 1500px; /* keeps your layout width */
+    margin: 0 auto;   /* centers it */
+    padding-left: 10px !important;  /* reduce side space instead of 0 */
+    padding-right: 10px !important;
+}
+
+@media (max-width: 767px) {
+    #matec-about p br {
+        display: none;
+    }
+}
+
+.detail-activities h1 {
+    font-size: 30px !important; /* Adjust size (smaller than default h1) */
+    font-weight: bold; /* Optional: keep it bold */
+}
+
+.listing h4 {
+    font-size: 1rem; /* smaller size than default h4 */
+    font-weight: 600; /* optional: keep it bold but lighter */
+}
+
+
+
+
