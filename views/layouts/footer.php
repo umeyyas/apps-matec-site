@@ -22,12 +22,18 @@
                         <div class="row mt-0 d-flex flex-column align-items-center">
                             <!-- MARA Logo -->
                             <div class="col-12 text-center">
-                                <a class="brand d-block mx-auto" href="https://www.mara.gov.my/en/index/" target="_blank">
-                                    <img src="<?= asset('images/2025/2x/artboard_10@2x.png') ?>"
-                                         srcset="<?= asset('images/2025/3x/artboard_10@3x.png') ?> 2x"
-                                         alt="MATEC2025"
-                                         class="d-block mx-auto border-radius-20">
-                                </a>
+                                <div class="position-relative">
+                                    <div class="detail-activities text-white">
+                                        <h4 class="mb-0">VISIT <br> MARA</h4>
+                                    </div>
+                                    <a class="brand d-block mx-auto" href="https://www.mara.gov.my/en/index/" target="_blank">
+                                        <img src="<?= asset('images/2025/2x/artboard_10@2x.png') ?>"
+                                             srcset="<?= asset('images/2025/3x/artboard_10@3x.png') ?> 2x"
+                                             alt="MATEC2025"
+                                             class="d-block mx-auto border-radius-20">
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
