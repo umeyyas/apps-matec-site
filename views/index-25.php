@@ -250,7 +250,7 @@
 
                                 </div>
                                 <a href="<?= asset('images/2025/activities/activities-11.png') ?>" data-fancybox="activitygallery">
-                                    <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                                    <img src="<?= asset('images/2025/activities/activities-11.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
@@ -259,7 +259,7 @@
 
                                 </div>
                                 <a href="<?= asset('images/2025/activities/activities-12.png') ?>" data-fancybox="activitygallery">
-                                    <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
+                                    <img src="<?= asset('images/2025/activities/activities-12.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
@@ -268,7 +268,7 @@
 
                                 </div>
                                 <a href="<?= asset('images/2025/activities/activities-10.png') ?>" data-fancybox="activitygallery">
-                                    <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
+                                    <img src="<?= asset('images/2025/activities/activities-10.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
