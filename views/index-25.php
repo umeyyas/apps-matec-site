@@ -249,8 +249,8 @@
                                     <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
                                     
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="activitygallery">
-                                    <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                                <a href="<?= asset('images/2025/activities/activities-11.png') ?>" data-fancybox="activitygallery">
+                                    <img src="<?= asset('images/2025/activities/activities-11.png') ?>" alt="" class="img-fluid">
                                 </a>    
                             </div>
                             <div class="f-carousel__slide">
@@ -258,8 +258,8 @@
                                     <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
                                     
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-12.png') ?>" data-fancybox="activitygallery">
-                                    <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
+                                <a href="<?= asset('images/2025/activities/activities-12.png') ?>" data-fancybox="activitygallery">
+                                    <img src="<?= asset('images/2025/activities/activities-12.png') ?>" alt="" class="img-fluid">
                                 </a>    
                             </div>
                             <div class="f-carousel__slide">
@@ -267,8 +267,8 @@
                                     <h4 class="text-white">PUSH BIKE</h4>
                                     
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
-                                    <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
+                                <a href="<?= asset('images/2025/activities/activities-10.png') ?>" data-fancybox="activitygallery">
+                                    <img src="<?= asset('images/2025/activities/activities-10.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
