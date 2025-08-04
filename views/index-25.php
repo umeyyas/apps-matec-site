@@ -89,13 +89,13 @@
 </div>
             
             <!-- Right side: Venue Title Image + Location -->
-            <div class="col-12 col-md-7 order-1 order-md-3">
+            <div class="col-12 col-md-7 mb-4 order-1 order-md-3">
                 <div class="text-center image-wrapper mb-2 mb-md-3">
                     <img src="<?= asset('images/2025/2x/Artboard_3@2x.png') ?>" 
                          alt="Venue Title" 
                          class="img-fluid">
                 </div>
-                <div class="d-flex justify-content-end text-wrapper mt-2 mt-md-3">
+                <div class="d-flex justify-content-end text-wrapper mt-4 mt-md-4">
                     <p class="venue-location-text text-end">
                         National Stadium Bukit Jalil, Kuala Lumpur
                     </p>
@@ -184,7 +184,7 @@
          class="img-fluid responsive-title-img">
 </div>
         <div class="row">
-            <div class="col-12 mx-auto">
+            <div class="col-12 col-sm-6 mx-auto">
                 <div class="card">
                     <div class="card-body p-4 counter-statistic">
                         <div class="d-flex text-center w-100">
@@ -224,7 +224,7 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-md-12 mx-auto">
+            <div class="col-md-12 w-1000 mx-auto">
                 <img src="<?= asset('images/2025/group1280.png') ?>" alt="" class="img-fluid">
             </div>
         </div>

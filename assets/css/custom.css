@@ -8741,7 +8741,7 @@ body.matec-2025 .section-lg p {
 }
 /* Venue text style */
 .venue-location-text {
-    font-weight: 900 !important;
+    font-weight: 500 !important;
     font-size: clamp(0.9rem, 2.5vw, 1.7rem) !important; 
     /* shrinks on small screens, grows on larger */
     color: #000 !important;
