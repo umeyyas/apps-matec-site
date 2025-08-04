@@ -398,14 +398,18 @@
     <div class="container-fluid w-max-1500">
         
         <!-- Section Title Image -->
-        <div class="mb-4 text-start">
-            <img src="<?= asset('images/2025/4x/Artboard_5@4x.png') ?>" 
-                 alt="Memories to Remember" 
-                 class="img-fluid" style="max-width: 800px;">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="mb-10 text-start">
+                    <img src="<?= asset('images/2025/4x/artboard_5@4x.png') ?>"
+                         alt="Memories to Remember"
+                         class="img-fluid">
+                </div>
+            </div>
         </div>
 
         <!-- Images Row -->
-        <div class="row">
+        <div class="row mt-0">
             
             <!-- First Column -->
             <div class="col-md-4 mb-3 position-relative">
