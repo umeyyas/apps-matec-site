@@ -8734,6 +8734,18 @@ body.matec-2025 .section-lg p {
     font-weight: 600; /* optional: keep it bold but lighter */
 }
 
+.responsive-title-img {
+    max-width: 90%;   /* Scales with screen, not fixed */
+    width: auto;      /* Avoids forced stretching */
+    height: auto;     /* Keeps aspect ratio */
+}
+.venue-location-text {
+    font-weight: 900 !important;
+    font-size: clamp(2rem, 2vw + 1rem, 1.5rem) !important;
+    color: #000 !important;
+    line-height: 1.2;
+}
+
 
 
 

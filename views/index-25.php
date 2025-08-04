@@ -76,22 +76,29 @@
 
 <section id="matec-venue" class="py-200 bg-image-section bg-image-section-efx-grey bg-cover-section venue-asset" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
     <div class="container-fluid w-max-1500">
-        <div class="row align-items-center">
+        <div class="row align-items-start">
             
             <!-- Left side: Stadium Layout Image -->
             <div class="col-12 col-md-5 order-2 order-md-1 text-center text-md-start">
-                <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" alt="Stadium Layout" class="img-fluid mb-3 h-200">
+                <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" 
+                     alt="Stadium Layout" 
+                     class="img-fluid mb-3 h-200">
             </div>
             
             <!-- Right side: Venue Title Image + Location -->
-            <div class="col-12 col-md-7 order-1 order-md-3 text-center text-md-start">
-                <img src="<?= asset('images/2025/title_vanue1280.png') ?>" alt="Venue Title" class="img-fluid mb-3">
+            <div class="col-12 col-md-7 order-1 order-md-3">
+    <div class="text-center">
+        <img src="<?= asset('images/2025/2x/Artboard_3@2x.png') ?>" 
+             alt="Venue Title" 
+             class="img-fluid mb-3">
+    </div>
 
-                <!-- Location Text -->
-                <p class="fw-bold text-dark m-0 display-5 display-md-4 display-lg-3">
-                    National Stadium Bukit Jalil, Kuala Lumpur
-                </p>
-            </div>
+    <div class="d-flex justify-content-end">
+        <p class="venue-location-text m-0 text-end">
+    National Stadium Bukit Jalil, Kuala Lumpur
+</p>
+    </div>
+</div>
         </div>
     </div>
 </section>
@@ -168,7 +175,11 @@
 <section class="pt-600 pb-100" 
          style="background:#000000 url('<?= asset('images/2025/stats-1420x1030.webp') ?>') no-repeat top center;">
     <div class="container-fluid w-max-1500 pb-50">
-        <h1 class="text-center text-white">MATEC2024 STATISTIC</h1>
+        <div class="text-center">
+    <img src="<?= asset('images/2025/1x/Artboard_4.png') ?>" 
+         alt="MATEC2024 STATISTIC" 
+         class="img-fluid responsive-title-img">
+</div>
         <div class="row">
             <div class="col-12 mx-auto">
                 <div class="card">
@@ -381,8 +392,12 @@
 
 <section id="matec-more-excitement" class="py-5" style="background: #ffffff;">
     <div class="container-fluid w-max-1500">
-        <!-- Section Title -->
-        
+        <!-- Section Title Image -->
+        <div class="mb-4">
+            <img src="<?= asset('images/2025/4x/Artboard_5@4x.png') ?>" 
+                 alt="Memories to Remember" 
+                 class="img-fluid" style="max-width: 400px;">
+        </div>
 
         <!-- Images Row -->
         <div class="row">
