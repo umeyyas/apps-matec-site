@@ -406,8 +406,13 @@ body {
 
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
-        background: #000000;
+        background: #ffffff;
         z-index: 1050;
+    }
+
+    .rd-navbar-fixed,
+    .rd-navbar-nav-wrap {
+        background: #ffffff;
     }
 
     .countdown-block {
