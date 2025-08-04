@@ -179,7 +179,7 @@
          style="background:#000000 url('<?= asset('images/2025/stats-1420x1030.webp') ?>') no-repeat top center;">
     <div class="container-fluid w-max-1500 pb-50">
         <div class="text-center">
-    <img src="<?= asset('images/2025/1x/Artboard_4.png') ?>" 
+    <img src="<?= asset('images/2025/1x/artboard_4.png') ?>"
          alt="MATEC2024 STATISTIC" 
          class="img-fluid responsive-title-img">
 </div>
@@ -398,19 +398,23 @@
     <div class="container-fluid w-max-1500">
         
         <!-- Section Title Image -->
-        <div class="mb-4 text-start">
-            <img src="<?= asset('images/2025/4x/Artboard_5@4x.png') ?>" 
-                 alt="Memories to Remember" 
-                 class="img-fluid" style="max-width: 800px;">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="mb-10 text-start">
+                    <img src="<?= asset('images/2025/4x/artboard_5@4x.png') ?>"
+                         alt="Memories to Remember"
+                         class="img-fluid">
+                </div>
+            </div>
         </div>
 
         <!-- Images Row -->
-        <div class="row">
+        <div class="row mt-0">
             
             <!-- First Column -->
             <div class="col-md-4 mb-3 position-relative">
                 <div class="detail-activities text-white mt-15 top-0">
-                    <img src="<?= asset('images/2025/1x/Artboard_6.png') ?>" 
+                    <img src="<?= asset('images/2025/1x/artboard_6.png') ?>"
                          alt="Activity Image 1" 
                          class="img-fluid d-block mx-auto">
                 </div>
@@ -427,7 +431,7 @@
                     
                     <div class="col-md-12 mb-3 position-relative">
                         <div class="detail-activities text-white mt-15 top-0">
-                            <img src="<?= asset('images/2025/1x/Artboard_7.png') ?>" 
+                            <img src="<?= asset('images/2025/1x/artboard_7.png') ?>"
                                  alt="Activity Image 3" 
                                  class="img-fluid d-block mx-auto">
                         </div>
@@ -440,7 +444,7 @@
 
                     <div class="col-md-12 mb-3 position-relative">
                         <div class="detail-activities text-white mt-15 top-0">
-                            <img src="<?= asset('images/2025/1x/Artboard_9.png') ?>" 
+                            <img src="<?= asset('images/2025/1x/artboard_9.png') ?>"
                                  alt="Activity Image 3" 
                                  class="img-fluid d-block mx-auto">
                         </div>
@@ -456,7 +460,7 @@
             <!-- Third Column -->
             <div class="col-md-4 mb-3 position-relative">
                 <div class="detail-activities text-white mt-15 top-0">
-                    <img src="<?= asset('images/2025/1x/Artboard_8.png') ?>" 
+                    <img src="<?= asset('images/2025/1x/artboard_8.png') ?>"
                          alt="Activity Image 1" 
                          class="img-fluid d-block mx-auto">
                 </div>
