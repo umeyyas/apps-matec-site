@@ -600,7 +600,6 @@ pre code {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* centers items horizontally */
-  text-align: center; /* optional: centers text inside columns */
 }
 
 .no-gutters {

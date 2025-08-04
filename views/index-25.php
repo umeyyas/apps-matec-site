@@ -150,7 +150,7 @@
                 <div class="card">
                     <div class="card-body counter-statistic">
                         <div class="row gx-0">
-                            <div class="col-md-4 col-7 pt-20 pb-25">
+                            <div class="col-md-5 col-7 pt-20 pb-25">
                                 <h1 class="text-center">26,550+</h1>
                                 <h5 class="text-center">Total Visitors</h5>
                             </div>
@@ -200,42 +200,36 @@
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
-                                    <p>Seamless design meets <br> long-lasting power</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
-                                    <p>Build for convenience <br> made to endure</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">PUSH BIKE</h4>
-                                    <p>Where passion <br> meets pedal power <br> all day long</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">LIVE <br> BEATS</h4>
-                                    <p>Where music meets magic <br> and memories are made</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">SPIN <br> YOUR <br> FORTUNE</h4>
-                                    <p>Excitement in every chance <br> rewards beyond imagination</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">DRIFTING <br> DOMINANCE</h4>
-                                    <p>Precision, speed, and style <br> —built for the fearless</p>
                                 </div>
                                 <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
                             </div>
