@@ -403,19 +403,19 @@
             <!-- RIGHT SIDE -->
             <div class="col-md-6 col-12 d-flex flex-column align-items-md-start align-items-center">
                 <div class="mb-5">
-                    <img src="<?= asset('images/2025/2x/Artboard_15@2x.png') ?>"
+                    <img src="<?= asset('images/2025/2x/artboard_15@2x.png') ?>"
                          alt="Estimated Visitors"
                          class="img-fluid"
                          style="max-width: 50%;">
                 </div>
                 <div class="mb-5">
-                    <img src="<?= asset('images/2025/2x/Artboard_16@2x.png') ?>"
+                    <img src="<?= asset('images/2025/2x/artboard_16@2x.png') ?>"
                          alt="Sales Target"
                          class="img-fluid"
                          style="max-width: 50%;">
                 </div>
                 <div>
-                    <img src="<?= asset('images/2025/2x/Artboard_17@2x.png') ?>"
+                    <img src="<?= asset('images/2025/2x/artboard_17@2x.png') ?>"
                          alt="Total Exhibitors"
                          class="img-fluid"
                          style="max-width: 45%;">
