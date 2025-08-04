@@ -45,24 +45,27 @@
 
 <!-- Section Biggest 2019 Digital Conference-->
 <!-- Section Biggest 2019 Digital Conference-->
-<section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
+<section class="section section-lg bg-dark text-dark d-flex align-items-center justify-content-center"
+         style="background: url('/images/2025/background.jpg') no-repeat center center; 
+                background-size: cover; 
+                min-height: 500px;">
     <div class="container text-center">
         <div class="row row-30 justify-content-center">
-            <div class="col-md-12">
+
+            <!-- Left Column with Images -->
+            <div class="col-sm-5">
                 <!-- Desktop Image -->
                 <div class="d-sm-block d-none">
-                    <img src="<?= asset('images/matec-images/the-ideas-of-matec-3042x153.webp') ?>" 
-                         alt="" 
-                         class="d-flex mx-auto w-auto h-md-55px h-xs-30px mb-4">
+                    <img src="<?= asset('images/2025/3x/Artboard_19@3x.png') ?>" 
+                         alt="Desktop Banner" 
+                         class="custom-img-desktop d-flex mx-auto mb-4">
                 </div>
-                <!-- Mobile Images -->
+
+                <!-- Mobile Image -->
                 <div class="d-sm-none d-block">
-                    <img src="<?= asset('images/matec-2/matec-62.png') ?>" 
-                         alt="" 
-                         class="d-flex mx-auto w-auto h-md-55px h-xs-30px mb-2">
-                    <img src="<?= asset('images/matec-2/matec-63.png') ?>" 
-                         alt="" 
-                         class="d-flex mx-auto w-auto h-md-55px h-xs-30px mb-2">
+                    <img src="<?= asset('images/2025/2x/Artboard_19@2x.png') ?>" 
+                         alt="Mobile Banner" 
+                         class="custom-img-mobile d-flex mx-auto mb-2">
                 </div>
             </div>
 
@@ -74,34 +77,66 @@
                 </p>
             </div>
 
-            <!-- Two-Column List (collapses to 1 column on mobile) -->
+            <!-- Two-Column List -->
             <div class="col-lg-10">
                 <div class="row">
+
+                    <!-- Column 1 -->
                     <div class="col-12 col-md-6 mb-3">
-                        <ul class="listing cog-listing list-unstyled text-start">
-                            <li><h4>MAIN EVENT AREAS</h4></li>
-                            <li><h4>BUSINESS SEMINAR & WORKSHOP</h4></li>
-                            <li><h4>NETWORK OPPORTUNITIES</h4></li>
-                            <li><h4>PRODUCT PRESENTATIONS & LAUNCHES</h4></li>
-                            <li><h4>AUTOMOTIVE TECHNOLOGICAL & INNOVATION</h4></li>
+                        <ul class="listing list-unstyled text-start">
+                            <li class="d-flex align-items-center mb-2">
+                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
+                                MAIN EVENT AREAS
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
+                                BUSINESS SEMINAR & WORKSHOP
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
+                                NETWORK OPPORTUNITIES
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
+                                PRODUCT PRESENTATIONS & LAUNCHES
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
+                                AUTOMOTIVE TECHNOLOGICAL & INNOVATION
+                            </li>
                         </ul>
                     </div>
+
+                    <!-- Column 2 -->
                     <div class="col-12 col-md-6 mb-3">
-                        <ul class="listing cog-listing list-unstyled text-start">
-                            <li><h4>DEMONSTRATIONS & COMPETITION</h4></li>
-                            <li><h4>AUTO BAZAAR</h4></li>
-                            <li><h4>FIELD DEMONSTRATIONS</h4></li>
-                            <li><h4>ACTIVITIES & PROMOTIONS</h4></li>
+                        <ul class="listing list-unstyled text-start">
+                            <li class="d-flex align-items-center mb-2">
+                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
+                                DEMONSTRATIONS & COMPETITION
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
+                                AUTO BAZAAR
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
+                                FIELD DEMONSTRATIONS
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
+                                ACTIVITIES & PROMOTIONS
+                            </li>
                         </ul>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-</section>>
+</section>
 
 <!-- Section We Have Top Executive And Start Up Here-->
-<section class="parallax-container section" data-parallax-img="<?= asset('images/matec-images/bg_div_001.png') ?>">
+<section class="parallax-container section" data-parallax-img="<?= asset('images/bg/bg_the_ideas_021920.webp') ?>">
     <div class="parallax-content section-lg context-dark text-center">
         <div class="container">
             <div class="row row-30 justify-content-center">
@@ -135,11 +170,10 @@
 <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
     <div class="container">
         <div class="row row-30 justify-content-center">
-            <div class="col-md-12 col-lg-12 d-flex justify-content-center flex-column align-items-center">
-    <img src="<?= asset('images/matec-images/excitement-1990x160.webp') ?>" alt="" 
-         class="w-auto h-md-55px h-xs-30px mb-2">
-    <img src="<?= asset('images/matec-images/activities-1748x162.webp') ?>" alt="" 
-         class="w-auto h-md-55px h-xs-30px mb-2">
+    <div class="col-md-12 col-12 d-flex justify-content-center flex-column align-items-center">
+        <img src="<?= asset('images/2025/2x/Artboard_18@2x.png') ?>" alt="" 
+             class="img-fluid w-75 mb-3"> <!-- 75% of parent width -->
+    </div>
 </div>
             <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
                 <div class="row row-15 justify-content-center mb-sm-0 mb-1 ">
@@ -255,7 +289,7 @@
                     </div>
                 </div>
 
-                <h4 class="text-center" style="color: black; text-transform: lowercase !important;">
+                <h4 class="text-center fs-7" style="color: black; text-transform: lowercase !important;">
                     and many more awaits you!
                 </h4>
 

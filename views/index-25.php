@@ -32,7 +32,7 @@
         <div class="logo-matec mx-auto">
             <div class="row">
                 <div class="col-lg-3 col-sm-4 col-6 mx-auto px-0">
-                    <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class="img-fluid mb-md-5 mb-4">
+                    <img src="<?= asset('images/asset-logo-mara-kkdw.png') ?>" alt="" class=" mb-md-5 mb-4">
                 </div>
             </div>
             <div class="row mt-0">
@@ -74,31 +74,34 @@
     </div>
 </section>
 
-<section id="matec-venue" class="py-200 bg-image-section bg-image-section-efx-grey bg-cover-section venue-asset" style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
+<section id="matec-venue" class="py-80 bg-image-section bg-image-section-efx-grey bg-cover-section venue-asset" 
+         style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
     <div class="container-fluid w-max-1500">
         <div class="row align-items-start">
             
             <!-- Left side: Stadium Layout Image -->
             <div class="col-12 col-md-5 order-2 order-md-1 text-center text-md-start">
-                <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" 
-                     alt="Stadium Layout" 
-                     class="img-fluid mb-3 h-200">
-            </div>
-            
-            <!-- Right side: Venue Title Image + Location -->
-            <div class="col-12 col-md-7 order-1 order-md-3">
-    <div class="text-center">
-        <img src="<?= asset('images/2025/2x/Artboard_3@2x.png') ?>" 
-             alt="Venue Title" 
-             class="img-fluid mb-3">
-    </div>
-
-    <div class="d-flex justify-content-end">
-        <p class="venue-location-text m-0 text-end">
-    National Stadium Bukit Jalil, Kuala Lumpur
-</p>
+    <div class="image-wrapper layout-image">
+        <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" 
+             alt="Stadium Layout" 
+             class="img-fluid h-150">
     </div>
 </div>
+            
+            <!-- Right side: Venue Title Image + Location -->
+            <div class="col-12 col-md-7 mb-4 order-1 order-md-3">
+                <div class="text-center image-wrapper mb-2 mb-md-3">
+                    <img src="<?= asset('images/2025/2x/Artboard_3@2x.png') ?>" 
+                         alt="Venue Title" 
+                         class="img-fluid">
+                </div>
+                <div class="d-flex justify-content-end text-wrapper mt-4 mt-md-4">
+                    <p class="venue-location-text text-end">
+                        National Stadium Bukit Jalil, Kuala Lumpur
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -181,7 +184,7 @@
          class="img-fluid responsive-title-img">
 </div>
         <div class="row">
-            <div class="col-12 mx-auto">
+            <div class="col-12 col-sm-6 mx-auto">
                 <div class="card">
                     <div class="card-body p-4 counter-statistic">
                         <div class="d-flex text-center w-100">
@@ -195,7 +198,7 @@
                             </div>
                             <div class="col stat-box">
                                 <h1>30</h1>
-                                <h5>Talk</h5>
+                                <h5>Talk Session</h5>
                             </div>
                         </div>
                     </div>
@@ -221,7 +224,7 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-md-12 mx-auto">
+            <div class="col-md-12 w-1000 mx-auto">
                 <img src="<?= asset('images/2025/group1280.png') ?>" alt="" class="img-fluid">
             </div>
         </div>
@@ -322,71 +325,70 @@
             </div>
         <!-- Modal for Keusahawanan MARA -->
         <!-- Modal -->
-        <div class="modal fade" id="industryModal" tabindex="-1" aria-labelledby="industryModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl modal-dialog-centered">
-                <div class="modal-content border-radius-20">
-      
-                    <!-- Modal Header -->
-                    <div class="modal-header bg-primary text-white">
-                        <h5 class="modal-title w-100 text-center" id="industryModalLabel">INDUSTRY</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-      
-                    <!-- Modal Body -->
-                    <div class="modal-body text-center">
-                        <div class="row justify-content-center">
+<!-- Modal for Keusahawanan MARA -->
+<div class="modal fade" id="industryModal" tabindex="-1" aria-labelledby="industryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content border-radius-20">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title w-100 text-center" id="industryModalLabel">INDUSTRY</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body text-center">
+        <div class="row justify-content-center g-4">
           
-                            <!-- 1 Automotive -->
-                            <div class="col-6 col-md-2 mb-4">
-                                <div class="circle">
-                                    <i class="fas fa-car fa-2x mb-2 text-dark"></i>
-                                    <h6 class="fw-bold">AUTOMOTIVE</h6>
-                                </div>
-                            </div>
-          
-                            <!-- 2 F&B -->
-                            <div class="col-6 col-md-2 mb-4">
-                                <div class="circle">
-                                    <i class="fas fa-utensils fa-2x mb-2 text-dark"></i>
-                                    <h6 class="fw-bold">F&amp;B</h6>
-                                </div>
-                            </div>
-          
-                            <!-- 3 Construction -->
-                            <div class="col-6 col-md-2 mb-4">
-                                <div class="circle">
-                                    <i class="fas fa-hard-hat fa-2x mb-2 text-dark"></i>
-                                    <h6 class="fw-bold">CONSTRUCTION</h6>
-                                </div>
-                            </div>
-          
-                            <!-- 4 Lifestyle -->
-                            <div class="col-6 col-md-2 mb-4">
-                                <div class="circle">
-                                    <i class="fas fa-tshirt fa-2x mb-2 text-warning"></i>
-                                    <h6 class="fw-bold text-warning">LIFESTYLE</h6>
-                                </div>
-                            </div>
-          
-                            <!-- 5 Services -->
-                            <div class="col-6 col-md-2 mb-4">
-                                <div class="circle">
-                                    <i class="fas fa-briefcase fa-2x mb-2 text-dark"></i>
-                                    <h6 class="fw-bold">SERVICES</h6>
-                                </div>
-                            </div>
-          
-                        </div>
-        
-                            <!-- See More Button -->
-                            <div class="mt-3">
-                                <a href="/industry-details" class="btn btn-outline-primary">See More</a>
-                            </div>
-        
-                    </div>
-                </div>
+          <!-- Automotive -->
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="circle">
+              <i class="fas fa-car fa-2x mb-2 text-dark"></i>
+              <h6 class="fw-bold">AUTOMOTIVE</h6>
             </div>
+          </div>
+
+          <!-- F&B -->
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="circle">
+              <i class="fas fa-utensils fa-2x mb-2 text-dark"></i>
+              <h6 class="fw-bold">F&amp;B</h6>
+            </div>
+          </div>
+
+          <!-- Construction -->
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="circle">
+              <i class="fas fa-hard-hat fa-2x mb-2 text-dark"></i>
+              <h6 class="fw-bold">CONSTRUCTION</h6>
+            </div>
+          </div>
+
+          <!-- Lifestyle -->
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="circle">
+              <i class="fas fa-tshirt fa-2x mb-2 text-warning"></i>
+              <h6 class="fw-bold text-warning">LIFESTYLE</h6>
+            </div>
+          </div>
+
+          <!-- Services -->
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="circle">
+              <i class="fas fa-briefcase fa-2x mb-2 text-dark"></i>
+              <h6 class="fw-bold">SERVICES</h6>
+            </div>
+          </div>
         </div>
+
+        <!-- See More Button -->
+        <div class="mt-4">
+          <a href="/industry-details" class="btn btn-outline-primary">See More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
 </section>
 
@@ -396,7 +398,7 @@
         <div class="mb-4">
             <img src="<?= asset('images/2025/4x/Artboard_5@4x.png') ?>" 
                  alt="Memories to Remember" 
-                 class="img-fluid" style="max-width: 400px;">
+                 class="img-fluid" style="max-width: 800px;">
         </div>
 
         <!-- Images Row -->
