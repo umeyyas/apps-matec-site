@@ -52,7 +52,7 @@
         <div class="col-lg-7 position-relative">
             <!-- FORM BOX -->
             <div class="h-80 bg-white rounded-4 p-0 d-flex flex-column justify-content-start">
-                <h4 class="text-danger mb-4">Have <span style="color:pink;">questions?</span> Write a message</h4>
+                <h4 class="text-danger mb-4">Have <span style="color:#c70000;">questions?</span> Write a message</h4>
                 <form action="send.php" method="POST">
                     <div class="mb-3">
                         <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="name" required>
