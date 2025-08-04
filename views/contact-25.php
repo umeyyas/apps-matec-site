@@ -61,7 +61,7 @@
                         <input type="email" class="form-control form-control-lg" placeholder="Your Email" name="email" required>
                     </div>
                     <div class="mb-3">
-                        <textarea class="form-control form-control-lg" placeholder="Your Message" name="message" required></textarea>
+                        <textarea class="form-control form-control-lg" style="height:375px;" placeholder="Your Message" name="message" required></textarea>
                     </div>
 
                     <div class="mb-3 text-right">
