@@ -386,7 +386,7 @@
             <div class="col-md-6 col-12 mb-5 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
                 <!-- Title Image -->
                 <div class="mb-4">
-                    <img src="<?= asset('/images/2025/2x/Artboard_14@2x.png') ?>"
+                    <img src="<?= asset('/images/2025/2x/artboard_14@2x.png') ?>"
                          alt="Strategic Goals"
                          class="img-fluid"
                          style="max-width: 100%;">
