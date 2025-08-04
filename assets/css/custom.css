@@ -8739,12 +8739,79 @@ body.matec-2025 .section-lg p {
     width: auto;      /* Avoids forced stretching */
     height: auto;     /* Keeps aspect ratio */
 }
+/* Venue text style */
 .venue-location-text {
     font-weight: 900 !important;
-    font-size: clamp(2rem, 2vw + 1rem, 1.5rem) !important;
+    font-size: clamp(0.9rem, 2.5vw, 1.7rem) !important; 
+    /* shrinks on small screens, grows on larger */
     color: #000 !important;
     line-height: 1.2;
 }
+
+/* Gap between images and text */
+#matec-venue .image-wrapper {
+    margin-bottom: 12px; /* default gap for mobile */
+}
+
+@media (min-width: 768px) {
+    #matec-venue .image-wrapper {
+        margin-bottom: 20px; /* bigger gap for tablets/desktops */
+    }
+
+    .venue-location-text {
+        font-size: 1.5rem !important; /* larger on desktop */
+    }
+}
+
+@media (min-width: 1200px) {
+    .venue-location-text {
+        font-size: 1.7rem !important; /* max size on big screens */
+    }
+}
+
+/* Push layout image down on small screens */
+@media (max-width: 767px) {
+    #matec-venue .layout-image {
+        margin-top: 40px; /* adjust as needed */
+    }
+}
+
+#matec-more-excitement .mb-4 img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.custom-img-desktop {
+    max-width: 60%;   /* Shrinks desktop image */
+    height: auto;     /* Keeps aspect ratio */
+}
+
+.custom-img-mobile {
+    max-width: 80%;   /* Shrinks first mobile image */
+    height: auto;
+}
+
+.custom-img-mobile-2 {
+    max-width: 50%;   /* Shrinks second mobile image */
+    height: auto;
+}
+
+.listing li {
+    display: flex;             /* Places icon and text in one line */
+    align-items: center;       /* Vertically aligns the text with the icon */
+    white-space: nowrap;       /* Prevents text from breaking into two lines */
+    overflow: hidden;          /* Ensures content doesn’t overflow badly */
+    text-overflow: ellipsis;   /* Adds "..." if text is too long */
+    gap: 8px;                  /* Space between icon and text */
+}
+
+.listing li img {
+    width: 24px;   /* Adjust icon size */
+    height: 24px;  /* Keep consistent */
+    margin-right: 10px;
+    flex-shrink: 0; /* Prevent shrinking on small screens */
+}
+
 
 
 

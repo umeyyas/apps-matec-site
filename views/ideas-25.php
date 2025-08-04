@@ -49,22 +49,20 @@
     <div class="container text-center">
         <div class="row row-30 justify-content-center">
             <div class="col-md-12">
-                <!-- Desktop Image -->
-                <div class="d-sm-block d-none">
-                    <img src="<?= asset('images/matec-images/the-ideas-of-matec-3042x153.webp') ?>" 
-                         alt="" 
-                         class="d-flex mx-auto w-auto h-md-55px h-xs-30px mb-4">
-                </div>
-                <!-- Mobile Images -->
-                <div class="d-sm-none d-block">
-                    <img src="<?= asset('images/matec-2/matec-62.png') ?>" 
-                         alt="" 
-                         class="d-flex mx-auto w-auto h-md-55px h-xs-30px mb-2">
-                    <img src="<?= asset('images/matec-2/matec-63.png') ?>" 
-                         alt="" 
-                         class="d-flex mx-auto w-auto h-md-55px h-xs-30px mb-2">
-                </div>
-            </div>
+    <!-- Desktop Image -->
+    <div class="d-sm-block d-none">
+        <img src="<?= asset('images/2025/3x/Artboard_19@3x.png') ?>" 
+             alt="Desktop Banner" 
+             class="custom-img-desktop d-flex mx-auto mb-4">
+    </div>
+
+    <!-- Mobile Images -->
+    <div class="d-sm-none d-block">
+        <img src="<?= asset('images/2025/2x/Artboard_19@2x.png') ?>" 
+             alt="Mobile Banner 1" 
+             class="custom-img-mobile d-flex mx-auto mb-2">
+    </div>
+</div>
 
             <!-- Event Description -->
             <div class="col-lg-10">
@@ -78,20 +76,20 @@
             <div class="col-lg-10">
                 <div class="row">
                     <div class="col-12 col-md-6 mb-3">
-                        <ul class="listing cog-listing list-unstyled text-start">
-                            <li><h4>MAIN EVENT AREAS</h4></li>
-                            <li><h4>BUSINESS SEMINAR & WORKSHOP</h4></li>
-                            <li><h4>NETWORK OPPORTUNITIES</h4></li>
-                            <li><h4>PRODUCT PRESENTATIONS & LAUNCHES</h4></li>
-                            <li><h4>AUTOMOTIVE TECHNOLOGICAL & INNOVATION</h4></li>
+                        <ul class="listing  list-unstyled text-start">
+                            <li><img src="/images/2025/2x/Artboard_11@2x.png" alt="">MAIN EVENT AREAS</li>
+                            <li><img src="images/icons/seminar.png" alt="">BUSINESS SEMINAR & WORKSHOP</li>
+                            <li><img src="images/icons/network.png" alt="">NETWORK OPPORTUNITIES</li>
+                            <li><img src="images/icons/launch.png" alt="">PRODUCT PRESENTATIONS & LAUNCHES</li>
+                            <li><img src="images/icons/car.png" alt="">AUTOMOTIVE TECHNOLOGICAL & INNOVATION</li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-6 mb-3">
-                        <ul class="listing cog-listing list-unstyled text-start">
-                            <li><h4>DEMONSTRATIONS & COMPETITION</h4></li>
-                            <li><h4>AUTO BAZAAR</h4></li>
-                            <li><h4>FIELD DEMONSTRATIONS</h4></li>
-                            <li><h4>ACTIVITIES & PROMOTIONS</h4></li>
+                        <ul class="listing  list-unstyled text-start">
+                            <li><img src="images/icons/demo.png" alt="">DEMONSTRATIONS & COMPETITION</li>
+                            <li><img src="images/icons/bazaar.png" alt="">AUTO BAZAAR</li>
+                            <li><img src="images/icons/field.png" alt="">FIELD DEMONSTRATIONS</li>
+                            <li><img src="images/icons/promo.png" alt="">ACTIVITIES & PROMOTIONS</li>
                         </ul>
                     </div>
                 </div>
@@ -136,9 +134,9 @@
     <div class="container">
         <div class="row row-30 justify-content-center">
             <div class="col-md-12 col-lg-12 d-flex justify-content-center flex-column align-items-center">
-    <img src="<?= asset('images/matec-images/excitement-1990x160.webp') ?>" alt="" 
+    <img src="<?= asset('images/2025/2x/Artboard_18@2x.png') ?>" alt="" 
          class="w-auto h-md-55px h-xs-30px mb-2">
-    <img src="<?= asset('images/matec-images/activities-1748x162.webp') ?>" alt="" 
+    <img src="<?= asset('') ?>" alt="" 
          class="w-auto h-md-55px h-xs-30px mb-2">
 </div>
             <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
