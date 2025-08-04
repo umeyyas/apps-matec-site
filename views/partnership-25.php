@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="<?= asset('images/favicon_io/favicon-32x32.png') ?>">
     <link rel="icon" type="image/png" sizes="16x16" href="<?= asset('images/favicon_io/favicon-16x16.png') ?>">
     <link rel="manifest" href="<?= asset('images/favicon_io/site.webmanifest') ?>">
+    
 
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -86,38 +87,40 @@
         sponsorship tiers and discover how your brand can drive impact at the heart of 
         innovation and automotive excellence.
     </p>
-    <h5 class="mt-5 font-weight-bold">Click to view packages</h5>
+    <h5 class="mt-5 font-weight-bold"><span style="color: red;">Click</span> to view packages</h5>
 </div>
 
 <div class="container py-5">
   <div class="row justify-content-center text-center g-4">
     <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
-      <a href="<?= asset('pdfs/title.pdf') ?>" target="_blank" class="partner-box bg-red">
+      <a data-fancybox data-src="<?= asset('images/partnership_01@1280x.webp') ?>" data-caption="Title Partner" class="partner-box bg-red">
         <img src="<?= asset('images/title.png') ?>" alt="Title Partner" class="img-inside">
       </a>
     </div>
     <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
-      <a href="<?= asset('pdfs/premier.pdf') ?>" target="_blank" class="partner-box bg-blue">
+      <a data-fancybox data-src="<?= asset('images/partnership_02@1280x.webp') ?>" data-caption="Premier Partner" class="partner-box bg-blue">
         <img src="<?= asset('images/premier.png') ?>" alt="Premier Partner" class="img-inside">
       </a>
     </div>
     <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
-      <a href="<?= asset('pdfs/exclusive.pdf') ?>" target="_blank" class="partner-box bg-black">
+      <a data-fancybox data-src="<?= asset('images/partnership_03@1280x.webp') ?>" data-caption="Exclusive Partner" class="partner-box bg-black">
         <img src="<?= asset('images/exclusive.png') ?>" alt="Exclusive Partner" class="img-inside">
       </a>
     </div>
     <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
-      <a href="<?= asset('pdfs/expert.pdf') ?>" target="_blank" class="partner-box bg-grey">
+      <a data-fancybox data-src="<?= asset('images/partnership_04@1280x.webp') ?>" data-caption="Expert Partner" class="partner-box bg-grey">
         <img src="<?= asset('images/expert.png') ?>" alt="Expert Partner" class="img-inside">
       </a>
     </div>
     <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
-      <a href="<?= asset('pdfs/advance.pdf') ?>" target="_blank" class="partner-box bg-lightgrey">
+      <a data-fancybox data-src="<?= asset('images/partnership_05@1280x.webp') ?>" data-caption="Advance Partner" class="partner-box bg-lightgrey">
         <img src="<?= asset('images/advance.png') ?>" alt="Advance Partner" class="img-inside">
       </a>
     </div>
   </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
 
 <?php include "layouts/footer.php"; ?>
 
