@@ -24,7 +24,7 @@
                             <div class="col-12 text-center">
                                 <a class="brand d-block mx-auto" href="https://www.mara.gov.my/en/index/" target="_blank">
                                     <img src="<?= asset('images/2025/2x/artboard_10@2x.png') ?>"
-                                         srcset="<?= asset('images/2025/3x/artboard_10@3x.png') ?> 3x"
+                                         srcset="<?= asset('images/2025/3x/artboard_10@3x.png') ?> 2x"
                                          alt="MATEC2025"
                                          class="d-block mx-auto border-radius-20">
                                 </a>
