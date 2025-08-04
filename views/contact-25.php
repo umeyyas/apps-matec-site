@@ -49,7 +49,7 @@
 
 <div class="container-fluid w-max-1500 mt-5 pb-100">
     <div class="row align-items-stretch">
-        <div class="col-lg-7 position-relative">
+        <div class="col-lg-8 position-relative">
             <!-- FORM BOX -->
             <div class="h-80 bg-white rounded-4 p-0 d-flex flex-column justify-content-start">
                 <h4 class="text-danger mb-4">Have <span style="color:#c70000;">questions?</span> Write a message</h4>
@@ -72,7 +72,7 @@
         </div>
 
         <!-- Right: Image -->
-        <div class="col-lg-5">
+        <div class="col-lg-4">
             <div class="position-relative">
                 <div class="detail-activities text-white mt-15 top-0">
                     <p class="text-white">If you're ready to showcase your products and be part of this exciting event, don't hesitate to reach out to our dedicated salesperson today.</p>
