@@ -170,9 +170,9 @@
 <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
     <div class="container">
         <div class="row row-30 justify-content-center">
-    <div class="col-md-12 col-12 d-flex justify-content-center flex-column align-items-center">
+    <div class="col-sm-12 col-12 d-flex justify-content-center flex-column align-items-center">
         <img src="<?= asset('images/2025/2x/Artboard_18@2x.png') ?>" alt="" 
-             class="img-fluid w-75 mb-3"> <!-- 75% of parent width -->
+             class="img-fluid w-50 mb-3"> <!-- 75% of parent width -->
     </div>
 </div>
             <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
@@ -422,32 +422,50 @@
 </section>-->
 
 <!-- Section With Counters-->
-<section class="section" style="background-image: url(<?= asset('images/2025/bg_our_target_16.png') ?>); background-size:cover; background-position: top left;">
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-md-6 col-12 pl-0">
-                <img src="<?= asset('images/2025/our_target_15.png') ?>" alt="" class="img-fluid">
+<section class="section py-16" style="background: linear-gradient(to right, rgba(23,22,30,1), rgba(14,2,70,1)); padding-top:4rem; padding-bottom:4rem;">
+    <div class="container">
+        <div class="row align-items-start justify-content-center text-center text-md-start">
+            
+            <!-- LEFT SIDE -->
+            <div class="col-md-6 col-12 mb-5 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
+                <!-- Title Image -->
+                <div class="mb-4">
+                    <img src="<?= asset('/images/2025/2x/Artboard_14@2x.png') ?>" 
+                         alt="Strategic Goals" 
+                         class="img-fluid" 
+                         style="max-width: 100%;">
+                </div>
+
+                <!-- Description -->
+                <p class="text-white text-justify" style="max-width: 95%;">
+                    This is the inaugural MARA Automotive Eco System Exhibition, bringing a wave of excitement to all Malaysians. 
+                    MATEC2025 offers more than just a traditional showcase; it presents numerous opportunities, 
+                    not only for entrepreneurs but for all visitors.
+                </p>
             </div>
-            <div class="col-md-6 col-12 pl-0">
-                <div class="row">
-                    <div class="col-md-11 col-11 mx-sm-0 mx-auto">
-                        <div class="text-sm-left text-center py-sm-0 py-5 text-white">
-                            <p>This is the inaugural MARA Automotive Eco System Exhibition, bringing a wave of excitement to all Malaysians. MATEC2025 offers more than just a traditional showcase; it presents numerous opportunities, not only for entrepreneurs but for all visitors.</P>
-                        </div>
-                        <div class="row mt-sm-5 mt-0 justify-content-center">
-                            <div class="col-md-4 col-8 mx-sm-0 pb-sm-0 pb-5">
-                                <img src="<?= asset('images/2025/data_total_18.png') ?>" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-md-4 col-8 mx-sm-0 pb-sm-0 pb-5">
-                                <img src="<?= asset('images/2025/data_total_19.png') ?>" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-md-4 col-8 mx-sm-0 pb-sm-0 pb-5">
-                                <img src="<?= asset('images/2025/data_total_20.png') ?>" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                    </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="col-md-6 col-12 d-flex flex-column align-items-md-start align-items-center">
+                <div class="mb-5">
+                    <img src="<?= asset('images/2025/2x/Artboard_15@2x.png') ?>" 
+                         alt="Estimated Visitors" 
+                         class="img-fluid" 
+                         style="max-width: 50%;">
+                </div>
+                <div class="mb-5">
+                    <img src="<?= asset('images/2025/2x/Artboard_16@2x.png') ?>" 
+                         alt="Sales Target" 
+                         class="img-fluid" 
+                         style="max-width: 50%;">
+                </div>
+                <div>
+                    <img src="<?= asset('images/2025/2x/Artboard_17@2x.png') ?>" 
+                         alt="Total Exhibitors" 
+                         class="img-fluid" 
+                         style="max-width: 45%;">
                 </div>
             </div>
+
         </div>
     </div>
 </section>
