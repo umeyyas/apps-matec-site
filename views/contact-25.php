@@ -107,14 +107,6 @@ document.querySelector("form").addEventListener("submit", function(e) {
 });
 </script>
 
-
-
-
-
-
-
-
-
 <?php include "layouts/footer.php"; ?>
 
 <?php require "layouts/__js.php" ?>

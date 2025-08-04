@@ -91,27 +91,27 @@
 
 <div class="container py-5">
   <div class="row justify-content-center text-center g-4">
-    <div class="col-md-4 col-5 px-5 py-3">
+    <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
       <a href="<?= asset('pdfs/title.pdf') ?>" target="_blank" class="partner-box bg-red">
         <img src="<?= asset('images/title.png') ?>" alt="Title Partner" class="img-inside">
       </a>
     </div>
-    <div class="col-md-4 col-5 px-5 py-3">
+    <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
       <a href="<?= asset('pdfs/premier.pdf') ?>" target="_blank" class="partner-box bg-blue">
         <img src="<?= asset('images/premier.png') ?>" alt="Premier Partner" class="img-inside">
       </a>
     </div>
-    <div class="col-md-4 col-5 px-5 py-3">
+    <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
       <a href="<?= asset('pdfs/exclusive.pdf') ?>" target="_blank" class="partner-box bg-black">
         <img src="<?= asset('images/exclusive.png') ?>" alt="Exclusive Partner" class="img-inside">
       </a>
     </div>
-    <div class="col-md-4 col-5 px-5 py-3">
+    <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
       <a href="<?= asset('pdfs/expert.pdf') ?>" target="_blank" class="partner-box bg-grey">
         <img src="<?= asset('images/expert.png') ?>" alt="Expert Partner" class="img-inside">
       </a>
     </div>
-    <div class="col-md-4 col-5 px-5 py-3">
+    <div class="col-lg-4 col-md-6 col-12 px-5 py-3">
       <a href="<?= asset('pdfs/advance.pdf') ?>" target="_blank" class="partner-box bg-lightgrey">
         <img src="<?= asset('images/advance.png') ?>" alt="Advance Partner" class="img-inside">
       </a>
