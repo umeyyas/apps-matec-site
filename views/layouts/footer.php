@@ -7,30 +7,29 @@
     <!-- Section Pre Footer-->
 <section class="section py-80 bg-gray-900">
     <div class="container-fluid w-max-1500">
-        <div class="row row-30 justify-content-center text-center">
+        <div class="row row-30 justify-content-center">
             <div class="col-12 col-lg-4">
-                <!-- Matec Logo -->
-                <a class="brand d-block mx-auto mb-4" href="/">
-                    <img src="<?= asset('images/asset-matec2025.png') ?>" 
-                         srcset="<?= asset('images/asset-matec2025@2x.png') ?> 2x" 
-                         alt="MATEC2025" 
-                         class="w-75 d-block mx-auto">
-                </a>
-
-                <div class="row mt-0 d-flex flex-column align-items-center">
-                    <div class="col-12 mb-4 text-center">
-                        <h5>
-                            <span class="big font-weight-bold">Know More About</span>
-                        </h5>
-                    </div>
-                    <!-- MARA Logo -->
-                    <div class="col-12 text-center">
-                        <a class="brand d-block mx-auto" href="https://www.mara.gov.my/en/index/" target="_blank">
-                            <img class="w-145px h-150px img-fluid mx-auto d-block" 
-                                 src="<?= asset('images/matec-images/mara-logo.png') ?>" 
-                                 srcset="<?=  asset('images/matec-images/mara-logo@2x.png 2x') ?> 2x" 
-                                 alt="MARA Logo">
+                <div class="row">
+                    <div class="col-12 col-sm-8">
+                        <!-- Matec Logo -->
+                        <a class="brand d-block mx-auto mb-4" href="/">
+                            <img src="<?= asset('images/asset-matec2025.png') ?>"
+                                 srcset="<?= asset('images/asset-matec2025@2x.png') ?> 2x"
+                                 alt="MATEC2025"
+                                 class="d-block mx-auto">
                         </a>
+
+                        <div class="row mt-0 d-flex flex-column align-items-center">
+                            <!-- MARA Logo -->
+                            <div class="col-12 text-center">
+                                <a class="brand d-block mx-auto" href="https://www.mara.gov.my/en/index/" target="_blank">
+                                    <img src="<?= asset('images/2025/2x/artboard_10@2x.png') ?>"
+                                         srcset="<?= asset('images/2025/3x/artboard_10@3x.png') ?> 3x"
+                                         alt="MATEC2025"
+                                         class="d-block mx-auto border-radius-20">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

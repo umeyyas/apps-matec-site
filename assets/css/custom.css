@@ -8546,6 +8546,11 @@ body.matec-2025 .event-details h4 {
     padding: 30px;
 }
 
+.detail-activities.top-0 {
+    top: 0;
+    transform: translateY(0%);
+}
+
 /* Ensure columns act as positioning context */
 .activities-wrapper > [class^="col-"] {
     position: relative;

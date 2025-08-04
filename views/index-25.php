@@ -401,7 +401,7 @@
         <div class="row">
             <div class="col-md-4 mb-3 position-relative">
                 <div class="detail-activities text-white mt-15 top-0">
-                    <img src="<?= asset('images/2025/1x/artboard_6.png') ?>" alt="" class="img-fluid mb-3">
+                    <img src="<?= asset('images/2025/1x/artboard_6.png') ?>" alt="" class="img-fluid mb-3 mx-auto d-block">
                 </div>
                 <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
                     <img src="<?= asset('images/2025/asset_31920.png') ?>" alt="" class="img-fluid border-radius-20">
@@ -410,16 +410,16 @@
             <div class="col-md-4">
                 <div class="row">
                     <div class="col-md-12 mb-3 position-relative">
-                        <div class="detail-activities text-white mt-15">
-                            <img src="<?= asset('images/2025/1x/artboard_7.png') ?>" alt="" class="img-fluid mb-3">
+                        <div class="detail-activities text-white mt-15 top-0">
+                            <img src="<?= asset('images/2025/1x/artboard_7.png') ?>" alt="" class="img-fluid mb-3 mx-auto d-block">
                         </div>
                         <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
                             <img src="<?= asset('images/2025/asset_11920.png') ?>" alt="" class="img-fluid border-radius-20">
                         </a>
                     </div>
                     <div class="col-md-12 mb-3 position-relative">
-                        <div class="detail-activities text-white mt-15">
-                            <img src="<?= asset('images/2025/1x/artboard_9.png') ?>" alt="" class="img-fluid mb-3">
+                        <div class="detail-activities text-white mt-15 top-0">
+                            <img src="<?= asset('images/2025/1x/artboard_9.png') ?>" alt="" class="img-fluid mb-3 mx-auto d-block">
                         </div>
                         <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
                             <img src="<?= asset('images/2025/asset_21920.png') ?>" alt="" class="img-fluid border-radius-20">
@@ -428,8 +428,8 @@
                 </div>
             </div>
             <div class="col-md-4 mb-3 position-relative">
-                <div class="detail-activities text-white mt-15">
-                    <img src="<?= asset('images/2025/1x/artboard_8.png') ?>" alt="" class="img-fluid mb-3">
+                <div class="detail-activities text-white mt-15 top-0">
+                    <img src="<?= asset('images/2025/1x/artboard_8.png') ?>" alt="" class="img-fluid mb-3 mx-auto d-block">
                 </div>
                 <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
                     <img src="<?= asset('images/2025/asset_41920.png') ?>" alt="" class="img-fluid border-radius-20">
