@@ -91,7 +91,7 @@
             <!-- Right side: Venue Title Image + Location -->
             <div class="col-12 col-md-7 mb-4 order-1 order-md-3">
                 <div class="text-center image-wrapper mb-2 mb-md-3">
-                    <img src="<?= asset('images/2025/2x/Artboard_3@2x.png') ?>" 
+                    <img src="<?= asset('images/2025/2x/artboard_3@2x.png') ?>"
                          alt="Venue Title" 
                          class="img-fluid">
                 </div>
