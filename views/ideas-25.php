@@ -44,36 +44,19 @@
 </section>
 
 <!-- Section Biggest 2019 Digital Conference-->
-<!-- Section Biggest 2019 Digital Conference-->
-<section class="section section-lg bg-dark text-dark d-flex align-items-center justify-content-center"
-         style="background: url('/images/2025/background.jpg') no-repeat center center; 
-                background-size: cover; 
-                min-height: 500px;">
+<section class="section py-50 text-dark d-flex align-items-center justify-content-center" style="background: url('<?= asset('images/2025/bg_the_ideas_011920.webp') ?>') no-repeat center center; background-size: cover;">
     <div class="container text-center">
-        <div class="row row-30 justify-content-center">
-
+        <div class="row justify-content-center">
             <!-- Left Column with Images -->
             <div class="col-sm-5">
-                <!-- Desktop Image -->
-                <div class="d-sm-block d-none">
-                    <img src="<?= asset('images/2025/3x/Artboard_19@3x.png') ?>" 
-                         alt="Desktop Banner" 
-                         class="custom-img-desktop d-flex mx-auto mb-4">
-                </div>
-
-                <!-- Mobile Image -->
-                <div class="d-sm-none d-block">
-                    <img src="<?= asset('images/2025/2x/Artboard_19@2x.png') ?>" 
-                         alt="Mobile Banner" 
-                         class="custom-img-mobile d-flex mx-auto mb-2">
-                </div>
+                <img src="<?= asset('images/2025/3x/artboard_19@3x.png') ?>" alt="Desktop Banner"
+                     class="d-flex mx-auto mb-4">
             </div>
 
             <!-- Event Description -->
             <div class="col-lg-10">
                 <p class="mb-4">
-                    This 3-days event is filled with showcases and activities that will appeal to those involved 
-                    in automotive, business owners and investors as well as the general public, including:
+                    This 3-days event is filled with showcases and activities that will appeal to those involved in automotive, business owners and investors as well as the general public, including:
                 </p>
             </div>
 
@@ -83,49 +66,22 @@
 
                     <!-- Column 1 -->
                     <div class="col-12 col-md-6 mb-3">
-                        <ul class="listing list-unstyled text-start">
-                            <li class="d-flex align-items-center mb-2">
-                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
-                                MAIN EVENT AREAS
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
-                                BUSINESS SEMINAR & WORKSHOP
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
-                                NETWORK OPPORTUNITIES
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
-                                PRODUCT PRESENTATIONS & LAUNCHES
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
-                                AUTOMOTIVE TECHNOLOGICAL & INNOVATION
-                            </li>
+                        <ul class="listing cog-listing style-2025 mt-sm-0 mt-4">
+                            <li><h4>main event areas</h4></li>
+                            <li><h4>business seminar & workshop</h4></li>
+                            <li><h4>network opportunities</h4></li>
+                            <li><h4>product presentations & launches</h4></li>
+                            <li><h4>automotive technological & innovation</h4></li>
                         </ul>
                     </div>
 
                     <!-- Column 2 -->
                     <div class="col-12 col-md-6 mb-3">
-                        <ul class="listing list-unstyled text-start">
-                            <li class="d-flex align-items-center mb-2">
-                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
-                                DEMONSTRATIONS & COMPETITION
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
-                                AUTO BAZAAR
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
-                                FIELD DEMONSTRATIONS
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <img src="/images/2025/1x/Artboard_11.png" alt="" class="me-2">
-                                ACTIVITIES & PROMOTIONS
-                            </li>
+                        <ul class="listing cog-listing style-2025 mt-sm-0 mt-4">
+                            <li><h4>demonstrations & competition</h4></li>
+                            <li><h4>auto bazaar</h4></li>
+                            <li><h4>field demonstrations</h4></li>
+                            <li><h4>activities & promotions</h4></li>
                         </ul>
                     </div>
 
@@ -141,25 +97,25 @@
         <div class="container">
             <div class="row row-30 justify-content-center">
                 <div class="col-md-12 col-lg-12">
-                    
+
                     <!-- Small Subtitle -->
                     <h6 class="text-white-50 fw-semibold mb-3">
                         COME TOGETHER WITH US AND IMMERSE YOURSELF IN THE MOMENT
                     </h6>
-                    
+
                     <!-- Big Title broken into three lines -->
                     <h3 class="main-title">
                         BE PART OF THE THRILLING JOURNEY <br>
                         ENGAGING EXPERIENCES <br>
                         BOTH INDOORS AND OUTDOORS
                     </h3>
-                    
+
                     <!-- Optional Button (currently commented out)
                     <a class="button button-primary box-with-triangle-right button-offset-xl" href="#" data-triangle=".button-overlay">
                         <span>Reserve Your Seat</span><span class="button-overlay"></span>
                     </a>
                     -->
-                    
+
                 </div>
             </div>
         </div>
@@ -167,134 +123,134 @@
 </section>
 
 <!-- Section Biggest 2019 Digital Conference-->
-<section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
+<section class="section py-50 bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section"  style="background-image: url(<?= asset('images/2025/bg_the_ideas_031920.webp') ?>)">
     <div class="container">
         <div class="row row-30 justify-content-center">
-    <div class="col-sm-12 col-12 d-flex justify-content-center flex-column align-items-center">
-        <img src="<?= asset('images/2025/2x/Artboard_18@2x.png') ?>" alt="" 
-             class="img-fluid w-50 mb-3"> <!-- 75% of parent width -->
-    </div>
-</div>
-            <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
-                <div class="row row-15 justify-content-center mb-sm-0 mb-1 ">
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-2/matec-23.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-2/matec-24.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-2/matec-25.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-3/matec-26.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-3/matec-27.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-3/matec-28.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row row-15 justify-content-center mb-sm-0 mb-2 mt-sm-0 mt-0">
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-2/matec-29.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-2/matec-30.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-2/matec-31.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-2/matec-32.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-2/matec-33.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-2 col-6 px-2">
-                        <a href="" data-fancybox data-src="#comingsoon">
-                            <div class="card border-0">
-                                <div class="card-body p-0">
-                                    <img src="<?= asset('images/matec-2/matec-34.png') ?>" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <h4 class="text-center fs-7" style="color: black; text-transform: lowercase !important;">
-                    and many more awaits you!
-                </h4>
-
+            <div class="col-sm-12 col-12 d-flex justify-content-center flex-column align-items-center">
+                <img src="<?= asset('images/2025/2x/Artboard_18@2x.png') ?>" alt=""
+                     class="img-fluid w-50 mb-3"> <!-- 75% of parent width -->
             </div>
         </div>
+        <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
+            <div class="row row-15 justify-content-center mb-sm-0 mb-1 ">
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-2/matec-23.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-2/matec-24.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-2/matec-25.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-3/matec-26.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-3/matec-27.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-3/matec-28.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row row-15 justify-content-center mb-sm-0 mb-2 mt-sm-0 mt-0">
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-2/matec-29.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-2/matec-30.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-2/matec-31.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-2/matec-32.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-2/matec-33.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 col-6 px-2">
+                    <a href="" data-fancybox data-src="#comingsoon">
+                        <div class="card border-0">
+                            <div class="card-body p-0">
+                                <img src="<?= asset('images/matec-2/matec-34.png') ?>" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <h4 class="text-center fs-7" style="color: black; text-transform: lowercase !important;">
+                and many more awaits you!
+            </h4>
+
+        </div>
+    </div>
     </div>
 </section>
 
@@ -425,21 +381,21 @@
 <section class="section py-16" style="background: linear-gradient(to right, rgba(23,22,30,1), rgba(14,2,70,1)); padding-top:4rem; padding-bottom:4rem;">
     <div class="container">
         <div class="row align-items-start justify-content-center text-center text-md-start">
-            
+
             <!-- LEFT SIDE -->
             <div class="col-md-6 col-12 mb-5 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
                 <!-- Title Image -->
                 <div class="mb-4">
-                    <img src="<?= asset('/images/2025/2x/Artboard_14@2x.png') ?>" 
-                         alt="Strategic Goals" 
-                         class="img-fluid" 
+                    <img src="<?= asset('/images/2025/2x/Artboard_14@2x.png') ?>"
+                         alt="Strategic Goals"
+                         class="img-fluid"
                          style="max-width: 100%;">
                 </div>
 
                 <!-- Description -->
                 <p class="text-white text-justify" style="max-width: 95%;">
-                    This is the inaugural MARA Automotive Eco System Exhibition, bringing a wave of excitement to all Malaysians. 
-                    MATEC2025 offers more than just a traditional showcase; it presents numerous opportunities, 
+                    This is the inaugural MARA Automotive Eco System Exhibition, bringing a wave of excitement to all Malaysians.
+                    MATEC2025 offers more than just a traditional showcase; it presents numerous opportunities,
                     not only for entrepreneurs but for all visitors.
                 </p>
             </div>
@@ -447,21 +403,21 @@
             <!-- RIGHT SIDE -->
             <div class="col-md-6 col-12 d-flex flex-column align-items-md-start align-items-center">
                 <div class="mb-5">
-                    <img src="<?= asset('images/2025/2x/Artboard_15@2x.png') ?>" 
-                         alt="Estimated Visitors" 
-                         class="img-fluid" 
+                    <img src="<?= asset('images/2025/2x/Artboard_15@2x.png') ?>"
+                         alt="Estimated Visitors"
+                         class="img-fluid"
                          style="max-width: 50%;">
                 </div>
                 <div class="mb-5">
-                    <img src="<?= asset('images/2025/2x/Artboard_16@2x.png') ?>" 
-                         alt="Sales Target" 
-                         class="img-fluid" 
+                    <img src="<?= asset('images/2025/2x/Artboard_16@2x.png') ?>"
+                         alt="Sales Target"
+                         class="img-fluid"
                          style="max-width: 50%;">
                 </div>
                 <div>
-                    <img src="<?= asset('images/2025/2x/Artboard_17@2x.png') ?>" 
-                         alt="Total Exhibitors" 
-                         class="img-fluid" 
+                    <img src="<?= asset('images/2025/2x/Artboard_17@2x.png') ?>"
+                         alt="Total Exhibitors"
+                         class="img-fluid"
                          style="max-width: 45%;">
                 </div>
             </div>
