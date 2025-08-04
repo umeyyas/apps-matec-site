@@ -43,68 +43,84 @@
     </div>
 </section>
 
-<div class="col-12 col-lg-6 mx-auto mt-5">
+<div class="col-12 col-sm-6 mx-auto mt-5">
     <img src="<?= asset('images/communicate.png') ?>" alt="" class="mb-2 mt-2">
 </div>
 
-<div class="container mt-5 text-center">
-  <div class="row align-items-stretch">
-    
-    <div class="col-lg-6 position-relative">
-  <!-- FORM BOX -->
-  <div class="h-80 bg-white rounded-4 p-0 d-flex flex-column justify-content-start">
-    <h5 class="text-danger mb-4">Have questions? Write a message</h5>
-    
-    <!-- 🔥 FORM STARTS -->
-    <form action="send.php" method="POST">
-      <div class="mb-3">
-        <input type="text" class="form-control p-3" placeholder="Your Name" name="name" required>
-      </div>
-      <div class="mb-3">
-        <input type="email" class="form-control p-3" placeholder="Your Email" name="email" required>
-      </div>
-      <div class="mb-3">
-        <textarea class="form-control p-3" rows="3" placeholder="Your Message" name="message" required></textarea>
-      </div>
+<div class="container-fluid w-max-1500 mt-5 pb-100">
+    <div class="row align-items-stretch">
+        <div class="col-lg-8 position-relative">
+            <!-- FORM BOX -->
+            <div class="h-80 bg-white rounded-4 p-0 d-flex flex-column justify-content-start">
+                <h4 class="text-danger mb-4">Have <span style="color:#c70000;">questions?</span> Write a message</h4>
+                <form action="send.php" method="POST">
+                    <div class="mb-3">
+                        <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control form-control-lg" placeholder="Your Email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control form-control-lg" placeholder="Your Message" name="message" required></textarea>
+                    </div>
 
-      <!-- ✅ BUTTON MOVED HERE -->
-      <button type="submit" class="btn btn-danger p-2 mb-3">Send Message</button>
-    </form>
-  </div>
-</div>
+                    <div class="mb-3 text-right">
+                        <button type="submit" class="btn-big-red">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
+        <!-- Right: Image -->
+        <div class="col-lg-4">
+            <div class="position-relative">
+                <div class="detail-activities text-white mt-15 top-0">
+                    <p class="text-white">If you're ready to showcase your products and be part of this exciting event, don't hesitate to reach out to our dedicated salesperson today.</p>
+                    <p class="text-white">Contact us now to secure your spot as an exhibitor!</p>
+                    <p class="text-white">Please email or call us, to view our attractive Strategic Partnership Packages</p>
+                    <dl class="row mb-0">
+                        <dt class="col-md-3 col-3">Tel. :</dt>
+                        <dd class="col-md-9 col-9">+6011-56648387 (Mr. Razi)</dd>
+                        <dt class="col-md-3 col-3">&nbsp;</dt>
+                        <dd class="col-md-9 col-9">+6010-5631270 (Mr. Syafizzi)</dd>
+                        <dt class="col-md-3 col-3 mb-3">&nbsp;</dt>
+                        <dd class="col-md-9 col-9 mb-3">+6017-9386267 (Mr. Saif)</dd>
 
-    <!-- Right: Image -->
-    <div class="col-lg-6">
-      <div class="h-80">
-        <img src="<?= asset('images/contact.webp') ?>" class="img-fluid h-50 w-50 object-fit-cover rounded-4 mb-5" alt="Matec 2025">
-      </div>
+                        <dt class="col-md-3 col-3">Email :</dt>
+                        <dd class="col-md-9 col-9">fakharadzi@mara.gov.my</dd>
+                        <dt class="col-md-3 col-3">&nbsp;</dt>
+                        <dd class="col-md-9 col-9">msyafizzi@mara.com.my</dd>
+                        <dt class="col-md-3 col-3 mb-3">&nbsp;</dt>
+                        <dd class="col-md-9 col-9 mb-3">saifatullah@mara.com.my</dd>
+                    </dl>
+                </div>
+                <img src="<?= asset('images/contact.webp') ?>" class="img-fluid border-radius-30" alt="MATEC2025">
+            </div>
+        </div>
     </div>
-
-  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
-document.querySelector("form").addEventListener("submit", function(e) {
-  e.preventDefault();
-  const form = this;
-  const formData = new FormData(form);
+    document.querySelector("form").addEventListener("submit", function(e) {
+        e.preventDefault();
+        const form = this;
+        const formData = new FormData(form);
 
-  fetch(form.action, {
-    method: "POST",
-    body: formData
-  })
-  .then(res => res.text())
-  .then(data => {
-    Swal.fire("Success", "Your message was sent!", "success");
-    form.reset();
-  })
-  .catch(err => {
-    Swal.fire("Oops", "Something went wrong.", "error");
-    console.error(err);
-  });
-});
+        fetch(form.action, {
+            method: "POST",
+            body: formData
+        })
+            .then(res => res.text())
+            .then(data => {
+                Swal.fire("Success", "Your message was sent!", "success");
+                form.reset();
+            })
+            .catch(err => {
+                Swal.fire("Oops", "Something went wrong.", "error");
+                console.error(err);
+            });
+    });
 </script>
 
 <?php include "layouts/footer.php"; ?>
