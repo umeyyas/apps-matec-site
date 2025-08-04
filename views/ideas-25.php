@@ -126,9 +126,9 @@
 <section class="section py-50 bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section"  style="background-image: url(<?= asset('images/2025/bg_the_ideas_031920.webp') ?>)">
     <div class="container">
         <div class="row row-30 justify-content-center">
-            <div class="col-sm-12 col-12 d-flex justify-content-center flex-column align-items-center">
+            <div class="col-sm-6 col-12 d-flex justify-content-center flex-column align-items-center">
                 <img src="<?= asset('images/2025/2x/Artboard_18@2x.png') ?>" alt=""
-                     class="img-fluid w-50 mb-3"> <!-- 75% of parent width -->
+                     class="img-fluid mt-3 mb-3"> <!-- 75% of parent width -->
             </div>
         </div>
         <div class="col-md-12 col-lg-12 col-xl-12 text-sm-left text-center excitement-image-container">
