@@ -57,9 +57,9 @@
     </div>
 </section>
 
-<section id="matec-about" 
-    class="py-80 bg-image-section bg-image-section-efx-grey bg-cover-section bg-center bg-md-center bg-sm-right"
-    style="background-image: url(<?= asset('images/2025/bg_vanue1280.png') ?>);">
+<section id="matec-about"
+         class="py-80 bg-image-section bg-image-section-efx-grey bg-cover-section bg-center bg-md-center bg-sm-right"
+         style="background-image: url(<?= asset('images/2025/bg_vanue1280.png') ?>);">
     <div class="container-fluid w-max-1500">
         <h4 class="text-center text-white mb-3">MARA AUTOMOTIVE ECOSYSTEM</h4>
         <div class="text-white text-md-start text-center">
@@ -74,25 +74,25 @@
     </div>
 </section>
 
-<section id="matec-venue" class="py-80 bg-image-section bg-image-section-efx-grey bg-cover-section venue-asset" 
+<section id="matec-venue" class="py-80 bg-image-section bg-image-section-efx-grey bg-cover-section venue-asset"
          style="background-image: url(<?= asset('images/matec-images/matec-bg-images-03.png') ?>)">
     <div class="container-fluid w-max-1500">
         <div class="row align-items-start">
-            
+
             <!-- Left side: Stadium Layout Image -->
             <div class="col-12 col-md-5 order-2 order-md-1 text-center text-md-start">
-    <div class="image-wrapper layout-image">
-        <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>" 
-             alt="Stadium Layout" 
-             class="img-fluid h-150">
-    </div>
-</div>
-            
+                <div class="image-wrapper layout-image">
+                    <img src="<?= asset('images/2025/bukit_jalil_layout1280.png') ?>"
+                         alt="Stadium Layout"
+                         class="img-fluid h-150">
+                </div>
+            </div>
+
             <!-- Right side: Venue Title Image + Location -->
             <div class="col-12 col-md-7 mb-4 order-1 order-md-3">
                 <div class="text-center image-wrapper mb-2 mb-md-3">
                     <img src="<?= asset('images/2025/2x/artboard_3@2x.png') ?>"
-                         alt="Venue Title" 
+                         alt="Venue Title"
                          class="img-fluid">
                 </div>
                 <div class="d-flex justify-content-end text-wrapper mt-4 mt-md-4">
@@ -106,12 +106,12 @@
     </div>
 </section>
 
-<section id="matec-date" 
-    class="bg-image-section bg-image-section-efx-grey bg-cover-section text-center py-4 py-md-5 py-lg-6"
-    style="background-image: url(<?= asset('images/2025/bg_event1280.png') ?>);
-           background-repeat: no-repeat; 
-           background-size: cover;
-           background-position: center;">
+<section id="matec-date"
+         class="bg-image-section bg-image-section-efx-grey bg-cover-section text-center py-4 py-md-5 py-lg-6"
+         style="background-image: url(<?= asset('images/2025/bg_event1280.png') ?>);
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 background-position: center;">
     <div class="container-fluid w-max-1200 bg-dark bg-opacity-50 py-4 rounded">
         <h4 class="fw-light mb-3" style="color: white;">EVENT DATE</h4>
         <h2 class="fs-4 fs-md-3" style="color: white;">31 OCTOBER - 2 NOVEMBER</h2>
@@ -175,14 +175,14 @@
     </div>
 </section>
 
-<section class="pt-600 pb-100" 
+<section class="pt-600 pb-100"
          style="background:#000000 url('<?= asset('images/2025/stats-1420x1030.webp') ?>') no-repeat top center;">
     <div class="container-fluid w-max-1500 pb-50">
         <div class="text-center">
-    <img src="<?= asset('images/2025/1x/artboard_4.png') ?>"
-         alt="MATEC2024 STATISTIC" 
-         class="img-fluid responsive-title-img">
-</div>
+            <img src="<?= asset('images/2025/1x/artboard_4.png') ?>"
+                 alt="MATEC2024 STATISTIC"
+                 class="img-fluid responsive-title-img">
+        </div>
         <div class="row">
             <div class="col-12 col-sm-6 mx-auto">
                 <div class="card">
@@ -213,11 +213,11 @@
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <p class="fs-5 lh-lg fw-normal text-dark mb-4">
-                    Presenting the inaugural MARA Automotive Ecosystem exhibition, a groundbreaking event 
-                    that brings a fresh wave of excitement to Malaysians nationwide. MATEC2025 is more 
-                    than just a conventional showcase — it's a dynamic platform brimming with opportunities, 
-                    catering not only to entrepreneurs but also to visitors from all walks of life. Prepare 
-                    to explore innovative ideas, connect with industry experts, and uncover endless possibilities 
+                    Presenting the inaugural MARA Automotive Ecosystem exhibition, a groundbreaking event
+                    that brings a fresh wave of excitement to Malaysians nationwide. MATEC2025 is more
+                    than just a conventional showcase — it's a dynamic platform brimming with opportunities,
+                    catering not only to entrepreneurs but also to visitors from all walks of life. Prepare
+                    to explore innovative ideas, connect with industry experts, and uncover endless possibilities
                     in this one-of-a-kind experience.
                 </p>
                 <img src="<?= asset('images/2025/title_expectation1280.png') ?>" alt="" class="img-fluid mt-3 mb-3">
@@ -226,7 +226,7 @@
         <div class="row mt-4">
             <div class="col-12 px-0">
                 <div class="image-wrapper">
-                <img src="<?= asset('images/2025/group1280.png') ?>" alt="" class="img-fluid img-zoom-300">
+                    <img src="<?= asset('images/2025/group1280.png') ?>" alt="" class="img-fluid img-zoom-300">
                 </div>
             </div>
         </div>
@@ -247,34 +247,34 @@
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">AUTOSHOW <br> HIGHLIGHT</h4>
-                                    
+
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="activitygallery">
+                                <a href="<?= asset('images/2025/activities/activities-11.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
-                                </a>    
+                                </a>
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">TWO-WHEEL <br> THRILLS</h4>
-                                    
+
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-12.png') ?>" data-fancybox="activitygallery">
+                                <a href="<?= asset('images/2025/activities/activities-12.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/2025/activities/Activities-12.png') ?>" alt="" class="img-fluid">
-                                </a>    
+                                </a>
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">PUSH BIKE</h4>
-                                    
+
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
+                                <a href="<?= asset('images/2025/activities/activities-10.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/2025/activities/Activities-10.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">LIVE <br> BEATS</h4>
-                                    
+
                                 </div>
                                 <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/new_act/activities-update-14.png') ?>" alt="" class="img-fluid">
@@ -283,7 +283,7 @@
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">SPIN <br> YOUR <br> FORTUNE</h4>
-                                    
+
                                 </div>
                                 <a href="<?= asset('images/new_act/activities-update-18.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/new_act/activities-update-18.png') ?>" alt="" class="img-fluid">
@@ -292,7 +292,7 @@
                             <div class="f-carousel__slide">
                                 <div class="detail-activities text-white mt-15">
                                     <h4 class="text-white">DRIFTING <br> DOMINANCE</h4>
-                                    
+
                                 </div>
                                 <a href="<?= asset('images/new_act/activities-update-13.png') ?>" data-fancybox="activitygallery">
                                     <img src="<?= asset('images/new_act/activities-update-13.png') ?>" alt="" class="img-fluid">
@@ -303,15 +303,15 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-6 mb-35">
                 <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#industryModal">
                     <div class="detail-activities text-white pl-60 mb-3">
                         <h1 class="text-white">KEUSAHAWANAN <br> MARA</h1>
                     </div>
-                    <img src="<?= asset('images/2025/faq_mara_14.webp') ?>" 
-                    alt="Keusahawanan MARA" 
-                    class="img-fluid border-radius-20">
+                    <img src="<?= asset('images/2025/faq_mara_14.webp') ?>"
+                         alt="Keusahawanan MARA"
+                         class="img-fluid border-radius-20">
                 </a>
             </div>
 
@@ -320,83 +320,83 @@
                     <div class="detail-activities text-white pl-60 mb-3">
                         <h1 class="text-white">F.A.Q.</h1>
                     </div>
-                    <img src="<?= asset('images/2025/faq_mara_13.webp') ?>" 
-                    alt="MARA FAQ" 
-                    class="img-fluid border-radius-20">
+                    <img src="<?= asset('images/2025/faq_mara_13.webp') ?>"
+                         alt="MARA FAQ"
+                         class="img-fluid border-radius-20">
                 </a>
             </div>
-        <!-- Modal for Keusahawanan MARA -->
-        <!-- Modal -->
-<!-- Modal for Keusahawanan MARA -->
-<div class="modal fade" id="industryModal" tabindex="-1" aria-labelledby="industryModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-centered">
-    <div class="modal-content border-radius-20">
+            <!-- Modal for Keusahawanan MARA -->
+            <!-- Modal -->
+            <!-- Modal for Keusahawanan MARA -->
+            <div class="modal fade" id="industryModal" tabindex="-1" aria-labelledby="industryModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content border-radius-20">
 
-      <!-- Modal Header -->
-      <div class="modal-header bg-primary text-white">
-        <h5 class="modal-title w-100 text-center" id="industryModalLabel">INDUSTRY</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
+                        <!-- Modal Header -->
+                        <div class="modal-header bg-primary text-white">
+                            <h5 class="modal-title w-100 text-center" id="industryModalLabel">INDUSTRY</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
 
-      <!-- Modal Body -->
-      <div class="modal-body text-center">
-        <div class="row justify-content-center g-4">
-          
-          <!-- Automotive -->
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="circle">
-              <i class="fas fa-car fa-2x mb-2 text-dark"></i>
-              <h6 class="fw-bold">AUTOMOTIVE</h6>
+                        <!-- Modal Body -->
+                        <div class="modal-body text-center">
+                            <div class="row justify-content-center g-4">
+
+                                <!-- Automotive -->
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <div class="circle">
+                                        <i class="fas fa-car fa-2x mb-2 text-dark"></i>
+                                        <h6 class="fw-bold">AUTOMOTIVE</h6>
+                                    </div>
+                                </div>
+
+                                <!-- F&B -->
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <div class="circle">
+                                        <i class="fas fa-utensils fa-2x mb-2 text-dark"></i>
+                                        <h6 class="fw-bold">F&amp;B</h6>
+                                    </div>
+                                </div>
+
+                                <!-- Construction -->
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <div class="circle">
+                                        <i class="fas fa-hard-hat fa-2x mb-2 text-dark"></i>
+                                        <h6 class="fw-bold">CONSTRUCTION</h6>
+                                    </div>
+                                </div>
+
+                                <!-- Lifestyle -->
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <div class="circle">
+                                        <i class="fas fa-tshirt fa-2x mb-2 text-warning"></i>
+                                        <h6 class="fw-bold text-warning">LIFESTYLE</h6>
+                                    </div>
+                                </div>
+
+                                <!-- Services -->
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <div class="circle">
+                                        <i class="fas fa-briefcase fa-2x mb-2 text-dark"></i>
+                                        <h6 class="fw-bold">SERVICES</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- See More Button -->
+                            <div class="mt-4">
+                                <a href="/industry-details" class="btn btn-outline-primary">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <!-- F&B -->
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="circle">
-              <i class="fas fa-utensils fa-2x mb-2 text-dark"></i>
-              <h6 class="fw-bold">F&amp;B</h6>
-            </div>
-          </div>
-
-          <!-- Construction -->
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="circle">
-              <i class="fas fa-hard-hat fa-2x mb-2 text-dark"></i>
-              <h6 class="fw-bold">CONSTRUCTION</h6>
-            </div>
-          </div>
-
-          <!-- Lifestyle -->
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="circle">
-              <i class="fas fa-tshirt fa-2x mb-2 text-warning"></i>
-              <h6 class="fw-bold text-warning">LIFESTYLE</h6>
-            </div>
-          </div>
-
-          <!-- Services -->
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="circle">
-              <i class="fas fa-briefcase fa-2x mb-2 text-dark"></i>
-              <h6 class="fw-bold">SERVICES</h6>
-            </div>
-          </div>
         </div>
-
-        <!-- See More Button -->
-        <div class="mt-4">
-          <a href="/industry-details" class="btn btn-outline-primary">See More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
 </section>
 
 <section id="matec-more-excitement" class="py-5" style="background: #ffffff;">
     <div class="container-fluid w-max-1500">
-        
+
         <!-- Section Title Image -->
         <div class="row">
             <div class="col-sm-6">
@@ -410,17 +410,17 @@
 
         <!-- Images Row -->
         <div class="row mt-0">
-            
+
             <!-- First Column -->
             <div class="col-md-4 mb-3 position-relative">
                 <div class="detail-activities text-white mt-15 top-0">
                     <img src="<?= asset('images/2025/1x/artboard_6.png') ?>"
-                         alt="Activity Image 1" 
+                         alt="Activity Image 1"
                          class="img-fluid d-block mx-auto">
                 </div>
                 <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
-                    <img src="<?= asset('images/new/artboard_3@1280x.webp') ?>" 
-                         alt="Activity Image 2" 
+                    <img src="<?= asset('images/new/artboard_3@1280x.webp') ?>"
+                         alt="Activity Image 2"
                          class="img-fluid border-radius-20 mt-3">
                 </a>
             </div>
@@ -428,16 +428,16 @@
             <!-- Second Column -->
             <div class="col-md-4">
                 <div class="row">
-                    
+
                     <div class="col-md-12 mb-3 position-relative">
                         <div class="detail-activities text-white mt-15 top-0">
                             <img src="<?= asset('images/2025/1x/artboard_7.png') ?>"
-                                 alt="Activity Image 3" 
+                                 alt="Activity Image 3"
                                  class="img-fluid d-block mx-auto">
                         </div>
                         <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
-                            <img src="<?= asset('images/new/artboard_4@1280x.webp') ?>" 
-                                 alt="Activity Image 4" 
+                            <img src="<?= asset('images/new/artboard_4@1280x.webp') ?>"
+                                 alt="Activity Image 4"
                                  class="img-fluid border-radius-20 mt-3">
                         </a>
                     </div>
@@ -445,12 +445,12 @@
                     <div class="col-md-12 mb-3 position-relative">
                         <div class="detail-activities text-white mt-15 top-0">
                             <img src="<?= asset('images/2025/1x/artboard_9.png') ?>"
-                                 alt="Activity Image 3" 
+                                 alt="Activity Image 3"
                                  class="img-fluid d-block mx-auto">
                         </div>
                         <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
-                            <img src="<?= asset('images/new/artboard_5@1280x.webp') ?>" 
-                                 alt="Activity Image 4" 
+                            <img src="<?= asset('images/new/artboard_5@1280x.webp') ?>"
+                                 alt="Activity Image 4"
                                  class="img-fluid border-radius-20 mt-3">
                         </a>
                     </div>
@@ -461,12 +461,12 @@
             <div class="col-md-4 mb-3 position-relative">
                 <div class="detail-activities text-white mt-15 top-0">
                     <img src="<?= asset('images/2025/1x/artboard_8.png') ?>"
-                         alt="Activity Image 1" 
+                         alt="Activity Image 1"
                          class="img-fluid d-block mx-auto">
                 </div>
                 <a href="<?= asset('images/new/artboard_6@1280x.webp') ?>" data-fancybox="activitygallery">
-                    <img src="<?= asset('images/new/artboard_6@1280x.webp') ?>" 
-                         alt="Activity Image 2" 
+                    <img src="<?= asset('images/new/artboard_6@1280x.webp') ?>"
+                         alt="Activity Image 2"
                          class="img-fluid border-radius-20 mt-3">
                 </a>
             </div>
@@ -479,9 +479,9 @@
 
 <?php require "layouts/__js.php" ?>
 
-    <script>
-        $(function () {
-            var $hero = $('#intro-hero');
+<script>
+    $(function () {
+        var $hero = $('#intro-hero');
 
         function resizeHero() {
             $hero.height($(window).height());
@@ -489,11 +489,11 @@
 
         resizeHero();
         $(window).on('resize', resizeHero);
-        });
-    </script>
+    });
+</script>
 
-    <script>
-        new Carousel(document.getElementById("matecGallery"), {
+<script>
+    new Carousel(document.getElementById("matecGallery"), {
         // Display four images side by side on larger screens
         slidesPerPage: 4,
         Autoplay: {
@@ -508,39 +508,39 @@
         }
     }, {
         Autoplay
-        });
-    </script>
+    });
+</script>
 
-    <script>
-        // Equalize height for each column in the "More Excitement" section
-        function setEqualHeightMatecMore() {
-            var $cols = $('#matec-more-excitement .col-md-4');
+<script>
+    // Equalize height for each column in the "More Excitement" section
+    function setEqualHeightMatecMore() {
+        var $cols = $('#matec-more-excitement .col-md-4');
 
-            // Reset height on small screens
-            if (window.innerWidth < 768) {
-                $cols.css('height', '');
-                return;
-            }
-
-            var mb = parseInt($('.mb-35:first').css('margin-bottom')) || 0;
-            var maxHeight = 0;
-
-            $cols.each(function () {
-                var countMb = $(this).find('.col-md-12.mb-35').length;
-                var currentHeight = $(this).outerHeight() - (mb * countMb);
-                if (currentHeight > maxHeight) {
-                    maxHeight = currentHeight;
-                }
-            });
-
-            $cols.height(maxHeight);
+        // Reset height on small screens
+        if (window.innerWidth < 768) {
+            $cols.css('height', '');
+            return;
         }
 
-        $(function () {
-            setEqualHeightMatecMore();
-            $(window).on('resize', setEqualHeightMatecMore);
+        var mb = parseInt($('.mb-35:first').css('margin-bottom')) || 0;
+        var maxHeight = 0;
+
+        $cols.each(function () {
+            var countMb = $(this).find('.col-md-12.mb-35').length;
+            var currentHeight = $(this).outerHeight() - (mb * countMb);
+            if (currentHeight > maxHeight) {
+                maxHeight = currentHeight;
+            }
         });
-    </script>
+
+        $cols.height(maxHeight);
+    }
+
+    $(function () {
+        setEqualHeightMatecMore();
+        $(window).on('resize', setEqualHeightMatecMore);
+    });
+</script>
 
 </body>
 </html>
