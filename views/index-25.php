@@ -415,7 +415,7 @@
                          class="img-fluid border-radius-20">
                 </div>
                 <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
-                    <img src="<?= asset('images/2025/asset_31920.png') ?>" 
+                    <img src="<?= asset('images/new/artboard_3@1280x.webp') ?>" 
                          alt="Activity Image 2" 
                          class="img-fluid border-radius-20 mt-3">
                 </a>
@@ -432,7 +432,7 @@
                                  class="img-fluid border-radius-20">
                         </div>
                         <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
-                            <img src="<?= asset('images/2025/asset_11920.png') ?>" 
+                            <img src="<?= asset('images/new/artboard_4@1280x.webp') ?>" 
                                  alt="Activity Image 4" 
                                  class="img-fluid border-radius-20 mt-3">
                         </a>
@@ -440,12 +440,12 @@
 
                     <div class="col-md-12 mb-3 position-relative">
                         <div class="detail-activities text-white mt-15">
-                            <img src="<?= asset('images/2025/1x/Artboard_8.png') ?>" 
+                            <img src="<?= asset('images/2025/1x/Artboard_9.png') ?>" 
                                  alt="Activity Image 3" 
                                  class="img-fluid border-radius-20">
                         </div>
                         <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
-                            <img src="<?= asset('images/2025/asset_21920.png') ?>" 
+                            <img src="<?= asset('images/new/artboard_5@1280x.webp') ?>" 
                                  alt="Activity Image 4" 
                                  class="img-fluid border-radius-20 mt-3">
                         </a>
@@ -456,12 +456,12 @@
             <!-- Third Column -->
             <div class="col-md-4 mb-3 position-relative">
                 <div class="detail-activities text-white mt-15">
-                    <img src="<?= asset('images/2025/1x/Artboard_9.png') ?>" 
+                    <img src="<?= asset('images/2025/1x/Artboard_8.png') ?>" 
                          alt="Activity Image 1" 
                          class="img-fluid border-radius-20">
                 </div>
-                <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
-                    <img src="<?= asset('images/2025/asset_41920.png') ?>" 
+                <a href="<?= asset('images/new/artboard_6@1280x.webp') ?>" data-fancybox="activitygallery">
+                    <img src="<?= asset('images/new/artboard_6@1280x.webp') ?>" 
                          alt="Activity Image 2" 
                          class="img-fluid border-radius-20 mt-3">
                 </a>
