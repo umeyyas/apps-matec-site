@@ -442,7 +442,7 @@
                         <div class="detail-activities text-white mt-15">
                             <img src="<?= asset('images/2025/1x/Artboard_9.png') ?>" 
                                  alt="Activity Image 3" 
-                                 class="img-fluid border-radius-20">
+                                 class="img-fluid">
                         </div>
                         <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
                             <img src="<?= asset('images/new/artboard_5@1280x.webp') ?>" 
@@ -458,7 +458,7 @@
                 <div class="detail-activities text-white mt-15">
                     <img src="<?= asset('images/2025/1x/Artboard_8.png') ?>" 
                          alt="Activity Image 1" 
-                         class="img-fluid border-radius-20">
+                         class="img-fluid">
                 </div>
                 <a href="<?= asset('images/new/artboard_6@1280x.webp') ?>" data-fancybox="activitygallery">
                     <img src="<?= asset('images/new/artboard_6@1280x.webp') ?>" 
