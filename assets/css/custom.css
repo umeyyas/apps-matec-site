@@ -8817,6 +8817,21 @@ body.matec-2025 .section-lg p {
     flex-shrink: 0; /* Prevent shrinking on small screens */
 }
 
+@media (max-width: 768px) {
+    .img-zoom-300 {
+      width: 300%;
+      max-width: none;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .image-wrapper {
+      overflow: hidden;
+      position: relative;
+    }
+  }
+
 
 
 

@@ -224,8 +224,10 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-md-12 w-1000 mx-auto">
-                <img src="<?= asset('images/2025/group1280.png') ?>" alt="" class="img-fluid">
+            <div class="col-12 px-0">
+                <div class="image-wrapper">
+                <img src="<?= asset('images/2025/group1280.png') ?>" alt="" class="img-fluid img-zoom-300">
+                </div>
             </div>
         </div>
     </div>
@@ -237,7 +239,7 @@
             <div class="col-md-12">
                 <h5 class="text-white mb-10">Activities</h5>
             </div>
-            <div class="col-md-12">
+            <div class="col-sm-12">
                 <div id="activitiesGallery" class="f-carousel">
                     <div class="f-carousel__viewport">
                         <div class="f-carousel__track">
@@ -274,8 +276,8 @@
                                     <h4 class="text-white">LIVE <br> BEATS</h4>
                                     
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="activitygallery">
-                                    <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                                <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
+                                    <img src="<?= asset('images/new_act/activities-update-14.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
@@ -283,8 +285,8 @@
                                     <h4 class="text-white">SPIN <br> YOUR <br> FORTUNE</h4>
                                     
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-11.png') ?>" data-fancybox="activitygallery">
-                                    <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                                <a href="<?= asset('images/new_act/activities-update-18.png') ?>" data-fancybox="activitygallery">
+                                    <img src="<?= asset('images/new_act/activities-update-18.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
                             <div class="f-carousel__slide">
@@ -292,8 +294,8 @@
                                     <h4 class="text-white">DRIFTING <br> DOMINANCE</h4>
                                     
                                 </div>
-                                <a href="<?= asset('images/2025/activities/Activities-10.png') ?>" data-fancybox="activitygallery">
-                                    <img src="<?= asset('images/2025/activities/Activities-11.png') ?>" alt="" class="img-fluid">
+                                <a href="<?= asset('images/new_act/activities-update-13.png') ?>" data-fancybox="activitygallery">
+                                    <img src="<?= asset('images/new_act/activities-update-13.png') ?>" alt="" class="img-fluid">
                                 </a>
                             </div>
 
@@ -394,8 +396,9 @@
 
 <section id="matec-more-excitement" class="py-5" style="background: #ffffff;">
     <div class="container-fluid w-max-1500">
+        
         <!-- Section Title Image -->
-        <div class="mb-4">
+        <div class="mb-4 text-start">
             <img src="<?= asset('images/2025/4x/Artboard_5@4x.png') ?>" 
                  alt="Memories to Remember" 
                  class="img-fluid" style="max-width: 800px;">
@@ -403,25 +406,70 @@
 
         <!-- Images Row -->
         <div class="row">
+            
+            <!-- First Column -->
             <div class="col-md-4 mb-3 position-relative">
-                <img src="<?= asset('images/2025/asset_31920.png') ?>" alt="" class="img-fluid border-radius-20">
+                <div class="detail-activities text-white mt-15">
+                    <img src="<?= asset('images/2025/1x/Artboard_6.png') ?>" 
+                         alt="Activity Image 1" 
+                         class="img-fluid border-radius-20">
+                </div>
+                <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
+                    <img src="<?= asset('images/2025/asset_31920.png') ?>" 
+                         alt="Activity Image 2" 
+                         class="img-fluid border-radius-20 mt-3">
+                </a>
             </div>
+
+            <!-- Second Column -->
             <div class="col-md-4">
                 <div class="row">
+                    
                     <div class="col-md-12 mb-3 position-relative">
-                        <img src="<?= asset('images/2025/asset_11920.png') ?>" alt="" class="img-fluid border-radius-20">
+                        <div class="detail-activities text-white mt-15">
+                            <img src="<?= asset('images/2025/1x/Artboard_7.png') ?>" 
+                                 alt="Activity Image 3" 
+                                 class="img-fluid border-radius-20">
+                        </div>
+                        <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
+                            <img src="<?= asset('images/2025/asset_11920.png') ?>" 
+                                 alt="Activity Image 4" 
+                                 class="img-fluid border-radius-20 mt-3">
+                        </a>
                     </div>
+
                     <div class="col-md-12 mb-3 position-relative">
-                        <img src="<?= asset('images/2025/asset_21920.png') ?>" alt="" class="img-fluid border-radius-20">
+                        <div class="detail-activities text-white mt-15">
+                            <img src="<?= asset('images/2025/1x/Artboard_8.png') ?>" 
+                                 alt="Activity Image 3" 
+                                 class="img-fluid border-radius-20">
+                        </div>
+                        <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
+                            <img src="<?= asset('images/2025/asset_21920.png') ?>" 
+                                 alt="Activity Image 4" 
+                                 class="img-fluid border-radius-20 mt-3">
+                        </a>
                     </div>
                 </div>
             </div>
+
+            <!-- Third Column -->
             <div class="col-md-4 mb-3 position-relative">
-                <img src="<?= asset('images/2025/asset_41920.png') ?>" alt="" class="img-fluid border-radius-20">
+                <div class="detail-activities text-white mt-15">
+                    <img src="<?= asset('images/2025/1x/Artboard_9.png') ?>" 
+                         alt="Activity Image 1" 
+                         class="img-fluid border-radius-20">
+                </div>
+                <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
+                    <img src="<?= asset('images/2025/asset_41920.png') ?>" 
+                         alt="Activity Image 2" 
+                         class="img-fluid border-radius-20 mt-3">
+                </a>
             </div>
         </div>
     </div>
 </section>
+
 
 <?php include "layouts/footer.php"; ?>
 
