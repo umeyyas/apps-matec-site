@@ -127,7 +127,7 @@
     <div class="container">
         <div class="row row-30 justify-content-center">
             <div class="col-sm-6 col-12 d-flex justify-content-center flex-column align-items-center">
-                <img src="<?= asset('images/2025/2x/Artboard_18@2x.png') ?>" alt=""
+                <img src="<?= asset('images/2025/2x/artboard_18@2x.png') ?>" alt=""
                      class="img-fluid mt-3 mb-3"> <!-- 75% of parent width -->
             </div>
         </div>
