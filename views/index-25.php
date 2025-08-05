@@ -49,8 +49,8 @@
                     <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL KUALA LUMPUR</span>
                 </h4>
                 <div class="text-center mt-5 button-container">
-                    <a href="/2025/visitor" class="btn-big-red">Visitor</a>
-                    <a href="/2025/exhibitor" class="btn-big-red set-to-blue">Exhibitor</a>
+                    <a href="visitor" class="btn-big-red">Visitor</a>
+                    <a href="exhibitor" class="btn-big-red set-to-blue">Exhibitor</a>
                 </div>
             </div>
         </div>
@@ -320,7 +320,7 @@
             </div>
 
             <div class="col-md-6 mb-35">
-                <a href="/2025/faq">
+                <a href="faq">
                     <div class="detail-activities text-white pl-60 mb-3">
                         <h1 class="text-white">F.A.Q.</h1>
                     </div>
@@ -420,7 +420,7 @@
                          alt="Activity Image 1"
                          class="img-fluid d-block mx-auto">
                 </div>
-                <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
+                <a href="<?= asset('images/new/artboard_3@1280x.webp') ?>" data-fancybox="excitementGallery">
                     <img src="<?= asset('images/new/artboard_3@1280x.webp') ?>"
                          alt="Activity Image 2"
                          class="img-fluid border-radius-20 mt-3">
@@ -437,7 +437,7 @@
                                  alt="Activity Image 3"
                                  class="img-fluid d-block mx-auto">
                         </div>
-                        <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
+                        <a href="<?= asset('images/new/artboard_4@1280x.webp') ?>" data-fancybox="excitementGallery">
                             <img src="<?= asset('images/new/artboard_4@1280x.webp') ?>"
                                  alt="Activity Image 4"
                                  class="img-fluid border-radius-20 mt-3">
@@ -450,7 +450,7 @@
                                  alt="Activity Image 3"
                                  class="img-fluid d-block mx-auto">
                         </div>
-                        <a href="<?= asset('images/new_act/activities-update-14.png') ?>" data-fancybox="activitygallery">
+                        <a href="<?= asset('images/new/artboard_5@1280x.webp') ?>" data-fancybox="excitementGallery">
                             <img src="<?= asset('images/new/artboard_5@1280x.webp') ?>"
                                  alt="Activity Image 4"
                                  class="img-fluid border-radius-20 mt-3">
@@ -466,7 +466,7 @@
                          alt="Activity Image 1"
                          class="img-fluid d-block mx-auto">
                 </div>
-                <a href="<?= asset('images/new/artboard_6@1280x.webp') ?>" data-fancybox="activitygallery">
+                <a href="<?= asset('images/new/artboard_6@1280x.webp') ?>" data-fancybox="excitementGallery">
                     <img src="<?= asset('images/new/artboard_6@1280x.webp') ?>"
                          alt="Activity Image 2"
                          class="img-fluid border-radius-20 mt-3">

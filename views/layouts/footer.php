@@ -27,10 +27,10 @@ $socialLinks = Social::getAll();
                             <!-- MARA Logo -->
                             <div class="col-12 text-center">
                                 <div class="position-relative">
+                                    <a class="brand d-block mx-auto" href="https://www.mara.gov.my/en/index/" target="_blank">
                                     <div class="detail-activities text-white">
                                         <h4 class="mb-0">VISIT <br> MARA</h4>
                                     </div>
-                                    <a class="brand d-block mx-auto" href="https://www.mara.gov.my/en/index/" target="_blank">
                                         <img src="<?= asset('images/2025/2x/artboard_10@2x.png') ?>"
                                              srcset="<?= asset('images/2025/3x/artboard_10@3x.png') ?> 2x"
                                              alt="MATEC2025"
