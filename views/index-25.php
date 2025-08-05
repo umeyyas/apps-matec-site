@@ -309,7 +309,7 @@
             </div>
 
             <div class="col-md-6 mb-35">
-                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#industryModal">
+                    <a data-fancybox data-src="#industryModal">
                     <div class="detail-activities text-white pl-60 mb-3">
                         <h1 class="text-white">KEUSAHAWANAN <br> MARA</h1>
                     </div>
@@ -329,69 +329,67 @@
                          class="img-fluid border-radius-20">
                 </a>
             </div>
-            <!-- Modal for Keusahawanan MARA -->
-            <!-- Modal -->
-            <!-- Modal for Keusahawanan MARA -->
-            <div class="modal fade" id="industryModal" tabindex="-1" aria-labelledby="industryModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered">
-                    <div class="modal-content border-radius-20">
+            <!-- Hidden Fancybox Content -->
+            <div style="display:none;" id="industryModal">
+                <div class="p-4 rounded shadow-lg" style="max-width:1000px; background:white;">
 
-                        <!-- Modal Header -->
-                        <div class="modal-header bg-primary text-white">
-                            <h5 class="modal-title w-100 text-center" id="industryModalLabel">INDUSTRY</h5>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
+                <!-- Header -->
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h5 class="fw-bold fs-2 text-center flex-grow-1" style="color:#041e42;">
+                         KEUSAHAWANAN MARA
+                    </h5>
+                </div>
 
-                        <!-- Modal Body -->
-                        <div class="modal-body text-center">
-                            <div class="row justify-content-center g-4">
+                <!-- Description -->
+                <p class="text-muted fs-6 mb-4 text-left-sm text-center">
+                    MARA offers a holistic entrepreneurship development ecosystem to Bumiputra entrepreneurs, 
+                    which includes entrepreneurship development through training, coaching, and consultancy, 
+                    business development with special programs, market access, and industrial infrastructure, 
+                    as well as support services such as financing, infrastructure, and advisory assistance, 
+                    across various industries including automotive, food & beverage (F&B), construction, 
+                    lifestyle, and services.
+                </p>
 
-                                <!-- Automotive -->
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="circle">
-                                        <i class="fas fa-car fa-2x mb-2 text-dark"></i>
-                                        <h6 class="fw-bold">AUTOMOTIVE</h6>
-                                    </div>
-                                </div>
+                <!-- Icons Grid -->
+                <div class="row gy-4 gx-3 text-start">
+  <!-- Column 1 (3 items) -->
+  <div class="col-6">
+    <div class="d-flex flex-column align-items-start gap-3">
+      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+        <i class="fas fa-car fa-lg fa-md-2x"></i>
+        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">AUTOMOTIVE</h6>
+      </div>
+      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+        <i class="fas fa-bowl-food fa-lg fa-md-2x"></i>
+        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">F&amp;B</h6>
+      </div>
+      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+        <i class="fas fa-hard-hat fa-lg fa-md-2x"></i>
+        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">CONSTRUCTION</h6>
+      </div>
+    </div>
+  </div>
 
-                                <!-- F&B -->
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="circle">
-                                        <i class="fas fa-utensils fa-2x mb-2 text-dark"></i>
-                                        <h6 class="fw-bold">F&amp;B</h6>
-                                    </div>
-                                </div>
+  <!-- Column 2 (2 items) -->
+  <div class="col-6">
+    <div class="d-flex flex-column align-items-start gap-3">
+      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+        <i class="fas fa-tshirt fa-lg fa-md-2x"></i>
+        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">LIFESTYLE</h6>
+      </div>
+      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+        <i class="fas fa-briefcase fa-lg fa-md-2x"></i>
+        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">SERVICES</h6>
+      </div>
+    </div>
+  </div>
+</div>
 
-                                <!-- Construction -->
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="circle">
-                                        <i class="fas fa-hard-hat fa-2x mb-2 text-dark"></i>
-                                        <h6 class="fw-bold">CONSTRUCTION</h6>
-                                    </div>
-                                </div>
-
-                                <!-- Lifestyle -->
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="circle">
-                                        <i class="fas fa-tshirt fa-2x mb-2 text-warning"></i>
-                                        <h6 class="fw-bold text-warning">LIFESTYLE</h6>
-                                    </div>
-                                </div>
-
-                                <!-- Services -->
-                                <div class="col-6 col-md-4 col-lg-2">
-                                    <div class="circle">
-                                        <i class="fas fa-briefcase fa-2x mb-2 text-dark"></i>
-                                        <h6 class="fw-bold">SERVICES</h6>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- See More Button -->
-                            <div class="mt-4">
-                                <a href="/industry-details" class="btn btn-outline-primary">See More</a>
-                            </div>
-                        </div>
+                <!-- Visit MARA Link -->
+                    <div class="mt-5 text-center">
+                        <p>
+                            Visit <a href="https://www.mara.gov.my/en/entrepreneurship/" class="fw-bold text-decoration-none" style="color:#ff0000;">MARA</a> for more!
+                        </p>
                     </div>
                 </div>
             </div>
