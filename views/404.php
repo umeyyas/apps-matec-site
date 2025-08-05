@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide" lang="en">
 <head>
-    <title>Welcome to MATEC 2024 :: MATEC</title>
+    <title>Welcome to MATEC2025 :: MATEC</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
