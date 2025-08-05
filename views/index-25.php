@@ -304,6 +304,10 @@
                 </div>
             </div>
 
+            <div class="col-md-12 mt-100 d-sm-none d-block">
+                <h5 class="text-white mb-10">Info</h5>
+            </div>
+
             <div class="col-md-6 mb-35">
                     <a data-fancybox data-src="#industryModal">
                     <div class="detail-activities text-white pl-60 mb-3">
