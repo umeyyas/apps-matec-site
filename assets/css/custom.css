@@ -8656,7 +8656,7 @@ body.matec-2025 .event-details h4 {
     background: url('../images/2025/vanue_asset1280.png') no-repeat bottom right;
     background-size: contain;
     pointer-events: none;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 /* Responsive adjustments */
