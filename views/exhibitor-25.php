@@ -94,6 +94,11 @@
                     </div>
                 </a>
             </div>
+            <div class="container text-white inner-body-container mt-7">
+                <div class="text-center mt-1">
+                    <a href="https://apps.matec.my/exhibitor/login" class="btn-big-red set-to-blue">Registration</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
