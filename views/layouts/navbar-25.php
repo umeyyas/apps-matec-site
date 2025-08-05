@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <nav id="navbar-sect" class="navbar navbar-expand-lg container-fluid navbar-dark">
+    <nav id="navbar-sect" class="navbar navbar-expand-lg container-fluid navbar-dark fixed-top">
         <button class="navbar-toggler me-2" type="button" data-toggle="collapse" data-target="#matecNav" aria-controls="matecNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,7 @@
             </li>
         </ul>
 
-        <div class="collapse navbar-collapse" id="matecNav">
+        <div class="collapse navbar-collapse bg-white" id="matecNav">
             <ul class="navbar-nav ml-auto text-center">
                 <li class="nav-item"><a class="nav-link" href="/2025">HOME</a></li>
                 <li class="nav-item"><a class="nav-link" href="/2025/the-ideas">THE IDEAS</a></li>

@@ -8838,11 +8838,28 @@ body.matec-2025 .section-lg p {
       transform: translateX(-50%);
     }
 
-    .image-wrapper {
+  .image-wrapper {
       overflow: hidden;
       position: relative;
     }
   }
+
+@media (max-width: 991.98px) {
+    #navbar-sect {
+        position: fixed;
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    #navbar-sect {
+        position: static;
+    }
+}
+
+#matecNav.show {
+    background-color: #ffffff;
+}
 
 
 
