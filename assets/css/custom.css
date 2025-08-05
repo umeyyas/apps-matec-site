@@ -8846,9 +8846,14 @@ body.matec-2025 .section-lg p {
 
 @media (max-width: 991.98px) {
     header.content {
-        position: sticky;
+        position: fixed;
+        width: 100%;
         top: 0;
-        z-index: 1030;
+        z-index: 1050;
+    }
+
+    body {
+        padding-top: 150px;
     }
 
     #navbar-sect {
