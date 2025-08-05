@@ -51,7 +51,7 @@ body {
         width: 100%;
         padding: 1rem 0;
         background: rgba(0, 0, 0, 0.8);
-        z-index: 1000;
+        z-index: 1080;
     }
 
     .button-container .btn-big-red {
@@ -187,6 +187,8 @@ body {
     position: relative;
     margin: 20px 0;
     padding-left: 40px; /* Adjusted for icon width + margin */
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .listing li:first-child {
@@ -201,10 +203,15 @@ body {
     content: '';
     position: absolute;
     left: 0;
-    top: 8px;
+    top: 0px;
     width: 25px;
     height: 25px;
     background-image: url('../images/matec-images/matec-05.png');
+    background-size: contain;
+}
+
+.cog-listing.style-2025 li::before {
+    background-image: url('../images/2025/1x/artboard_11.png');
     background-size: contain;
 }
 
@@ -399,8 +406,13 @@ body {
 
 @media only screen and (max-width : 991px) {
     .rd-navbar-fixed .rd-navbar-panel {
-        background: #000000;
+        background: #ffffff;
         z-index: 1050;
+    }
+
+    .rd-navbar-fixed,
+    .rd-navbar-nav-wrap {
+        background: #ffffff;
     }
 
     .countdown-block {
@@ -8489,7 +8501,6 @@ body.matec-2025 .event-details h4 {
     --f-carousel-gap: 5px;
     --f-carousel-slide-width: calc(100%/3);
     --f-carousel-slide-padding: 0px 10px;
-    --f-carousel-slide-border-radius: 5px;
     /*--f-carousel-slide-bg: #eee;*/
 }
 
@@ -8512,7 +8523,7 @@ body.matec-2025 .event-details h4 {
 
 #intro-hero .inner-body-container {
     position: relative;
-    z-index: 3;
+    z-index: 1;
 }
 
 #intro-hero .video-overlay {
@@ -8543,8 +8554,13 @@ body.matec-2025 .event-details h4 {
     right: 0;
     transform: translateY(-50%);
     text-align: left;
-    z-index: 2;
+    /*z-index: 2;*/
     padding: 30px;
+}
+
+.detail-activities.top-0 {
+    top: 0;
+    transform: translateY(0%);
 }
 
 /* Ensure columns act as positioning context */
@@ -8640,7 +8656,7 @@ body.matec-2025 .event-details h4 {
     background: url('../images/2025/vanue_asset1280.png') no-repeat bottom right;
     background-size: contain;
     pointer-events: none;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 /* Responsive adjustments */
@@ -8688,3 +8704,182 @@ body.matec-2025 .section-lg p {
         --f-carousel-slide-padding: 0;
     }
 }
+
+/* Default center background */
+.bg-center {
+    background-position: center center !important;
+}
+
+/* Mobile-specific override (xs & sm) */
+@media (max-width: 767.98px) {
+    .bg-sm-right {
+        background-position: right center !important;
+    }
+}
+
+#matec-date {
+  background-position: center !important; /* Default desktop */
+}
+
+/* Mobile: force background more to the left */
+@media (max-width: 576px) {
+  #matec-date {
+    background-position: left center !important;
+  }
+}
+
+.container-fluid.w-max-1500 {
+    max-width: 1500px; /* keeps your layout width */
+    margin: 0 auto;   /* centers it */
+    padding-left: 10px !important;  /* reduce side space instead of 0 */
+    padding-right: 10px !important;
+}
+
+@media (max-width: 767px) {
+    #matec-about p br {
+        display: none;
+    }
+}
+
+.detail-activities h1 {
+    font-size: 30px !important; /* Adjust size (smaller than default h1) */
+    font-weight: bold; /* Optional: keep it bold */
+}
+
+.listing h4 {
+    font-size: 1rem; /* smaller size than default h4 */
+    font-weight: 600; /* optional: keep it bold but lighter */
+}
+
+.responsive-title-img {
+    max-width: 90%;   /* Scales with screen, not fixed */
+    width: auto;      /* Avoids forced stretching */
+    height: auto;     /* Keeps aspect ratio */
+}
+/* Venue text style */
+.venue-location-text {
+    font-weight: 500 !important;
+    font-size: clamp(0.9rem, 2.5vw, 1.7rem) !important; 
+    /* shrinks on small screens, grows on larger */
+    color: #000 !important;
+    line-height: 1.2;
+}
+
+/* Gap between images and text */
+#matec-venue .image-wrapper {
+    margin-bottom: 12px; /* default gap for mobile */
+}
+
+@media (min-width: 768px) {
+    #matec-venue .image-wrapper {
+        margin-bottom: 20px; /* bigger gap for tablets/desktops */
+    }
+
+    .venue-location-text {
+        font-size: 1.5rem !important; /* larger on desktop */
+    }
+}
+
+@media (min-width: 1200px) {
+    .venue-location-text {
+        font-size: 1.7rem !important; /* max size on big screens */
+    }
+}
+
+/* Push layout image down on small screens */
+@media (max-width: 767px) {
+    #matec-venue .layout-image {
+        margin-top: 40px; /* adjust as needed */
+    }
+}
+
+#matec-more-excitement .mb-4 img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.custom-img-desktop {
+    max-width: 60%;   /* Shrinks desktop image */
+    height: auto;     /* Keeps aspect ratio */
+}
+
+.custom-img-mobile {
+    max-width: 80%;   /* Shrinks first mobile image */
+    height: auto;
+}
+
+.custom-img-mobile-2 {
+    max-width: 50%;   /* Shrinks second mobile image */
+    height: auto;
+}
+
+.listing li {
+    display: flex;             /* Places icon and text in one line */
+    align-items: center;       /* Vertically aligns the text with the icon */
+    white-space: nowrap;       /* Prevents text from breaking into two lines */
+    overflow: hidden;          /* Ensures content doesn’t overflow badly */
+    text-overflow: ellipsis;   /* Adds "..." if text is too long */
+    gap: 8px;                  /* Space between icon and text */
+}
+
+.listing li img {
+    width: 24px;   /* Adjust icon size */
+    height: 24px;  /* Keep consistent */
+    margin-right: 10px;
+    flex-shrink: 0; /* Prevent shrinking on small screens */
+}
+
+@media (max-width: 768px) {
+    .img-zoom-300 {
+      width: 150%;
+      max-width: none;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+  .image-wrapper {
+      overflow: hidden;
+      position: relative;
+    }
+  }
+
+@media (max-width: 991.98px) {
+    header.content {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 1050;
+    }
+
+    #navbar-sect {
+        position: static;
+    }
+}
+
+@media (min-width: 992px) {
+    #navbar-sect {
+        position: static;
+    }
+}
+
+#matecNav.show {
+    background-color: #ffffff;
+    margin-top: 10px;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+}
+
+#matecNav.show .nav-link {
+    color: #000000 !important;
+}
+
+
+
+
+

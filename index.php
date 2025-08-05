@@ -38,70 +38,70 @@ class Router {
 $router = new Router();
 
 // Define routes
-$router->add('', function() {
-    require 'views/index-2025.php';
-});
-
-$router->add('old', function() {
-    require 'views/index.php';
-});
-
-$router->add('the-ideas', function() {
-    require 'views/event.php';
-});
-
-$router->add('partnership', function() {
-    require 'views/sponsorship.php';
-});
-
-$router->add('faq', function() {
-    require 'views/faq.php';
-});
-
-$router->add('call-us', function() {
-    require 'views/contact.php';
-});
-
-$router->add('exhibitor', function () {
-    require 'views/exhibitor.php';
-});
-
 //====== Routes for 2025 ======//
-
-$router->add('2025', function() {
+$router->add('', function() {
     require 'views/index-25.php';
 });
 
-$router->add('2025/exhibitor', function() {
+$router->add('exhibitor', function() {
     require 'views/exhibitor-25.php';
 });
 
-$router->add('2025/the-ideas', function() {
+$router->add('the-ideas', function() {
     require 'views/ideas-25.php';
 });
 
-$router->add('2025/partnership', function() {
+$router->add('partnership', function() {
     require 'views/partnership-25.php';
 });
 
-$router->add('2025/faq', function() {
+$router->add('faq', function() {
     require 'views/faq-25.php';
 });
 
-$router->add('2025/contact-us', function() {
+$router->add('contact-us', function() {
     require 'views/contact-25.php';
 });
 
-$router->add('2025/visitor', function() {
+$router->add('visitor', function() {
     require 'views/visitor.php';
 });
 
-$router->add('2025/visitor-register-form', function() {
+$router->add('visitor-register-form', function() {
     require 'views/visitor-register-form.php';
 });
 
-$router->add('2025/thankyou', function() {
+$router->add('thankyou', function() {
     require 'views/thankyou.php';
+});
+
+//====== Routes for Archive ======//
+$router->add('coming-soon', function() {
+    require 'views/index-2025.php';
+});
+
+$router->add('2024', function() {
+    require 'views/archive-2024/index.php';
+});
+
+$router->add('2024/the-ideas', function() {
+    require 'views/archive-2024/event.php';
+});
+
+$router->add('2024/partnership', function() {
+    require 'views/archive-2024/sponsorship.php';
+});
+
+$router->add('2024/faq', function() {
+    require 'views/archive-2024/faq.php';
+});
+
+$router->add('2024/call-us', function() {
+    require 'views/archive-2024/contact.php';
+});
+
+$router->add('2024/exhibitor', function () {
+    require 'views/archive-2024/exhibitor.php';
 });
 
 // Add POST route for form submission

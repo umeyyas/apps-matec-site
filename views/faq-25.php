@@ -46,7 +46,7 @@
 <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
     <div class="container-fluid w-max-1500">
 
-        <h3 class="mb-4">EXHIBITOR - FREQUENTLY ASK QUESTION</h3>
+        <h3 class="mb-4" style="color: #c70000;">EXHIBITOR- FREQUENTLY ASK QUESTION</h3>
 
         <div class="accordion" id="accordionExhibitor">
             <div class="card">
@@ -58,7 +58,7 @@
                     </h5>
                 </div>
 
-                <div id="collapseExhibitorOne" class="collapse show" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
+                <div id="collapseExhibitorOne" class="collapse" aria-labelledby="headingExhibitorOne" data-parent="#accordionExhibitor">
                     <div class="card-body">
                         Over 150 exhibitors with the various of spaces.
                     </div>
@@ -156,7 +156,7 @@
 <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
     <div class="container-fluid w-max-1500">
 
-        <h3 class="mb-4">VISITOR - FREQUENTLY ASK QUESTION</h3>
+        <h3 class="mb-4" style="color: #2D5CA8;">VISITOR - FREQUENTLY ASK QUESTION</h3>
 
         <div class="accordion" id="accordionVisitor">
             <div class="card">
@@ -168,9 +168,9 @@
                     </h5>
                 </div>
 
-                <div id="collapseVisitorOne" class="collapse show" aria-labelledby="headingVisitorOne" data-parent="#accordionVisitor">
+                <div id="collapseVisitorOne" class="collapse" aria-labelledby="headingVisitorOne" data-parent="#accordionVisitor">
                     <div class="card-body">
-                        The MATEC2025 started on Friday to Sunday (31 OCTOBER - 2 NOVEMBER 2025) from 10 am to 10 pm.
+                        The MATEC2025 started on Friday to Sunday (31OCTOBER - 2NOVEMBER2025) from 10am to 10pm.
                     </div>
                 </div>
             </div>
