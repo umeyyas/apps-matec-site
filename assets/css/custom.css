@@ -8523,7 +8523,7 @@ body.matec-2025 .event-details h4 {
 
 #intro-hero .inner-body-container {
     position: relative;
-    z-index: 3;
+    z-index: 1;
 }
 
 #intro-hero .video-overlay {
@@ -8846,14 +8846,10 @@ body.matec-2025 .section-lg p {
 
 @media (max-width: 991.98px) {
     header.content {
-        position: fixed;
+        position: sticky;
         width: 100%;
         top: 0;
         z-index: 1050;
-    }
-
-    body {
-        padding-top: 150px;
     }
 
     #navbar-sect {
@@ -8871,7 +8867,7 @@ body.matec-2025 .section-lg p {
     background-color: #ffffff;
     margin-top: 10px;
     position: fixed;
-    top: 110px;
+    top: 150px;
     left: 0;
     width: 100%;
     z-index: 1050;
