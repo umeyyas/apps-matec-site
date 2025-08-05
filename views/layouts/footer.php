@@ -12,12 +12,16 @@
                 <div class="row">
                     <div class="col-12 col-sm-8">
                         <!-- Matec Logo -->
-                        <a class="brand d-block mx-auto mb-4" href="/">
-                            <img src="<?= asset('images/asset-matec2025.png') ?>"
-                                 srcset="<?= asset('images/asset-matec2025@2x.png') ?> 2x"
-                                 alt="MATEC2025"
-                                 class="d-block mx-auto">
-                        </a>
+                        <div class="row">
+                            <div class="col-12">
+                                <a class="brand d-block mx-auto mb-4" href="/">
+                                    <img src="<?= asset('images/asset-matec2025.png') ?>"
+                                         srcset="<?= asset('images/asset-matec2025@2x.png') ?> 2x"
+                                         alt="MATEC2025"
+                                         class="d-block mx-auto">
+                                </a>
+                            </div>
+                        </div>
 
                         <div class="row mt-0 d-flex flex-column align-items-center">
                             <!-- MARA Logo -->
