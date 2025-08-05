@@ -8864,6 +8864,11 @@ body.matec-2025 .section-lg p {
 
 #matecNav.show {
     background-color: #ffffff;
+    margin-top: 10px;
+}
+
+#matecNav.show .nav-link {
+    color: #000000 !important;
 }
 
 
