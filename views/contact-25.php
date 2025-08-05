@@ -43,11 +43,13 @@
     </div>
 </section>
 
-<div class="col-12 col-sm-6 mx-auto mt-5">
-    <img src="<?= asset('images/communicate.png') ?>" alt="" class="mb-2 mt-2">
-</div>
-
 <div class="container-fluid w-max-1500 mt-5 pb-100">
+    <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 mx-auto mt-5">
+            <img src="<?= asset('images/communicate.png') ?>" alt="" class="mb-2 mt-2">
+        </div>
+    </div>
+
     <div class="row align-items-stretch">
         <div class="col-lg-8 position-relative">
             <!-- FORM BOX -->
