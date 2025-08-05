@@ -8865,6 +8865,13 @@ body.matec-2025 .section-lg p {
 #matecNav.show {
     background-color: #ffffff;
     margin-top: 10px;
+    position: fixed;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
 }
 
 #matecNav.show .nav-link {
