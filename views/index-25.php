@@ -352,48 +352,48 @@
 
                 <!-- Icons Grid -->
                 <div class="row gy-4 gx-3 text-start">
-  <!-- Column 1 (3 items) -->
-  <div class="col-6">
-    <div class="d-flex flex-column align-items-start gap-3">
-      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
-        <i class="fas fa-car fa-lg fa-md-2x"></i>
-        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">AUTOMOTIVE</h6>
-      </div>
-      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
-        <i class="fas fa-bowl-food fa-lg fa-md-2x"></i>
-        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">F&amp;B</h6>
-      </div>
-      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
-        <i class="fas fa-hard-hat fa-lg fa-md-2x"></i>
-        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">CONSTRUCTION</h6>
-      </div>
-    </div>
-  </div>
+                    <!-- Column 1 (3 items) -->
+                    <div class="col-6">
+                        <div class="d-flex flex-column align-items-left gap-3">
+                            <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+                                <i class="fas fa-car fa-lg fa-md-2x"></i>
+                                <h6 class="fw-bold mb-0 pl-sm-2 pl-1">AUTOMOTIVE</h6>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+                                <i class="fas fa-bowl-food fa-lg fa-md-2x"></i>
+                                <h6 class="fw-bold mb-0 pl-sm-2 pl-1">F&amp;B</h6>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+                                <i class="fas fa-hard-hat fa-lg fa-md-2x"></i>
+                                <h6 class="fw-bold mb-0 pl-sm-2 pl-1">CONSTRUCTION</h6>
+                            </div>
+                        </div>
+                    </div>
 
-  <!-- Column 2 (2 items) -->
-  <div class="col-6">
-    <div class="d-flex flex-column align-items-start gap-3">
-      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
-        <i class="fas fa-tshirt fa-lg fa-md-2x"></i>
-        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">LIFESTYLE</h6>
-      </div>
-      <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
-        <i class="fas fa-briefcase fa-lg fa-md-2x"></i>
-        <h6 class="fw-bold mb-0 pl-sm-2 pl-1">SERVICES</h6>
-      </div>
-    </div>
-  </div>
-</div>
+                    <!-- Column 2 (2 items) -->
+                    <div class="col-6">
+                        <div class="d-flex flex-column align-items-left gap-3">
+                            <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+                                <i class="fas fa-tshirt fa-lg fa-md-2x"></i>
+                                <h6 class="fw-bold mb-0 pl-sm-2 pl-1">LIFESTYLE</h6>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mb-sm-3 mb-2">
+                                <i class="fas fa-briefcase fa-lg fa-md-2x"></i>
+                                <h6 class="fw-bold mb-0 pl-sm-2 pl-1">SERVICES</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Visit MARA Link -->
-                    <div class="mt-5 text-center">
-                        <p>
-                            Visit <a href="https://www.mara.gov.my/en/entrepreneurship/" class="fw-bold text-decoration-none" style="color:#ff0000;">MARA</a> for more!
-                        </p>
-                    </div>
+                <div class="mt-5 text-center">
+                    <p>
+                        Visit <a href="https://www.mara.gov.my/en/entrepreneurship/" class="fw-bold text-decoration-none" style="color:#ff0000;">MARA</a> for more!
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 <section id="matec-more-excitement" class="py-5" style="background: #ffffff;">
