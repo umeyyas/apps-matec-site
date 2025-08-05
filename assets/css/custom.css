@@ -8554,7 +8554,7 @@ body.matec-2025 .event-details h4 {
     right: 0;
     transform: translateY(-50%);
     text-align: left;
-    z-index: 2;
+    /*z-index: 2;*/
     padding: 30px;
 }
 
