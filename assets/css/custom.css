@@ -51,7 +51,7 @@ body {
         width: 100%;
         padding: 1rem 0;
         background: rgba(0, 0, 0, 0.8);
-        z-index: 1000;
+        z-index: 1080;
     }
 
     .button-container .btn-big-red {
@@ -8831,7 +8831,7 @@ body.matec-2025 .section-lg p {
 
 @media (max-width: 768px) {
     .img-zoom-300 {
-      width: 300%;
+      width: 150%;
       max-width: none;
       position: relative;
       left: 50%;
