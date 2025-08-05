@@ -51,7 +51,7 @@ body {
         width: 100%;
         padding: 1rem 0;
         background: rgba(0, 0, 0, 0.8);
-        z-index: 1000;
+        z-index: 1080;
     }
 
     .button-container .btn-big-red {
@@ -8523,7 +8523,7 @@ body.matec-2025 .event-details h4 {
 
 #intro-hero .inner-body-container {
     position: relative;
-    z-index: 3;
+    z-index: 1;
 }
 
 #intro-hero .video-overlay {
@@ -8554,7 +8554,7 @@ body.matec-2025 .event-details h4 {
     right: 0;
     transform: translateY(-50%);
     text-align: left;
-    z-index: 2;
+    /*z-index: 2;*/
     padding: 30px;
 }
 
@@ -8656,7 +8656,7 @@ body.matec-2025 .event-details h4 {
     background: url('../images/2025/vanue_asset1280.png') no-repeat bottom right;
     background-size: contain;
     pointer-events: none;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 /* Responsive adjustments */
@@ -8831,7 +8831,7 @@ body.matec-2025 .section-lg p {
 
 @media (max-width: 768px) {
     .img-zoom-300 {
-      width: 300%;
+      width: 150%;
       max-width: none;
       position: relative;
       left: 50%;
@@ -8845,9 +8845,15 @@ body.matec-2025 .section-lg p {
   }
 
 @media (max-width: 991.98px) {
-    #navbar-sect {
-        position: fixed;
+    header.content {
+        position: sticky;
+        width: 100%;
         top: 0;
+        z-index: 1050;
+    }
+
+    #navbar-sect {
+        position: static;
     }
 }
 
@@ -8859,6 +8865,18 @@ body.matec-2025 .section-lg p {
 
 #matecNav.show {
     background-color: #ffffff;
+    margin-top: 10px;
+    position: fixed;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+}
+
+#matecNav.show .nav-link {
+    color: #000000 !important;
 }
 
 

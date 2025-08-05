@@ -47,13 +47,13 @@
             </li>
         </ul>
 
-        <div class="collapse navbar-collapse bg-white" id="matecNav">
+        <div class="collapse navbar-collapse" id="matecNav">
             <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item"><a class="nav-link" href="/2025">HOME</a></li>
-                <li class="nav-item"><a class="nav-link" href="/2025/the-ideas">THE IDEAS</a></li>
-                <li class="nav-item"><a class="nav-link" href="/2025/partnership">PARTNERSHIP</a></li>
-                <li class="nav-item"><a class="nav-link" href="/2025/faq">F.A.Q</a></li>
-                <li class="nav-item"><a class="nav-link" href="/2025/contact-us">CONTACT US</a></li>
+                <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="/the-ideas">THE IDEAS</a></li>
+                <li class="nav-item"><a class="nav-link" href="/partnership">PARTNERSHIP</a></li>
+                <li class="nav-item"><a class="nav-link" href="/faq">F.A.Q</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact-us">CONTACT US</a></li>
             </ul>
         </div>
     </nav>
