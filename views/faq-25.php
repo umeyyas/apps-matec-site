@@ -46,7 +46,7 @@
 <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
     <div class="container-fluid w-max-1500">
 
-        <h3 class="mb-4" style="color: red;">EXHIBITOR- FREQUENTLY ASK QUESTION</h3>
+        <h3 class="mb-4" style="color: #c70000;">EXHIBITOR- FREQUENTLY ASK QUESTION</h3>
 
         <div class="accordion" id="accordionExhibitor">
             <div class="card">
@@ -156,7 +156,7 @@
 <section class="section section-lg bg-default wow fadeIn bg-image-section bg-image-section-efx-white bg-cover-section">
     <div class="container-fluid w-max-1500">
 
-        <h3 class="mb-4" style="color: blue;">VISITOR - FREQUENTLY ASK QUESTION</h3>
+        <h3 class="mb-4" style="color: #2D5CA8;">VISITOR - FREQUENTLY ASK QUESTION</h3>
 
         <div class="accordion" id="accordionVisitor">
             <div class="card">
