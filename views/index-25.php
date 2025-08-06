@@ -49,7 +49,7 @@
                     <span class="d-block d-md-inline">STADIUM NASIONAL BUKIT JALIL KUALA LUMPUR</span>
                 </h4>
                 <div class="text-center mt-5 button-container">
-                    <a href="visitor" class="btn-big-red">Visitor</a>
+                    <a href="https://apps.matec.my/visitor/register" class="btn-big-red">Visitor</a>
                     <a href="exhibitor" class="btn-big-red set-to-blue">Exhibitor</a>
                 </div>
             </div>
